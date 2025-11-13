@@ -47,12 +47,13 @@ const missionDeck = [
 			plotTwistEffect: "invasionPlotTwist", 
 			enemyAssault: "invasionAssault", 
 			objectives: [
-										`1`, 
-										`2`, 
-										`3`, 
-										`4`, 
-										`5`, 
-										`One Animorph must cover the team's escape, even if it means being <i>trapped</i> forever.`
+										`<strong>Regroup at the Barn:</strong> <i>Retreat</i> from the Construction Site to Cassie's Barn.`, 
+										`<strong>Master Morphing:</strong> Each Animoprh must <i>acquire</i>, <i>morph</i> and <i>demorph</i>.`, 
+										`<strong>Investigate The Sharing:</strong> Use a STEALTH morph's <i>Recon</i> ability to gather intel from 2+ Controllers at The Beach AND Chapman at The School.`, 
+										`<strong>Prepare for Battle:</strong> Acquire 3+ COMBAT morphs at The Gardens.`,
+										`<strong>First Blood:</strong> Invade The Yeerk Pool and defeat 1 Human, 1 Taxxon and 1 Hork-Bajir Controller.`,
+										`<strong>Free the Hosts:</strong> Break through the Yeerk's battleline and deal 10+ damage to the cages.`,
+										`<strong>The Cost of War:</strong> One Animorph must cover the team's escape, even if it means being <i>trapped</i> forever.`
 									]  
 		},
 		{
@@ -64,12 +65,12 @@ const missionDeck = [
 			plotTwistEffect: "visitorPlotTwist", 
 			enemyAssault: "visitorAssault", 
 			objectives: [
-										`1`, 
-										`2`, 
-										`3`, 
-										`4`, 
-										`5`, 
-										`6`
+										`<strong>Regroup at the Barn:</strong> <i>Retreat</i> from the Construction Site to Cassie's Barn.`, GET THE CAT MORPH
+										`<strong>Master Morphing:</strong> Each Animoprh must <i>acquire</i>, <i>morph</i> and <i>demorph</i>.`, FOLLOW CHAPMAN TO BASEMENT / GATHER INTEL
+										`<strong>Investigate The Sharing:</strong> Use a STEALTH morph's <i>Recon</i> ability to gather intel from 2+ Controllers at The Beach AND Chapman at The School.`, JAKE FLEA MORPH
+										`<strong>Prepare for Battle:</strong> Acquire 3+ COMBAT morphs at The Gardens.`, DISTRACTION
+										`<strong>First Blood:</strong> Invade The Yeerk Pool and defeat 1 Human, 1 Taxxon and 1 Hork-Bajir Controller.`, DEMORPH IN TIME
+										`<strong>Free the Hosts:</strong> Break through the Yeerk's battleline and deal 10+ damage to the cages.`, DESTROY THE BUGFIGHTER
 									] 
 		},
 		{
