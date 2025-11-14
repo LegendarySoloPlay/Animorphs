@@ -43,18 +43,19 @@ const missionDeck = [
 			name: "The Invasion", 
 			type: "mission", 
 			boardSize: 5, 
-			plotTwistCount: 6, 
-			plotTwistEffect: "invasionPlotTwist", 
+    		plotTwistCount: 6, 
+            missionText: "At the end of each turn, a random Controller captures an Innocent. Controllers get +1 ATTACK for each Innocent they capture. When you defeat a Villain, rescue all Innocents they have captured.",
+            plotTwistText: "All captured Innocents are infested and become Controllers. They <strong>Reinforce</strong> the enemy they are currently with.",
+            endGameText: "When 10+ Innocents are infested.",
+    		plotTwistEffect: "invasionPlotTwist",
+            enemyAssaultText: "All Animorphs not currently in a STEALTH morph lose 1 STAMINA.",
 			enemyAssault: "invasionAssault", 
 			objectives: [
-										`<strong>Regroup at the Barn:</strong> <i>Retreat</i> from the Construction Site to Cassie's Barn.`, 
-										`<strong>Master Morphing:</strong> Each Animoprh must <i>acquire</i>, <i>morph</i> and <i>demorph</i>.`, 
-										`<strong>Investigate The Sharing:</strong> Use a STEALTH morph's <i>Recon</i> ability to gather intel from 2+ Controllers at The Beach AND Chapman at The School.`, 
-										`<strong>Prepare for Battle:</strong> Acquire 3+ COMBAT morphs at The Gardens.`,
-										`<strong>First Blood:</strong> Invade The Yeerk Pool and defeat 1 Human, 1 Taxxon and 1 Hork-Bajir Controller.`,
-										`<strong>Free the Hosts:</strong> Break through the Yeerk's battleline and deal 10+ damage to the cages.`,
-										`<strong>The Cost of War:</strong> One Animorph must cover the team's escape, even if it means being <i>trapped</i> forever.`
-									]  
+        				`<strong>Investigate The Sharing:</strong> Use a STEALTH morph's <i>Recon</i> ability to gather intel from 2+ Controllers at The Beach AND Chapman at The School.`, 
+        				`<strong>Prevent Infestation:</strong> Rescue 5+ captured Innocents.`,
+        				`<strong>Free the Hosts:</strong> Break through the Yeerk's battleline and deal 10+ damage to the cages.`,
+        				`<strong>Permanent Consequences:</strong> One Animorph must cover the team's escape, even if it means being <i>trapped</i> forever.`
+        				]  
 		},
 		{
 			id: 2, 
@@ -62,7 +63,11 @@ const missionDeck = [
 			type: "mission", 
 			boardSize: 5, 
 			plotTwistCount: 6, 
+            missionText: "",
+            plotTwistText: "",
+            endGameText: "If Melissa is infested.",
 			plotTwistEffect: "visitorPlotTwist", 
+            enemyAssaultText: "If a Villain currently has Melissa, any Animorph in their range takes 2 ATTACK.",
 			enemyAssault: "visitorAssault", 
 			objectives: [
 										`<strong>Regroup at the Barn:</strong> <i>Retreat</i> from the Construction Site to Cassie's Barn.`, GET THE CAT MORPH
