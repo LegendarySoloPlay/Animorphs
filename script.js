@@ -121,8 +121,14 @@ function buyItem(category, item) {
     if (coins >= item.cost) {
         coins -= item.cost;
         owned[category].push(item.id);
+        // Automatically select the new item
+        if (singleSelect.includes(category)) {
+            selected[category] = item.id;
+        } else {
+            selected[category].push(item.id);
+        }
         document.getElementById('coins-amount').textContent = coins;
-        showTab(category.replace('card', 'card-')); // Refresh tab (adjust for 'card-back')
+        showTab(category.replace('card', 'card-')); // Refresh tab
     } else {
         alert('Not enough coins!');
     }
