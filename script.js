@@ -22,7 +22,7 @@ categories.forEach(cat => {
     items[cat.replace('-', '')] = Array.from({length: 10}, (_, i) => ({
         id: `item-${i + 1}`,
         name: `Item ${i + 1}`,
-        cost: i < 8 ? 0 : 5
+        cost: i < 7 ? 0 : 5
     }));
 });
 
