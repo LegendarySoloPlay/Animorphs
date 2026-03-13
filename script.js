@@ -19,7 +19,7 @@ const singleSelect = ['table', 'deck', 'card-back']; // Radio for these
 // Item data (10 per category, costs: 8 free, 2 at 5)
 const items = {};
 categories.forEach(cat => {
-    items[cat] = Array.from({length: 10}, (_, i) => ({
+    items[cat.replace('-', '')] = Array.from({length: 10}, (_, i) => ({
         id: `item-${i + 1}`,
         name: `Item ${i + 1}`,
         cost: i < 8 ? 0 : 5
@@ -52,12 +52,11 @@ function openShop() {
     showTab('table'); // Default tab
 
     document.getElementById('purchase-coins-btn').addEventListener('click', () => alert('Coming soon - In-app purchases'));
-    document.getElementById('save-shop-btn').addEventListener('click', saveShop);
+    document.getElementById('save-shop-btn').addEventListener('click', saveShopAndClose);
 }
 
 function closeShop() {
-    saveShop();
-    closeModal('shop-modal');
+    saveShopAndClose();
 }
 
 function initShopTabs() {
@@ -79,31 +78,35 @@ function showTab(tabId) {
     const grid = document.createElement('div');
     grid.classList.add('items-grid');
 
-    items[tabId.replace('-', '')].forEach(item => {
+    const catKey = tabId.replace('-', '');
+    items[catKey].forEach(item => {
         const box = document.createElement('div');
         box.classList.add('item-box');
         box.textContent = item.name;
-        const costSpan = document.createElement('span');
-        costSpan.classList.add('item-cost');
-        costSpan.textContent = `${item.cost} coins`;
-        box.appendChild(costSpan);
 
-        const isOwned = owned[tabId.replace('-', '')].includes(item.id);
+        const isOwned = owned[catKey].includes(item.id);
         const isAffordable = coins >= item.cost || isOwned;
+
+        if (!isOwned && !isOwned) { // Only show cost if not owned
+            const costSpan = document.createElement('span');
+            costSpan.classList.add('item-cost');
+            costSpan.textContent = `${item.cost} coins`;
+            box.appendChild(costSpan);
+        }
 
         if (!isAffordable) {
             box.classList.add('greyed');
         } else if (!isOwned) {
             // Click to buy
-            box.addEventListener('click', () => buyItem(tabId.replace('-', ''), item));
+            box.addEventListener('click', () => buyItem(catKey, item));
         } else {
             // Show selection input
             const input = document.createElement('input');
-            input.type = singleSelect.includes(tabId.replace('-', '')) ? 'radio' : 'checkbox';
+            input.type = singleSelect.includes(catKey) ? 'radio' : 'checkbox';
             input.name = tabId; // For radio group
             input.classList.add('item-checkbox');
-            input.checked = singleSelect.includes(tabId.replace('-', '')) ? selected[tabId.replace('-', '')] === item.id : selected[tabId.replace('-', '')].includes(item.id);
-            input.addEventListener('change', () => updateSelection(tabId.replace('-', ''), item.id, input.checked));
+            input.checked = singleSelect.includes(catKey) ? selected[catKey] === item.id : selected[catKey].includes(item.id);
+            input.addEventListener('change', () => updateSelection(catKey, item.id, input.checked));
             box.appendChild(input);
         }
 
@@ -119,7 +122,7 @@ function buyItem(category, item) {
         coins -= item.cost;
         owned[category].push(item.id);
         document.getElementById('coins-amount').textContent = coins;
-        showTab(category); // Refresh tab
+        showTab(category.replace('card', 'card-')); // Refresh tab (adjust for 'card-back')
     } else {
         alert('Not enough coins!');
     }
@@ -143,6 +146,11 @@ function saveShop() {
     localStorage.setItem(storage.selected, JSON.stringify(selected));
 }
 
+function saveShopAndClose() {
+    saveShop();
+    closeModal('shop-modal');
+}
+
 // Settings functions
 function openSettings() {
     document.getElementById('modal-overlay').classList.remove('hidden');
@@ -162,12 +170,11 @@ function openSettings() {
     document.getElementById('music-volume').addEventListener('input', e => settings.musicVolume = e.target.value);
     document.getElementById('sfx-volume').addEventListener('input', e => settings.sfxVolume = e.target.value);
     document.getElementById('hints-level').addEventListener('change', e => settings.hints = e.target.value);
-    document.getElementById('save-settings-btn').addEventListener('click', saveSettings);
+    document.getElementById('save-settings-btn').addEventListener('click', saveSettingsAndClose);
 }
 
 function closeSettings() {
-    saveSettings();
-    closeModal('settings-modal');
+    saveSettingsAndClose();
 }
 
 function toggleMute(type) {
@@ -178,6 +185,11 @@ function toggleMute(type) {
 
 function saveSettings() {
     localStorage.setItem(storage.settings, JSON.stringify(settings));
+}
+
+function saveSettingsAndClose() {
+    saveSettings();
+    closeModal('settings-modal');
 }
 
 // Stats functions
