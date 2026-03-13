@@ -25,68 +25,6 @@ for (let card in tarotCards["Major Arcana"]) {
     allCards.push({ name: card, ...tarotCards["Major Arcana"][card] });
 }
 
-// Game state
-let coins = 0;
-let mastery = new Set();
-let currentSpread = [];
-let currentCustomerQuestion = "";
-const questions = ["What about my career?", "Tell me about love.", "What's my future health like?", "Advice for a decision?"];
-
-function init() {
-    // Simulate loading (e.g., fetch data if needed)
-    setTimeout(() => {
-        document.getElementById('loading-screen').classList.add('hidden');
-        document.getElementById('game-container').classList.remove('hidden');
-        // Show home buttons initially
-        document.getElementById('home-buttons').classList.remove('hidden');
-        loadState(); // Load saved data
-    }, 2000); // 2-second loading for demo; adjust as needed
-}
-
-function startGame() {
-    // Hide home buttons, show game elements
-    document.getElementById('home-buttons').classList.add('hidden');
-    document.getElementById('customer-area').classList.remove('hidden');
-    document.getElementById('hints-panel').classList.remove('hidden');
-    document.getElementById('stats-panel').classList.remove('hidden');
-    startReading();
-}
-
-function openShop() {
-    document.getElementById('shop').classList.remove('hidden');
-    // Optionally hide other elements or use modal
-}
-
-function closeShop() {
-    document.getElementById('shop').classList.add('hidden');
-}
-
-function openSettings() {
-    document.getElementById('settings-modal').classList.remove('hidden');
-    // Load current hints level
-    const level = localStorage.getItem('hintsLevel') || 'basic';
-    document.getElementById('hints-level').value = level;
-}
-
-function closeSettings() {
-    document.getElementById('settings-modal').classList.add('hidden');
-}
-
-function saveSettings() {
-    const level = document.getElementById('hints-level').value;
-    localStorage.setItem('hintsLevel', level);
-    // Update hint text based on level
-    updateHints(level);
-    closeSettings();
-}
-
-function updateHints(level) {
-    const hintText = document.getElementById('hint-text');
-    if (level === 'none') hintText.textContent = '';
-    else if (level === 'basic') hintText.textContent = 'Click a card for options. Remember: Upright means positive, reversed negative.';
-    else if (level === 'advanced') hintText.textContent = 'Consider the card\'s position and the customer\'s question for context. Upright emphasizes positives, reversed challenges.';
-}
-
 function startReading() {
     document.getElementById('story-intro').classList.remove('hidden');
     currentCustomerQuestion = questions[Math.floor(Math.random() * questions.length)];
@@ -182,11 +120,88 @@ function saveState() {
     localStorage.setItem('mastery', JSON.stringify(Array.from(mastery)));
 }
 
+// ... keep your tarot data, allCards, questions, etc. ...
+
+let coins = 0;
+let mastery = new Set();
+let currentSpread = [];
+let currentCustomerQuestion = "";
+
+function init() {
+    // Force hide everything sensitive
+    document.getElementById('loading-screen').classList.add('hidden');
+    document.getElementById('game-container').classList.remove('hidden');
+    
+    // Ensure modals are hidden
+    document.getElementById('settings-modal').classList.remove('active');
+    document.getElementById('settings-modal').style.display = 'none';
+    document.getElementById('shop-modal').classList.remove('active');
+    document.getElementById('shop-modal').style.display = 'none';
+    
+    // Show home screen
+    document.getElementById('home-screen').style.display = 'block';
+    document.getElementById('game-area').style.display = 'none';
+
+    loadState();
+    updateHints(localStorage.getItem('hintsLevel') || 'basic');
+
+    // Demo loading: remove timeout or shorten for production
+    // setTimeout(() => { ... }, 2000);  ← already handled above
+}
+
+// Home screen → Game
+function startGame() {
+    document.getElementById('home-screen').style.display = 'none';
+    document.getElementById('game-area').style.display = 'block';
+    startReading();
+}
+
+// Back to home
+function backToMenu() {
+    document.getElementById('game-area').style.display = 'none';
+    document.getElementById('home-screen').style.display = 'block';
+    // Optionally reset reading state here if desired
+}
+
+// Shop
+function openShop() {
+    document.getElementById('shop-modal').style.display = 'flex';
+    document.getElementById('shop-modal').classList.add('active');
+}
+
+function closeShop() {
+    document.getElementById('shop-modal').style.display = 'none';
+    document.getElementById('shop-modal').classList.remove('active');
+}
+
+// Settings
+function openSettings() {
+    document.getElementById('settings-modal').style.display = 'flex';
+    document.getElementById('settings-modal').classList.add('active');
+    const level = localStorage.getItem('hintsLevel') || 'basic';
+    document.getElementById('hints-level').value = level;
+}
+
+function closeSettings() {
+    document.getElementById('settings-modal').style.display = 'none';
+    document.getElementById('settings-modal').classList.remove('active');
+}
+
+function saveSettings() {
+    const level = document.getElementById('hints-level').value;
+    localStorage.setItem('hintsLevel', level);
+    updateHints(level);
+    closeSettings();
+}
+
+// ... keep your startReading(), showOptions(), checkAnswer(), updateStats(), buyItem(), loadState(), saveState(), updateHints() as before ...
+
 // Event listeners
 document.getElementById('start-game').onclick = startGame;
 document.getElementById('open-shop').onclick = openShop;
 document.getElementById('open-settings').onclick = openSettings;
+document.getElementById('back-to-menu').onclick = backToMenu;
 document.getElementById('new-customer').onclick = startReading;
 
-// Init
+// Start the app
 init();
