@@ -1,0 +1,13 @@
+body { font-family: Arial, sans-serif; background: #2c3e50; color: #ecf0f1; text-align: center; }
+#game-container { max-width: 800px; margin: auto; padding: 20px; }
+#spread { display: flex; justify-content: space-around; }
+.card { width: 100px; height: 150px; background: #34495e; border: 1px solid #bdc3c7; margin: 10px; cursor: pointer; }
+.card:hover { transform: scale(1.05); box-shadow: 0 0 10px rgba(255,255,255,0.5); } /* Holographic glow */
+#enlarged-card { background: rgba(0,0,0,0.5); padding: 20px; margin: 20px auto; max-width: 400px; }
+button { background: #3498db; color: white; border: none; padding: 10px; margin: 5px; cursor: pointer; }
+button:hover { background: #2980b9; }
+.hidden { display: none; }
+/* For mystical holographic: Add gradients or animations */
+.card.holographic { background: linear-gradient(45deg, #8e44ad, #3498db); animation: glow 2s infinite; }
+@keyframes glow { 0% { box-shadow: 0 0 5px #fff; } 50% { box-shadow: 0 0 20px #fff; } 100% { box-shadow: 0 0 5px #fff; } }
+/* Cozy pixel art alternative: Use pixelated fonts/images */
