@@ -28,10 +28,12 @@
 
     <!-- Shop Modal -->
     <div id="shop-modal" class="modal hidden">
-        <span class="close-x" onclick="closeShop()">X</span>
-        <h2>Shop</h2>
-        <div id="coins-display">Coins: <span id="coins-amount">0</span></div>
-        <button id="purchase-coins-btn">Purchase Coins</button>
+        <div class="modal-header">
+            <h2>Shop</h2>
+            <span class="close-x" onclick="closeShop()">X</span>
+            <div id="coins-display">Coins: <span id="coins-amount">0</span></div>
+            <button id="purchase-coins-btn">Purchase Coins</button>
+        </div>
         <div id="shop-tabs">
             <button class="tab-btn active" data-tab="table">Table</button>
             <button class="tab-btn" data-tab="deck">Deck</button>
@@ -41,32 +43,40 @@
         <div id="shop-content">
             <!-- Tabs content generated in JS -->
         </div>
-        <button id="save-shop-btn">Save</button>
+        <div class="modal-footer">
+            <button id="save-shop-btn">Save</button>
+        </div>
     </div>
 
     <!-- Settings Modal -->
     <div id="settings-modal" class="modal hidden">
-        <span class="close-x" onclick="closeSettings()">X</span>
-        <h2>Settings</h2>
-        <div class="setting-item">
-            <label>Background Music Volume:</label>
-            <input type="range" id="music-volume" min="0" max="100" value="50">
-            <button class="mute-btn" data-type="music">Mute</button>
+        <div class="modal-header">
+            <h2>Settings</h2>
+            <span class="close-x" onclick="closeSettings()">X</span>
         </div>
-        <div class="setting-item">
-            <label>SFX Volume:</label>
-            <input type="range" id="sfx-volume" min="0" max="100" value="50">
-            <button class="mute-btn" data-type="sfx">Mute</button>
+        <div class="modal-content-body">
+            <div class="setting-item">
+                <label>Background Music Volume:</label>
+                <input type="range" id="music-volume" min="0" max="100" value="50">
+                <button class="mute-btn" data-type="music">Mute</button>
+            </div>
+            <div class="setting-item">
+                <label>SFX Volume:</label>
+                <input type="range" id="sfx-volume" min="0" max="100" value="50">
+                <button class="mute-btn" data-type="sfx">Mute</button>
+            </div>
+            <div class="setting-item">
+                <label>Hints Level:</label>
+                <select id="hints-level">
+                    <option value="none">None</option>
+                    <option value="basic">Basic</option>
+                    <option value="advanced">Advanced</option>
+                </select>
+            </div>
         </div>
-        <div class="setting-item">
-            <label>Hints Level:</label>
-            <select id="hints-level">
-                <option value="none">None</option>
-                <option value="basic">Basic</option>
-                <option value="advanced">Advanced</option>
-            </select>
+        <div class="modal-footer">
+            <button id="save-settings-btn">Save</button>
         </div>
-        <button id="save-settings-btn">Save</button>
     </div>
 
     <!-- Stats Modal -->
