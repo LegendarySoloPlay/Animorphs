@@ -7,10 +7,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="game-container">
+    <div id="loading-screen" class="loading">
+        <h1>Loading...</h1>
+    </div>
+    <div id="game-container" class="hidden">
         <h1>Tarot Apprentice</h1>
         <div id="story-intro" class="hidden">You've inherited your aunt's mystical tarot parlor. Build your reputation by giving accurate readings!</div>
-        <div id="customer-area">
+        <div id="customer-area" class="hidden">
             <p id="customer-question"></p>
             <div id="spread"></div>
         </div>
@@ -21,23 +24,40 @@
             <button id="option2"></button>
             <button id="option3"></button>
         </div>
-        <div id="hints-panel">
+        <div id="hints-panel" class="hidden">
             <h3>Hints & Tips</h3>
             <p id="hint-text">Click a card for options. Remember: Upright means positive, reversed negative.</p>
-            <!-- Settings: Add toggles here for hint detail level -->
         </div>
-        <div id="stats-panel">
+        <div id="stats-panel" class="hidden">
             <h3>Stats</h3>
             <p>Coins: <span id="coins">0</span></p>
             <p>Mastery: <span id="mastery">0/78</span></p>
-            <!-- Expand with per-card tracking -->
         </div>
         <button id="new-customer" class="hidden">Next Customer</button>
         <div id="shop" class="hidden">
             <h3>Shop</h3>
             <button onclick="buyItem('new-deck', 100)">New Deck (100 coins)</button>
             <button onclick="buyItem('crystal-ball', 50)">Crystal Ball (50 coins)</button>
-            <!-- Add more: card backs, table, etc. -->
+        </div>
+        <!-- Home screen buttons in bottom right -->
+        <div id="home-buttons">
+            <button id="start-game">Start Game</button>
+            <button id="open-shop">Shop</button>
+            <button id="open-settings">Settings</button>
+        </div>
+        <!-- Settings modal -->
+        <div id="settings-modal" class="modal hidden">
+            <div class="modal-content">
+                <h3>Settings</h3>
+                <label for="hints-level">Hints Detail:</label>
+                <select id="hints-level">
+                    <option value="none">None</option>
+                    <option value="basic" selected>Basic</option>
+                    <option value="advanced">Advanced</option>
+                </select>
+                <button onclick="saveSettings()">Save</button>
+                <button onclick="closeSettings()">Close</button>
+            </div>
         </div>
     </div>
     <script src="script.js"></script>
