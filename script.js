@@ -1,207 +1,197 @@
-// Tarot data (subset; expand with full 78 from sources like Labyrinthos or EzraCard)
-const tarotCards = {
-    "Major Arcana": {
-        "The Fool": { upright: "innocence, new beginnings, free spirit", reversed: "recklessness, taken advantage of" },
-        "The Magician": { upright: "manifestation, power, skill, action", reversed: "manipulation, poor planning, untapped talents" },
-        // ... Add all Major from your list
-    },
-    "Minor Arcana": {
-        "Wands": {
-            "Ace": { upright: "inspiration, new opportunities, growth, potential", reversed: "delays, lack of direction, distractions, low energy" },
-            // ... Add all suits: Wands, Cups, Swords, Pentacles
-        },
-        // Add Cups, Swords, Pentacles
-    }
+// LocalStorage keys
+const storage = {
+    coins: 'game_coins',
+    owned: 'game_owned', // {table: [], deck: [], cardBack: [], accessories: []}
+    selected: 'game_selected', // {table: '', deck: '', cardBack: '', accessories: []}
+    settings: 'game_settings' // {musicVolume: 50, musicMute: false, sfxVolume: 50, sfxMute: false, hints: 'basic'}
 };
 
-// Flatten for easy random draw
-const allCards = [];
-for (let suit in tarotCards["Minor Arcana"]) {
-    for (let card in tarotCards["Minor Arcana"][suit]) {
-        allCards.push({ name: `${card} of ${suit}`, ...tarotCards["Minor Arcana"][suit][card] });
-    }
-}
-for (let card in tarotCards["Major Arcana"]) {
-    allCards.push({ name: card, ...tarotCards["Major Arcana"][card] });
-}
+// Initial data
+let coins = parseInt(localStorage.getItem(storage.coins)) || 0;
+let owned = JSON.parse(localStorage.getItem(storage.owned)) || { table: [], deck: [], cardBack: [], accessories: [] };
+let selected = JSON.parse(localStorage.getItem(storage.selected)) || { table: '', deck: '', cardBack: '', accessories: [] };
+let settings = JSON.parse(localStorage.getItem(storage.settings)) || { musicVolume: 50, musicMute: false, sfxVolume: 50, sfxMute: false, hints: 'basic' };
 
-function startReading() {
-    document.getElementById('story-intro').classList.remove('hidden');
-    currentCustomerQuestion = questions[Math.floor(Math.random() * questions.length)];
-    document.getElementById('customer-question').textContent = `Customer asks: ${currentCustomerQuestion}`;
-    
-    currentSpread = [];
-    for (let i = 0; i < 5; i++) {
-        const card = allCards[Math.floor(Math.random() * allCards.length)] || { name: 'Placeholder', upright: 'Positive', reversed: 'Negative' }; // Fallback
-        const orientation = Math.random() > 0.5 ? 'upright' : 'reversed';
-        currentSpread.push({ ...card, orientation });
-    }
-    
-    const spreadDiv = document.getElementById('spread');
-    spreadDiv.innerHTML = '';
-    currentSpread.forEach((card, index) => {
-        const cardElem = document.createElement('div');
-        cardElem.classList.add('card', 'holographic');
-        cardElem.textContent = `${card.name} (${card.orientation})`;
-        cardElem.onclick = () => showOptions(index);
-        spreadDiv.appendChild(cardElem);
-    });
-    
-    document.getElementById('new-customer').classList.add('hidden');
-}
+// Categories
+const categories = ['table', 'deck', 'card-back', 'accessories'];
+const singleSelect = ['table', 'deck', 'card-back']; // Radio for these
 
-function showOptions(index) {
-    const card = currentSpread[index];
-    const correctMeaning = card[card.orientation];
-    const distractors = getDistractors(correctMeaning);
-    
-    const options = [correctMeaning, ...distractors].sort(() => Math.random() - 0.5);
-    document.getElementById('card-name').textContent = card.name;
-    document.getElementById('option1').textContent = options[0];
-    document.getElementById('option1').onclick = () => checkAnswer(options[0], correctMeaning, card.name, index);
-    document.getElementById('option2').textContent = options[1];
-    document.getElementById('option2').onclick = () => checkAnswer(options[1], correctMeaning, card.name, index);
-    document.getElementById('option3').textContent = options[2];
-    document.getElementById('option3').onclick = () => checkAnswer(options[2], correctMeaning, card.name, index);
-    
-    document.getElementById('enlarged-card').classList.remove('hidden');
-}
+// Item data (10 per category, costs: 8 free, 2 at 5)
+const items = {};
+categories.forEach(cat => {
+    items[cat] = Array.from({length: 10}, (_, i) => ({
+        id: `item-${i + 1}`,
+        name: `Item ${i + 1}`,
+        cost: i < 8 ? 0 : 5
+    }));
+});
 
-function getDistractors(correct) {
-    const allMeanings = allCards.flatMap(c => [c.upright, c.reversed]);
-    return [allMeanings[Math.floor(Math.random() * allMeanings.length)], allMeanings[Math.floor(Math.random() * allMeanings.length)]];
-}
+// Show loading for 2.5s, then main screen
+window.addEventListener('load', () => {
+    setTimeout(() => {
+        document.getElementById('loading-screen').style.display = 'none';
+        document.getElementById('main-screen').classList.remove('hidden');
+    }, 2500);
+});
 
-function checkAnswer(selected, correct, cardName, index) {
-    document.getElementById('enlarged-card').classList.add('hidden');
-    if (selected === correct) {
-        mastery.add(cardName);
-        alert('Correct!');
-    } else {
-        alert('Try again next time.');
-    }
-    document.querySelectorAll('#spread .card')[index].style.opacity = 0.5;
-    
-    // Check if all cards interpreted (simple check for prototype)
-    const interpreted = document.querySelectorAll('#spread .card[style*="opacity: 0.5"]');
-    if (interpreted.length === 5) {
-        const score = mastery.size; // Placeholder
-        coins += score * 10;
-        updateStats();
-        document.getElementById('new-customer').classList.remove('hidden');
-    }
-}
+// Button events
+document.getElementById('start-btn').addEventListener('click', () => {
+    alert('Game starting...'); // Placeholder
+});
 
-function updateStats() {
-    document.getElementById('coins').textContent = coins;
-    document.getElementById('mastery').textContent = `${mastery.size}/78`;
-    if (coins > 0) document.getElementById('shop').classList.remove('hidden'); // But controlled separately
-    saveState();
-}
+document.getElementById('shop-btn').addEventListener('click', openShop);
+document.getElementById('settings-btn').addEventListener('click', openSettings);
+document.getElementById('stats-btn').addEventListener('click', openStats);
 
-function buyItem(item, cost) {
-    if (coins >= cost) {
-        coins -= cost;
-        updateStats();
-        alert(`Bought ${item}!`);
-    }
-}
-
-function loadState() {
-    coins = parseInt(localStorage.getItem('coins')) || 0;
-    mastery = new Set(JSON.parse(localStorage.getItem('mastery')) || []);
-    updateStats();
-    const hintsLevel = localStorage.getItem('hintsLevel') || 'basic';
-    updateHints(hintsLevel);
-}
-
-function saveState() {
-    localStorage.setItem('coins', coins);
-    localStorage.setItem('mastery', JSON.stringify(Array.from(mastery)));
-}
-
-// ... keep your tarot data, allCards, questions, etc. ...
-
-let coins = 0;
-let mastery = new Set();
-let currentSpread = [];
-let currentCustomerQuestion = "";
-
-function init() {
-    // Force hide everything sensitive
-    document.getElementById('loading-screen').classList.add('hidden');
-    document.getElementById('game-container').classList.remove('hidden');
-    
-    // Ensure modals are hidden
-    document.getElementById('settings-modal').classList.remove('active');
-    document.getElementById('settings-modal').style.display = 'none';
-    document.getElementById('shop-modal').classList.remove('active');
-    document.getElementById('shop-modal').style.display = 'none';
-    
-    // Show home screen
-    document.getElementById('home-screen').style.display = 'block';
-    document.getElementById('game-area').style.display = 'none';
-
-    loadState();
-    updateHints(localStorage.getItem('hintsLevel') || 'basic');
-
-    // Demo loading: remove timeout or shorten for production
-    // setTimeout(() => { ... }, 2000);  ← already handled above
-}
-
-// Home screen → Game
-function startGame() {
-    document.getElementById('home-screen').style.display = 'none';
-    document.getElementById('game-area').style.display = 'block';
-    startReading();
-}
-
-// Back to home
-function backToMenu() {
-    document.getElementById('game-area').style.display = 'none';
-    document.getElementById('home-screen').style.display = 'block';
-    // Optionally reset reading state here if desired
-}
-
-// Shop
+// Shop functions
 function openShop() {
-    document.getElementById('shop-modal').style.display = 'flex';
-    document.getElementById('shop-modal').classList.add('active');
+    document.getElementById('modal-overlay').classList.remove('hidden');
+    document.getElementById('shop-modal').classList.remove('hidden');
+    document.getElementById('coins-amount').textContent = coins;
+    initShopTabs();
+    showTab('table'); // Default tab
+
+    document.getElementById('purchase-coins-btn').addEventListener('click', () => alert('Coming soon - In-app purchases'));
+    document.getElementById('save-shop-btn').addEventListener('click', saveShop);
 }
 
 function closeShop() {
-    document.getElementById('shop-modal').style.display = 'none';
-    document.getElementById('shop-modal').classList.remove('active');
+    saveShop();
+    closeModal('shop-modal');
 }
 
-// Settings
+function initShopTabs() {
+    const tabBtns = document.querySelectorAll('.tab-btn');
+    tabBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            tabBtns.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            showTab(btn.dataset.tab);
+        });
+    });
+}
+
+function showTab(tabId) {
+    const content = document.getElementById('shop-content');
+    content.innerHTML = ''; // Clear
+    const tabContent = document.createElement('div');
+    tabContent.classList.add('tab-content', 'active');
+    const grid = document.createElement('div');
+    grid.classList.add('items-grid');
+
+    items[tabId.replace('-', '')].forEach(item => {
+        const box = document.createElement('div');
+        box.classList.add('item-box');
+        box.textContent = item.name;
+        const costSpan = document.createElement('span');
+        costSpan.classList.add('item-cost');
+        costSpan.textContent = `${item.cost} coins`;
+        box.appendChild(costSpan);
+
+        const isOwned = owned[tabId.replace('-', '')].includes(item.id);
+        const isAffordable = coins >= item.cost || isOwned;
+
+        if (!isAffordable) {
+            box.classList.add('greyed');
+        } else if (!isOwned) {
+            // Click to buy
+            box.addEventListener('click', () => buyItem(tabId.replace('-', ''), item));
+        } else {
+            // Show selection input
+            const input = document.createElement('input');
+            input.type = singleSelect.includes(tabId.replace('-', '')) ? 'radio' : 'checkbox';
+            input.name = tabId; // For radio group
+            input.classList.add('item-checkbox');
+            input.checked = singleSelect.includes(tabId.replace('-', '')) ? selected[tabId.replace('-', '')] === item.id : selected[tabId.replace('-', '')].includes(item.id);
+            input.addEventListener('change', () => updateSelection(tabId.replace('-', ''), item.id, input.checked));
+            box.appendChild(input);
+        }
+
+        grid.appendChild(box);
+    });
+
+    tabContent.appendChild(grid);
+    content.appendChild(tabContent);
+}
+
+function buyItem(category, item) {
+    if (coins >= item.cost) {
+        coins -= item.cost;
+        owned[category].push(item.id);
+        document.getElementById('coins-amount').textContent = coins;
+        showTab(category); // Refresh tab
+    } else {
+        alert('Not enough coins!');
+    }
+}
+
+function updateSelection(category, itemId, checked) {
+    if (singleSelect.includes(category)) {
+        selected[category] = checked ? itemId : '';
+    } else {
+        if (checked) {
+            selected[category].push(itemId);
+        } else {
+            selected[category] = selected[category].filter(id => id !== itemId);
+        }
+    }
+}
+
+function saveShop() {
+    localStorage.setItem(storage.coins, coins);
+    localStorage.setItem(storage.owned, JSON.stringify(owned));
+    localStorage.setItem(storage.selected, JSON.stringify(selected));
+}
+
+// Settings functions
 function openSettings() {
-    document.getElementById('settings-modal').style.display = 'flex';
-    document.getElementById('settings-modal').classList.add('active');
-    const level = localStorage.getItem('hintsLevel') || 'basic';
-    document.getElementById('hints-level').value = level;
+    document.getElementById('modal-overlay').classList.remove('hidden');
+    document.getElementById('settings-modal').classList.remove('hidden');
+
+    document.getElementById('music-volume').value = settings.musicVolume;
+    document.getElementById('sfx-volume').value = settings.sfxVolume;
+    document.getElementById('hints-level').value = settings.hints;
+
+    const muteBtns = document.querySelectorAll('.mute-btn');
+    muteBtns.forEach(btn => {
+        const type = btn.dataset.type;
+        btn.textContent = settings[`${type}Mute`] ? 'Unmute' : 'Mute';
+        btn.addEventListener('click', () => toggleMute(type));
+    });
+
+    document.getElementById('music-volume').addEventListener('input', e => settings.musicVolume = e.target.value);
+    document.getElementById('sfx-volume').addEventListener('input', e => settings.sfxVolume = e.target.value);
+    document.getElementById('hints-level').addEventListener('change', e => settings.hints = e.target.value);
+    document.getElementById('save-settings-btn').addEventListener('click', saveSettings);
 }
 
 function closeSettings() {
-    document.getElementById('settings-modal').style.display = 'none';
-    document.getElementById('settings-modal').classList.remove('active');
+    saveSettings();
+    closeModal('settings-modal');
+}
+
+function toggleMute(type) {
+    settings[`${type}Mute`] = !settings[`${type}Mute`];
+    const btn = document.querySelector(`.mute-btn[data-type="${type}"]`);
+    btn.textContent = settings[`${type}Mute`] ? 'Unmute' : 'Mute';
 }
 
 function saveSettings() {
-    const level = document.getElementById('hints-level').value;
-    localStorage.setItem('hintsLevel', level);
-    updateHints(level);
-    closeSettings();
+    localStorage.setItem(storage.settings, JSON.stringify(settings));
 }
 
-// ... keep your startReading(), showOptions(), checkAnswer(), updateStats(), buyItem(), loadState(), saveState(), updateHints() as before ...
+// Stats functions
+function openStats() {
+    document.getElementById('modal-overlay').classList.remove('hidden');
+    document.getElementById('stats-modal').classList.remove('hidden');
+}
 
-// Event listeners
-document.getElementById('start-game').onclick = startGame;
-document.getElementById('open-shop').onclick = openShop;
-document.getElementById('open-settings').onclick = openSettings;
-document.getElementById('back-to-menu').onclick = backToMenu;
-document.getElementById('new-customer').onclick = startReading;
+function closeStats() {
+    closeModal('stats-modal');
+}
 
-// Start the app
-init();
+// General close modal
+function closeModal(id) {
+    document.getElementById('modal-overlay').classList.add('hidden');
+    document.getElementById(id).classList.add('hidden');
+}
