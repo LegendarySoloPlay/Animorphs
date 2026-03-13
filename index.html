@@ -3,77 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tarot Apprentice</title>
+    <title>Tarot in Training</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="loading-screen" class="loading">
-        <h1>Loading Tarot Apprentice...</h1>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <h1>Loading...</h1>
     </div>
 
-    <div id="game-container" class="hidden">
-        <h1>Tarot Apprentice</h1>
-
-        <!-- Home screen content -->
-        <div id="home-screen">
-            <p>Welcome to your inherited mystical tarot parlor.</p>
-            <div id="home-buttons">
-                <button id="start-game">Start Game</button>
-                <button id="open-shop">Shop</button>
-                <button id="open-settings">Settings</button>
-            </div>
+    <!-- Main Screen -->
+    <div id="main-screen" class="hidden">
+        <h1>Tarot in Training</h1>
+        <div id="bottom-buttons">
+            <button id="start-btn">Start</button>
+            <button id="shop-btn">Shop</button>
+            <button id="settings-btn">Settings</button>
+            <button id="stats-btn">Stats</button>
         </div>
+    </div>
 
-        <!-- Game elements (hidden until start) -->
-        <div id="game-area" class="hidden">
-            <div id="story-intro" class="hidden">You've inherited your aunt's mystical tarot parlor. Build your reputation!</div>
-            <div id="customer-area">
-                <p id="customer-question"></p>
-                <div id="spread"></div>
-            </div>
-            <div id="enlarged-card" class="hidden">
-                <h2 id="card-name"></h2>
-                <p>Choose the traditional interpretation:</p>
-                <button id="option1"></button>
-                <button id="option2"></button>
-                <button id="option3"></button>
-            </div>
-            <div id="hints-panel">
-                <h3>Hints & Tips</h3>
-                <p id="hint-text">Click a card for options. Remember: Upright means positive, reversed negative.</p>
-            </div>
-            <div id="stats-panel">
-                <h3>Stats</h3>
-                <p>Coins: <span id="coins">0</span></p>
-                <p>Mastery: <span id="mastery">0/78</span></p>
-            </div>
-            <button id="new-customer" class="hidden">Next Customer</button>
-            <button id="back-to-menu">Back to Menu</button>
-        </div>
+    <!-- Overlay for Modals -->
+    <div id="modal-overlay" class="hidden"></div>
 
-        <!-- Modals -->
-        <div id="shop-modal" class="modal hidden">
-            <div class="modal-content">
-                <h3>Shop</h3>
-                <button onclick="buyItem('new-deck', 100)">New Deck (100 coins)</button>
-                <button onclick="buyItem('crystal-ball', 50)">Crystal Ball (50 coins)</button>
-                <button onclick="closeShop()">Close</button>
-            </div>
+    <!-- Shop Modal -->
+    <div id="shop-modal" class="modal hidden">
+        <span class="close-x" onclick="closeShop()">X</span>
+        <h2>Shop</h2>
+        <div id="coins-display">Coins: <span id="coins-amount">0</span></div>
+        <button id="purchase-coins-btn">Purchase Coins</button>
+        <div id="shop-tabs">
+            <button class="tab-btn active" data-tab="table">Table</button>
+            <button class="tab-btn" data-tab="deck">Deck</button>
+            <button class="tab-btn" data-tab="card-back">Card Back</button>
+            <button class="tab-btn" data-tab="accessories">Accessories</button>
         </div>
+        <div id="shop-content">
+            <!-- Tabs content generated in JS -->
+        </div>
+        <button id="save-shop-btn">Save</button>
+    </div>
 
-        <div id="settings-modal" class="modal hidden">
-            <div class="modal-content">
-                <h3>Settings</h3>
-                <label for="hints-level">Hints Detail:</label>
-                <select id="hints-level">
-                    <option value="none">None</option>
-                    <option value="basic" selected>Basic</option>
-                    <option value="advanced">Advanced</option>
-                </select>
-                <button onclick="saveSettings()">Save</button>
-                <button onclick="closeSettings()">Close</button>
-            </div>
+    <!-- Settings Modal -->
+    <div id="settings-modal" class="modal hidden">
+        <span class="close-x" onclick="closeSettings()">X</span>
+        <h2>Settings</h2>
+        <div class="setting-item">
+            <label>Background Music Volume:</label>
+            <input type="range" id="music-volume" min="0" max="100" value="50">
+            <button class="mute-btn" data-type="music">Mute</button>
         </div>
+        <div class="setting-item">
+            <label>SFX Volume:</label>
+            <input type="range" id="sfx-volume" min="0" max="100" value="50">
+            <button class="mute-btn" data-type="sfx">Mute</button>
+        </div>
+        <div class="setting-item">
+            <label>Hints Level:</label>
+            <select id="hints-level">
+                <option value="none">None</option>
+                <option value="basic">Basic</option>
+                <option value="advanced">Advanced</option>
+            </select>
+        </div>
+        <button id="save-settings-btn">Save</button>
+    </div>
+
+    <!-- Stats Modal -->
+    <div id="stats-modal" class="modal hidden">
+        <span class="close-x" onclick="closeStats()">X</span>
+        <h2>Stats</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
 
     <script src="script.js"></script>
