@@ -20,3 +20,14 @@ button:hover { background: #2980b9; }
 .modal-content { background: #34495e; padding: 20px; border-radius: 10px; text-align: left; }
 .modal-content label { display: block; margin: 10px 0; }
 .modal-content select { width: 100%; padding: 5px; }
+
+/* ... keep your existing styles ... */
+
+#home-screen { margin: 40px 0; }
+#game-area { display: none; } /* Use display:none initially for stronger hiding */
+.modal { display: none; }     /* Use display:none for modals too */
+.modal.active { display: flex; }
+
+button { min-width: 140px; padding: 12px 20px; font-size: 1.1em; }
+#back-to-menu { margin-top: 20px; background: #e74c3c; }
+#back-to-menu:hover { background: #c0392b; }
