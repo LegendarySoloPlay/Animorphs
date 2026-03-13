@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarot Apprentice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>Tarot Apprentice</h1>
+        <div id="story-intro" class="hidden">You've inherited your aunt's mystical tarot parlor. Build your reputation by giving accurate readings!</div>
+        <div id="customer-area">
+            <p id="customer-question"></p>
+            <div id="spread"></div>
+        </div>
+        <div id="enlarged-card" class="hidden">
+            <h2 id="card-name"></h2>
+            <p>Choose the traditional interpretation:</p>
+            <button id="option1"></button>
+            <button id="option2"></button>
+            <button id="option3"></button>
+        </div>
+        <div id="hints-panel">
+            <h3>Hints & Tips</h3>
+            <p id="hint-text">Click a card for options. Remember: Upright means positive, reversed negative.</p>
+            <!-- Settings: Add toggles here for hint detail level -->
+        </div>
+        <div id="stats-panel">
+            <h3>Stats</h3>
+            <p>Coins: <span id="coins">0</span></p>
+            <p>Mastery: <span id="mastery">0/78</span></p>
+            <!-- Expand with per-card tracking -->
+        </div>
+        <button id="new-customer" class="hidden">Next Customer</button>
+        <div id="shop" class="hidden">
+            <h3>Shop</h3>
+            <button onclick="buyItem('new-deck', 100)">New Deck (100 coins)</button>
+            <button onclick="buyItem('crystal-ball', 50)">Crystal Ball (50 coins)</button>
+            <!-- Add more: card backs, table, etc. -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
