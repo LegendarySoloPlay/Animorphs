@@ -474,37 +474,48 @@ const mediumResponses = [
   "That's almost it, but not quite complete.",
   "That does sound like me, but it just feels like one important piece is missing.",
   "You're getting warmer!",
-  "Better! Still not perfect though.",
-  "Good attempt! Very close.",
-  "That's mostly there! Just a little more to go.",
   "You've got the general idea.",
-  
-  // Lukewarm/Grain of salt
   "I guess that's close enough?",
-  "Sort of? Maybe?",
   "Ehhh, close enough I suppose.",
-  "That's like 80% right.",
-  "I'll give you partial credit.",
   "You're in the right neighborhood.",
-  
-  // Mixed feedback
-  "You got some of it, but missed the mark on others.",
-  "Half right, half wrong.",
   "You're close, but I'm not fully convinced.",
-  "That's almost there, but something's nagging at me.",
-  "Some parts are perfect, others are way off.",
-  
-  // Slightly disappointed
   "So close! But not quite.",
   "You had it and then lost it at the end.",
-  "Almost! Don't stop now.",
   "Good, but I expected better.",
   "Not bad, but not great either.",
-  
-  // Reluctant acceptance
   "Fine, that's mostly accurate.",
   "I suppose that's close enough.",
-  "Okay, you're getting better.",
-  "Alright, I'll accept that.",
-  "That'll do, I guess."
+]
+
+const goodResponses = [
+  "Have you been stalking me? That's literally my life!",
+  "How do you know that?",
+  "You can see all tbat in three cards? Incredible!",
+  "That's unbelievable!",
+  "Honestly, I was a little skeptical, but you've made me a believer!",
+  "That's so helpful! You really put things in perspective for me.",
+  "Wow! You're incredible!",
+  "I'm gobsmacked! That's spot on.",
+  "Why is there not a queue out the door? You're the real deal!",
+  "Shut up and take my money!",
+  "That's exactly right!",
+  "Wow, you nailed it!",
+  "You read my mind! Or... the cards did?",
+  "Perfect! That's scarily accurate.",
+  "Amazing! Every single card resonates.",
+  "Thank you, that really helps.",
+  "That's exactly what I needed to hear.",
+  "I feel so understood right now.",
+  "I finally have some clarity, thank you so much!",
+  "Literal chills!",
+  "You have no idea how much this means to me.",
+  "That hit home in ways I didn't expect.",
+  "I feel so seen right now.",
+  "Perfect interpretation. Every card makes sense now.",
+  "This is exactly why I came to you.",
+  "Whoa, you're really good at this!",
+  "That gives me so much to think about.",
+  "I think everything just clicked into place.",
+  "Now I understand what the universe has been trying to tell me.",
+  "I'm telling all my friends about you!"
 ]
