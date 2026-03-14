@@ -460,3 +460,51 @@ const poorResponses = [
   "Something doesn't add up here.",
   "That's a no."
 ]
+
+const mediumResponses = [
+  "That's mostly right...",
+  "Close, but something feels off.",
+  "You're on the right track.",
+  "That's pretty accurate, actually!",
+  "Most of that resonates.",
+  "That's so helpful! Just a bit off on some details.",
+  "Hmm, that's mostly right but I'm not sure about one part.",
+  "Most of that feels correct, but I'm questioning a couple of things.",
+  "A lot is spot on, but something feels a little fuzzy.",
+  "That's almost it, but not quite complete.",
+  "That does sound like me, but it just feels like one important piece is missing.",
+  "You're getting warmer!",
+  "Better! Still not perfect though.",
+  "Good attempt! Very close.",
+  "That's mostly there! Just a little more to go.",
+  "You've got the general idea.",
+  
+  // Lukewarm/Grain of salt
+  "I guess that's close enough?",
+  "Sort of? Maybe?",
+  "Ehhh, close enough I suppose.",
+  "That's like 80% right.",
+  "I'll give you partial credit.",
+  "You're in the right neighborhood.",
+  
+  // Mixed feedback
+  "You got some of it, but missed the mark on others.",
+  "Half right, half wrong.",
+  "You're close, but I'm not fully convinced.",
+  "That's almost there, but something's nagging at me.",
+  "Some parts are perfect, others are way off.",
+  
+  // Slightly disappointed
+  "So close! But not quite.",
+  "You had it and then lost it at the end.",
+  "Almost! Don't stop now.",
+  "Good, but I expected better.",
+  "Not bad, but not great either.",
+  
+  // Reluctant acceptance
+  "Fine, that's mostly accurate.",
+  "I suppose that's close enough.",
+  "Okay, you're getting better.",
+  "Alright, I'll accept that.",
+  "That'll do, I guess."
+]
