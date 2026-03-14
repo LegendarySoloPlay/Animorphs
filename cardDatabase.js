@@ -1,5 +1,6006 @@
-[ { name: The Fool, reversed: false, image: `` , pastMoney: [ `you have taken a leap into a new financial venture with optimism.`, `you have embraced unexpected opportunities for growth in your career.` ], presentMoney: [ `you take a leap into a new financial venture with optimism.`, `you embrace unexpected opportunities for growth in your career.` ], futureMoney: [ `you will take a leap into a new financial venture with optimism.`, `you will embrace unexpected opportunities for growth in your career.` ], pastMoneyReversed: [ `you have hesitated on a promising financial opportunity out of fear.`, `you have made impulsive decisions leading to career setbacks.` ], presentMoneyReversed: [ `you hesitate on a promising financial opportunity out of fear.`, `you make impulsive decisions leading to career setbacks.` ], futureMoneyReversed: [ `you will hesitate on a promising financial opportunity out of fear.`, `you will make impulsive decisions leading to career setbacks.` ], pastRelationships: [ `you have started a fresh and exciting connection with someone new.`, `you have renewed energy in an existing partnership through spontaneity.` ], presentRelationships: [ `you start a fresh and exciting connection with someone new.`, `you renew energy in an existing partnership through spontaneity.` ], futureRelationships: [ `you will start a fresh and exciting connection with someone new.`, `you will renew energy in an existing partnership through spontaneity.` ], pastRelationshipsReversed: [ `you have shown immaturity in handling a romantic commitment.`, `you have avoided deeper connections due to reluctance.` ], presentRelationshipsReversed: [ `you show immaturity in handling a romantic commitment.`, `you avoid deeper connections due to reluctance.` ], futureRelationshipsReversed: [ `you will show immaturity in handling a romantic commitment.`, `you will avoid deeper connections due to reluctance.` ], pastHealth: [ `you have adopted a positive mindset for better well-being.`, `you have tried new approaches to improve your physical state.` ], presentHealth: [ `you adopt a positive mindset for better well-being.`, `you try new approaches to improve your physical state.` ], futureHealth: [ `you will adopt a positive mindset for better well-being.`, `you will try new approaches to improve your physical state.` ], pastHealthReversed: [ `you have resisted necessary changes for personal growth.`, `you have ignored risks impacting your overall well-being.` ], presentHealthReversed: [ `you resist necessary changes for personal growth.`, `you ignore risks impacting your overall well-being.` ], futureHealthReversed: [ `you will resist necessary changes for personal growth.`, `you will ignore risks impacting your overall well-being.` ] }, { name: The Magician, reversed: false, image: `` , pastMoney: [ `you have harnessed your skills to launch a successful project.`, `you have manifested financial abundance through focused action.` ], presentMoney: [ `you harness your skills to launch a successful project.`, `you manifest financial abundance through focused action.` ], futureMoney: [ `you will harness your skills to launch a successful project.`, `you will manifest financial abundance through focused action.` ], pastMoneyReversed: [ `you have procrastinated on utilizing your talents for gain.`, `you have encountered deception in a business dealing.` ], presentMoneyReversed: [ `you procrastinate on utilizing your talents for gain.`, `you encounter deception in a business dealing.` ], futureMoneyReversed: [ `you will procrastinate on utilizing your talents for gain.`, `you will encounter deception in a business dealing.` ], pastRelationships: [ `you have attracted a partner with confident communication.`, `you have built a strong bond using your personal charisma.` ], presentRelationships: [ `you attract a partner with confident communication.`, `you build a strong bond using your personal charisma.` ], futureRelationships: [ `you will attract a partner with confident communication.`, `you will build a strong bond using your personal charisma.` ], pastRelationshipsReversed: [ `you have hidden motives that strained a connection.`, `you have lacked authenticity in romantic interactions.` ], presentRelationshipsReversed: [ `you hide motives that strain a connection.`, `you lack authenticity in romantic interactions.` ], futureRelationshipsReversed: [ `you will hide motives that strain a connection.`, `you will lack authenticity in romantic interactions.` ], pastHealth: [ `you have aligned mind and body for improved vitality.`, `you have used willpower to achieve wellness goals.` ], presentHealth: [ `you align mind and body for improved vitality.`, `you use willpower to achieve wellness goals.` ], futureHealth: [ `you will align mind and body for improved vitality.`, `you will use willpower to achieve wellness goals.` ], pastHealthReversed: [ `you have neglected your inner potential for recovery.`, `you have faced misalignment affecting your energy levels.` ], presentHealthReversed: [ `you neglect your inner potential for recovery.`, `you face misalignment affecting your energy levels.` ], futureHealthReversed: [ `you will neglect your inner potential for recovery.`, `you will face misalignment affecting your energy levels.` ] }, { name: The High Priestess, reversed: false, image: `` , pastMoney: [ `you have trusted intuition to uncover hidden career insights.`, `you have planned finances with subtle wisdom and patience.` ], presentMoney: [ `you trust intuition to uncover hidden career insights.`, `you plan finances with subtle wisdom and patience.` ], futureMoney: [ `you will trust intuition to uncover hidden career insights.`, `you will plan finances with subtle wisdom and patience.` ], pastMoneyReversed: [ `you have ignored gut feelings leading to financial confusion.`, `you have dealt with lack of transparency in work matters.` ], presentMoneyReversed: [ `you ignore gut feelings leading to financial confusion.`, `you deal with lack of transparency in work matters.` ], futureMoneyReversed: [ `you will ignore gut feelings leading to financial confusion.`, `you will deal with lack of transparency in work matters.` ], pastRelationships: [ `you have deepened a bond through spiritual mystery.`, `you have connected on an intuitive level with a partner.` ], presentRelationships: [ `you deepen a bond through spiritual mystery.`, `you connect on an intuitive level with a partner.` ], futureRelationships: [ `you will deepen a bond through spiritual mystery.`, `you will connect on an intuitive level with a partner.` ], pastRelationshipsReversed: [ `you have kept secrets that created emotional distance.`, `you have faced dishonesty eroding trust in a partnership.` ], presentRelationshipsReversed: [ `you keep secrets that create emotional distance.`, `you face dishonesty eroding trust in a partnership.` ], futureRelationshipsReversed: [ `you will keep secrets that create emotional distance.`, `you will face dishonesty eroding trust in a partnership.` ], pastHealth: [ `you have listened to inner guidance for healing.`, `you have embraced subconscious signals for better balance.` ], presentHealth: [ `you listen to inner guidance for healing.`, `you embrace subconscious signals for better balance.` ], futureHealth: [ `you will listen to inner guidance for healing.`, `you will embrace subconscious signals for better balance.` ], pastHealthReversed: [ `you have blocked intuition impacting your well-being.`, `you have struggled to reconnect with inner health cues.` ], presentHealthReversed: [ `you block intuition impacting your well-being.`, `you struggle to reconnect with inner health cues.` ], futureHealthReversed: [ `you will block intuition impacting your well-being.`, `you will struggle to reconnect with inner health cues.` ] }, { name: The Empress, reversed: false, image: `` , pastMoney: [ `you have nurtured creative ideas into prosperous outcomes.`, `you have achieved financial growth through abundance mindset.` ], presentMoney: [ `you nurture creative ideas into prosperous outcomes.`, `you achieve financial growth through abundance mindset.` ], futureMoney: [ `you will nurture creative ideas into prosperous outcomes.`, `you will achieve financial growth through abundance mindset.` ], pastMoneyReversed: [ `you have experienced stagnation in creative financial pursuits.`, `you have disconnected from passion in career efforts.` ], presentMoneyReversed: [ `you experience stagnation in creative financial pursuits.`, `you disconnect from passion in career efforts.` ], futureMoneyReversed: [ `you will experience stagnation in creative financial pursuits.`, `you will disconnect from passion in career efforts.` ], pastRelationships: [ `you have fostered harmony and affection in a bond.`, `you have built strong emotional ties with compassion.` ], presentRelationships: [ `you foster harmony and affection in a bond.`, `you build strong emotional ties with compassion.` ], futureRelationships: [ `you will foster harmony and affection in a bond.`, `you will build strong emotional ties with compassion.` ], pastRelationshipsReversed: [ `you have been overly dependent on a partner.`, `you have shown controlling behavior in a connection.` ], presentRelationshipsReversed: [ `you act overly dependent on a partner.`, `you show controlling behavior in a connection.` ], futureRelationshipsReversed: [ `you will become overly dependent on a partner.`, `you will show controlling behavior in a connection.` ], pastHealth: [ `you have connected with nature for physical balance.`, `you have embraced nurturing habits for overall vitality.` ], presentHealth: [ `you connect with nature for physical balance.`, `you embrace nurturing habits for overall vitality.` ], futureHealth: [ `you will connect with nature for physical balance.`, `you will embrace nurturing habits for overall vitality.` ], pastHealthReversed: [ `you have ignored self-care leading to imbalance.`, `you have needed boundaries to restore well-being.` ], presentHealthReversed: [ `you ignore self-care leading to imbalance.`, `you need boundaries to restore well-being.` ], futureHealthReversed: [ `you will ignore self-care leading to imbalance.`, `you will need boundaries to restore well-being.` ] }, { name: The Emperor, reversed: false, image: `` , pastMoney: [ `you have built stable finances through discipline.`, `you have led with authority to achieve career success.` ], presentMoney: [ `you build stable finances through discipline.`, `you lead with authority to achieve career success.` ], futureMoney: [ `you will build stable finances through discipline.`, `you will lead with authority to achieve career success.` ], pastMoneyReversed: [ `you have faced oppressive structures in work.`, `you have dealt with bureaucracy slowing financial progress.` ], presentMoneyReversed: [ `you face oppressive structures in work.`, `you deal with bureaucracy slowing financial progress.` ], futureMoneyReversed: [ `you will face oppressive structures in work.`, `you will deal with bureaucracy slowing financial progress.` ], pastRelationships: [ `you have established trust-based foundations with a partner.`, `you have provided dependable support in a bond.` ], presentRelationships: [ `you establish trust-based foundations with a partner.`, `you provide dependable support in a bond.` ], futureRelationships: [ `you will establish trust-based foundations with a partner.`, `you will provide dependable support in a bond.` ], pastRelationshipsReversed: [ `you have exhibited dominance creating coldness.`, `you have lacked flexibility in romantic dynamics.` ], presentRelationshipsReversed: [ `you exhibit dominance creating coldness.`, `you lack flexibility in romantic dynamics.` ], futureRelationshipsReversed: [ `you will exhibit dominance creating coldness.`, `you will lack flexibility in romantic dynamics.` ], pastHealth: [ `you have taken a grounded approach to stability.`, `you have enforced routines for consistent well-being.` ], presentHealth: [ `you take a grounded approach to stability.`, `you enforce routines for consistent well-being.` ], futureHealth: [ `you will take a grounded approach to stability.`, `you will enforce routines for consistent well-being.` ], pastHealthReversed: [ `you have struggled with imbalance between control and freedom.`, `you have resisted change affecting your vitality.` ], presentHealthReversed: [ `you struggle with imbalance between control and freedom.`, `you resist change affecting your vitality.` ], futureHealthReversed: [ `you will struggle with imbalance between control and freedom.`, `you will resist change affecting your vitality.` ] }, { name: The Hierophant, reversed: false, image: `` , pastMoney: [ `you have followed mentorship for structured career growth.`, `you have adhered to traditional paths for financial stability.` ], presentMoney: [ `you follow mentorship for structured career growth.`, `you adhere to traditional paths for financial stability.` ], futureMoney: [ `you will follow mentorship for structured career growth.`, `you will adhere to traditional paths for financial stability.` ], pastMoneyReversed: [ `you have rebelled against rigid work institutions.`, `you have encountered corrupt leadership in finances.` ], presentMoneyReversed: [ `you rebel against rigid work institutions.`, `you encounter corrupt leadership in finances.` ], futureMoneyReversed: [ `you will rebel against rigid work institutions.`, `you will encounter corrupt leadership in finances.` ], pastRelationships: [ `you have committed to a partnership based on shared values.`, `you have sought guidance to strengthen a romantic bond.` ], presentRelationships: [ `you commit to a partnership based on shared values.`, `you seek guidance to strengthen a romantic bond.` ], futureRelationships: [ `you will commit to a partnership based on shared values.`, `you will seek guidance to strengthen a romantic bond.` ], pastRelationshipsReversed: [ `you have resisted conventional commitments.`, `you have explored unconventional unions.` ], presentRelationshipsReversed: [ `you resist conventional commitments.`, `you explore unconventional unions.` ], futureRelationshipsReversed: [ `you will resist conventional commitments.`, `you will explore unconventional unions.` ], pastHealth: [ `you have used established practices for harmony.`, `you have drawn on community wisdom for well-being.` ], presentHealth: [ `you use established practices for harmony.`, `you draw on community wisdom for well-being.` ], futureHealth: [ `you will use established practices for harmony.`, `you will draw on community wisdom for well-being.` ], pastHealthReversed: [ `you have questioned outdated systems for personal truth.`, `you have needed independence from traditional advice.` ], presentHealthReversed: [ `you question outdated systems for personal truth.`, `you need independence from traditional advice.` ], futureHealthReversed: [ `you will question outdated systems for personal truth.`, `you will need independence from traditional advice.` ] }, { name: The Lovers, reversed: false, image: `` , pastMoney: [ `you have formed beneficial partnerships for career gain.`, `you have made aligned choices leading to financial harmony.` ], presentMoney: [ `you form beneficial partnerships for career gain.`, `you make aligned choices leading to financial harmony.` ], futureMoney: [ `you will form beneficial partnerships for career gain.`, `you will make aligned choices leading to financial harmony.` ], pastMoneyReversed: [ `you have faced miscommunication in business teams.`, `you have broken partnerships due to imbalance.` ], presentMoneyReversed: [ `you face miscommunication in business teams.`, `you break partnerships due to imbalance.` ], futureMoneyReversed: [ `you will face miscommunication in business teams.`, `you will break partnerships due to imbalance.` ], pastRelationships: [ `you have built unity and trust in a romantic connection.`, `you have achieved emotional balance with a partner.` ], presentRelationships: [ `you build unity and trust in a romantic connection.`, `you achieve emotional balance with a partner.` ], futureRelationships: [ `you will build unity and trust in a romantic connection.`, `you will achieve emotional balance with a partner.` ], pastRelationshipsReversed: [ `you have encountered betrayal eroding commitment.`, `you have dealt with conflicting goals in a bond.` ], presentRelationshipsReversed: [ `you encounter betrayal eroding commitment.`, `you deal with conflicting goals in a bond.` ], futureRelationshipsReversed: [ `you will encounter betrayal eroding commitment.`, `you will deal with conflicting goals in a bond.` ], pastHealth: [ `you have aligned heart and soul for vitality.`, `you have fostered well-being through conscious decisions.` ], presentHealth: [ `you align heart and soul for vitality.`, `you foster well-being through conscious decisions.` ], futureHealth: [ `you will align heart and soul for vitality.`, `you will foster well-being through conscious decisions.` ], pastHealthReversed: [ `you have prioritized self-love amid disharmony.`, `you have addressed temptation affecting balance.` ], presentHealthReversed: [ `you prioritize self-love amid disharmony.`, `you address temptation affecting balance.` ], futureHealthReversed: [ `you will prioritize self-love amid disharmony.`, `you will address temptation affecting balance.` ] }, { name: The Chariot, reversed: false, image: `` , pastMoney: [ `you have overcome competition for career triumph.`, `you have focused determination on financial progress.` ], presentMoney: [ `you overcome competition for career triumph.`, `you focus determination on financial progress.` ], futureMoney: [ `you will overcome competition for career triumph.`, `you will focus determination on financial progress.` ], pastMoneyReversed: [ `you have experienced stagnation in projects.`, `you have faced indecision delaying financial goals.` ], presentMoneyReversed: [ `you experience stagnation in projects.`, `you face indecision delaying financial goals.` ], futureMoneyReversed: [ `you will experience stagnation in projects.`, `you will face indecision delaying financial goals.` ], pastRelationships: [ `you have moved forward with purpose in a partnership.`, `you have balanced commitments for relational success.` ], presentRelationships: [ `you move forward with purpose in a partnership.`, `you balance commitments for relational success.` ], futureRelationships: [ `you will move forward with purpose in a partnership.`, `you will balance commitments for relational success.` ], pastRelationshipsReversed: [ `you have navigated power struggles in a bond.`, `you have lacked shared direction with a partner.` ], presentRelationshipsReversed: [ `you navigate power struggles in a bond.`, `you lack shared direction with a partner.` ], futureRelationshipsReversed: [ `you will navigate power struggles in a bond.`, `you will lack shared direction with a partner.` ], pastHealth: [ `you have persisted through obstacles for recovery.`, `you have mastered dualities for inner control.` ], presentHealth: [ `you persist through obstacles for recovery.`, `you master dualities for inner control.` ], futureHealth: [ `you will persist through obstacles for recovery.`, `you will master dualities for inner control.` ], pastHealthReversed: [ `you have needed alignment to avoid frustration.`, `you have dealt with impatience impacting well-being.` ], presentHealthReversed: [ `you need alignment to avoid frustration.`, `you deal with impatience impacting well-being.` ], futureHealthReversed: [ `you will need alignment to avoid frustration.`, `you will deal with impatience impacting well-being.` ] }, { name: Strength, reversed: false, image: `` , pastMoney: [ `you have shown resilience in facing career challenges.`, `you have used determination to achieve financial stability.` ], presentMoney: [ `you show resilience in facing career challenges.`, `you use determination to achieve financial stability.` ], futureMoney: [ `you will show resilience in facing career challenges.`, `you will use determination to achieve financial stability.` ], pastMoneyReversed: [ `you have burned out from low confidence in work.`, `you have avoided challenges due to insecurity.` ], presentMoneyReversed: [ `you burn out from low confidence in work.`, `you avoid challenges due to insecurity.` ], futureMoneyReversed: [ `you will burn out from low confidence in work.`, `you will avoid challenges due to insecurity.` ], pastRelationships: [ `you have nurtured mutual respect in a partnership.`, `you have balanced emotions with compassion.` ], presentRelationships: [ `you nurture mutual respect in a partnership.`, `you balance emotions with compassion.` ], futureRelationships: [ `you will nurture mutual respect in a partnership.`, `you will balance emotions with compassion.` ], pastRelationshipsReversed: [ `you have dealt with jealousy disrupting balance.`, `you have exhibited dominance in romantic interactions.` ], presentRelationshipsReversed: [ `you deal with jealousy disrupting balance.`, `you exhibit dominance in romantic interactions.` ], futureRelationshipsReversed: [ `you will deal with jealousy disrupting balance.`, `you will exhibit dominance in romantic interactions.` ], pastHealth: [ `you have overcome fears through gentle perseverance.`, `you have built inner strength for vitality.` ], presentHealth: [ `you overcome fears through gentle perseverance.`, `you build inner strength for vitality.` ], futureHealth: [ `you will overcome fears through gentle perseverance.`, `you will build inner strength for vitality.` ], pastHealthReversed: [ `you have struggled with self-control issues.`, `you have needed patience to restore well-being.` ], presentHealthReversed: [ `you struggle with self-control issues.`, `you need patience to restore well-being.` ], futureHealthReversed: [ `you will struggle with self-control issues.`, `you will need patience to restore well-being.` ] }, { name: The Hermit, reversed: false, image: `` , pastMoney: [ `you have researched independently for career clarity.`, `you have planned finances through introspection.` ], presentMoney: [ `you research independently for career clarity.`, `you plan finances through introspection.` ], futureMoney: [ `you will research independently for career clarity.`, `you will plan finances through introspection.` ], pastMoneyReversed: [ `you have resisted teamwork in professional matters.`, `you have overthought leading to career confusion.` ], presentMoneyReversed: [ `you resist teamwork in professional matters.`, `you overthink leading to career confusion.` ], futureMoneyReversed: [ `you will resist teamwork in professional matters.`, `you will overthink leading to career confusion.` ], pastRelationships: [ `you have reflected during a period of solitude.`, `you have sought inner guidance for relational wisdom.` ], presentRelationships: [ `you reflect during a period of solitude.`, `you seek inner guidance for relational wisdom.` ], futureRelationships: [ `you will reflect during a period of solitude.`, `you will seek inner guidance for relational wisdom.` ], pastRelationshipsReversed: [ `you have felt loneliness from lack of communication.`, `you have avoided reality in a partnership.` ], presentRelationshipsReversed: [ `you feel loneliness from lack of communication.`, `you avoid reality in a partnership.` ], futureRelationshipsReversed: [ `you will feel loneliness from lack of communication.`, `you will avoid reality in a partnership.` ], pastHealth: [ `you have stepped back for well-being insights.`, `you have meditated to achieve personal enlightenment.` ], presentHealth: [ `you step back for well-being insights.`, `you meditate to achieve personal enlightenment.` ], futureHealth: [ `you will step back for well-being insights.`, `you will meditate to achieve personal enlightenment.` ], pastHealthReversed: [ `you have evaded responsibilities impacting vitality.`, `you have needed connection to overcome isolation.` ], presentHealthReversed: [ `you evade responsibilities impacting vitality.`, `you need connection to overcome isolation.` ], futureHealthReversed: [ `you will evade responsibilities impacting vitality.`, `you will need connection to overcome isolation.` ] }, { name: Wheel of Fortune, reversed: false, image: `` , pastMoney: [ `you have seized unexpected opportunities for gain.`, `you have adapted to cycles for financial expansion.` ], presentMoney: [ `you seize unexpected opportunities for gain.`, `you adapt to cycles for financial expansion.` ], futureMoney: [ `you will seize unexpected opportunities for gain.`, `you will adapt to cycles for financial expansion.` ], pastMoneyReversed: [ `you have missed timing on financial prospects.`, `you have faced setbacks from resistance to change.` ], presentMoneyReversed: [ `you miss timing on financial prospects.`, `you face setbacks from resistance to change.` ], futureMoneyReversed: [ `you will miss timing on financial prospects.`, `you will face setbacks from resistance to change.` ], pastRelationships: [ `you have entered karmic connections with shifts.`, `you have embraced changes for relational progress.` ], presentRelationships: [ `you enter karmic connections with shifts.`, `you embrace changes for relational progress.` ], futureRelationships: [ `you will enter karmic connections with shifts.`, `you will embrace changes for relational progress.` ], pastRelationshipsReversed: [ `you have dealt with instability and misunderstandings.`, `you have repeated old patterns in bonds.` ], presentRelationshipsReversed: [ `you deal with instability and misunderstandings.`, `you repeat old patterns in bonds.` ], futureRelationshipsReversed: [ `you will deal with instability and misunderstandings.`, `you will repeat old patterns in bonds.` ], pastHealth: [ `you have flowed with cycles for renewal.`, `you have trusted divine timing for well-being.` ], presentHealth: [ `you flow with cycles for renewal.`, `you trust divine timing for well-being.` ], futureHealth: [ `you will flow with cycles for renewal.`, `you will trust divine timing for well-being.` ], pastHealthReversed: [ `you have struggled against natural shifts.`, `you have learned lessons from unlearned cycles.` ], presentHealthReversed: [ `you struggle against natural shifts.`, `you learn lessons from unlearned cycles.` ], futureHealthReversed: [ `you will struggle against natural shifts.`, `you will learn lessons from unlearned cycles.` ] }, { name: Justice, reversed: false, image: `` , pastMoney: [ `you have handled contracts with ethical decisions.`, `you have achieved balance through accountability.` ], presentMoney: [ `you handle contracts with ethical decisions.`, `you achieve balance through accountability.` ], futureMoney: [ `you will handle contracts with ethical decisions.`, `you will achieve balance through accountability.` ], pastMoneyReversed: [ `you have encountered workplace injustice.`, `you have made unethical choices in finances.` ], presentMoneyReversed: [ `you encounter workplace injustice.`, `you make unethical choices in finances.` ], futureMoneyReversed: [ `you will encounter workplace injustice.`, `you will make unethical choices in finances.` ], pastRelationships: [ `you have built trust with fairness and honesty.`, `you have committed based on moral clarity.` ], presentRelationships: [ `you build trust with fairness and honesty.`, `you commit based on moral clarity.` ], futureRelationships: [ `you will build trust with fairness and honesty.`, `you will commit based on moral clarity.` ], pastRelationshipsReversed: [ `you have faced lies creating imbalance.`, `you have dealt with hidden agendas in bonds.` ], presentRelationshipsReversed: [ `you face lies creating imbalance.`, `you deal with hidden agendas in bonds.` ], futureRelationshipsReversed: [ `you will face lies creating imbalance.`, `you will deal with hidden agendas in bonds.` ], pastHealth: [ `you have taken responsibility for healing.`, `you have maintained integrity in well-being choices.` ], presentHealth: [ `you take responsibility for healing.`, `you maintain integrity in well-being choices.` ], futureHealth: [ `you will take responsibility for healing.`, `you will maintain integrity in well-being choices.` ], pastHealthReversed: [ `you have ignored truths delaying recovery.`, `you have avoided accountability for vitality.` ], presentHealthReversed: [ `you ignore truths delaying recovery.`, `you avoid accountability for vitality.` ], futureHealthReversed: [ `you will ignore truths delaying recovery.`, `you will avoid accountability for vitality.` ] }, { name: The Hanged Man, reversed: false, image: `` , pastMoney: [ `you have reevaluated career paths for new perspectives.`, `you have surrendered to delays for transformation.` ], presentMoney: [ `you reevaluate career paths for new perspectives.`, `you surrender to delays for transformation.` ], futureMoney: [ `you will reevaluate career paths for new perspectives.`, `you will surrender to delays for transformation.` ], pastMoneyReversed: [ `you have resisted necessary changes in work.`, `you have felt trapped by indecision financially.` ], presentMoneyReversed: [ `you resist necessary changes in work.`, `you feel trapped by indecision financially.` ], futureMoneyReversed: [ `you will resist necessary changes in work.`, `you will feel trapped by indecision financially.` ], pastRelationships: [ `you have let go of ego for deeper insights.`, `you have sacrificed for spiritual growth in a bond.` ], presentRelationships: [ `you let go of ego for deeper insights.`, `you sacrifice for spiritual growth in a bond.` ], futureRelationships: [ `you will let go of ego for deeper insights.`, `you will sacrifice for spiritual growth in a bond.` ], pastRelationshipsReversed: [ `you have clung to outdated ideas in partnerships.`, `you have avoided shifts due to fear.` ], presentRelationshipsReversed: [ `you cling to outdated ideas in partnerships.`, `you avoid shifts due to fear.` ], futureRelationshipsReversed: [ `you will cling to outdated ideas in partnerships.`, `you will avoid shifts due to fear.` ], pastHealth: [ `you have paused for clarity in well-being.`, `you have released old views for renewal.` ], presentHealth: [ `you pause for clarity in well-being.`, `you release old views for renewal.` ], futureHealth: [ `you will pause for clarity in well-being.`, `you will release old views for renewal.` ], pastHealthReversed: [ `you have delayed progress in wellness.`, `you have needed surrender to move forward.` ], presentHealthReversed: [ `you delay progress in wellness.`, `you need surrender to move forward.` ], futureHealthReversed: [ `you will delay progress in wellness.`, `you will need surrender to move forward.` ] }, { name: Death, reversed: false, image: `` , pastMoney: [ `you have ended toxic financial situations for rebirth.`, `you have transformed career paths through release.` ], presentMoney: [ `you end toxic financial situations for rebirth.`, `you transform career paths through release.` ], futureMoney: [ `you will end toxic financial situations for rebirth.`, `you will transform career paths through release.` ], pastMoneyReversed: [ `you have delayed necessary endings in finances.`, `you have feared transformation in career.` ], presentMoneyReversed: [ `you delay necessary endings in finances.`, `you fear transformation in career.` ], futureMoneyReversed: [ `you will delay necessary endings in finances.`, `you will fear transformation in career.` ], pastRelationships: [ `you have closed unhealthy bonds for new beginnings.`, `you have let go of past patterns in love.` ], presentRelationships: [ `you close unhealthy bonds for new beginnings.`, `you let go of past patterns in love.` ], futureRelationships: [ `you will close unhealthy bonds for new beginnings.`, `you will let go of past patterns in love.` ], pastRelationshipsReversed: [ `you have avoided difficult talks in partnerships.`, `you have prolonged toxic connections.` ], presentRelationshipsReversed: [ `you avoid difficult talks in partnerships.`, `you prolong toxic connections.` ], futureRelationshipsReversed: [ `you will avoid difficult talks in partnerships.`, `you will prolong toxic connections.` ], pastHealth: [ `you have released old habits for renewal.`, `you have embraced change for vitality.` ], presentHealth: [ `you release old habits for renewal.`, `you embrace change for vitality.` ], futureHealth: [ `you will release old habits for renewal.`, `you will embrace change for vitality.` ], pastHealthReversed: [ `you have clung to past patterns affecting well-being.`, `you have resisted transitions for healing.` ], presentHealthReversed: [ `you cling to past patterns affecting well-being.`, `you resist transitions for healing.` ], futureHealthReversed: [ `you will cling to past patterns affecting well-being.`, `you will resist transitions for healing.` ] }, { name: Temperance, reversed: false, image: `` , pastMoney: [ `you have balanced work and finances harmoniously.`, `you have blended resources with patience for growth.` ], presentMoney: [ `you balance work and finances harmoniously.`, `you blend resources with patience for growth.` ], futureMoney: [ `you will balance work and finances harmoniously.`, `you will blend resources with patience for growth.` ], pastMoneyReversed: [ `you have rushed outcomes leading to imbalance.`, `you have overindulged in financial pursuits.` ], presentMoneyReversed: [ `you rush outcomes leading to imbalance.`, `you overindulge in financial pursuits.` ], futureMoneyReversed: [ `you will rush outcomes leading to imbalance.`, `you will overindulge in financial pursuits.` ], pastRelationships: [ `you have sought peace after conflicts in bonds.`, `you have achieved equilibrium in emotional ties.` ], presentRelationships: [ `you seek peace after conflicts in bonds.`, `you achieve equilibrium in emotional ties.` ], futureRelationships: [ `you will seek peace after conflicts in bonds.`, `you will achieve equilibrium in emotional ties.` ], pastRelationshipsReversed: [ `you have dived too quickly into connections.`, `you have faced excess disrupting harmony.` ], presentRelationshipsReversed: [ `you dive too quickly into connections.`, `you face excess disrupting harmony.` ], futureRelationshipsReversed: [ `you will dive too quickly into connections.`, `you will face excess disrupting harmony.` ], pastHealth: [ `you have found moderation in daily habits.`, `you have harmonized opposites for well-being.` ], presentHealth: [ `you find moderation in daily habits.`, `you harmonize opposites for well-being.` ], futureHealth: [ `you will find moderation in daily habits.`, `you will harmonize opposites for well-being.` ], pastHealthReversed: [ `you have struggled with impatience in routines.`, `you have needed balance to restore vitality.` ], presentHealthReversed: [ `you struggle with impatience in routines.`, `you need balance to restore vitality.` ], futureHealthReversed: [ `you will struggle with impatience in routines.`, `you will need balance to restore vitality.` ] }, { name: The Devil, reversed: false, image: `` , pastMoney: [ `you have focused excessively on material wealth.`, `you have been tempted by unhealthy financial attachments.` ], presentMoney: [ `you focus excessively on material wealth.`, `you face temptation by unhealthy financial attachments.` ], futureMoney: [ `you will focus excessively on material wealth.`, `you will face temptation by unhealthy financial attachments.` ], pastMoneyReversed: [ `you have recognized limiting habits in finances.`, `you have broken free from material traps.` ], presentMoneyReversed: [ `you recognize limiting habits in finances.`, `you break free from material traps.` ], futureMoneyReversed: [ `you will recognize limiting habits in finances.`, `you will break free from material traps.` ], pastRelationships: [ `you have entered toxic partnerships.`, `you have confronted shadow behaviors in bonds.` ], presentRelationships: [ `you enter toxic partnerships.`, `you confront shadow behaviors in bonds.` ], futureRelationships: [ `you will enter toxic partnerships.`, `you will confront shadow behaviors in bonds.` ], pastRelationshipsReversed: [ `you have taken steps toward liberation in love.`, `you have overcome destructive dynamics.` ], presentRelationshipsReversed: [ `you take steps toward liberation in love.`, `you overcome destructive dynamics.` ], futureRelationshipsReversed: [ `you will take steps toward liberation in love.`, `you will overcome destructive dynamics.` ], pastHealth: [ `you have dealt with addictive habits.`, `you have faced chains of unhealthy patterns.` ], presentHealth: [ `you deal with addictive habits.`, `you face chains of unhealthy patterns.` ], futureHealth: [ `you will deal with addictive habits.`, `you will face chains of unhealthy patterns.` ], pastHealthReversed: [ `you have addressed addictions for recovery.`, `you have gained awareness of patterns.` ], presentHealthReversed: [ `you address addictions for recovery.`, `you gain awareness of patterns.` ], futureHealthReversed: [ `you will address addictions for recovery.`, `you will gain awareness of patterns.` ] }, { name: The Tower, reversed: false, image: `` , pastMoney: [ `you have faced sudden upheaval in career.`, `you have dismantled false financial foundations.` ], presentMoney: [ `you face sudden upheaval in career.`, `you dismantle false financial foundations.` ], futureMoney: [ `you will face sudden upheaval in career.`, `you will dismantle false financial foundations.` ], pastMoneyReversed: [ `you have clung to crumbling financial situations.`, `you have resisted inevitable work changes.` ], presentMoneyReversed: [ `you cling to crumbling financial situations.`, `you resist inevitable work changes.` ], futureMoneyReversed: [ `you will cling to crumbling financial situations.`, `you will resist inevitable work changes.` ], pastRelationships: [ `you have experienced shocking truths in bonds.`, `you have cleared way for new relational growth.` ], presentRelationships: [ `you experience shocking truths in bonds.`, `you clear way for new relational growth.` ], futureRelationships: [ `you will experience shocking truths in bonds.`, `you will clear way for new relational growth.` ], pastRelationshipsReversed: [ `you have feared necessary shifts in partnerships.`, `you have avoided confrontations in love.` ], presentRelationshipsReversed: [ `you fear necessary shifts in partnerships.`, `you avoid confrontations in love.` ], futureRelationshipsReversed: [ `you will fear necessary shifts in partnerships.`, `you will avoid confrontations in love.` ], pastHealth: [ `you have broken down unstable wellness bases.`, `you have revealed issues for transformation.` ], presentHealth: [ `you break down unstable wellness bases.`, `you reveal issues for transformation.` ], futureHealth: [ `you will break down unstable wellness bases.`, `you will reveal issues for transformation.` ], pastHealthReversed: [ `you have delayed addressing health breakdowns.`, `you have needed acceptance for renewal.` ], presentHealthReversed: [ `you delay addressing health breakdowns.`, `you need acceptance for renewal.` ], futureHealthReversed: [ `you will delay addressing health breakdowns.`, `you will need acceptance for renewal.` ] }, { name: The Star, reversed: false, image: `` , pastMoney: [ `you have seen brighter prospects in finances.`, `you have inspired hope for career renewal.` ], presentMoney: [ `you see brighter prospects in finances.`, `you inspire hope for career renewal.` ], futureMoney: [ `you will see brighter prospects in finances.`, `you will inspire hope for career renewal.` ], pastMoneyReversed: [ `you have felt uncertainty in financial paths.`, `you have faced discouragement in career goals.` ], presentMoneyReversed: [ `you feel uncertainty in financial paths.`, `you face discouragement in career goals.` ], futureMoneyReversed: [ `you will feel uncertainty in financial paths.`, `you will face discouragement in career goals.` ], pastRelationships: [ `you have found reassurance in future connections.`, `you have healed through faith in bonds.` ], presentRelationships: [ `you find reassurance in future connections.`, `you heal through faith in bonds.` ], futureRelationships: [ `you will find reassurance in future connections.`, `you will heal through faith in bonds.` ], pastRelationshipsReversed: [ `you have disconnected from hope in love.`, `you have lacked direction in partnerships.` ], presentRelationshipsReversed: [ `you disconnect from hope in love.`, `you lack direction in partnerships.` ], futureRelationshipsReversed: [ `you will disconnect from hope in love.`, `you will lack direction in partnerships.` ], pastHealth: [ `you have connected with inner light for healing.`, `you have embraced inspiration for vitality.` ], presentHealth: [ `you connect with inner light for healing.`, `you embrace inspiration for vitality.` ], futureHealth: [ `you will connect with inner light for healing.`, `you will embrace inspiration for vitality.` ], pastHealthReversed: [ `you have struggled with faith in well-being.`, `you have needed reconnection for renewal.` ], presentHealthReversed: [ `you struggle with faith in well-being.`, `you need reconnection for renewal.` ], futureHealthReversed: [ `you will struggle with faith in well-being.`, `you will need reconnection for renewal.` ] }, { name: The Moon, reversed: false, image: `` , pastMoney: [ `you have navigated illusions in financial matters.`, `you have trusted intuition amid career uncertainty.` ], presentMoney: [ `you navigate illusions in financial matters.`, `you trust intuition amid career uncertainty.` ], futureMoney: [ `you will navigate illusions in financial matters.`, `you will trust intuition amid career uncertainty.` ], pastMoneyReversed: [ `you have gained clarity after financial confusion.`, `you have released fears in career decisions.` ], presentMoneyReversed: [ `you gain clarity after financial confusion.`, `you release fears in career decisions.` ], futureMoneyReversed: [ `you will gain clarity after financial confusion.`, `you will release fears in career decisions.` ], pastRelationships: [ `you have dealt with hidden emotions in bonds.`, `you have explored subconscious depths in love.` ], presentRelationships: [ `you deal with hidden emotions in bonds.`, `you explore subconscious depths in love.` ], futureRelationships: [ `you will deal with hidden emotions in bonds.`, `you will explore subconscious depths in love.` ], pastRelationshipsReversed: [ `you have overcome deceptions in partnerships.`, `you have found truth after relational doubts.` ], presentRelationshipsReversed: [ `you overcome deceptions in partnerships.`, `you find truth after relational doubts.` ], futureRelationshipsReversed: [ `you will overcome deceptions in partnerships.`, `you will find truth after relational doubts.` ], pastHealth: [ `you have faced insecurities affecting well-being.`, `you have uncovered illusions in health routines.` ], presentHealth: [ `you face insecurities affecting well-being.`, `you uncover illusions in health routines.` ], futureHealth: [ `you will face insecurities affecting well-being.`, `you will uncover illusions in health routines.` ], pastHealthReversed: [ `you have lifted confusion for better vitality.`, `you have confronted unknown fears in wellness.` ], presentHealthReversed: [ `you lift confusion for better vitality.`, `you confront unknown fears in wellness.` ], futureHealthReversed: [ `you will lift confusion for better vitality.`, `you will confront unknown fears in wellness.` ] }, { name: The Sun, reversed: false, image: `` , pastMoney: [ `you have achieved success and prosperity in finances.`, `you have enjoyed abundance through positive outcomes.` ], presentMoney: [ `you achieve success and prosperity in finances.`, `you enjoy abundance through positive outcomes.` ], futureMoney: [ `you will achieve success and prosperity in finances.`, `you will enjoy abundance through positive outcomes.` ], pastMoneyReversed: [ `you have faced temporary setbacks in career.`, `you have dealt with delays in financial gains.` ], presentMoneyReversed: [ `you face temporary setbacks in career.`, `you deal with delays in financial gains.` ], futureMoneyReversed: [ `you will face temporary setbacks in career.`, `you will deal with delays in financial gains.` ], pastRelationships: [ `you have built joyful and enlightening bonds.`, `you have experienced happy harmony in love.` ], presentRelationships: [ `you build joyful and enlightening bonds.`, `you experience happy harmony in love.` ], futureRelationships: [ `you will build joyful and enlightening bonds.`, `you will experience happy harmony in love.` ], pastRelationshipsReversed: [ `you have encountered lack of confidence in bonds.`, `you have navigated cloudy optimism in love.` ], presentRelationshipsReversed: [ `you encounter lack of confidence in bonds.`, `you navigate cloudy optimism in love.` ], futureRelationshipsReversed: [ `you will encounter lack of confidence in bonds.`, `you will navigate cloudy optimism in love.` ], pastHealth: [ `you have embraced vitality and clarity in well-being.`, `you have found childlike joy in physical state.` ], presentHealth: [ `you embrace vitality and clarity in well-being.`, `you find childlike joy in physical state.` ], futureHealth: [ `you will embrace vitality and clarity in well-being.`, `you will find childlike joy in physical state.` ], pastHealthReversed: [ `you have overcome short-term sadness for renewal.`, `you have addressed unrealistic expectations in wellness.` ], presentHealthReversed: [ `you overcome short-term sadness for renewal.`, `you address unrealistic expectations in wellness.` ], futureHealthReversed: [ `you will overcome short-term sadness for renewal.`, `you will address unrealistic expectations in wellness.` ] }, { name: Judgement, reversed: false, image: `` , pastMoney: [ `you have awakened to new career opportunities.`, `you have reflected on past for financial renewal.` ], presentMoney: [ `you awaken to new career opportunities.`, `you reflect on past for financial renewal.` ], futureMoney: [ `you will awaken to new career opportunities.`, `you will reflect on past for financial renewal.` ], pastMoneyReversed: [ `you have doubted decisions in finances.`, `you have delayed career advancements.` ], presentMoneyReversed: [ `you doubt decisions in finances.`, `you delay career advancements.` ], futureMoneyReversed: [ `you will doubt decisions in finances.`, `you will delay career advancements.` ], pastRelationships: [ `you have faced karma for relational growth.`, `you have made decisive moves in love.` ], presentRelationships: [ `you face karma for relational growth.`, `you make decisive moves in love.` ], futureRelationships: [ `you will face karma for relational growth.`, `you will make decisive moves in love.` ], pastRelationshipsReversed: [ `you have ignored calls for change in bonds.`, `you have avoided renewal in partnerships.` ], presentRelationshipsReversed: [ `you ignore calls for change in bonds.`, `you avoid renewal in partnerships.` ], futureRelationshipsReversed: [ `you will ignore calls for change in bonds.`, `you will avoid renewal in partnerships.` ], pastHealth: [ `you have embraced resurrection in well-being.`, `you have sorted complex issues for vitality.` ], presentHealth: [ `you embrace resurrection in well-being.`, `you sort complex issues for vitality.` ], futureHealth: [ `you will embrace resurrection in well-being.`, `you will sort complex issues for vitality.` ], pastHealthReversed: [ `you have resisted reflection impacting health.`, `you have needed acceptance for progress.` ], presentHealthReversed: [ `you resist reflection impacting health.`, `you need acceptance for progress.` ], futureHealthReversed: [ `you will resist reflection impacting health.`, `you will need acceptance for progress.` ] }, { name: The World, reversed: false, image: `` , pastMoney: [ `you have completed a cycle for financial fulfillment.`, `you have achieved wholeness in career accomplishments.` ], presentMoney: [ `you complete a cycle for financial fulfillment.`, `you achieve wholeness in career accomplishments.` ], futureMoney: [ `you will complete a cycle for financial fulfillment.`, `you will achieve wholeness in career accomplishments.` ], pastMoneyReversed: [ `you have left unfinished business in finances.`, `you have faced delays in career closure.` ], presentMoneyReversed: [ `you leave unfinished business in finances.`, `you face delays in career closure.` ], futureMoneyReversed: [ `you will leave unfinished business in finances.`, `you will face delays in career closure.` ], pastRelationships: [ `you have found completion in meaningful bonds.`, `you have integrated harmony in love.` ], presentRelationships: [ `you find completion in meaningful bonds.`, `you integrate harmony in love.` ], futureRelationships: [ `you will find completion in meaningful bonds.`, `you will integrate harmony in love.` ], pastRelationshipsReversed: [ `you have isolated from full connections.`, `you have abandoned relational ventures.` ], presentRelationshipsReversed: [ `you isolate from full connections.`, `you abandon relational ventures.` ], futureRelationshipsReversed: [ `you will isolate from full connections.`, `you will abandon relational ventures.` ], pastHealth: [ `you have attained balance and integration in well-being.`, `you have celebrated successful health journeys.` ], presentHealth: [ `you attain balance and integration in well-being.`, `you celebrate successful health journeys.` ], futureHealth: [ `you will attain balance and integration in well-being.`, `you will celebrate successful health journeys.` ], pastHealthReversed: [ `you have lacked closure in wellness goals.`, `you have needed discipline to complete cycles.` ], presentHealthReversed: [ `you lack closure in wellness goals.`, `you need discipline to complete cycles.` ], futureHealthReversed: [ `you will lack closure in wellness goals.`, `you will need discipline to complete cycles.` ] } ]
-[ { name: Ace of Wands, reversed: false, image: `` , pastMoney: [ `you have ignited a new creative venture for financial potential.`, `you have seized inspiration leading to career beginnings.` ], presentMoney: [ `you ignite a new creative venture for financial potential.`, `you seize inspiration leading to career beginnings.` ], futureMoney: [ `you will ignite a new creative venture for financial potential.`, `you will seize inspiration leading to career beginnings.` ], pastMoneyReversed: [ `you have delayed starting a promising project.`, `you have lacked motivation in financial pursuits.` ], presentMoneyReversed: [ `you delay starting a promising project.`, `you lack motivation in financial pursuits.` ], futureMoneyReversed: [ `you will delay starting a promising project.`, `you will lack motivation in financial pursuits.` ], pastRelationships: [ `you have sparked passion in a fresh romantic connection.`, `you have embraced enthusiasm for deeper bonds.` ], presentRelationships: [ `you spark passion in a fresh romantic connection.`, `you embrace enthusiasm for deeper bonds.` ], futureRelationships: [ `you will spark passion in a fresh romantic connection.`, `you will embrace enthusiasm for deeper bonds.` ], pastRelationshipsReversed: [ `you have faced blocks in expressing desires.`, `you have hesitated in pursuing romantic interests.` ], presentRelationshipsReversed: [ `you face blocks in expressing desires.`, `you hesitate in pursuing romantic interests.` ], futureRelationshipsReversed: [ `you will face blocks in expressing desires.`, `you will hesitate in pursuing romantic interests.` ], pastHealth: [ `you have started energetic pursuits for vitality.`, `you have tapped into inner drive for well-being.` ], presentHealth: [ `you start energetic pursuits for vitality.`, `you tap into inner drive for well-being.` ], futureHealth: [ `you will start energetic pursuits for vitality.`, `you will tap into inner drive for well-being.` ], pastHealthReversed: [ `you have ignored calls for physical renewal.`, `you have struggled with low energy levels.` ], presentHealthReversed: [ `you ignore calls for physical renewal.`, `you struggle with low energy levels.` ], futureHealthReversed: [ `you will ignore calls for physical renewal.`, `you will struggle with low energy levels.` ] }, { name: Two of Wands, reversed: false, image: `` , pastMoney: [ `you have planned long-term financial strategies.`, `you have explored global opportunities for growth.` ], presentMoney: [ `you plan long-term financial strategies.`, `you explore global opportunities for growth.` ], futureMoney: [ `you will plan long-term financial strategies.`, `you will explore global opportunities for growth.` ], pastMoneyReversed: [ `you have feared expansion in career choices.`, `you have limited options due to indecision.` ], presentMoneyReversed: [ `you fear expansion in career choices.`, `you limit options due to indecision.` ], futureMoneyReversed: [ `you will fear expansion in career choices.`, `you will limit options due to indecision.` ], pastRelationships: [ `you have considered future commitments with a partner.`, `you have balanced personal goals in a bond.` ], presentRelationships: [ `you consider future commitments with a partner.`, `you balance personal goals in a bond.` ], futureRelationships: [ `you will consider future commitments with a partner.`, `you will balance personal goals in a bond.` ], pastRelationshipsReversed: [ `you have avoided planning in romantic matters.`, `you have felt restricted in relational progress.` ], presentRelationshipsReversed: [ `you avoid planning in romantic matters.`, `you feel restricted in relational progress.` ], futureRelationshipsReversed: [ `you will avoid planning in romantic matters.`, `you will feel restricted in relational progress.` ], pastHealth: [ `you have envisioned paths to better wellness.`, `you have prepared for sustained health efforts.` ], presentHealth: [ `you envision paths to better wellness.`, `you prepare for sustained health efforts.` ], futureHealth: [ `you will envision paths to better wellness.`, `you will prepare for sustained health efforts.` ], pastHealthReversed: [ `you have resisted changes for improvement.`, `you have needed focus to avoid stagnation.` ], presentHealthReversed: [ `you resist changes for improvement.`, `you need focus to avoid stagnation.` ], futureHealthReversed: [ `you will resist changes for improvement.`, `you will need focus to avoid stagnation.` ] }, { name: Three of Wands, reversed: false, image: `` , pastMoney: [ `you have expanded ventures with foresight.`, `you have awaited returns on investments.` ], presentMoney: [ `you expand ventures with foresight.`, `you await returns on investments.` ], futureMoney: [ `you will expand ventures with foresight.`, `you will await returns on investments.` ], pastMoneyReversed: [ `you have encountered delays in financial plans.`, `you have overextended in business pursuits.` ], presentMoneyReversed: [ `you encounter delays in financial plans.`, `you overextend in business pursuits.` ], futureMoneyReversed: [ `you will encounter delays in financial plans.`, `you will overextend in business pursuits.` ], pastRelationships: [ `you have built foundations for lasting bonds.`, `you have collaborated on shared visions.` ], presentRelationships: [ `you build foundations for lasting bonds.`, `you collaborate on shared visions.` ], futureRelationships: [ `you will build foundations for lasting bonds.`, `you will collaborate on shared visions.` ], pastRelationshipsReversed: [ `you have faced setbacks in partnership growth.`, `you have lacked alignment with a loved one.` ], presentRelationshipsReversed: [ `you face setbacks in partnership growth.`, `you lack alignment with a loved one.` ], futureRelationshipsReversed: [ `you will face setbacks in partnership growth.`, `you will lack alignment with a loved one.` ], pastHealth: [ `you have progressed toward wellness goals.`, `you have explored new health horizons.` ], presentHealth: [ `you progress toward wellness goals.`, `you explore new health horizons.` ], futureHealth: [ `you will progress toward wellness goals.`, `you will explore new health horizons.` ], pastHealthReversed: [ `you have dealt with obstacles in recovery.`, `you have needed patience for vitality.` ], presentHealthReversed: [ `you deal with obstacles in recovery.`, `you need patience for vitality.` ], futureHealthReversed: [ `you will deal with obstacles in recovery.`, `you will need patience for vitality.` ] }, { name: Four of Wands, reversed: false, image: `` , pastMoney: [ `you have achieved stability in home finances.`, `you have celebrated career milestones.` ], presentMoney: [ `you achieve stability in home finances.`, `you celebrate career milestones.` ], futureMoney: [ `you will achieve stability in home finances.`, `you will celebrate career milestones.` ], pastMoneyReversed: [ `you have experienced instability in work life.`, `you have delayed financial celebrations.` ], presentMoneyReversed: [ `you experience instability in work life.`, `you delay financial celebrations.` ], futureMoneyReversed: [ `you will experience instability in work life.`, `you will delay financial celebrations.` ], pastRelationships: [ `you have built harmonious family connections.`, `you have enjoyed relational security.` ], presentRelationships: [ `you build harmonious family connections.`, `you enjoy relational security.` ], futureRelationships: [ `you will build harmonious family connections.`, `you will enjoy relational security.` ], pastRelationshipsReversed: [ `you have faced conflicts in domestic bonds.`, `you have lacked commitment in partnerships.` ], presentRelationshipsReversed: [ `you face conflicts in domestic bonds.`, `you lack commitment in partnerships.` ], futureRelationshipsReversed: [ `you will face conflicts in domestic bonds.`, `you will lack commitment in partnerships.` ], pastHealth: [ `you have found balance in daily routines.`, `you have rested after accomplishments.` ], presentHealth: [ `you find balance in daily routines.`, `you rest after accomplishments.` ], futureHealth: [ `you will find balance in daily routines.`, `you will rest after accomplishments.` ], pastHealthReversed: [ `you have ignored rest leading to imbalance.`, `you have needed grounding for well-being.` ], presentHealthReversed: [ `you ignore rest leading to imbalance.`, `you need grounding for well-being.` ], futureHealthReversed: [ `you will ignore rest leading to imbalance.`, `you will need grounding for well-being.` ] }, { name: Five of Wands, reversed: false, image: `` , pastMoney: [ `you have competed for career opportunities.`, `you have navigated conflicts in business.` ], presentMoney: [ `you compete for career opportunities.`, `you navigate conflicts in business.` ], futureMoney: [ `you will compete for career opportunities.`, `you will navigate conflicts in business.` ], pastMoneyReversed: [ `you have avoided unnecessary work rivalries.`, `you have resolved financial disputes.` ], presentMoneyReversed: [ `you avoid unnecessary work rivalries.`, `you resolve financial disputes.` ], futureMoneyReversed: [ `you will avoid unnecessary work rivalries.`, `you will resolve financial disputes.` ], pastRelationships: [ `you have argued passionately in a bond.`, `you have tested limits with a partner.` ], presentRelationships: [ `you argue passionately in a bond.`, `you test limits with a partner.` ], futureRelationships: [ `you will argue passionately in a bond.`, `you will test limits with a partner.` ], pastRelationshipsReversed: [ `you have ended petty conflicts in love.`, `you have sought peace after tension.` ], presentRelationshipsReversed: [ `you end petty conflicts in love.`, `you seek peace after tension.` ], futureRelationshipsReversed: [ `you will end petty conflicts in love.`, `you will seek peace after tension.` ], pastHealth: [ `you have pushed through physical challenges.`, `you have built resilience via effort.` ], presentHealth: [ `you push through physical challenges.`, `you build resilience via effort.` ], futureHealth: [ `you will push through physical challenges.`, `you will build resilience via effort.` ], pastHealthReversed: [ `you have released stress for recovery.`, `you have found calm amid struggles.` ], presentHealthReversed: [ `you release stress for recovery.`, `you find calm amid struggles.` ], futureHealthReversed: [ `you will release stress for recovery.`, `you will find calm amid struggles.` ] }, { name: Six of Wands, reversed: false, image: `` , pastMoney: [ `you have achieved public recognition in career.`, `you have succeeded in financial endeavors.` ], presentMoney: [ `you achieve public recognition in career.`, `you succeed in financial endeavors.` ], futureMoney: [ `you will achieve public recognition in career.`, `you will succeed in financial endeavors.` ], pastMoneyReversed: [ `you have faced delays in career acclaim.`, `you have dealt with ego issues in finances.` ], presentMoneyReversed: [ `you face delays in career acclaim.`, `you deal with ego issues in finances.` ], futureMoneyReversed: [ `you will face delays in career acclaim.`, `you will deal with ego issues in finances.` ], pastRelationships: [ `you have celebrated victories in partnerships.`, `you have gained admiration from a loved one.` ], presentRelationships: [ `you celebrate victories in partnerships.`, `you gain admiration from a loved one.` ], futureRelationships: [ `you will celebrate victories in partnerships.`, `you will gain admiration from a loved one.` ], pastRelationshipsReversed: [ `you have encountered jealousy in bonds.`, `you have lacked support from a partner.` ], presentRelationshipsReversed: [ `you encounter jealousy in bonds.`, `you lack support from a partner.` ], futureRelationshipsReversed: [ `you will encounter jealousy in bonds.`, `you will lack support from a partner.` ], pastHealth: [ `you have overcome health hurdles triumphantly.`, `you have boosted confidence in well-being.` ], presentHealth: [ `you overcome health hurdles triumphantly.`, `you boost confidence in well-being.` ], futureHealth: [ `you will overcome health hurdles triumphantly.`, `you will boost confidence in well-being.` ], pastHealthReversed: [ `you have struggled with self-doubt in recovery.`, `you have needed humility for vitality.` ], presentHealthReversed: [ `you struggle with self-doubt in recovery.`, `you need humility for vitality.` ], futureHealthReversed: [ `you will struggle with self-doubt in recovery.`, `you will need humility for vitality.` ] }, { name: Seven of Wands, reversed: false, image: `` , pastMoney: [ `you have defended your position in business.`, `you have stood firm against competition.` ], presentMoney: [ `you defend your position in business.`, `you stand firm against competition.` ], futureMoney: [ `you will defend your position in business.`, `you will stand firm against competition.` ], pastMoneyReversed: [ `you have felt overwhelmed by work demands.`, `you have surrendered unneeded fights.` ], presentMoneyReversed: [ `you feel overwhelmed by work demands.`, `you surrender unneeded fights.` ], futureMoneyReversed: [ `you will feel overwhelmed by work demands.`, `you will surrender unneeded fights.` ], pastRelationships: [ `you have protected boundaries in a bond.`, `you have asserted needs with a partner.` ], presentRelationships: [ `you protect boundaries in a bond.`, `you assert needs with a partner.` ], futureRelationships: [ `you will protect boundaries in a bond.`, `you will assert needs with a partner.` ], pastRelationshipsReversed: [ `you have avoided defensive arguments.`, `you have sought compromise in love.` ], presentRelationshipsReversed: [ `you avoid defensive arguments.`, `you seek compromise in love.` ], futureRelationshipsReversed: [ `you will avoid defensive arguments.`, `you will seek compromise in love.` ], pastHealth: [ `you have persevered through wellness battles.`, `you have maintained strength under pressure.` ], presentHealth: [ `you persevere through wellness battles.`, `you maintain strength under pressure.` ], futureHealth: [ `you will persevere through wellness battles.`, `you will maintain strength under pressure.` ], pastHealthReversed: [ `you have released tension for healing.`, `you have needed rest to regain energy.` ], presentHealthReversed: [ `you release tension for healing.`, `you need rest to regain energy.` ], futureHealthReversed: [ `you will release tension for healing.`, `you will need rest to regain energy.` ] }, { name: Eight of Wands, reversed: false, image: `` , pastMoney: [ `you have experienced rapid financial progress.`, `you have communicated swiftly in business.` ], presentMoney: [ `you experience rapid financial progress.`, `you communicate swiftly in business.` ], futureMoney: [ `you will experience rapid financial progress.`, `you will communicate swiftly in business.` ], pastMoneyReversed: [ `you have faced delays in career momentum.`, `you have dealt with rushed decisions.` ], presentMoneyReversed: [ `you face delays in career momentum.`, `you deal with rushed decisions.` ], futureMoneyReversed: [ `you will face delays in career momentum.`, `you will deal with rushed decisions.` ], pastRelationships: [ `you have advanced quickly in romantic pursuits.`, `you have exchanged passionate messages.` ], presentRelationships: [ `you advance quickly in romantic pursuits.`, `you exchange passionate messages.` ], futureRelationships: [ `you will advance quickly in romantic pursuits.`, `you will exchange passionate messages.` ], pastRelationshipsReversed: [ `you have encountered miscommunications in bonds.`, `you have slowed down impulsive actions.` ], presentRelationshipsReversed: [ `you encounter miscommunications in bonds.`, `you slow down impulsive actions.` ], futureRelationshipsReversed: [ `you will encounter miscommunications in bonds.`, `you will slow down impulsive actions.` ], pastHealth: [ `you have seen fast improvements in vitality.`, `you have embraced dynamic energy flows.` ], presentHealth: [ `you see fast improvements in vitality.`, `you embrace dynamic energy flows.` ], futureHealth: [ `you will see fast improvements in vitality.`, `you will embrace dynamic energy flows.` ], pastHealthReversed: [ `you have needed patience amid setbacks.`, `you have addressed haste affecting well-being.` ], presentHealthReversed: [ `you need patience amid setbacks.`, `you address haste affecting well-being.` ], futureHealthReversed: [ `you will need patience amid setbacks.`, `you will address haste affecting well-being.` ] }, { name: Nine of Wands, reversed: false, image: `` , pastMoney: [ `you have persisted through career challenges.`, `you have guarded financial achievements.` ], presentMoney: [ `you persist through career challenges.`, `you guard financial achievements.` ], futureMoney: [ `you will persist through career challenges.`, `you will guard financial achievements.` ], pastMoneyReversed: [ `you have felt exhausted by work struggles.`, `you have dropped unnecessary defenses.` ], presentMoneyReversed: [ `you feel exhausted by work struggles.`, `you drop unnecessary defenses.` ], futureMoneyReversed: [ `you will feel exhausted by work struggles.`, `you will drop unnecessary defenses.` ], pastRelationships: [ `you have remained resilient in partnerships.`, `you have protected emotional boundaries.` ], presentRelationships: [ `you remain resilient in partnerships.`, `you protect emotional boundaries.` ], futureRelationships: [ `you will remain resilient in partnerships.`, `you will protect emotional boundaries.` ], pastRelationshipsReversed: [ `you have let go of paranoia in love.`, `you have sought support after isolation.` ], presentRelationshipsReversed: [ `you let go of paranoia in love.`, `you seek support after isolation.` ], futureRelationshipsReversed: [ `you will let go of paranoia in love.`, `you will seek support after isolation.` ], pastHealth: [ `you have recovered from past health issues.`, `you have built endurance for well-being.` ], presentHealth: [ `you recover from past health issues.`, `you build endurance for well-being.` ], futureHealth: [ `you will recover from past health issues.`, `you will build endurance for well-being.` ], pastHealthReversed: [ `you have addressed burnout for renewal.`, `you have needed trust in healing processes.` ], presentHealthReversed: [ `you address burnout for renewal.`, `you need trust in healing processes.` ], futureHealthReversed: [ `you will address burnout for renewal.`, `you will need trust in healing processes.` ] }, { name: Ten of Wands, reversed: false, image: `` , pastMoney: [ `you have shouldered heavy financial burdens.`, `you have worked hard toward completion.` ], presentMoney: [ `you shoulder heavy financial burdens.`, `you work hard toward completion.` ], futureMoney: [ `you will shoulder heavy financial burdens.`, `you will work hard toward completion.` ], pastMoneyReversed: [ `you have released overwhelming work loads.`, `you have delegated financial duties.` ], presentMoneyReversed: [ `you release overwhelming work loads.`, `you delegate financial duties.` ], futureMoneyReversed: [ `you will release overwhelming work loads.`, `you will delegate financial duties.` ], pastRelationships: [ `you have carried relational responsibilities.`, `you have committed despite exhaustion.` ], presentRelationships: [ `you carry relational responsibilities.`, `you commit despite exhaustion.` ], futureRelationships: [ `you will carry relational responsibilities.`, `you will commit despite exhaustion.` ], pastRelationshipsReversed: [ `you have lightened emotional baggage.`, `you have avoided burnout in bonds.` ], presentRelationshipsReversed: [ `you lighten emotional baggage.`, `you avoid burnout in bonds.` ], futureRelationshipsReversed: [ `you will lighten emotional baggage.`, `you will avoid burnout in bonds.` ], pastHealth: [ `you have pushed limits for wellness goals.`, `you have managed multiple health tasks.` ], presentHealth: [ `you push limits for wellness goals.`, `you manage multiple health tasks.` ], futureHealth: [ `you will push limits for wellness goals.`, `you will manage multiple health tasks.` ], pastHealthReversed: [ `you have prioritized rest for recovery.`, `you have simplified routines for vitality.` ], presentHealthReversed: [ `you prioritize rest for recovery.`, `you simplify routines for vitality.` ], futureHealthReversed: [ `you will prioritize rest for recovery.`, `you will simplify routines for vitality.` ] }, { name: Page of Wands, reversed: false, image: `` , pastMoney: [ `you have explored creative career ideas.`, `you have received inspiring financial news.` ], presentMoney: [ `you explore creative career ideas.`, `you receive inspiring financial news.` ], futureMoney: [ `you will explore creative career ideas.`, `you will receive inspiring financial news.` ], pastMoneyReversed: [ `you have delayed pursuing work passions.`, `you have lacked focus in financial plans.` ], presentMoneyReversed: [ `you delay pursuing work passions.`, `you lack focus in financial plans.` ], futureMoneyReversed: [ `you will delay pursuing work passions.`, `you will lack focus in financial plans.` ], pastRelationships: [ `you have flirted with new romantic interests.`, `you have brought enthusiasm to a bond.` ], presentRelationships: [ `you flirt with new romantic interests.`, `you bring enthusiasm to a bond.` ], futureRelationships: [ `you will flirt with new romantic interests.`, `you will bring enthusiasm to a bond.` ], pastRelationshipsReversed: [ `you have shown inconsistency in love.`, `you have avoided romantic commitments.` ], presentRelationshipsReversed: [ `you show inconsistency in love.`, `you avoid romantic commitments.` ], futureRelationshipsReversed: [ `you will show inconsistency in love.`, `you will avoid romantic commitments.` ], pastHealth: [ `you have tried adventurous wellness activities.`, `you have sparked motivation for fitness.` ], presentHealth: [ `you try adventurous wellness activities.`, `you spark motivation for fitness.` ], futureHealth: [ `you will try adventurous wellness activities.`, `you will spark motivation for fitness.` ], pastHealthReversed: [ `you have ignored inner calls for change.`, `you have faced scattered energy levels.` ], presentHealthReversed: [ `you ignore inner calls for change.`, `you face scattered energy levels.` ], futureHealthReversed: [ `you will ignore inner calls for change.`, `you will face scattered energy levels.` ] }, { name: Knight of Wands, reversed: false, image: `` , pastMoney: [ `you have pursued bold career adventures.`, `you have acted impulsively on financial opportunities.` ], presentMoney: [ `you pursue bold career adventures.`, `you act impulsively on financial opportunities.` ], futureMoney: [ `you will pursue bold career adventures.`, `you will act impulsively on financial opportunities.` ], pastMoneyReversed: [ `you have rushed into unstable ventures.`, `you have abandoned projects prematurely.` ], presentMoneyReversed: [ `you rush into unstable ventures.`, `you abandon projects prematurely.` ], futureMoneyReversed: [ `you will rush into unstable ventures.`, `you will abandon projects prematurely.` ], pastRelationships: [ `you have chased passionate connections.`, `you have brought excitement to partnerships.` ], presentRelationships: [ `you chase passionate connections.`, `you bring excitement to partnerships.` ], futureRelationships: [ `you will chase passionate connections.`, `you will bring excitement to partnerships.` ], pastRelationshipsReversed: [ `you have acted recklessly in love.`, `you have lacked follow-through in bonds.` ], presentRelationshipsReversed: [ `you act recklessly in love.`, `you lack follow-through in bonds.` ], futureRelationshipsReversed: [ `you will act recklessly in love.`, `you will lack follow-through in bonds.` ], pastHealth: [ `you have engaged in dynamic physical pursuits.`, `you have embraced change for vitality.` ], presentHealth: [ `you engage in dynamic physical pursuits.`, `you embrace change for vitality.` ], futureHealth: [ `you will engage in dynamic physical pursuits.`, `you will embrace change for vitality.` ], pastHealthReversed: [ `you have overexerted leading to fatigue.`, `you have needed grounding for well-being.` ], presentHealthReversed: [ `you overexert leading to fatigue.`, `you need grounding for well-being.` ], futureHealthReversed: [ `you will overexert leading to fatigue.`, `you will need grounding for well-being.` ] }, { name: Queen of Wands, reversed: false, image: `` , pastMoney: [ `you have led with confidence in business.`, `you have nurtured creative financial growth.` ], presentMoney: [ `you lead with confidence in business.`, `you nurture creative financial growth.` ], futureMoney: [ `you will lead with confidence in business.`, `you will nurture creative financial growth.` ], pastMoneyReversed: [ `you have faced jealousy in career matters.`, `you have overextended in work efforts.` ], presentMoneyReversed: [ `you face jealousy in career matters.`, `you overextend in work efforts.` ], futureMoneyReversed: [ `you will face jealousy in career matters.`, `you will overextend in work efforts.` ], pastRelationships: [ `you have attracted with charisma and warmth.`, `you have empowered independent bonds.` ], presentRelationships: [ `you attract with charisma and warmth.`, `you empower independent bonds.` ], futureRelationships: [ `you will attract with charisma and warmth.`, `you will empower independent bonds.` ], pastRelationshipsReversed: [ `you have shown possessiveness in love.`, `you have lacked self-assurance in partnerships.` ], presentRelationshipsReversed: [ `you show possessiveness in love.`, `you lack self-assurance in partnerships.` ], futureRelationshipsReversed: [ `you will show possessiveness in love.`, `you will lack self-assurance in partnerships.` ], pastHealth: [ `you have maintained vibrant energy.`, `you have balanced self-care with activity.` ], presentHealth: [ `you maintain vibrant energy.`, `you balance self-care with activity.` ], futureHealth: [ `you will maintain vibrant energy.`, `you will balance self-care with activity.` ], pastHealthReversed: [ `you have dealt with burnout from demands.`, `you have needed boundaries for vitality.` ], presentHealthReversed: [ `you deal with burnout from demands.`, `you need boundaries for vitality.` ], futureHealthReversed: [ `you will deal with burnout from demands.`, `you will need boundaries for vitality.` ] }, { name: King of Wands, reversed: false, image: `` , pastMoney: [ `you have envisioned grand financial plans.`, `you have led entrepreneurial ventures successfully.` ], presentMoney: [ `you envision grand financial plans.`, `you lead entrepreneurial ventures successfully.` ], futureMoney: [ `you will envision grand financial plans.`, `you will lead entrepreneurial ventures successfully.` ], pastMoneyReversed: [ `you have acted impulsively in business.`, `you have lacked vision in career goals.` ], presentMoneyReversed: [ `you act impulsively in business.`, `you lack vision in career goals.` ], futureMoneyReversed: [ `you will act impulsively in business.`, `you will lack vision in career goals.` ], pastRelationships: [ `you have inspired passion in partnerships.`, `you have provided stable leadership in love.` ], presentRelationships: [ `you inspire passion in partnerships.`, `you provide stable leadership in love.` ], futureRelationships: [ `you will inspire passion in partnerships.`, `you will provide stable leadership in love.` ], pastRelationshipsReversed: [ `you have dominated romantic dynamics.`, `you have avoided emotional depth.` ], presentRelationshipsReversed: [ `you dominate romantic dynamics.`, `you avoid emotional depth.` ], futureRelationshipsReversed: [ `you will dominate romantic dynamics.`, `you will avoid emotional depth.` ], pastHealth: [ `you have directed energy toward wellness.`, `you have achieved holistic vitality.` ], presentHealth: [ `you direct energy toward wellness.`, `you achieve holistic vitality.` ], futureHealth: [ `you will direct energy toward wellness.`, `you will achieve holistic vitality.` ], pastHealthReversed: [ `you have ignored sustainable habits.`, `you have faced scattered well-being efforts.` ], presentHealthReversed: [ `you ignore sustainable habits.`, `you face scattered well-being efforts.` ], futureHealthReversed: [ `you will ignore sustainable habits.`, `you will face scattered well-being efforts.` ] } ]
-[ { name: Ace of Cups, reversed: false, image: `` , pastMoney: [ `you have opened to new emotional investments.`, `you have received compassionate support in finances.` ], presentMoney: [ `you open to new emotional investments.`, `you receive compassionate support in finances.` ], futureMoney: [ `you will open to new emotional investments.`, `you will receive compassionate support in finances.` ], pastMoneyReversed: [ `you have blocked financial intuition.`, `you have drained resources emotionally.` ], presentMoneyReversed: [ `you block financial intuition.`, `you drain resources emotionally.` ], futureMoneyReversed: [ `you will block financial intuition.`, `you will drain resources emotionally.` ], pastRelationships: [ `you have begun a loving emotional bond.`, `you have overflowed with affection.` ], presentRelationships: [ `you begin a loving emotional bond.`, `you overflow with affection.` ], futureRelationships: [ `you will begin a loving emotional bond.`, `you will overflow with affection.` ], pastRelationshipsReversed: [ `you have repressed feelings in love.`, `you have faced emotional unavailability.` ], presentRelationshipsReversed: [ `you repress feelings in love.`, `you face emotional unavailability.` ], futureRelationshipsReversed: [ `you will repress feelings in love.`, `you will face emotional unavailability.` ], pastHealth: [ `you have embraced emotional healing.`, `you have nurtured inner peace.` ], presentHealth: [ `you embrace emotional healing.`, `you nurture inner peace.` ], futureHealth: [ `you will embrace emotional healing.`, `you will nurture inner peace.` ], pastHealthReversed: [ `you have ignored self-care needs.`, `you have suffered emotional exhaustion.` ], presentHealthReversed: [ `you ignore self-care needs.`, `you suffer emotional exhaustion.` ], futureHealthReversed: [ `you will ignore self-care needs.`, `you will suffer emotional exhaustion.` ] }, { name: Two of Cups, reversed: false, image: `` , pastMoney: [ `you have formed harmonious business partnerships.`, `you have balanced financial exchanges.` ], presentMoney: [ `you form harmonious business partnerships.`, `you balance financial exchanges.` ], futureMoney: [ `you will form harmonious business partnerships.`, `you will balance financial exchanges.` ], pastMoneyReversed: [ `you have faced imbalances in work alliances.`, `you have dealt with financial mistrust.` ], presentMoneyReversed: [ `you face imbalances in work alliances.`, `you deal with financial mistrust.` ], futureMoneyReversed: [ `you will face imbalances in work alliances.`, `you will deal with financial mistrust.` ], pastRelationships: [ `you have united in mutual attraction.`, `you have shared deep emotional connections.` ], presentRelationships: [ `you unite in mutual attraction.`, `you share deep emotional connections.` ], futureRelationships: [ `you will unite in mutual attraction.`, `you will share deep emotional connections.` ], pastRelationshipsReversed: [ `you have experienced tension in partnerships.`, `you have broken emotional bonds.` ], presentRelationshipsReversed: [ `you experience tension in partnerships.`, `you break emotional bonds.` ], futureRelationshipsReversed: [ `you will experience tension in partnerships.`, `you will break emotional bonds.` ], pastHealth: [ `you have harmonized mind and body.`, `you have fostered emotional well-being.` ], presentHealth: [ `you harmonize mind and body.`, `you foster emotional well-being.` ], futureHealth: [ `you will harmonize mind and body.`, `you will foster emotional well-being.` ], pastHealthReversed: [ `you have struggled with inner conflict.`, `you have needed balance in vitality.` ], presentHealthReversed: [ `you struggle with inner conflict.`, `you need balance in vitality.` ], futureHealthReversed: [ `you will struggle with inner conflict.`, `you will need balance in vitality.` ] }, { name: Three of Cups, reversed: false, image: `` , pastMoney: [ `you have collaborated successfully in teams.`, `you have celebrated financial achievements.` ], presentMoney: [ `you collaborate successfully in teams.`, `you celebrate financial achievements.` ], futureMoney: [ `you will collaborate successfully in teams.`, `you will celebrate financial achievements.` ], pastMoneyReversed: [ `you have overindulged in work socializing.`, `you have isolated from financial networks.` ], presentMoneyReversed: [ `you overindulge in work socializing.`, `you isolate from financial networks.` ], futureMoneyReversed: [ `you will overindulge in work socializing.`, `you will isolate from financial networks.` ], pastRelationships: [ `you have enjoyed friendships and community.`, `you have shared joyful bonds.` ], presentRelationships: [ `you enjoy friendships and community.`, `you share joyful bonds.` ], futureRelationships: [ `you will enjoy friendships and community.`, `you will share joyful bonds.` ], pastRelationshipsReversed: [ `you have faced gossip in social circles.`, `you have felt excluded from groups.` ], presentRelationshipsReversed: [ `you face gossip in social circles.`, `you feel excluded from groups.` ], futureRelationshipsReversed: [ `you will face gossip in social circles.`, `you will feel excluded from groups.` ], pastHealth: [ `you have supported group wellness activities.`, `you have found joy in healing.` ], presentHealth: [ `you support group wellness activities.`, `you find joy in healing.` ], futureHealth: [ `you will support group wellness activities.`, `you will find joy in healing.` ], pastHealthReversed: [ `you have neglected self-care in excess.`, `you have needed solitude for recovery.` ], presentHealthReversed: [ `you neglect self-care in excess.`, `you need solitude for recovery.` ], futureHealthReversed: [ `you will neglect self-care in excess.`, `you will need solitude for recovery.` ] }, { name: Four of Cups, reversed: false, image: `` , pastMoney: [ `you have contemplated financial offers.`, `you have felt apathy toward career paths.` ], presentMoney: [ `you contemplate financial offers.`, `you feel apathy toward career paths.` ], futureMoney: [ `you will contemplate financial offers.`, `you will feel apathy toward career paths.` ], pastMoneyReversed: [ `you have accepted new work opportunities.`, `you have emerged from financial stagnation.` ], presentMoneyReversed: [ `you accept new work opportunities.`, `you emerge from financial stagnation.` ], futureMoneyReversed: [ `you will accept new work opportunities.`, `you will emerge from financial stagnation.` ], pastRelationships: [ `you have withdrawn emotionally from bonds.`, `you have ignored potential connections.` ], presentRelationships: [ `you withdraw emotionally from bonds.`, `you ignore potential connections.` ], futureRelationships: [ `you will withdraw emotionally from bonds.`, `you will ignore potential connections.` ], pastRelationshipsReversed: [ `you have reengaged in love interests.`, `you have appreciated existing partnerships.` ], presentRelationshipsReversed: [ `you reengage in love interests.`, `you appreciate existing partnerships.` ], futureRelationshipsReversed: [ `you will reengage in love interests.`, `you will appreciate existing partnerships.` ], pastHealth: [ `you have meditated on well-being choices.`, `you have felt discontent with health routines.` ], presentHealth: [ `you meditate on well-being choices.`, `you feel discontent with health routines.` ], futureHealth: [ `you will meditate on well-being choices.`, `you will feel discontent with health routines.` ], pastHealthReversed: [ `you have motivated for health improvements.`, `you have broken from lethargy.` ], presentHealthReversed: [ `you motivate for health improvements.`, `you break from lethargy.` ], futureHealthReversed: [ `you will motivate for health improvements.`, `you will break from lethargy.` ] }, { name: Five of Cups, reversed: false, image: `` , pastMoney: [ `you have mourned financial losses.`, `you have focused on career regrets.` ], presentMoney: [ `you mourn financial losses.`, `you focus on career regrets.` ], futureMoney: [ `you will mourn financial losses.`, `you will focus on career regrets.` ], pastMoneyReversed: [ `you have forgiven past financial mistakes.`, `you have recovered from work setbacks.` ], presentMoneyReversed: [ `you forgive past financial mistakes.`, `you recover from work setbacks.` ], futureMoneyReversed: [ `you will forgive past financial mistakes.`, `you will recover from work setbacks.` ], pastRelationships: [ `you have grieved over broken bonds.`, `you have dwelled on emotional disappointments.` ], presentRelationships: [ `you grieve over broken bonds.`, `you dwell on emotional disappointments.` ], futureRelationships: [ `you will grieve over broken bonds.`, `you will dwell on emotional disappointments.` ], pastRelationshipsReversed: [ `you have moved on from love losses.`, `you have found hope in new connections.` ], presentRelationshipsReversed: [ `you move on from love losses.`, `you find hope in new connections.` ], futureRelationshipsReversed: [ `you will move on from love losses.`, `you will find hope in new connections.` ], pastHealth: [ `you have felt sorrow over health issues.`, `you have ignored remaining vitality.` ], presentHealth: [ `you feel sorrow over health issues.`, `you ignore remaining vitality.` ], futureHealth: [ `you will feel sorrow over health issues.`, `you will ignore remaining vitality.` ], pastHealthReversed: [ `you have accepted health challenges.`, `you have focused on recovery positives.` ], presentHealthReversed: [ `you accept health challenges.`, `you focus on recovery positives.` ], futureHealthReversed: [ `you will accept health challenges.`, `you will focus on recovery positives.` ] }, { name: Six of Cups, reversed: false, image: `` , pastMoney: [ `you have revisited past financial successes.`, `you have drawn on childhood skills for career.` ], presentMoney: [ `you revisit past financial successes.`, `you draw on childhood skills for career.` ], futureMoney: [ `you will revisit past financial successes.`, `you will draw on childhood skills for career.` ], pastMoneyReversed: [ `you have let go of outdated financial habits.`, `you have moved beyond nostalgic investments.` ], presentMoneyReversed: [ `you let go of outdated financial habits.`, `you move beyond nostalgic investments.` ], futureMoneyReversed: [ `you will let go of outdated financial habits.`, `you will move beyond nostalgic investments.` ], pastRelationships: [ `you have reconnected with old friends.`, `you have cherished innocent love memories.` ], presentRelationships: [ `you reconnect with old friends.`, `you cherish innocent love memories.` ], futureRelationships: [ `you will reconnect with old friends.`, `you will cherish innocent love memories.` ], pastRelationshipsReversed: [ `you have released past emotional baggage.`, `you have focused on future bonds.` ], presentRelationshipsReversed: [ `you release past emotional baggage.`, `you focus on future bonds.` ], futureRelationshipsReversed: [ `you will release past emotional baggage.`, `you will focus on future bonds.` ], pastHealth: [ `you have healed through nostalgic practices.`, `you have nurtured inner child for well-being.` ], presentHealth: [ `you heal through nostalgic practices.`, `you nurture inner child for well-being.` ], futureHealth: [ `you will heal through nostalgic practices.`, `you will nurture inner child for well-being.` ], pastHealthReversed: [ `you have outgrown old health routines.`, `you have embraced new vitality methods.` ], presentHealthReversed: [ `you outgrow old health routines.`, `you embrace new vitality methods.` ], futureHealthReversed: [ `you will outgrow old health routines.`, `you will embrace new vitality methods.` ] }, { name: Seven of Cups, reversed: false, image: `` , pastMoney: [ `you have dreamed of multiple financial paths.`, `you have faced illusions in career choices.` ], presentMoney: [ `you dream of multiple financial paths.`, `you face illusions in career choices.` ], futureMoney: [ `you will dream of multiple financial paths.`, `you will face illusions in career choices.` ], pastMoneyReversed: [ `you have clarified financial priorities.`, `you have chosen realistic work goals.` ], presentMoneyReversed: [ `you clarify financial priorities.`, `you choose realistic work goals.` ], futureMoneyReversed: [ `you will clarify financial priorities.`, `you will choose realistic work goals.` ], pastRelationships: [ `you have fantasized about ideal loves.`, `you have explored emotional options.` ], presentRelationships: [ `you fantasize about ideal loves.`, `you explore emotional options.` ], futureRelationships: [ `you will fantasize about ideal loves.`, `you will explore emotional options.` ], pastRelationshipsReversed: [ `you have grounded in real connections.`, `you have avoided deceptive bonds.` ], presentRelationshipsReversed: [ `you ground in real connections.`, `you avoid deceptive bonds.` ], futureRelationshipsReversed: [ `you will ground in real connections.`, `you will avoid deceptive bonds.` ], pastHealth: [ `you have imagined wellness possibilities.`, `you have dealt with health delusions.` ], presentHealth: [ `you imagine wellness possibilities.`, `you deal with health delusions.` ], futureHealth: [ `you will imagine wellness possibilities.`, `you will deal with health delusions.` ], pastHealthReversed: [ `you have focused on practical healing.`, `you have dismissed false remedies.` ], presentHealthReversed: [ `you focus on practical healing.`, `you dismiss false remedies.` ], futureHealthReversed: [ `you will focus on practical healing.`, `you will dismiss false remedies.` ] }, { name: Eight of Cups, reversed: false, image: `` , pastMoney: [ `you have abandoned unfulfilling careers.`, `you have sought deeper financial meaning.` ], presentMoney: [ `you abandon unfulfilling careers.`, `you seek deeper financial meaning.` ], futureMoney: [ `you will abandon unfulfilling careers.`, `you will seek deeper financial meaning.` ], pastMoneyReversed: [ `you have avoided necessary work changes.`, `you have settled for financial mediocrity.` ], presentMoneyReversed: [ `you avoid necessary work changes.`, `you settle for financial mediocrity.` ], futureMoneyReversed: [ `you will avoid necessary work changes.`, `you will settle for financial mediocrity.` ], pastRelationships: [ `you have walked away from toxic bonds.`, `you have pursued emotional fulfillment.` ], presentRelationships: [ `you walk away from toxic bonds.`, `you pursue emotional fulfillment.` ], futureRelationships: [ `you will walk away from toxic bonds.`, `you will pursue emotional fulfillment.` ], pastRelationshipsReversed: [ `you have clung to failing partnerships.`, `you have feared relational solitude.` ], presentRelationshipsReversed: [ `you cling to failing partnerships.`, `you fear relational solitude.` ], futureRelationshipsReversed: [ `you will cling to failing partnerships.`, `you will fear relational solitude.` ], pastHealth: [ `you have left behind unhealthy habits.`, `you have journeyed toward better vitality.` ], presentHealth: [ `you leave behind unhealthy habits.`, `you journey toward better vitality.` ], futureHealth: [ `you will leave behind unhealthy habits.`, `you will journey toward better vitality.` ], pastHealthReversed: [ `you have resisted health transformations.`, `you have returned to old patterns.` ], presentHealthReversed: [ `you resist health transformations.`, `you return to old patterns.` ], futureHealthReversed: [ `you will resist health transformations.`, `you will return to old patterns.` ] }, { name: Nine of Cups, reversed: false, image: `` , pastMoney: [ `you have achieved financial satisfaction.`, `you have enjoyed material comforts.` ], presentMoney: [ `you achieve financial satisfaction.`, `you enjoy material comforts.` ], futureMoney: [ `you will achieve financial satisfaction.`, `you will enjoy material comforts.` ], pastMoneyReversed: [ `you have felt empty despite wealth.`, `you have pursued superficial gains.` ], presentMoneyReversed: [ `you feel empty despite wealth.`, `you pursue superficial gains.` ], futureMoneyReversed: [ `you will feel empty despite wealth.`, `you will pursue superficial gains.` ], pastRelationships: [ `you have fulfilled emotional wishes.`, `you have basked in loving harmony.` ], presentRelationships: [ `you fulfill emotional wishes.`, `you bask in loving harmony.` ], futureRelationships: [ `you will fulfill emotional wishes.`, `you will bask in loving harmony.` ], pastRelationshipsReversed: [ `you have experienced smugness in bonds.`, `you have lacked true connection.` ], presentRelationshipsReversed: [ `you experience smugness in bonds.`, `you lack true connection.` ], futureRelationshipsReversed: [ `you will experience smugness in bonds.`, `you will lack true connection.` ], pastHealth: [ `you have attained emotional well-being.`, `you have savored health abundance.` ], presentHealth: [ `you attain emotional well-being.`, `you savor health abundance.` ], futureHealth: [ `you will attain emotional well-being.`, `you will savor health abundance.` ], pastHealthReversed: [ `you have overindulged affecting vitality.`, `you have sought inner satisfaction.` ], presentHealthReversed: [ `you overindulge affecting vitality.`, `you seek inner satisfaction.` ], futureHealthReversed: [ `you will overindulge affecting vitality.`, `you will seek inner satisfaction.` ] }, { name: Ten of Cups, reversed: false, image: `` , pastMoney: [ `you have found family-supported finances.`, `you have achieved emotional wealth.` ], presentMoney: [ `you find family-supported finances.`, `you achieve emotional wealth.` ], futureMoney: [ `you will find family-supported finances.`, `you will achieve emotional wealth.` ], pastMoneyReversed: [ `you have disrupted financial harmony.`, `you have isolated in career pursuits.` ], presentMoneyReversed: [ `you disrupt financial harmony.`, `you isolate in career pursuits.` ], futureMoneyReversed: [ `you will disrupt financial harmony.`, `you will isolate in career pursuits.` ], pastRelationships: [ `you have enjoyed family bliss.`, `you have fulfilled relational dreams.` ], presentRelationships: [ `you enjoy family bliss.`, `you fulfill relational dreams.` ], futureRelationships: [ `you will enjoy family bliss.`, `you will fulfill relational dreams.` ], pastRelationshipsReversed: [ `you have faced family conflicts.`, `you have broken emotional ties.` ], presentRelationshipsReversed: [ `you face family conflicts.`, `you break emotional ties.` ], futureRelationshipsReversed: [ `you will face family conflicts.`, `you will break emotional ties.` ], pastHealth: [ `you have harmonized holistic well-being.`, `you have nurtured supportive health environments.` ], presentHealth: [ `you harmonize holistic well-being.`, `you nurture supportive health environments.` ], futureHealth: [ `you will harmonize holistic well-being.`, `you will nurture supportive health environments.` ], pastHealthReversed: [ `you have neglected emotional health.`, `you have needed family support for recovery.` ], presentHealthReversed: [ `you neglect emotional health.`, `you need family support for recovery.` ], futureHealthReversed: [ `you will neglect emotional health.`, `you will need family support for recovery.` ] }, { name: Page of Cups, reversed: false, image: `` , pastMoney: [ `you have approached finances creatively.`, `you have received intuitive work messages.` ], presentMoney: [ `you approach finances creatively.`, `you receive intuitive work messages.` ], futureMoney: [ `you will approach finances creatively.`, `you will receive intuitive work messages.` ], pastMoneyReversed: [ `you have blocked financial intuition.`, `you have lacked work inspiration.` ], presentMoneyReversed: [ `you block financial intuition.`, `you lack work inspiration.` ], futureMoneyReversed: [ `you will block financial intuition.`, `you will lack work inspiration.` ], pastRelationships: [ `you have explored sensitive emotions.`, `you have begun dreamy connections.` ], presentRelationships: [ `you explore sensitive emotions.`, `you begin dreamy connections.` ], futureRelationships: [ `you will explore sensitive emotions.`, `you will begin dreamy connections.` ], pastRelationshipsReversed: [ `you have shown emotional immaturity.`, `you have avoided vulnerability.` ], presentRelationshipsReversed: [ `you show emotional immaturity.`, `you avoid vulnerability.` ], futureRelationshipsReversed: [ `you will show emotional immaturity.`, `you will avoid vulnerability.` ], pastHealth: [ `you have listened to body intuition.`, `you have nurtured gentle healing.` ], presentHealth: [ `you listen to body intuition.`, `you nurture gentle healing.` ], futureHealth: [ `you will listen to body intuition.`, `you will nurture gentle healing.` ], pastHealthReversed: [ `you have ignored health signals.`, `you have faced emotional blocks in wellness.` ], presentHealthReversed: [ `you ignore health signals.`, `you face emotional blocks in wellness.` ], futureHealthReversed: [ `you will ignore health signals.`, `you will face emotional blocks in wellness.` ] }, { name: Knight of Cups, reversed: false, image: `` , pastMoney: [ `you have followed intuitive financial leads.`, `you have charmed in business dealings.` ], presentMoney: [ `you follow intuitive financial leads.`, `you charm in business dealings.` ], futureMoney: [ `you will follow intuitive financial leads.`, `you will charm in business dealings.` ], pastMoneyReversed: [ `you have been moody in work matters.`, `you have pursued unrealistic finances.` ], presentMoneyReversed: [ `you are moody in work matters.`, `you pursue unrealistic finances.` ], futureMoneyReversed: [ `you will be moody in work matters.`, `you will pursue unrealistic finances.` ], pastRelationships: [ `you have romanced with idealism.`, `you have offered emotional proposals.` ], presentRelationships: [ `you romance with idealism.`, `you offer emotional proposals.` ], futureRelationships: [ `you will romance with idealism.`, `you will offer emotional proposals.` ], pastRelationshipsReversed: [ `you have manipulated emotions in love.`, `you have disappointed in partnerships.` ], presentRelationshipsReversed: [ `you manipulate emotions in love.`, `you disappoint in partnerships.` ], futureRelationshipsReversed: [ `you will manipulate emotions in love.`, `you will disappoint in partnerships.` ], pastHealth: [ `you have pursued holistic therapies.`, `you have balanced emotions for vitality.` ], presentHealth: [ `you pursue holistic therapies.`, `you balance emotions for vitality.` ], futureHealth: [ `you will pursue holistic therapies.`, `you will balance emotions for vitality.` ], pastHealthReversed: [ `you have swung moods affecting health.`, `you have needed grounding in wellness.` ], presentHealthReversed: [ `you swing moods affecting health.`, `you need grounding in wellness.` ], futureHealthReversed: [ `you will swing moods affecting health.`, `you will need grounding in wellness.` ] }, { name: Queen of Cups, reversed: false, image: `` , pastMoney: [ `you have used compassion in finances.`, `you have trusted intuition in career.` ], presentMoney: [ `you use compassion in finances.`, `you trust intuition in career.` ], futureMoney: [ `you will use compassion in finances.`, `you will trust intuition in career.` ], pastMoneyReversed: [ `you have been emotionally dependent in work.`, `you have ignored financial boundaries.` ], presentMoneyReversed: [ `you are emotionally dependent in work.`, `you ignore financial boundaries.` ], futureMoneyReversed: [ `you will be emotionally dependent in work.`, `you will ignore financial boundaries.` ], pastRelationships: [ `you have nurtured empathetic bonds.`, `you have provided emotional support.` ], presentRelationships: [ `you nurture empathetic bonds.`, `you provide emotional support.` ], futureRelationships: [ `you will nurture empathetic bonds.`, `you will provide emotional support.` ], pastRelationshipsReversed: [ `you have smothered in love dynamics.`, `you have lacked self-care in partnerships.` ], presentRelationshipsReversed: [ `you smother in love dynamics.`, `you lack self-care in partnerships.` ], futureRelationshipsReversed: [ `you will smother in love dynamics.`, `you will lack self-care in partnerships.` ], pastHealth: [ `you have healed through kindness.`, `you have balanced inner emotions.` ], presentHealth: [ `you heal through kindness.`, `you balance inner emotions.` ], futureHealth: [ `you will heal through kindness.`, `you will balance inner emotions.` ], pastHealthReversed: [ `you have repressed feelings impacting vitality.`, `you have needed emotional release.` ], presentHealthReversed: [ `you repress feelings impacting vitality.`, `you need emotional release.` ], futureHealthReversed: [ `you will repress feelings impacting vitality.`, `you will need emotional release.` ] }, { name: King of Cups, reversed: false, image: `` , pastMoney: [ `you have led with emotional intelligence in business.`, `you have balanced finances compassionately.` ], presentMoney: [ `you lead with emotional intelligence in business.`, `you balance finances compassionately.` ], futureMoney: [ `you will lead with emotional intelligence in business.`, `you will balance finances compassionately.` ], pastMoneyReversed: [ `you have manipulated in financial dealings.`, `you have lacked work stability.` ], presentMoneyReversed: [ `you manipulate in financial dealings.`, `you lack work stability.` ], futureMoneyReversed: [ `you will manipulate in financial dealings.`, `you will lack work stability.` ], pastRelationships: [ `you have provided wise emotional guidance.`, `you have maintained calm in love.` ], presentRelationships: [ `you provide wise emotional guidance.`, `you maintain calm in love.` ], futureRelationships: [ `you will provide wise emotional guidance.`, `you will maintain calm in love.` ], pastRelationshipsReversed: [ `you have been emotionally distant.`, `you have suppressed feelings in bonds.` ], presentRelationshipsReversed: [ `you are emotionally distant.`, `you suppress feelings in bonds.` ], futureRelationshipsReversed: [ `you will be emotionally distant.`, `you will suppress feelings in bonds.` ], pastHealth: [ `you have mastered emotional well-being.`, `you have healed with diplomacy.` ], presentHealth: [ `you master emotional well-being.`, `you heal with diplomacy.` ], futureHealth: [ `you will master emotional well-being.`, `you will heal with diplomacy.` ], pastHealthReversed: [ `you have faced mood instability.`, `you have needed control over emotions.` ], presentHealthReversed: [ `you face mood instability.`, `you need control over emotions.` ], futureHealthReversed: [ `you will face mood instability.`, `you will need control over emotions.` ] } ]
-[ { name: Ace of Swords, reversed: false, image: `` , pastMoney: [ `you have claimed victory in financial disputes.`, `you have used clarity to cut through career confusion.` ], presentMoney: [ `you claim victory in financial disputes.`, `you use clarity to cut through career confusion.` ], futureMoney: [ `you will claim victory in financial disputes.`, `you will use clarity to cut through career confusion.` ], pastMoneyReversed: [ `you have faced mental blocks in finances.`, `you have delayed decisive work actions.` ], presentMoneyReversed: [ `you face mental blocks in finances.`, `you delay decisive work actions.` ], futureMoneyReversed: [ `you will face mental blocks in finances.`, `you will delay decisive work actions.` ], pastRelationships: [ `you have achieved breakthroughs in communication.`, `you have confronted truths in bonds.` ], presentRelationships: [ `you achieve breakthroughs in communication.`, `you confront truths in bonds.` ], futureRelationships: [ `you will achieve breakthroughs in communication.`, `you will confront truths in bonds.` ], pastRelationshipsReversed: [ `you have avoided honest discussions.`, `you have dealt with relational confusion.` ], presentRelationshipsReversed: [ `you avoid honest discussions.`, `you deal with relational confusion.` ], futureRelationshipsReversed: [ `you will avoid honest discussions.`, `you will deal with relational confusion.` ], pastHealth: [ `you have focused on mental sharpness for well-being.`, `you have overcome health obstacles with logic.` ], presentHealth: [ `you focus on mental sharpness for well-being.`, `you overcome health obstacles with logic.` ], futureHealth: [ `you will focus on mental sharpness for well-being.`, `you will overcome health obstacles with logic.` ], pastHealthReversed: [ `you have ignored clear health signals.`, `you have struggled with indecision in wellness.` ], presentHealthReversed: [ `you ignore clear health signals.`, `you struggle with indecision in wellness.` ], futureHealthReversed: [ `you will ignore clear health signals.`, `you will struggle with indecision in wellness.` ] }, { name: Two of Swords, reversed: false, image: `` , pastMoney: [ `you have faced tough financial choices.`, `you have avoided career decisions.` ], presentMoney: [ `you face tough financial choices.`, `you avoid career decisions.` ], futureMoney: [ `you will face tough financial choices.`, `you will avoid career decisions.` ], pastMoneyReversed: [ `you have removed blocks in finances.`, `you have made clear work choices.` ], presentMoneyReversed: [ `you remove blocks in finances.`, `you make clear work choices.` ], futureMoneyReversed: [ `you will remove blocks in finances.`, `you will make clear work choices.` ], pastRelationships: [ `you have stalled in emotional commitments.`, `you have ignored relational truths.` ], presentRelationships: [ `you stall in emotional commitments.`, `you ignore relational truths.` ], futureRelationships: [ `you will stall in emotional commitments.`, `you will ignore relational truths.` ], pastRelationshipsReversed: [ `you have confronted partnership issues.`, `you have achieved relational clarity.` ], presentRelationshipsReversed: [ `you confront partnership issues.`, `you achieve relational clarity.` ], futureRelationshipsReversed: [ `you will confront partnership issues.`, `you will achieve relational clarity.` ], pastHealth: [ `you have balanced mind-body conflicts.`, `you have delayed health actions.` ], presentHealth: [ `you balance mind-body conflicts.`, `you delay health actions.` ], futureHealth: [ `you will balance mind-body conflicts.`, `you will delay health actions.` ], pastHealthReversed: [ `you have overcome wellness indecision.`, `you have embraced health truths.` ], presentHealthReversed: [ `you overcome wellness indecision.`, `you embrace health truths.` ], futureHealthReversed: [ `you will overcome wellness indecision.`, `you will embrace health truths.` ] }, { name: Three of Swords, reversed: false, image: `` , pastMoney: [ `you have suffered financial heartbreak.`, `you have faced career betrayals.` ], presentMoney: [ `you suffer financial heartbreak.`, `you face career betrayals.` ], futureMoney: [ `you will suffer financial heartbreak.`, `you will face career betrayals.` ], pastMoneyReversed: [ `you have forgiven work losses.`, `you have recovered from financial pain.` ], presentMoneyReversed: [ `you forgive work losses.`, `you recover from financial pain.` ], futureMoneyReversed: [ `you will forgive work losses.`, `you will recover from financial pain.` ], pastRelationships: [ `you have endured emotional sorrow.`, `you have dealt with relational wounds.` ], presentRelationships: [ `you endure emotional sorrow.`, `you deal with relational wounds.` ], futureRelationships: [ `you will endure emotional sorrow.`, `you will deal with relational wounds.` ], pastRelationshipsReversed: [ `you have healed from love betrayals.`, `you have released partnership grudges.` ], presentRelationshipsReversed: [ `you heal from love betrayals.`, `you release partnership grudges.` ], futureRelationshipsReversed: [ `you will heal from love betrayals.`, `you will release partnership grudges.` ], pastHealth: [ `you have experienced health setbacks.`, `you have grieved over physical pain.` ], presentHealth: [ `you experience health setbacks.`, `you grieve over physical pain.` ], futureHealth: [ `you will experience health setbacks.`, `you will grieve over physical pain.` ], pastHealthReversed: [ `you have overcome wellness sorrow.`, `you have found health forgiveness.` ], presentHealthReversed: [ `you overcome wellness sorrow.`, `you find health forgiveness.` ], futureHealthReversed: [ `you will overcome wellness sorrow.`, `you will find health forgiveness.` ] }, { name: Four of Swords, reversed: false, image: `` , pastMoney: [ `you have rested after financial stress.`, `you have contemplated career recovery.` ], presentMoney: [ `you rest after financial stress.`, `you contemplate career recovery.` ], futureMoney: [ `you will rest after financial stress.`, `you will contemplate career recovery.` ], pastMoneyReversed: [ `you have returned to work prematurely.`, `you have faced renewed financial anxiety.` ], presentMoneyReversed: [ `you return to work prematurely.`, `you face renewed financial anxiety.` ], futureMoneyReversed: [ `you will return to work prematurely.`, `you will face renewed financial anxiety.` ], pastRelationships: [ `you have withdrawn for emotional healing.`, `you have meditated on bond issues.` ], presentRelationships: [ `you withdraw for emotional healing.`, `you meditate on bond issues.` ], futureRelationships: [ `you will withdraw for emotional healing.`, `you will meditate on bond issues.` ], pastRelationshipsReversed: [ `you have reentered partnerships hastily.`, `you have avoided necessary solitude.` ], presentRelationshipsReversed: [ `you reenter partnerships hastily.`, `you avoid necessary solitude.` ], futureRelationshipsReversed: [ `you will reenter partnerships hastily.`, `you will avoid necessary solitude.` ], pastHealth: [ `you have recuperated from illness.`, `you have practiced mindful rest.` ], presentHealth: [ `you recuperate from illness.`, `you practice mindful rest.` ], futureHealth: [ `you will recuperate from illness.`, `you will practice mindful rest.` ], pastHealthReversed: [ `you have pushed beyond health limits.`, `you have ignored recovery needs.` ], presentHealthReversed: [ `you push beyond health limits.`, `you ignore recovery needs.` ], futureHealthReversed: [ `you will push beyond health limits.`, `you will ignore recovery needs.` ] }, { name: Five of Swords, reversed: false, image: `` , pastMoney: [ `you have won financial battles unfairly.`, `you have faced career defeats.` ], presentMoney: [ `you win financial battles unfairly.`, `you face career defeats.` ], futureMoney: [ `you will win financial battles unfairly.`, `you will face career defeats.` ], pastMoneyReversed: [ `you have forgiven work conflicts.`, `you have moved past financial losses.` ], presentMoneyReversed: [ `you forgive work conflicts.`, `you move past financial losses.` ], futureMoneyReversed: [ `you will forgive work conflicts.`, `you will move past financial losses.` ], pastRelationships: [ `you have engaged in hurtful arguments.`, `you have experienced relational bullying.` ], presentRelationships: [ `you engage in hurtful arguments.`, `you experience relational bullying.` ], futureRelationships: [ `you will engage in hurtful arguments.`, `you will experience relational bullying.` ], pastRelationshipsReversed: [ `you have released grudges in love.`, `you have sought relational peace.` ], presentRelationshipsReversed: [ `you release grudges in love.`, `you seek relational peace.` ], futureRelationshipsReversed: [ `you will release grudges in love.`, `you will seek relational peace.` ], pastHealth: [ `you have battled mental stress.`, `you have ignored health warnings.` ], presentHealth: [ `you battle mental stress.`, `you ignore health warnings.` ], futureHealth: [ `you will battle mental stress.`, `you will ignore health warnings.` ], pastHealthReversed: [ `you have accepted health defeats.`, `you have focused on wellness recovery.` ], presentHealthReversed: [ `you accept health defeats.`, `you focus on wellness recovery.` ], futureHealthReversed: [ `you will accept health defeats.`, `you will focus on wellness recovery.` ] }, { name: Six of Swords, reversed: false, image: `` , pastMoney: [ `you have transitioned to better finances.`, `you have left troubled career waters.` ], presentMoney: [ `you transition to better finances.`, `you leave troubled career waters.` ], futureMoney: [ `you will transition to better finances.`, `you will leave troubled career waters.` ], pastMoneyReversed: [ `you have resisted financial changes.`, `you have stayed in stagnant work.` ], presentMoneyReversed: [ `you resist financial changes.`, `you stay in stagnant work.` ], futureMoneyReversed: [ `you will resist financial changes.`, `you will stay in stagnant work.` ], pastRelationships: [ `you have moved on from painful bonds.`, `you have sought calmer emotional shores.` ], presentRelationships: [ `you move on from painful bonds.`, `you seek calmer emotional shores.` ], futureRelationships: [ `you will move on from painful bonds.`, `you will seek calmer emotional shores.` ], pastRelationshipsReversed: [ `you have clung to relational baggage.`, `you have delayed love transitions.` ], presentRelationshipsReversed: [ `you cling to relational baggage.`, `you delay love transitions.` ], futureRelationshipsReversed: [ `you will cling to relational baggage.`, `you will delay love transitions.` ], pastHealth: [ `you have recovered from health trials.`, `you have journeyed toward healing.` ], presentHealth: [ `you recover from health trials.`, `you journey toward healing.` ], futureHealth: [ `you will recover from health trials.`, `you will journey toward healing.` ], pastHealthReversed: [ `you have blocked wellness progress.`, `you have returned to old ailments.` ], presentHealthReversed: [ `you block wellness progress.`, `you return to old ailments.` ], futureHealthReversed: [ `you will block wellness progress.`, `you will return to old ailments.` ] }, { name: Seven of Swords, reversed: false, image: `` , pastMoney: [ `you have engaged in sneaky financial tactics.`, `you have faced career deception.` ], presentMoney: [ `you engage in sneaky financial tactics.`, `you face career deception.` ], futureMoney: [ `you will engage in sneaky financial tactics.`, `you will face career deception.` ], pastMoneyReversed: [ `you have confessed work misdeeds.`, `you have sought honest financial paths.` ], presentMoneyReversed: [ `you confess work misdeeds.`, `you seek honest financial paths.` ], futureMoneyReversed: [ `you will confess work misdeeds.`, `you will seek honest financial paths.` ], pastRelationships: [ `you have betrayed trust in bonds.`, `you have hidden truths from partners.` ], presentRelationships: [ `you betray trust in bonds.`, `you hide truths from partners.` ], futureRelationships: [ `you will betray trust in bonds.`, `you will hide truths from partners.` ], pastRelationshipsReversed: [ `you have revealed relational secrets.`, `you have rebuilt love honesty.` ], presentRelationshipsReversed: [ `you reveal relational secrets.`, `you rebuild love honesty.` ], futureRelationshipsReversed: [ `you will reveal relational secrets.`, `you will rebuild love honesty.` ], pastHealth: [ `you have avoided health responsibilities.`, `you have deceived self about well-being.` ], presentHealth: [ `you avoid health responsibilities.`, `you deceive self about well-being.` ], futureHealth: [ `you will avoid health responsibilities.`, `you will deceive self about well-being.` ], pastHealthReversed: [ `you have confronted wellness deceptions.`, `you have committed to honest healing.` ], presentHealthReversed: [ `you confront wellness deceptions.`, `you commit to honest healing.` ], futureHealthReversed: [ `you will confront wellness deceptions.`, `you will commit to honest healing.` ] }, { name: Eight of Swords, reversed: false, image: `` , pastMoney: [ `you have felt trapped in financial binds.`, `you have limited career options mentally.` ], presentMoney: [ `you feel trapped in financial binds.`, `you limit career options mentally.` ], futureMoney: [ `you will feel trapped in financial binds.`, `you will limit career options mentally.` ], pastMoneyReversed: [ `you have freed from work restrictions.`, `you have empowered financial choices.` ], presentMoneyReversed: [ `you free from work restrictions.`, `you empower financial choices.` ], futureMoneyReversed: [ `you will free from work restrictions.`, `you will empower financial choices.` ], pastRelationships: [ `you have been stuck in toxic dynamics.`, `you have blinded self to bond exits.` ], presentRelationships: [ `you are stuck in toxic dynamics.`, `you blind self to bond exits.` ], futureRelationships: [ `you will be stuck in toxic dynamics.`, `you will blind self to bond exits.` ], pastRelationshipsReversed: [ `you have escaped relational traps.`, `you have gained love clarity.` ], presentRelationshipsReversed: [ `you escape relational traps.`, `you gain love clarity.` ], futureRelationshipsReversed: [ `you will escape relational traps.`, `you will gain love clarity.` ], pastHealth: [ `you have restricted wellness progress.`, `you have felt powerless over health.` ], presentHealth: [ `you restrict wellness progress.`, `you feel powerless over health.` ], futureHealth: [ `you will restrict wellness progress.`, `you will feel powerless over health.` ], pastHealthReversed: [ `you have broken health limitations.`, `you have taken control of vitality.` ], presentHealthReversed: [ `you break health limitations.`, `you take control of vitality.` ], futureHealthReversed: [ `you will break health limitations.`, `you will take control of vitality.` ] }, { name: Nine of Swords, reversed: false, image: `` , pastMoney: [ `you have worried over financial ruin.`, `you have lost sleep over career fears.` ], presentMoney: [ `you worry over financial ruin.`, `you lose sleep over career fears.` ], futureMoney: [ `you will worry over financial ruin.`, `you will lose sleep over career fears.` ], pastMoneyReversed: [ `you have released financial anxieties.`, `you have found work hope.` ], presentMoneyReversed: [ `you release financial anxieties.`, `you find work hope.` ], futureMoneyReversed: [ `you will release financial anxieties.`, `you will find work hope.` ], pastRelationships: [ `you have anguished over love pains.`, `you have feared relational disasters.` ], presentRelationships: [ `you anguish over love pains.`, `you fear relational disasters.` ], futureRelationships: [ `you will anguish over love pains.`, `you will fear relational disasters.` ], pastRelationshipsReversed: [ `you have overcome bond nightmares.`, `you have sought help for love worries.` ], presentRelationshipsReversed: [ `you overcome bond nightmares.`, `you seek help for love worries.` ], futureRelationshipsReversed: [ `you will overcome bond nightmares.`, `you will seek help for love worries.` ], pastHealth: [ `you have suffered mental health stress.`, `you have obsessed over wellness fears.` ], presentHealth: [ `you suffer mental health stress.`, `you obsess over wellness fears.` ], futureHealth: [ `you will suffer mental health stress.`, `you will obsess over wellness fears.` ], pastHealthReversed: [ `you have eased health anxieties.`, `you have regained vitality perspective.` ], presentHealthReversed: [ `you ease health anxieties.`, `you regain vitality perspective.` ], futureHealthReversed: [ `you will ease health anxieties.`, `you will regain vitality perspective.` ] }, { name: Ten of Swords, reversed: false, image: `` , pastMoney: [ `you have hit rock bottom financially.`, `you have ended painful career cycles.` ], presentMoney: [ `you hit rock bottom financially.`, `you end painful career cycles.` ], futureMoney: [ `you will hit rock bottom financially.`, `you will end painful career cycles.` ], pastMoneyReversed: [ `you have risen from financial ruins.`, `you have avoided total work collapse.` ], presentMoneyReversed: [ `you rise from financial ruins.`, `you avoid total work collapse.` ], futureMoneyReversed: [ `you will rise from financial ruins.`, `you will avoid total work collapse.` ], pastRelationships: [ `you have suffered deep love betrayals.`, `you have closed traumatic bond chapters.` ], presentRelationships: [ `you suffer deep love betrayals.`, `you close traumatic bond chapters.` ], futureRelationships: [ `you will suffer deep love betrayals.`, `you will close traumatic bond chapters.` ], pastRelationshipsReversed: [ `you have recovered from relational ends.`, `you have found new love beginnings.` ], presentRelationshipsReversed: [ `you recover from relational ends.`, `you find new love beginnings.` ], futureRelationshipsReversed: [ `you will recover from relational ends.`, `you will find new love beginnings.` ], pastHealth: [ `you have reached health nadirs.`, `you have overcome severe ailments.` ], presentHealth: [ `you reach health nadirs.`, `you overcome severe ailments.` ], futureHealth: [ `you will reach health nadirs.`, `you will overcome severe ailments.` ], pastHealthReversed: [ `you have regenerated from health crises.`, `you have prevented wellness disasters.` ], presentHealthReversed: [ `you regenerate from health crises.`, `you prevent wellness disasters.` ], futureHealthReversed: [ `you will regenerate from health crises.`, `you will prevent wellness disasters.` ] }, { name: Page of Swords, reversed: false, image: `` , pastMoney: [ `you have explored intellectual career ideas.`, `you have questioned financial norms.` ], presentMoney: [ `you explore intellectual career ideas.`, `you question financial norms.` ], futureMoney: [ `you will explore intellectual career ideas.`, `you will question financial norms.` ], pastMoneyReversed: [ `you have spread work gossip.`, `you have lacked financial focus.` ], presentMoneyReversed: [ `you spread work gossip.`, `you lack financial focus.` ], futureMoneyReversed: [ `you will spread work gossip.`, `you will lack financial focus.` ], pastRelationships: [ `you have communicated curiously in bonds.`, `you have sought truth in love.` ], presentRelationships: [ `you communicate curiously in bonds.`, `you seek truth in love.` ], futureRelationships: [ `you will communicate curiously in bonds.`, `you will seek truth in love.` ], pastRelationshipsReversed: [ `you have been paranoid in partnerships.`, `you have avoided honest talks.` ], presentRelationshipsReversed: [ `you are paranoid in partnerships.`, `you avoid honest talks.` ], futureRelationshipsReversed: [ `you will be paranoid in partnerships.`, `you will avoid honest talks.` ], pastHealth: [ `you have monitored wellness vigilantly.`, `you have researched health options.` ], presentHealth: [ `you monitor wellness vigilantly.`, `you research health options.` ], futureHealth: [ `you will monitor wellness vigilantly.`, `you will research health options.` ], pastHealthReversed: [ `you have delayed health vigilance.`, `you have faced mental scatter.` ], presentHealthReversed: [ `you delay health vigilance.`, `you face mental scatter.` ], futureHealthReversed: [ `you will delay health vigilance.`, `you will face mental scatter.` ] }, { name: Knight of Swords, reversed: false, image: `` , pastMoney: [ `you have charged into financial battles.`, `you have asserted career ambitions.` ], presentMoney: [ `you charge into financial battles.`, `you assert career ambitions.` ], futureMoney: [ `you will charge into financial battles.`, `you will assert career ambitions.` ], pastMoneyReversed: [ `you have acted recklessly in finances.`, `you have lacked work direction.` ], presentMoneyReversed: [ `you act recklessly in finances.`, `you lack work direction.` ], futureMoneyReversed: [ `you will act recklessly in finances.`, `you will lack work direction.` ], pastRelationships: [ `you have communicated directly in love.`, `you have pursued bonds assertively.` ], presentRelationships: [ `you communicate directly in love.`, `you pursue bonds assertively.` ], futureRelationships: [ `you will communicate directly in love.`, `you will pursue bonds assertively.` ], pastRelationshipsReversed: [ `you have been abrasive in partnerships.`, `you have avoided relational commitments.` ], presentRelationshipsReversed: [ `you are abrasive in partnerships.`, `you avoid relational commitments.` ], futureRelationshipsReversed: [ `you will be abrasive in partnerships.`, `you will avoid relational commitments.` ], pastHealth: [ `you have tackled health issues head-on.`, `you have sought quick wellness solutions.` ], presentHealth: [ `you tackle health issues head-on.`, `you seek quick wellness solutions.` ], futureHealth: [ `you will tackle health issues head-on.`, `you will seek quick wellness solutions.` ], pastHealthReversed: [ `you have rushed health decisions.`, `you have faced vitality chaos.` ], presentHealthReversed: [ `you rush health decisions.`, `you face vitality chaos.` ], futureHealthReversed: [ `you will rush health decisions.`, `you will face vitality chaos.` ] }, { name: Queen of Swords, reversed: false, image: `` , pastMoney: [ `you have set clear financial boundaries.`, `you have led with honest career insight.` ], presentMoney: [ `you set clear financial boundaries.`, `you lead with honest career insight.` ], futureMoney: [ `you will set clear financial boundaries.`, `you will lead with honest career insight.` ], pastMoneyReversed: [ `you have been bitter in work dealings.`, `you have lacked financial empathy.` ], presentMoneyReversed: [ `you are bitter in work dealings.`, `you lack financial empathy.` ], futureMoneyReversed: [ `you will be bitter in work dealings.`, `you will lack financial empathy.` ], pastRelationships: [ `you have communicated independently in love.`, `you have upheld truth in bonds.` ], presentRelationships: [ `you communicate independently in love.`, `you uphold truth in bonds.` ], futureRelationships: [ `you will communicate independently in love.`, `you will uphold truth in bonds.` ], pastRelationshipsReversed: [ `you have isolated emotionally.`, `you have been overly critical in partnerships.` ], presentRelationshipsReversed: [ `you isolate emotionally.`, `you are overly critical in partnerships.` ], futureRelationshipsReversed: [ `you will isolate emotionally.`, `you will be overly critical in partnerships.` ], pastHealth: [ `you have approached wellness logically.`, `you have set health boundaries.` ], presentHealth: [ `you approach wellness logically.`, `you set health boundaries.` ], futureHealth: [ `you will approach wellness logically.`, `you will set health boundaries.` ], pastHealthReversed: [ `you have neglected emotional health.`, `you have faced wellness cynicism.` ], presentHealthReversed: [ `you neglect emotional health.`, `you face wellness cynicism.` ], futureHealthReversed: [ `you will neglect emotional health.`, `you will face wellness cynicism.` ] }, { name: King of Swords, reversed: false, image: `` , pastMoney: [ `you have enforced ethical financial standards.`, `you have led career with intellect.` ], presentMoney: [ `you enforce ethical financial standards.`, `you lead career with intellect.` ], futureMoney: [ `you will enforce ethical financial standards.`, `you will lead career with intellect.` ], pastMoneyReversed: [ `you have abused power in finances.`, `you have lacked work discipline.` ], presentMoneyReversed: [ `you abuse power in finances.`, `you lack work discipline.` ], futureMoneyReversed: [ `you will abuse power in finances.`, `you will lack work discipline.` ], pastRelationships: [ `you have maintained honest communication.`, `you have provided logical love guidance.` ], presentRelationships: [ `you maintain honest communication.`, `you provide logical love guidance.` ], futureRelationships: [ `you will maintain honest communication.`, `you will provide logical love guidance.` ], pastRelationshipsReversed: [ `you have been cold in partnerships.`, `you have manipulated relational truths.` ], presentRelationshipsReversed: [ `you are cold in partnerships.`, `you manipulate relational truths.` ], futureRelationshipsReversed: [ `you will be cold in partnerships.`, `you will manipulate relational truths.` ], pastHealth: [ `you have applied reason to wellness.`, `you have achieved mental clarity for health.` ], presentHealth: [ `you apply reason to wellness.`, `you achieve mental clarity for health.` ], futureHealth: [ `you will apply reason to wellness.`, `you will achieve mental clarity for health.` ], pastHealthReversed: [ `you have ignored ethical health practices.`, `you have faced intellectual burnout.` ], presentHealthReversed: [ `you ignore ethical health practices.`, `you face intellectual burnout.` ], futureHealthReversed: [ `you will ignore ethical health practices.`, `you will face intellectual burnout.` ] } ]
-[ { name: Ace of Pentacles, reversed: false, image: `` , pastMoney: [ `you have received a new financial opportunity.`, `you have invested in prosperous ventures.` ], presentMoney: [ `you receive a new financial opportunity.`, `you invest in prosperous ventures.` ], futureMoney: [ `you will receive a new financial opportunity.`, `you will invest in prosperous ventures.` ], pastMoneyReversed: [ `you have missed material prospects.`, `you have delayed financial growth.` ], presentMoneyReversed: [ `you miss material prospects.`, `you delay financial growth.` ], futureMoneyReversed: [ `you will miss material prospects.`, `you will delay financial growth.` ], pastRelationships: [ `you have built secure emotional foundations.`, `you have nurtured lasting bonds.` ], presentRelationships: [ `you build secure emotional foundations.`, `you nurture lasting bonds.` ], futureRelationships: [ `you will build secure emotional foundations.`, `you will nurture lasting bonds.` ], pastRelationshipsReversed: [ `you have faced instability in connections.`, `you have lacked commitment in love.` ], presentRelationshipsReversed: [ `you face instability in connections.`, `you lack commitment in love.` ], futureRelationshipsReversed: [ `you will face instability in connections.`, `you will lack commitment in love.` ], pastHealth: [ `you have started healthful habits.`, `you have embraced physical abundance.` ], presentHealth: [ `you start healthful habits.`, `you embrace physical abundance.` ], futureHealth: [ `you will start healthful habits.`, `you will embrace physical abundance.` ], pastHealthReversed: [ `you have neglected body needs.`, `you have blocked wellness potential.` ], presentHealthReversed: [ `you neglect body needs.`, `you block wellness potential.` ], futureHealthReversed: [ `you will neglect body needs.`, `you will block wellness potential.` ] }, { name: Two of Pentacles, reversed: false, image: `` , pastMoney: [ `you have balanced multiple financial tasks.`, `you have juggled career priorities.` ], presentMoney: [ `you balance multiple financial tasks.`, `you juggle career priorities.` ], futureMoney: [ `you will balance multiple financial tasks.`, `you will juggle career priorities.` ], pastMoneyReversed: [ `you have overwhelmed with work demands.`, `you have dropped financial balls.` ], presentMoneyReversed: [ `you overwhelm with work demands.`, `you drop financial balls.` ], futureMoneyReversed: [ `you will overwhelm with work demands.`, `you will drop financial balls.` ], pastRelationships: [ `you have adapted in partnership dynamics.`, `you have maintained relational equilibrium.` ], presentRelationships: [ `you adapt in partnership dynamics.`, `you maintain relational equilibrium.` ], futureRelationships: [ `you will adapt in partnership dynamics.`, `you will maintain relational equilibrium.` ], pastRelationshipsReversed: [ `you have struggled with bond commitments.`, `you have faced emotional imbalance.` ], presentRelationshipsReversed: [ `you struggle with bond commitments.`, `you face emotional imbalance.` ], futureRelationshipsReversed: [ `you will struggle with bond commitments.`, `you will face emotional imbalance.` ], pastHealth: [ `you have managed wellness routines flexibly.`, `you have balanced body and mind.` ], presentHealth: [ `you manage wellness routines flexibly.`, `you balance body and mind.` ], futureHealth: [ `you will manage wellness routines flexibly.`, `you will balance body and mind.` ], pastHealthReversed: [ `you have neglected health priorities.`, `you have needed better vitality management.` ], presentHealthReversed: [ `you neglect health priorities.`, `you need better vitality management.` ], futureHealthReversed: [ `you will neglect health priorities.`, `you will need better vitality management.` ] }, { name: Three of Pentacles, reversed: false, image: `` , pastMoney: [ `you have collaborated on financial projects.`, `you have built career skills expertly.` ], presentMoney: [ `you collaborate on financial projects.`, `you build career skills expertly.` ], futureMoney: [ `you will collaborate on financial projects.`, `you will build career skills expertly.` ], pastMoneyReversed: [ `you have lacked teamwork in work.`, `you have ignored financial advice.` ], presentMoneyReversed: [ `you lack teamwork in work.`, `you ignore financial advice.` ], futureMoneyReversed: [ `you will lack teamwork in work.`, `you will ignore financial advice.` ], pastRelationships: [ `you have worked together in bonds.`, `you have crafted harmonious connections.` ], presentRelationships: [ `you work together in bonds.`, `you craft harmonious connections.` ], futureRelationships: [ `you will work together in bonds.`, `you will craft harmonious connections.` ], pastRelationshipsReversed: [ `you have faced disharmony in partnerships.`, `you have neglected relational efforts.` ], presentRelationshipsReversed: [ `you face disharmony in partnerships.`, `you neglect relational efforts.` ], futureRelationshipsReversed: [ `you will face disharmony in partnerships.`, `you will neglect relational efforts.` ], pastHealth: [ `you have teamed for wellness goals.`, `you have mastered health craftsmanship.` ], presentHealth: [ `you team for wellness goals.`, `you master health craftsmanship.` ], futureHealth: [ `you will team for wellness goals.`, `you will master health craftsmanship.` ], pastHealthReversed: [ `you have disregarded health expertise.`, `you have worked alone on vitality issues.` ], presentHealthReversed: [ `you disregard health expertise.`, `you work alone on vitality issues.` ], futureHealthReversed: [ `you will disregard health expertise.`, `you will work alone on vitality issues.` ] }, { name: Four of Pentacles, reversed: false, image: `` , pastMoney: [ `you have held tightly to finances.`, `you have built material security.` ], presentMoney: [ `you hold tightly to finances.`, `you build material security.` ], futureMoney: [ `you will hold tightly to finances.`, `you will build material security.` ], pastMoneyReversed: [ `you have released financial grips.`, `you have shared wealth generously.` ], presentMoneyReversed: [ `you release financial grips.`, `you share wealth generously.` ], futureMoneyReversed: [ `you will release financial grips.`, `you will share wealth generously.` ], pastRelationships: [ `you have possessed in love dynamics.`, `you have sought relational stability.` ], presentRelationships: [ `you possess in love dynamics.`, `you seek relational stability.` ], futureRelationships: [ `you will possess in love dynamics.`, `you will seek relational stability.` ], pastRelationshipsReversed: [ `you have opened to giving in bonds.`, `you have avoided love hoarding.` ], presentRelationshipsReversed: [ `you open to giving in bonds.`, `you avoid love hoarding.` ], futureRelationshipsReversed: [ `you will open to giving in bonds.`, `you will avoid love hoarding.` ], pastHealth: [ `you have conserved physical energy.`, `you have protected body boundaries.` ], presentHealth: [ `you conserve physical energy.`, `you protect body boundaries.` ], futureHealth: [ `you will conserve physical energy.`, `you will protect body boundaries.` ], pastHealthReversed: [ `you have spent vitality freely.`, `you have risked health for gains.` ], presentHealthReversed: [ `you spend vitality freely.`, `you risk health for gains.` ], futureHealthReversed: [ `you will spend vitality freely.`, `you will risk health for gains.` ] }, { name: Five of Pentacles, reversed: false, image: `` , pastMoney: [ `you have endured financial hardship.`, `you have faced career isolation.` ], presentMoney: [ `you endure financial hardship.`, `you face career isolation.` ], futureMoney: [ `you will endure financial hardship.`, `you will face career isolation.` ], pastMoneyReversed: [ `you have recovered from material loss.`, `you have found financial support.` ], presentMoneyReversed: [ `you recover from material loss.`, `you find financial support.` ], futureMoneyReversed: [ `you will recover from material loss.`, `you will find financial support.` ], pastRelationships: [ `you have felt love poverty.`, `you have isolated emotionally.` ], presentRelationships: [ `you feel love poverty.`, `you isolate emotionally.` ], futureRelationships: [ `you will feel love poverty.`, `you will isolate emotionally.` ], pastRelationshipsReversed: [ `you have healed relational wounds.`, `you have accepted help in bonds.` ], presentRelationshipsReversed: [ `you heal relational wounds.`, `you accept help in bonds.` ], futureRelationshipsReversed: [ `you will heal relational wounds.`, `you will accept help in bonds.` ], pastHealth: [ `you have suffered physical ailments.`, `you have ignored wellness aid.` ], presentHealth: [ `you suffer physical ailments.`, `you ignore wellness aid.` ], futureHealth: [ `you will suffer physical ailments.`, `you will ignore wellness aid.` ], pastHealthReversed: [ `you have improved vitality conditions.`, `you have sought health recovery.` ], presentHealthReversed: [ `you improve vitality conditions.`, `you seek health recovery.` ], futureHealthReversed: [ `you will improve vitality conditions.`, `you will seek health recovery.` ] }, { name: Six of Pentacles, reversed: false, image: `` , pastMoney: [ `you have shared financial resources.`, `you have received career generosity.` ], presentMoney: [ `you share financial resources.`, `you receive career generosity.` ], futureMoney: [ `you will share financial resources.`, `you will receive career generosity.` ], pastMoneyReversed: [ `you have faced unequal work exchanges.`, `you have withheld financial aid.` ], presentMoneyReversed: [ `you face unequal work exchanges.`, `you withhold financial aid.` ], futureMoneyReversed: [ `you will face unequal work exchanges.`, `you will withhold financial aid.` ], pastRelationships: [ `you have given and received in love.`, `you have balanced bond power.` ], presentRelationships: [ `you give and receive in love.`, `you balance bond power.` ], futureRelationships: [ `you will give and receive in love.`, `you will balance bond power.` ], pastRelationshipsReversed: [ `you have experienced love imbalances.`, `you have been selfish in partnerships.` ], presentRelationshipsReversed: [ `you experience love imbalances.`, `you are selfish in partnerships.` ], futureRelationshipsReversed: [ `you will experience love imbalances.`, `you will be selfish in partnerships.` ], pastHealth: [ `you have donated to wellness causes.`, `you have received health support.` ], presentHealth: [ `you donate to wellness causes.`, `you receive health support.` ], futureHealth: [ `you will donate to wellness causes.`, `you will receive health support.` ], pastHealthReversed: [ `you have neglected body generosity.`, `you have faced unequal vitality.` ], presentHealthReversed: [ `you neglect body generosity.`, `you face unequal vitality.` ], futureHealthReversed: [ `you will neglect body generosity.`, `you will face unequal vitality.` ] }, { name: Seven of Pentacles, reversed: false, image: `` , pastMoney: [ `you have assessed financial investments.`, `you have waited for career fruits.` ], presentMoney: [ `you assess financial investments.`, `you wait for career fruits.` ], futureMoney: [ `you will assess financial investments.`, `you will wait for career fruits.` ], pastMoneyReversed: [ `you have abandoned work efforts.`, `you have felt financial impatience.` ], presentMoneyReversed: [ `you abandon work efforts.`, `you feel financial impatience.` ], futureMoneyReversed: [ `you will abandon work efforts.`, `you will feel financial impatience.` ], pastRelationships: [ `you have evaluated bond progress.`, `you have nurtured love growth.` ], presentRelationships: [ `you evaluate bond progress.`, `you nurture love growth.` ], futureRelationships: [ `you will evaluate bond progress.`, `you will nurture love growth.` ], pastRelationshipsReversed: [ `you have lost patience in partnerships.`, `you have neglected relational care.` ], presentRelationshipsReversed: [ `you lose patience in partnerships.`, `you neglect relational care.` ], futureRelationshipsReversed: [ `you will lose patience in partnerships.`, `you will neglect relational care.` ], pastHealth: [ `you have reviewed wellness strategies.`, `you have invested in long-term vitality.` ], presentHealth: [ `you review wellness strategies.`, `you invest in long-term vitality.` ], futureHealth: [ `you will review wellness strategies.`, `you will invest in long-term vitality.` ], pastHealthReversed: [ `you have given up on health goals.`, `you have rushed recovery processes.` ], presentHealthReversed: [ `you give up on health goals.`, `you rush recovery processes.` ], futureHealthReversed: [ `you will give up on health goals.`, `you will rush recovery processes.` ] }, { name: Eight of Pentacles, reversed: false, image: `` , pastMoney: [ `you have honed financial craftsmanship.`, `you have dedicated to career mastery.` ], presentMoney: [ `you hone financial craftsmanship.`, `you dedicate to career mastery.` ], futureMoney: [ `you will hone financial craftsmanship.`, `you will dedicate to career mastery.` ], pastMoneyReversed: [ `you have burned out in work.`, `you have lacked financial focus.` ], presentMoneyReversed: [ `you burn out in work.`, `you lack financial focus.` ], futureMoneyReversed: [ `you will burn out in work.`, `you will lack financial focus.` ], pastRelationships: [ `you have worked diligently on bonds.`, `you have refined love skills.` ], presentRelationships: [ `you work diligently on bonds.`, `you refine love skills.` ], futureRelationships: [ `you will work diligently on bonds.`, `you will refine love skills.` ], pastRelationshipsReversed: [ `you have neglected partnership efforts.`, `you have been perfectionistic in love.` ], presentRelationshipsReversed: [ `you neglect partnership efforts.`, `you are perfectionistic in love.` ], futureRelationshipsReversed: [ `you will neglect partnership efforts.`, `you will be perfectionistic in love.` ], pastHealth: [ `you have practiced consistent wellness.`, `you have apprenticed in health mastery.` ], presentHealth: [ `you practice consistent wellness.`, `you apprentice in health mastery.` ], futureHealth: [ `you will practice consistent wellness.`, `you will apprentice in health mastery.` ], pastHealthReversed: [ `you have overworked body limits.`, `you have ignored vitality quality.` ], presentHealthReversed: [ `you overwork body limits.`, `you ignore vitality quality.` ], futureHealthReversed: [ `you will overwork body limits.`, `you will ignore vitality quality.` ] }, { name: Nine of Pentacles, reversed: false, image: `` , pastMoney: [ `you have achieved financial independence.`, `you have enjoyed material luxuries.` ], presentMoney: [ `you achieve financial independence.`, `you enjoy material luxuries.` ], futureMoney: [ `you will achieve financial independence.`, `you will enjoy material luxuries.` ], pastMoneyReversed: [ `you have overspent on finances.`, `you have felt work isolation.` ], presentMoneyReversed: [ `you overspend on finances.`, `you feel work isolation.` ], futureMoneyReversed: [ `you will overspend on finances.`, `you will feel work isolation.` ], pastRelationships: [ `you have embraced self-sufficiency in love.`, `you have savored relational refinement.` ], presentRelationships: [ `you embrace self-sufficiency in love.`, `you savor relational refinement.` ], futureRelationships: [ `you will embrace self-sufficiency in love.`, `you will savor relational refinement.` ], pastRelationshipsReversed: [ `you have been dependent in bonds.`, `you have faked love abundance.` ], presentRelationshipsReversed: [ `you are dependent in bonds.`, `you fake love abundance.` ], futureRelationshipsReversed: [ `you will be dependent in bonds.`, `you will fake love abundance.` ], pastHealth: [ `you have attained physical elegance.`, `you have nurtured body independence.` ], presentHealth: [ `you attain physical elegance.`, `you nurture body independence.` ], futureHealth: [ `you will attain physical elegance.`, `you will nurture body independence.` ], pastHealthReversed: [ `you have neglected self-care.`, `you have overindulged in vitality.` ], presentHealthReversed: [ `you neglect self-care.`, `you overindulge in vitality.` ], futureHealthReversed: [ `you will neglect self-care.`, `you will overindulge in vitality.` ] }, { name: Ten of Pentacles, reversed: false, image: `` , pastMoney: [ `you have built lasting financial legacies.`, `you have achieved family wealth.` ], presentMoney: [ `you build lasting financial legacies.`, `you achieve family wealth.` ], futureMoney: [ `you will build lasting financial legacies.`, `you will achieve family wealth.` ], pastMoneyReversed: [ `you have lost material inheritances.`, `you have faced financial disputes.` ], presentMoneyReversed: [ `you lose material inheritances.`, `you face financial disputes.` ], futureMoneyReversed: [ `you will lose material inheritances.`, `you will face financial disputes.` ], pastRelationships: [ `you have enjoyed family harmony.`, `you have passed down love traditions.` ], presentRelationships: [ `you enjoy family harmony.`, `you pass down love traditions.` ], futureRelationships: [ `you will enjoy family harmony.`, `you will pass down love traditions.` ], pastRelationshipsReversed: [ `you have disrupted bond legacies.`, `you have isolated from family ties.` ], presentRelationshipsReversed: [ `you disrupt bond legacies.`, `you isolate from family ties.` ], futureRelationshipsReversed: [ `you will disrupt bond legacies.`, `you will isolate from family ties.` ], pastHealth: [ `you have secured long-term vitality.`, `you have inherited strong wellness.` ], presentHealth: [ `you secure long-term vitality.`, `you inherit strong wellness.` ], futureHealth: [ `you will secure long-term vitality.`, `you will inherit strong wellness.` ], pastHealthReversed: [ `you have suffered genetic ailments.`, `you have needed health restructuring.` ], presentHealthReversed: [ `you suffer genetic ailments.`, `you need health restructuring.` ], futureHealthReversed: [ `you will suffer genetic ailments.`, `you will need health restructuring.` ] }, { name: Page of Pentacles, reversed: false, image: `` , pastMoney: [ `you have studied financial opportunities.`, `you have begun practical career paths.` ], presentMoney: [ `you study financial opportunities.`, `you begin practical career paths.` ], futureMoney: [ `you will study financial opportunities.`, `you will begin practical career paths.` ], pastMoneyReversed: [ `you have procrastinated in work goals.`, `you have lacked financial discipline.` ], presentMoneyReversed: [ `you procrastinate in work goals.`, `you lack financial discipline.` ], futureMoneyReversed: [ `you will procrastinate in work goals.`, `you will lack financial discipline.` ], pastRelationships: [ `you have approached love practically.`, `you have learned relational skills.` ], presentRelationships: [ `you approach love practically.`, `you learn relational skills.` ], futureRelationships: [ `you will approach love practically.`, `you will learn relational skills.` ], pastRelationshipsReversed: [ `you have been unreliable in bonds.`, `you have avoided love commitments.` ], presentRelationshipsReversed: [ `you are unreliable in bonds.`, `you avoid love commitments.` ], futureRelationshipsReversed: [ `you will be unreliable in bonds.`, `you will avoid love commitments.` ], pastHealth: [ `you have focused on body studies.`, `you have started wellness apprenticeships.` ], presentHealth: [ `you focus on body studies.`, `you start wellness apprenticeships.` ], futureHealth: [ `you will focus on body studies.`, `you will start wellness apprenticeships.` ], pastHealthReversed: [ `you have neglected physical learning.`, `you have faced health distractions.` ], presentHealthReversed: [ `you neglect physical learning.`, `you face health distractions.` ], futureHealthReversed: [ `you will neglect physical learning.`, `you will face health distractions.` ] }, { name: Knight of Pentacles, reversed: false, image: `` , pastMoney: [ `you have worked diligently on finances.`, `you have pursued reliable career routines.` ], presentMoney: [ `you work diligently on finances.`, `you pursue reliable career routines.` ], futureMoney: [ `you will work diligently on finances.`, `you will pursue reliable career routines.` ], pastMoneyReversed: [ `you have stagnated in work progress.`, `you have obsessed over financial details.` ], presentMoneyReversed: [ `you stagnate in work progress.`, `you obsess over financial details.` ], futureMoneyReversed: [ `you will stagnate in work progress.`, `you will obsess over financial details.` ], pastRelationships: [ `you have committed steadily in love.`, `you have built trustworthy bonds.` ], presentRelationships: [ `you commit steadily in love.`, `you build trustworthy bonds.` ], futureRelationships: [ `you will commit steadily in love.`, `you will build trustworthy bonds.` ], pastRelationshipsReversed: [ `you have been boring in partnerships.`, `you have resisted love changes.` ], presentRelationshipsReversed: [ `you are boring in partnerships.`, `you resist love changes.` ], futureRelationshipsReversed: [ `you will be boring in partnerships.`, `you will resist love changes.` ], pastHealth: [ `you have maintained consistent routines.`, `you have protected physical stability.` ], presentHealth: [ `you maintain consistent routines.`, `you protect physical stability.` ], futureHealth: [ `you will maintain consistent routines.`, `you will protect physical stability.` ], pastHealthReversed: [ `you have neglected body maintenance.`, `you have stuck in unhealthy habits.` ], presentHealthReversed: [ `you neglect body maintenance.`, `you stick in unhealthy habits.` ], futureHealthReversed: [ `you will neglect body maintenance.`, `you will stick in unhealthy habits.` ] }, { name: Queen of Pentacles, reversed: false, image: `` , pastMoney: [ `you have nurtured financial growth.`, `you have managed resources practically.` ], presentMoney: [ `you nurture financial growth.`, `you manage resources practically.` ], futureMoney: [ `you will nurture financial growth.`, `you will manage resources practically.` ], pastMoneyReversed: [ `you have been self-neglectful in work.`, `you have envied others’ finances.` ], presentMoneyReversed: [ `you are self-neglectful in work.`, `you envy others’ finances.` ], futureMoneyReversed: [ `you will be self-neglectful in work.`, `you will envy others’ finances.` ], pastRelationships: [ `you have provided sensual comfort in love.`, `you have fostered secure bonds.` ], presentRelationships: [ `you provide sensual comfort in love.`, `you foster secure bonds.` ], futureRelationships: [ `you will provide sensual comfort in love.`, `you will foster secure bonds.` ], pastRelationshipsReversed: [ `you have smothered partners.`, `you have lacked emotional balance.` ], presentRelationshipsReversed: [ `you smother partners.`, `you lack emotional balance.` ], futureRelationshipsReversed: [ `you will smother partners.`, `you will lack emotional balance.` ], pastHealth: [ `you have cared for body generously.`, `you have balanced physical nurturance.` ], presentHealth: [ `you care for body generously.`, `you balance physical nurturance.` ], futureHealth: [ `you will care for body generously.`, `you will balance physical nurturance.` ], pastHealthReversed: [ `you have ignored self-care.`, `you have overgiven vitality.` ], presentHealthReversed: [ `you ignore self-care.`, `you overgive vitality.` ], futureHealthReversed: [ `you will ignore self-care.`, `you will overgive vitality.` ] }, { name: King of Pentacles, reversed: false, image: `` , pastMoney: [ `you have built stable financial empires.`, `you have led with material wisdom.` ], presentMoney: [ `you build stable financial empires.`, `you lead with material wisdom.` ], futureMoney: [ `you will build stable financial empires.`, `you will lead with material wisdom.` ], pastMoneyReversed: [ `you have been greedy in finances.`, `you have lacked work ethics.` ], presentMoneyReversed: [ `you are greedy in finances.`, `you lack work ethics.` ], futureMoneyReversed: [ `you will be greedy in finances.`, `you will lack work ethics.` ], pastRelationships: [ `you have provided secure love.`, `you have nurtured family stability.` ], presentRelationships: [ `you provide secure love.`, `you nurture family stability.` ], futureRelationships: [ `you will provide secure love.`, `you will nurture family stability.` ], pastRelationshipsReversed: [ `you have controlled partnerships.`, `you have been materialistic in bonds.` ], presentRelationshipsReversed: [ `you control partnerships.`, `you are materialistic in bonds.` ], futureRelationshipsReversed: [ `you will control partnerships.`, `you will be materialistic in bonds.` ], pastHealth: [ `you have mastered physical abundance.`, `you have directed wellness reliably.` ], presentHealth: [ `you master physical abundance.`, `you direct wellness reliably.` ], futureHealth: [ `you will master physical abundance.`, `you will direct wellness reliably.` ], pastHealthReversed: [ `you have neglected body discipline.`, `you have indulged unhealthily.` ], presentHealthReversed: [ `you neglect body discipline.`, `you indulge unhealthily.` ], futureHealthReversed: [ `you will neglect body discipline.`, `you will indulge unhealthily.` ] } ]
+[
+  {
+    name: `The Fool`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have taken a leap into a new financial venture with optimism.`,
+      `you have embraced unexpected opportunities for growth in your career.`,
+    ],
+    presentMoney: [
+      `you take a leap into a new financial venture with optimism.`,
+      `you embrace unexpected opportunities for growth in your career.`,
+    ],
+    futureMoney: [
+      `you will take a leap into a new financial venture with optimism.`,
+      `you will embrace unexpected opportunities for growth in your career.`,
+    ],
+    pastMoneyReversed: [
+      `you have hesitated on a promising financial opportunity out of fear.`,
+      `you have made impulsive decisions leading to career setbacks.`,
+    ],
+    presentMoneyReversed: [
+      `you hesitate on a promising financial opportunity out of fear.`,
+      `you make impulsive decisions leading to career setbacks.`,
+    ],
+    futureMoneyReversed: [
+      `you will hesitate on a promising financial opportunity out of fear.`,
+      `you will make impulsive decisions leading to career setbacks.`,
+    ],
+    pastRelationships: [
+      `you have started a fresh and exciting connection with someone new.`,
+      `you have renewed energy in an existing partnership through spontaneity.`,
+    ],
+    presentRelationships: [
+      `you start a fresh and exciting connection with someone new.`,
+      `you renew energy in an existing partnership through spontaneity.`,
+    ],
+    futureRelationships: [
+      `you will start a fresh and exciting connection with someone new.`,
+      `you will renew energy in an existing partnership through spontaneity.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have shown immaturity in handling a romantic commitment.`,
+      `you have avoided deeper connections due to reluctance.`,
+    ],
+    presentRelationshipsReversed: [
+      `you show immaturity in handling a romantic commitment.`,
+      `you avoid deeper connections due to reluctance.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will show immaturity in handling a romantic commitment.`,
+      `you will avoid deeper connections due to reluctance.`,
+    ],
+    pastHealth: [
+      `you have adopted a positive mindset for better well-being.`,
+      `you have tried new approaches to improve your physical state.`,
+    ],
+    presentHealth: [
+      `you adopt a positive mindset for better well-being.`,
+      `you try new approaches to improve your physical state.`,
+    ],
+    futureHealth: [
+      `you will adopt a positive mindset for better well-being.`,
+      `you will try new approaches to improve your physical state.`,
+    ],
+    pastHealthReversed: [
+      `you have resisted necessary changes for personal growth.`,
+      `you have ignored risks impacting your overall well-being.`,
+    ],
+    presentHealthReversed: [
+      `you resist necessary changes for personal growth.`,
+      `you ignore risks impacting your overall well-being.`,
+    ],
+    futureHealthReversed: [
+      `you will resist necessary changes for personal growth.`,
+      `you will ignore risks impacting your overall well-being.`,
+    ],
+  },
+  {
+    name: `The Magician`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have harnessed your skills to launch a successful project.`,
+      `you have manifested financial abundance through focused action.`,
+    ],
+    presentMoney: [
+      `you harness your skills to launch a successful project.`,
+      `you manifest financial abundance through focused action.`,
+    ],
+    futureMoney: [
+      `you will harness your skills to launch a successful project.`,
+      `you will manifest financial abundance through focused action.`,
+    ],
+    pastMoneyReversed: [
+      `you have procrastinated on utilizing your talents for gain.`,
+      `you have encountered deception in a business dealing.`,
+    ],
+    presentMoneyReversed: [
+      `you procrastinate on utilizing your talents for gain.`,
+      `you encounter deception in a business dealing.`,
+    ],
+    futureMoneyReversed: [
+      `you will procrastinate on utilizing your talents for gain.`,
+      `you will encounter deception in a business dealing.`,
+    ],
+    pastRelationships: [
+      `you have attracted a partner with confident communication.`,
+      `you have built a strong bond using your personal charisma.`,
+    ],
+    presentRelationships: [
+      `you attract a partner with confident communication.`,
+      `you build a strong bond using your personal charisma.`,
+    ],
+    futureRelationships: [
+      `you will attract a partner with confident communication.`,
+      `you will build a strong bond using your personal charisma.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have hidden motives that strained a connection.`,
+      `you have lacked authenticity in romantic interactions.`,
+    ],
+    presentRelationshipsReversed: [
+      `you hide motives that strain a connection.`,
+      `you lack authenticity in romantic interactions.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will hide motives that strain a connection.`,
+      `you will lack authenticity in romantic interactions.`,
+    ],
+    pastHealth: [
+      `you have aligned mind and body for improved vitality.`,
+      `you have used willpower to achieve wellness goals.`,
+    ],
+    presentHealth: [
+      `you align mind and body for improved vitality.`,
+      `you use willpower to achieve wellness goals.`,
+    ],
+    futureHealth: [
+      `you will align mind and body for improved vitality.`,
+      `you will use willpower to achieve wellness goals.`,
+    ],
+    pastHealthReversed: [
+      `you have neglected your inner potential for recovery.`,
+      `you have faced misalignment affecting your energy levels.`,
+    ],
+    presentHealthReversed: [
+      `you neglect your inner potential for recovery.`,
+      `you face misalignment affecting your energy levels.`,
+    ],
+    futureHealthReversed: [
+      `you will neglect your inner potential for recovery.`,
+      `you will face misalignment affecting your energy levels.`,
+    ],
+  },
+  {
+    name: `The High Priestess`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have trusted intuition to uncover hidden career insights.`,
+      `you have planned finances with subtle wisdom and patience.`,
+    ],
+    presentMoney: [
+      `you trust intuition to uncover hidden career insights.`,
+      `you plan finances with subtle wisdom and patience.`,
+    ],
+    futureMoney: [
+      `you will trust intuition to uncover hidden career insights.`,
+      `you will plan finances with subtle wisdom and patience.`,
+    ],
+    pastMoneyReversed: [
+      `you have ignored gut feelings leading to financial confusion.`,
+      `you have dealt with lack of transparency in work matters.`,
+    ],
+    presentMoneyReversed: [
+      `you ignore gut feelings leading to financial confusion.`,
+      `you deal with lack of transparency in work matters.`,
+    ],
+    futureMoneyReversed: [
+      `you will ignore gut feelings leading to financial confusion.`,
+      `you will deal with lack of transparency in work matters.`,
+    ],
+    pastRelationships: [
+      `you have deepened a bond through spiritual mystery.`,
+      `you have connected on an intuitive level with a partner.`,
+    ],
+    presentRelationships: [
+      `you deepen a bond through spiritual mystery.`,
+      `you connect on an intuitive level with a partner.`,
+    ],
+    futureRelationships: [
+      `you will deepen a bond through spiritual mystery.`,
+      `you will connect on an intuitive level with a partner.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have kept secrets that created emotional distance.`,
+      `you have faced dishonesty eroding trust in a partnership.`,
+    ],
+    presentRelationshipsReversed: [
+      `you keep secrets that create emotional distance.`,
+      `you face dishonesty eroding trust in a partnership.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will keep secrets that create emotional distance.`,
+      `you will face dishonesty eroding trust in a partnership.`,
+    ],
+    pastHealth: [
+      `you have listened to inner guidance for healing.`,
+      `you have embraced subconscious signals for better balance.`,
+    ],
+    presentHealth: [
+      `you listen to inner guidance for healing.`,
+      `you embrace subconscious signals for better balance.`,
+    ],
+    futureHealth: [
+      `you will listen to inner guidance for healing.`,
+      `you will embrace subconscious signals for better balance.`,
+    ],
+    pastHealthReversed: [
+      `you have blocked intuition impacting your well-being.`,
+      `you have struggled to reconnect with inner health cues.`,
+    ],
+    presentHealthReversed: [
+      `you block intuition impacting your well-being.`,
+      `you struggle to reconnect with inner health cues.`,
+    ],
+    futureHealthReversed: [
+      `you will block intuition impacting your well-being.`,
+      `you will struggle to reconnect with inner health cues.`,
+    ],
+  },
+  {
+    name: `The Empress`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have nurtured creative ideas into prosperous outcomes.`,
+      `you have achieved financial growth through abundance mindset.`,
+    ],
+    presentMoney: [
+      `you nurture creative ideas into prosperous outcomes.`,
+      `you achieve financial growth through abundance mindset.`,
+    ],
+    futureMoney: [
+      `you will nurture creative ideas into prosperous outcomes.`,
+      `you will achieve financial growth through abundance mindset.`,
+    ],
+    pastMoneyReversed: [
+      `you have experienced stagnation in creative financial pursuits.`,
+      `you have disconnected from passion in career efforts.`,
+    ],
+    presentMoneyReversed: [
+      `you experience stagnation in creative financial pursuits.`,
+      `you disconnect from passion in career efforts.`,
+    ],
+    futureMoneyReversed: [
+      `you will experience stagnation in creative financial pursuits.`,
+      `you will disconnect from passion in career efforts.`,
+    ],
+    pastRelationships: [
+      `you have fostered harmony and affection in a bond.`,
+      `you have built strong emotional ties with compassion.`,
+    ],
+    presentRelationships: [
+      `you foster harmony and affection in a bond.`,
+      `you build strong emotional ties with compassion.`,
+    ],
+    futureRelationships: [
+      `you will foster harmony and affection in a bond.`,
+      `you will build strong emotional ties with compassion.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have been overly dependent on a partner.`,
+      `you have shown controlling behavior in a connection.`,
+    ],
+    presentRelationshipsReversed: [
+      `you act overly dependent on a partner.`,
+      `you show controlling behavior in a connection.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will become overly dependent on a partner.`,
+      `you will show controlling behavior in a connection.`,
+    ],
+    pastHealth: [
+      `you have connected with nature for physical balance.`,
+      `you have embraced nurturing habits for overall vitality.`,
+    ],
+    presentHealth: [
+      `you connect with nature for physical balance.`,
+      `you embrace nurturing habits for overall vitality.`,
+    ],
+    futureHealth: [
+      `you will connect with nature for physical balance.`,
+      `you will embrace nurturing habits for overall vitality.`,
+    ],
+    pastHealthReversed: [
+      `you have ignored self-care leading to imbalance.`,
+      `you have needed boundaries to restore well-being.`,
+    ],
+    presentHealthReversed: [
+      `you ignore self-care leading to imbalance.`,
+      `you need boundaries to restore well-being.`,
+    ],
+    futureHealthReversed: [
+      `you will ignore self-care leading to imbalance.`,
+      `you will need boundaries to restore well-being.`,
+    ],
+  },
+  {
+    name: `The Emperor`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have built stable finances through discipline.`,
+      `you have led with authority to achieve career success.`,
+    ],
+    presentMoney: [
+      `you build stable finances through discipline.`,
+      `you lead with authority to achieve career success.`,
+    ],
+    futureMoney: [
+      `you will build stable finances through discipline.`,
+      `you will lead with authority to achieve career success.`,
+    ],
+    pastMoneyReversed: [
+      `you have faced oppressive structures in work.`,
+      `you have dealt with bureaucracy slowing financial progress.`,
+    ],
+    presentMoneyReversed: [
+      `you face oppressive structures in work.`,
+      `you deal with bureaucracy slowing financial progress.`,
+    ],
+    futureMoneyReversed: [
+      `you will face oppressive structures in work.`,
+      `you will deal with bureaucracy slowing financial progress.`,
+    ],
+    pastRelationships: [
+      `you have established trust-based foundations with a partner.`,
+      `you have provided dependable support in a bond.`,
+    ],
+    presentRelationships: [
+      `you establish trust-based foundations with a partner.`,
+      `you provide dependable support in a bond.`,
+    ],
+    futureRelationships: [
+      `you will establish trust-based foundations with a partner.`,
+      `you will provide dependable support in a bond.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have exhibited dominance creating coldness.`,
+      `you have lacked flexibility in romantic dynamics.`,
+    ],
+    presentRelationshipsReversed: [
+      `you exhibit dominance creating coldness.`,
+      `you lack flexibility in romantic dynamics.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will exhibit dominance creating coldness.`,
+      `you will lack flexibility in romantic dynamics.`,
+    ],
+    pastHealth: [
+      `you have taken a grounded approach to stability.`,
+      `you have enforced routines for consistent well-being.`,
+    ],
+    presentHealth: [
+      `you take a grounded approach to stability.`,
+      `you enforce routines for consistent well-being.`,
+    ],
+    futureHealth: [
+      `you will take a grounded approach to stability.`,
+      `you will enforce routines for consistent well-being.`,
+    ],
+    pastHealthReversed: [
+      `you have struggled with imbalance between control and freedom.`,
+      `you have resisted change affecting your vitality.`,
+    ],
+    presentHealthReversed: [
+      `you struggle with imbalance between control and freedom.`,
+      `you resist change affecting your vitality.`,
+    ],
+    futureHealthReversed: [
+      `you will struggle with imbalance between control and freedom.`,
+      `you will resist change affecting your vitality.`,
+    ],
+  },
+  {
+    name: `The Hierophant`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have followed mentorship for structured career growth.`,
+      `you have adhered to traditional paths for financial stability.`,
+    ],
+    presentMoney: [
+      `you follow mentorship for structured career growth.`,
+      `you adhere to traditional paths for financial stability.`,
+    ],
+    futureMoney: [
+      `you will follow mentorship for structured career growth.`,
+      `you will adhere to traditional paths for financial stability.`,
+    ],
+    pastMoneyReversed: [
+      `you have rebelled against rigid work institutions.`,
+      `you have encountered corrupt leadership in finances.`,
+    ],
+    presentMoneyReversed: [
+      `you rebel against rigid work institutions.`,
+      `you encounter corrupt leadership in finances.`,
+    ],
+    futureMoneyReversed: [
+      `you will rebel against rigid work institutions.`,
+      `you will encounter corrupt leadership in finances.`,
+    ],
+    pastRelationships: [
+      `you have committed to a partnership based on shared values.`,
+      `you have sought guidance to strengthen a romantic bond.`,
+    ],
+    presentRelationships: [
+      `you commit to a partnership based on shared values.`,
+      `you seek guidance to strengthen a romantic bond.`,
+    ],
+    futureRelationships: [
+      `you will commit to a partnership based on shared values.`,
+      `you will seek guidance to strengthen a romantic bond.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have resisted conventional commitments.`,
+      `you have explored unconventional unions.`,
+    ],
+    presentRelationshipsReversed: [
+      `you resist conventional commitments.`,
+      `you explore unconventional unions.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will resist conventional commitments.`,
+      `you will explore unconventional unions.`,
+    ],
+    pastHealth: [
+      `you have used established practices for harmony.`,
+      `you have drawn on community wisdom for well-being.`,
+    ],
+    presentHealth: [
+      `you use established practices for harmony.`,
+      `you draw on community wisdom for well-being.`,
+    ],
+    futureHealth: [
+      `you will use established practices for harmony.`,
+      `you will draw on community wisdom for well-being.`,
+    ],
+    pastHealthReversed: [
+      `you have questioned outdated systems for personal truth.`,
+      `you have needed independence from traditional advice.`,
+    ],
+    presentHealthReversed: [
+      `you question outdated systems for personal truth.`,
+      `you need independence from traditional advice.`,
+    ],
+    futureHealthReversed: [
+      `you will question outdated systems for personal truth.`,
+      `you will need independence from traditional advice.`,
+    ],
+  },
+  {
+    name: `The Lovers`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have formed beneficial partnerships for career gain.`,
+      `you have made aligned choices leading to financial harmony.`,
+    ],
+    presentMoney: [
+      `you form beneficial partnerships for career gain.`,
+      `you make aligned choices leading to financial harmony.`,
+    ],
+    futureMoney: [
+      `you will form beneficial partnerships for career gain.`,
+      `you will make aligned choices leading to financial harmony.`,
+    ],
+    pastMoneyReversed: [
+      `you have faced miscommunication in business teams.`,
+      `you have broken partnerships due to imbalance.`,
+    ],
+    presentMoneyReversed: [
+      `you face miscommunication in business teams.`,
+      `you break partnerships due to imbalance.`,
+    ],
+    futureMoneyReversed: [
+      `you will face miscommunication in business teams.`,
+      `you will break partnerships due to imbalance.`,
+    ],
+    pastRelationships: [
+      `you have built unity and trust in a romantic connection.`,
+      `you have achieved emotional balance with a partner.`,
+    ],
+    presentRelationships: [
+      `you build unity and trust in a romantic connection.`,
+      `you achieve emotional balance with a partner.`,
+    ],
+    futureRelationships: [
+      `you will build unity and trust in a romantic connection.`,
+      `you will achieve emotional balance with a partner.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have encountered betrayal eroding commitment.`,
+      `you have dealt with conflicting goals in a bond.`,
+    ],
+    presentRelationshipsReversed: [
+      `you encounter betrayal eroding commitment.`,
+      `you deal with conflicting goals in a bond.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will encounter betrayal eroding commitment.`,
+      `you will deal with conflicting goals in a bond.`,
+    ],
+    pastHealth: [
+      `you have aligned heart and soul for vitality.`,
+      `you have fostered well-being through conscious decisions.`,
+    ],
+    presentHealth: [
+      `you align heart and soul for vitality.`,
+      `you foster well-being through conscious decisions.`,
+    ],
+    futureHealth: [
+      `you will align heart and soul for vitality.`,
+      `you will foster well-being through conscious decisions.`,
+    ],
+    pastHealthReversed: [
+      `you have prioritized self-love amid disharmony.`,
+      `you have addressed temptation affecting balance.`,
+    ],
+    presentHealthReversed: [
+      `you prioritize self-love amid disharmony.`,
+      `you address temptation affecting balance.`,
+    ],
+    futureHealthReversed: [
+      `you will prioritize self-love amid disharmony.`,
+      `you will address temptation affecting balance.`,
+    ],
+  },
+  {
+    name: `The Chariot`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have overcome competition for career triumph.`,
+      `you have focused determination on financial progress.`,
+    ],
+    presentMoney: [
+      `you overcome competition for career triumph.`,
+      `you focus determination on financial progress.`,
+    ],
+    futureMoney: [
+      `you will overcome competition for career triumph.`,
+      `you will focus determination on financial progress.`,
+    ],
+    pastMoneyReversed: [
+      `you have experienced stagnation in projects.`,
+      `you have faced indecision delaying financial goals.`,
+    ],
+    presentMoneyReversed: [
+      `you experience stagnation in projects.`,
+      `you face indecision delaying financial goals.`,
+    ],
+    futureMoneyReversed: [
+      `you will experience stagnation in projects.`,
+      `you will face indecision delaying financial goals.`,
+    ],
+    pastRelationships: [
+      `you have moved forward with purpose in a partnership.`,
+      `you have balanced commitments for relational success.`,
+    ],
+    presentRelationships: [
+      `you move forward with purpose in a partnership.`,
+      `you balance commitments for relational success.`,
+    ],
+    futureRelationships: [
+      `you will move forward with purpose in a partnership.`,
+      `you will balance commitments for relational success.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have navigated power struggles in a bond.`,
+      `you have lacked shared direction with a partner.`,
+    ],
+    presentRelationshipsReversed: [
+      `you navigate power struggles in a bond.`,
+      `you lack shared direction with a partner.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will navigate power struggles in a bond.`,
+      `you will lack shared direction with a partner.`,
+    ],
+    pastHealth: [
+      `you have persisted through obstacles for recovery.`,
+      `you have mastered dualities for inner control.`,
+    ],
+    presentHealth: [
+      `you persist through obstacles for recovery.`,
+      `you master dualities for inner control.`,
+    ],
+    futureHealth: [
+      `you will persist through obstacles for recovery.`,
+      `you will master dualities for inner control.`,
+    ],
+    pastHealthReversed: [
+      `you have needed alignment to avoid frustration.`,
+      `you have dealt with impatience impacting well-being.`,
+    ],
+    presentHealthReversed: [
+      `you need alignment to avoid frustration.`,
+      `you deal with impatience impacting well-being.`,
+    ],
+    futureHealthReversed: [
+      `you will need alignment to avoid frustration.`,
+      `you will deal with impatience impacting well-being.`,
+    ],
+  },
+  {
+    name: `Strength`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have shown resilience in facing career challenges.`,
+      `you have used determination to achieve financial stability.`,
+    ],
+    presentMoney: [
+      `you show resilience in facing career challenges.`,
+      `you use determination to achieve financial stability.`,
+    ],
+    futureMoney: [
+      `you will show resilience in facing career challenges.`,
+      `you will use determination to achieve financial stability.`,
+    ],
+    pastMoneyReversed: [
+      `you have burned out from low confidence in work.`,
+      `you have avoided challenges due to insecurity.`,
+    ],
+    presentMoneyReversed: [
+      `you burn out from low confidence in work.`,
+      `you avoid challenges due to insecurity.`,
+    ],
+    futureMoneyReversed: [
+      `you will burn out from low confidence in work.`,
+      `you will avoid challenges due to insecurity.`,
+    ],
+    pastRelationships: [
+      `you have nurtured mutual respect in a partnership.`,
+      `you have balanced emotions with compassion.`,
+    ],
+    presentRelationships: [
+      `you nurture mutual respect in a partnership.`,
+      `you balance emotions with compassion.`,
+    ],
+    futureRelationships: [
+      `you will nurture mutual respect in a partnership.`,
+      `you will balance emotions with compassion.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have dealt with jealousy disrupting balance.`,
+      `you have exhibited dominance in romantic interactions.`,
+    ],
+    presentRelationshipsReversed: [
+      `you deal with jealousy disrupting balance.`,
+      `you exhibit dominance in romantic interactions.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will deal with jealousy disrupting balance.`,
+      `you will exhibit dominance in romantic interactions.`,
+    ],
+    pastHealth: [
+      `you have overcome fears through gentle perseverance.`,
+      `you have built inner strength for vitality.`,
+    ],
+    presentHealth: [
+      `you overcome fears through gentle perseverance.`,
+      `you build inner strength for vitality.`,
+    ],
+    futureHealth: [
+      `you will overcome fears through gentle perseverance.`,
+      `you will build inner strength for vitality.`,
+    ],
+    pastHealthReversed: [
+      `you have struggled with self-control issues.`,
+      `you have needed patience to restore well-being.`,
+    ],
+    presentHealthReversed: [
+      `you struggle with self-control issues.`,
+      `you need patience to restore well-being.`,
+    ],
+    futureHealthReversed: [
+      `you will struggle with self-control issues.`,
+      `you will need patience to restore well-being.`,
+    ],
+  },
+  {
+    name: `The Hermit`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have researched independently for career clarity.`,
+      `you have planned finances through introspection.`,
+    ],
+    presentMoney: [
+      `you research independently for career clarity.`,
+      `you plan finances through introspection.`,
+    ],
+    futureMoney: [
+      `you will research independently for career clarity.`,
+      `you will plan finances through introspection.`,
+    ],
+    pastMoneyReversed: [
+      `you have resisted teamwork in professional matters.`,
+      `you have overthought leading to career confusion.`,
+    ],
+    presentMoneyReversed: [
+      `you resist teamwork in professional matters.`,
+      `you overthink leading to career confusion.`,
+    ],
+    futureMoneyReversed: [
+      `you will resist teamwork in professional matters.`,
+      `you will overthink leading to career confusion.`,
+    ],
+    pastRelationships: [
+      `you have reflected during a period of solitude.`,
+      `you have sought inner guidance for relational wisdom.`,
+    ],
+    presentRelationships: [
+      `you reflect during a period of solitude.`,
+      `you seek inner guidance for relational wisdom.`,
+    ],
+    futureRelationships: [
+      `you will reflect during a period of solitude.`,
+      `you will seek inner guidance for relational wisdom.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have felt loneliness from lack of communication.`,
+      `you have avoided reality in a partnership.`,
+    ],
+    presentRelationshipsReversed: [
+      `you feel loneliness from lack of communication.`,
+      `you avoid reality in a partnership.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will feel loneliness from lack of communication.`,
+      `you will avoid reality in a partnership.`,
+    ],
+    pastHealth: [
+      `you have stepped back for well-being insights.`,
+      `you have meditated to achieve personal enlightenment.`,
+    ],
+    presentHealth: [
+      `you step back for well-being insights.`,
+      `you meditate to achieve personal enlightenment.`,
+    ],
+    futureHealth: [
+      `you will step back for well-being insights.`,
+      `you will meditate to achieve personal enlightenment.`,
+    ],
+    pastHealthReversed: [
+      `you have evaded responsibilities impacting vitality.`,
+      `you have needed connection to overcome isolation.`,
+    ],
+    presentHealthReversed: [
+      `you evade responsibilities impacting vitality.`,
+      `you need connection to overcome isolation.`,
+    ],
+    futureHealthReversed: [
+      `you will evade responsibilities impacting vitality.`,
+      `you will need connection to overcome isolation.`,
+    ],
+  },
+  {
+    name: `Wheel of Fortune`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have seized unexpected opportunities for gain.`,
+      `you have adapted to cycles for financial expansion.`,
+    ],
+    presentMoney: [
+      `you seize unexpected opportunities for gain.`,
+      `you adapt to cycles for financial expansion.`,
+    ],
+    futureMoney: [
+      `you will seize unexpected opportunities for gain.`,
+      `you will adapt to cycles for financial expansion.`,
+    ],
+    pastMoneyReversed: [
+      `you have missed timing on financial prospects.`,
+      `you have faced setbacks from resistance to change.`,
+    ],
+    presentMoneyReversed: [
+      `you miss timing on financial prospects.`,
+      `you face setbacks from resistance to change.`,
+    ],
+    futureMoneyReversed: [
+      `you will miss timing on financial prospects.`,
+      `you will face setbacks from resistance to change.`,
+    ],
+    pastRelationships: [
+      `you have entered karmic connections with shifts.`,
+      `you have embraced changes for relational progress.`,
+    ],
+    presentRelationships: [
+      `you enter karmic connections with shifts.`,
+      `you embrace changes for relational progress.`,
+    ],
+    futureRelationships: [
+      `you will enter karmic connections with shifts.`,
+      `you will embrace changes for relational progress.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have dealt with instability and misunderstandings.`,
+      `you have repeated old patterns in bonds.`,
+    ],
+    presentRelationshipsReversed: [
+      `you deal with instability and misunderstandings.`,
+      `you repeat old patterns in bonds.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will deal with instability and misunderstandings.`,
+      `you will repeat old patterns in bonds.`,
+    ],
+    pastHealth: [
+      `you have flowed with cycles for renewal.`,
+      `you have trusted divine timing for well-being.`,
+    ],
+    presentHealth: [
+      `you flow with cycles for renewal.`,
+      `you trust divine timing for well-being.`,
+    ],
+    futureHealth: [
+      `you will flow with cycles for renewal.`,
+      `you will trust divine timing for well-being.`,
+    ],
+    pastHealthReversed: [
+      `you have struggled against natural shifts.`,
+      `you have learned lessons from unlearned cycles.`,
+    ],
+    presentHealthReversed: [
+      `you struggle against natural shifts.`,
+      `you learn lessons from unlearned cycles.`,
+    ],
+    futureHealthReversed: [
+      `you will struggle against natural shifts.`,
+      `you will learn lessons from unlearned cycles.`,
+    ],
+  },
+  {
+    name: `Justice`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have handled contracts with ethical decisions.`,
+      `you have achieved balance through accountability.`,
+    ],
+    presentMoney: [
+      `you handle contracts with ethical decisions.`,
+      `you achieve balance through accountability.`,
+    ],
+    futureMoney: [
+      `you will handle contracts with ethical decisions.`,
+      `you will achieve balance through accountability.`,
+    ],
+    pastMoneyReversed: [
+      `you have encountered workplace injustice.`,
+      `you have made unethical choices in finances.`,
+    ],
+    presentMoneyReversed: [
+      `you encounter workplace injustice.`,
+      `you make unethical choices in finances.`,
+    ],
+    futureMoneyReversed: [
+      `you will encounter workplace injustice.`,
+      `you will make unethical choices in finances.`,
+    ],
+    pastRelationships: [
+      `you have built trust with fairness and honesty.`,
+      `you have committed based on moral clarity.`,
+    ],
+    presentRelationships: [
+      `you build trust with fairness and honesty.`,
+      `you commit based on moral clarity.`,
+    ],
+    futureRelationships: [
+      `you will build trust with fairness and honesty.`,
+      `you will commit based on moral clarity.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have faced lies creating imbalance.`,
+      `you have dealt with hidden agendas in bonds.`,
+    ],
+    presentRelationshipsReversed: [
+      `you face lies creating imbalance.`,
+      `you deal with hidden agendas in bonds.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will face lies creating imbalance.`,
+      `you will deal with hidden agendas in bonds.`,
+    ],
+    pastHealth: [
+      `you have taken responsibility for healing.`,
+      `you have maintained integrity in well-being choices.`,
+    ],
+    presentHealth: [
+      `you take responsibility for healing.`,
+      `you maintain integrity in well-being choices.`,
+    ],
+    futureHealth: [
+      `you will take responsibility for healing.`,
+      `you will maintain integrity in well-being choices.`,
+    ],
+    pastHealthReversed: [
+      `you have ignored truths delaying recovery.`,
+      `you have avoided accountability for vitality.`,
+    ],
+    presentHealthReversed: [
+      `you ignore truths delaying recovery.`,
+      `you avoid accountability for vitality.`,
+    ],
+    futureHealthReversed: [
+      `you will ignore truths delaying recovery.`,
+      `you will avoid accountability for vitality.`,
+    ],
+  },
+  {
+    name: `The Hanged Man`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have reevaluated career paths for new perspectives.`,
+      `you have surrendered to delays for transformation.`,
+    ],
+    presentMoney: [
+      `you reevaluate career paths for new perspectives.`,
+      `you surrender to delays for transformation.`,
+    ],
+    futureMoney: [
+      `you will reevaluate career paths for new perspectives.`,
+      `you will surrender to delays for transformation.`,
+    ],
+    pastMoneyReversed: [
+      `you have resisted necessary changes in work.`,
+      `you have felt trapped by indecision financially.`,
+    ],
+    presentMoneyReversed: [
+      `you resist necessary changes in work.`,
+      `you feel trapped by indecision financially.`,
+    ],
+    futureMoneyReversed: [
+      `you will resist necessary changes in work.`,
+      `you will feel trapped by indecision financially.`,
+    ],
+    pastRelationships: [
+      `you have let go of ego for deeper insights.`,
+      `you have sacrificed for spiritual growth in a bond.`,
+    ],
+    presentRelationships: [
+      `you let go of ego for deeper insights.`,
+      `you sacrifice for spiritual growth in a bond.`,
+    ],
+    futureRelationships: [
+      `you will let go of ego for deeper insights.`,
+      `you will sacrifice for spiritual growth in a bond.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have clung to outdated ideas in partnerships.`,
+      `you have avoided shifts due to fear.`,
+    ],
+    presentRelationshipsReversed: [
+      `you cling to outdated ideas in partnerships.`,
+      `you avoid shifts due to fear.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will cling to outdated ideas in partnerships.`,
+      `you will avoid shifts due to fear.`,
+    ],
+    pastHealth: [
+      `you have paused for clarity in well-being.`,
+      `you have released old views for renewal.`,
+    ],
+    presentHealth: [
+      `you pause for clarity in well-being.`,
+      `you release old views for renewal.`,
+    ],
+    futureHealth: [
+      `you will pause for clarity in well-being.`,
+      `you will release old views for renewal.`,
+    ],
+    pastHealthReversed: [
+      `you have delayed progress in wellness.`,
+      `you have needed surrender to move forward.`,
+    ],
+    presentHealthReversed: [
+      `you delay progress in wellness.`,
+      `you need surrender to move forward.`,
+    ],
+    futureHealthReversed: [
+      `you will delay progress in wellness.`,
+      `you will need surrender to move forward.`,
+    ],
+  },
+  {
+    name: `Death`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have ended toxic financial situations for rebirth.`,
+      `you have transformed career paths through release.`,
+    ],
+    presentMoney: [
+      `you end toxic financial situations for rebirth.`,
+      `you transform career paths through release.`,
+    ],
+    futureMoney: [
+      `you will end toxic financial situations for rebirth.`,
+      `you will transform career paths through release.`,
+    ],
+    pastMoneyReversed: [
+      `you have delayed necessary endings in finances.`,
+      `you have feared transformation in career.`,
+    ],
+    presentMoneyReversed: [
+      `you delay necessary endings in finances.`,
+      `you fear transformation in career.`,
+    ],
+    futureMoneyReversed: [
+      `you will delay necessary endings in finances.`,
+      `you will fear transformation in career.`,
+    ],
+    pastRelationships: [
+      `you have closed unhealthy bonds for new beginnings.`,
+      `you have let go of past patterns in love.`,
+    ],
+    presentRelationships: [
+      `you close unhealthy bonds for new beginnings.`,
+      `you let go of past patterns in love.`,
+    ],
+    futureRelationships: [
+      `you will close unhealthy bonds for new beginnings.`,
+      `you will let go of past patterns in love.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have avoided difficult talks in partnerships.`,
+      `you have prolonged toxic connections.`,
+    ],
+    presentRelationshipsReversed: [
+      `you avoid difficult talks in partnerships.`,
+      `you prolong toxic connections.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will avoid difficult talks in partnerships.`,
+      `you will prolong toxic connections.`,
+    ],
+    pastHealth: [
+      `you have released old habits for renewal.`,
+      `you have embraced change for vitality.`,
+    ],
+    presentHealth: [
+      `you release old habits for renewal.`,
+      `you embrace change for vitality.`,
+    ],
+    futureHealth: [
+      `you will release old habits for renewal.`,
+      `you will embrace change for vitality.`,
+    ],
+    pastHealthReversed: [
+      `you have clung to past patterns affecting well-being.`,
+      `you have resisted transitions for healing.`,
+    ],
+    presentHealthReversed: [
+      `you cling to past patterns affecting well-being.`,
+      `you resist transitions for healing.`,
+    ],
+    futureHealthReversed: [
+      `you will cling to past patterns affecting well-being.`,
+      `you will resist transitions for healing.`,
+    ],
+  },
+  {
+    name: `Temperance`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have balanced work and finances harmoniously.`,
+      `you have blended resources with patience for growth.`,
+    ],
+    presentMoney: [
+      `you balance work and finances harmoniously.`,
+      `you blend resources with patience for growth.`,
+    ],
+    futureMoney: [
+      `you will balance work and finances harmoniously.`,
+      `you will blend resources with patience for growth.`,
+    ],
+    pastMoneyReversed: [
+      `you have rushed outcomes leading to imbalance.`,
+      `you have overindulged in financial pursuits.`,
+    ],
+    presentMoneyReversed: [
+      `you rush outcomes leading to imbalance.`,
+      `you overindulge in financial pursuits.`,
+    ],
+    futureMoneyReversed: [
+      `you will rush outcomes leading to imbalance.`,
+      `you will overindulge in financial pursuits.`,
+    ],
+    pastRelationships: [
+      `you have sought peace after conflicts in bonds.`,
+      `you have achieved equilibrium in emotional ties.`,
+    ],
+    presentRelationships: [
+      `you seek peace after conflicts in bonds.`,
+      `you achieve equilibrium in emotional ties.`,
+    ],
+    futureRelationships: [
+      `you will seek peace after conflicts in bonds.`,
+      `you will achieve equilibrium in emotional ties.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have dived too quickly into connections.`,
+      `you have faced excess disrupting harmony.`,
+    ],
+    presentRelationshipsReversed: [
+      `you dive too quickly into connections.`,
+      `you face excess disrupting harmony.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will dive too quickly into connections.`,
+      `you will face excess disrupting harmony.`,
+    ],
+    pastHealth: [
+      `you have found moderation in daily habits.`,
+      `you have harmonized opposites for well-being.`,
+    ],
+    presentHealth: [
+      `you find moderation in daily habits.`,
+      `you harmonize opposites for well-being.`,
+    ],
+    futureHealth: [
+      `you will find moderation in daily habits.`,
+      `you will harmonize opposites for well-being.`,
+    ],
+    pastHealthReversed: [
+      `you have struggled with impatience in routines.`,
+      `you have needed balance to restore vitality.`,
+    ],
+    presentHealthReversed: [
+      `you struggle with impatience in routines.`,
+      `you need balance to restore vitality.`,
+    ],
+    futureHealthReversed: [
+      `you will struggle with impatience in routines.`,
+      `you will need balance to restore vitality.`,
+    ],
+  },
+  {
+    name: `The Devil`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have focused excessively on material wealth.`,
+      `you have been tempted by unhealthy financial attachments.`,
+    ],
+    presentMoney: [
+      `you focus excessively on material wealth.`,
+      `you face temptation by unhealthy financial attachments.`,
+    ],
+    futureMoney: [
+      `you will focus excessively on material wealth.`,
+      `you will face temptation by unhealthy financial attachments.`,
+    ],
+    pastMoneyReversed: [
+      `you have recognized limiting habits in finances.`,
+      `you have broken free from material traps.`,
+    ],
+    presentMoneyReversed: [
+      `you recognize limiting habits in finances.`,
+      `you break free from material traps.`,
+    ],
+    futureMoneyReversed: [
+      `you will recognize limiting habits in finances.`,
+      `you will break free from material traps.`,
+    ],
+    pastRelationships: [
+      `you have entered toxic partnerships.`,
+      `you have confronted shadow behaviors in bonds.`,
+    ],
+    presentRelationships: [
+      `you enter toxic partnerships.`,
+      `you confront shadow behaviors in bonds.`,
+    ],
+    futureRelationships: [
+      `you will enter toxic partnerships.`,
+      `you will confront shadow behaviors in bonds.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have taken steps toward liberation in love.`,
+      `you have overcome destructive dynamics.`,
+    ],
+    presentRelationshipsReversed: [
+      `you take steps toward liberation in love.`,
+      `you overcome destructive dynamics.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will take steps toward liberation in love.`,
+      `you will overcome destructive dynamics.`,
+    ],
+    pastHealth: [
+      `you have dealt with addictive habits.`,
+      `you have faced chains of unhealthy patterns.`,
+    ],
+    presentHealth: [
+      `you deal with addictive habits.`,
+      `you face chains of unhealthy patterns.`,
+    ],
+    futureHealth: [
+      `you will deal with addictive habits.`,
+      `you will face chains of unhealthy patterns.`,
+    ],
+    pastHealthReversed: [
+      `you have addressed addictions for recovery.`,
+      `you have gained awareness of patterns.`,
+    ],
+    presentHealthReversed: [
+      `you address addictions for recovery.`,
+      `you gain awareness of patterns.`,
+    ],
+    futureHealthReversed: [
+      `you will address addictions for recovery.`,
+      `you will gain awareness of patterns.`,
+    ],
+  },
+  {
+    name: `The Tower`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have faced sudden upheaval in career.`,
+      `you have dismantled false financial foundations.`,
+    ],
+    presentMoney: [
+      `you face sudden upheaval in career.`,
+      `you dismantle false financial foundations.`,
+    ],
+    futureMoney: [
+      `you will face sudden upheaval in career.`,
+      `you will dismantle false financial foundations.`,
+    ],
+    pastMoneyReversed: [
+      `you have clung to crumbling financial situations.`,
+      `you have resisted inevitable work changes.`,
+    ],
+    presentMoneyReversed: [
+      `you cling to crumbling financial situations.`,
+      `you resist inevitable work changes.`,
+    ],
+    futureMoneyReversed: [
+      `you will cling to crumbling financial situations.`,
+      `you will resist inevitable work changes.`,
+    ],
+    pastRelationships: [
+      `you have experienced shocking truths in bonds.`,
+      `you have cleared way for new relational growth.`,
+    ],
+    presentRelationships: [
+      `you experience shocking truths in bonds.`,
+      `you clear way for new relational growth.`,
+    ],
+    futureRelationships: [
+      `you will experience shocking truths in bonds.`,
+      `you will clear way for new relational growth.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have feared necessary shifts in partnerships.`,
+      `you have avoided confrontations in love.`,
+    ],
+    presentRelationshipsReversed: [
+      `you fear necessary shifts in partnerships.`,
+      `you avoid confrontations in love.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will fear necessary shifts in partnerships.`,
+      `you will avoid confrontations in love.`,
+    ],
+    pastHealth: [
+      `you have broken down unstable wellness bases.`,
+      `you have revealed issues for transformation.`,
+    ],
+    presentHealth: [
+      `you break down unstable wellness bases.`,
+      `you reveal issues for transformation.`,
+    ],
+    futureHealth: [
+      `you will break down unstable wellness bases.`,
+      `you will reveal issues for transformation.`,
+    ],
+    pastHealthReversed: [
+      `you have delayed addressing health breakdowns.`,
+      `you have needed acceptance for renewal.`,
+    ],
+    presentHealthReversed: [
+      `you delay addressing health breakdowns.`,
+      `you need acceptance for renewal.`,
+    ],
+    futureHealthReversed: [
+      `you will delay addressing health breakdowns.`,
+      `you will need acceptance for renewal.`,
+    ],
+  },
+  {
+    name: `The Star`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have seen brighter prospects in finances.`,
+      `you have inspired hope for career renewal.`,
+    ],
+    presentMoney: [
+      `you see brighter prospects in finances.`,
+      `you inspire hope for career renewal.`,
+    ],
+    futureMoney: [
+      `you will see brighter prospects in finances.`,
+      `you will inspire hope for career renewal.`,
+    ],
+    pastMoneyReversed: [
+      `you have felt uncertainty in financial paths.`,
+      `you have faced discouragement in career goals.`,
+    ],
+    presentMoneyReversed: [
+      `you feel uncertainty in financial paths.`,
+      `you face discouragement in career goals.`,
+    ],
+    futureMoneyReversed: [
+      `you will feel uncertainty in financial paths.`,
+      `you will face discouragement in career goals.`,
+    ],
+    pastRelationships: [
+      `you have found reassurance in future connections.`,
+      `you have healed through faith in bonds.`,
+    ],
+    presentRelationships: [
+      `you find reassurance in future connections.`,
+      `you heal through faith in bonds.`,
+    ],
+    futureRelationships: [
+      `you will find reassurance in future connections.`,
+      `you will heal through faith in bonds.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have disconnected from hope in love.`,
+      `you have lacked direction in partnerships.`,
+    ],
+    presentRelationshipsReversed: [
+      `you disconnect from hope in love.`,
+      `you lack direction in partnerships.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will disconnect from hope in love.`,
+      `you will lack direction in partnerships.`,
+    ],
+    pastHealth: [
+      `you have connected with inner light for healing.`,
+      `you have embraced inspiration for vitality.`,
+    ],
+    presentHealth: [
+      `you connect with inner light for healing.`,
+      `you embrace inspiration for vitality.`,
+    ],
+    futureHealth: [
+      `you will connect with inner light for healing.`,
+      `you will embrace inspiration for vitality.`,
+    ],
+    pastHealthReversed: [
+      `you have struggled with faith in well-being.`,
+      `you have needed reconnection for renewal.`,
+    ],
+    presentHealthReversed: [
+      `you struggle with faith in well-being.`,
+      `you need reconnection for renewal.`,
+    ],
+    futureHealthReversed: [
+      `you will struggle with faith in well-being.`,
+      `you will need reconnection for renewal.`,
+    ],
+  },
+  {
+    name: `The Moon`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have navigated illusions in financial matters.`,
+      `you have trusted intuition amid career uncertainty.`,
+    ],
+    presentMoney: [
+      `you navigate illusions in financial matters.`,
+      `you trust intuition amid career uncertainty.`,
+    ],
+    futureMoney: [
+      `you will navigate illusions in financial matters.`,
+      `you will trust intuition amid career uncertainty.`,
+    ],
+    pastMoneyReversed: [
+      `you have gained clarity after financial confusion.`,
+      `you have released fears in career decisions.`,
+    ],
+    presentMoneyReversed: [
+      `you gain clarity after financial confusion.`,
+      `you release fears in career decisions.`,
+    ],
+    futureMoneyReversed: [
+      `you will gain clarity after financial confusion.`,
+      `you will release fears in career decisions.`,
+    ],
+    pastRelationships: [
+      `you have dealt with hidden emotions in bonds.`,
+      `you have explored subconscious depths in love.`,
+    ],
+    presentRelationships: [
+      `you deal with hidden emotions in bonds.`,
+      `you explore subconscious depths in love.`,
+    ],
+    futureRelationships: [
+      `you will deal with hidden emotions in bonds.`,
+      `you will explore subconscious depths in love.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have overcome deceptions in partnerships.`,
+      `you have found truth after relational doubts.`,
+    ],
+    presentRelationshipsReversed: [
+      `you overcome deceptions in partnerships.`,
+      `you find truth after relational doubts.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will overcome deceptions in partnerships.`,
+      `you will find truth after relational doubts.`,
+    ],
+    pastHealth: [
+      `you have faced insecurities affecting well-being.`,
+      `you have uncovered illusions in health routines.`,
+    ],
+    presentHealth: [
+      `you face insecurities affecting well-being.`,
+      `you uncover illusions in health routines.`,
+    ],
+    futureHealth: [
+      `you will face insecurities affecting well-being.`,
+      `you will uncover illusions in health routines.`,
+    ],
+    pastHealthReversed: [
+      `you have lifted confusion for better vitality.`,
+      `you have confronted unknown fears in wellness.`,
+    ],
+    presentHealthReversed: [
+      `you lift confusion for better vitality.`,
+      `you confront unknown fears in wellness.`,
+    ],
+    futureHealthReversed: [
+      `you will lift confusion for better vitality.`,
+      `you will confront unknown fears in wellness.`,
+    ],
+  },
+  {
+    name: `The Sun`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have achieved success and prosperity in finances.`,
+      `you have enjoyed abundance through positive outcomes.`,
+    ],
+    presentMoney: [
+      `you achieve success and prosperity in finances.`,
+      `you enjoy abundance through positive outcomes.`,
+    ],
+    futureMoney: [
+      `you will achieve success and prosperity in finances.`,
+      `you will enjoy abundance through positive outcomes.`,
+    ],
+    pastMoneyReversed: [
+      `you have faced temporary setbacks in career.`,
+      `you have dealt with delays in financial gains.`,
+    ],
+    presentMoneyReversed: [
+      `you face temporary setbacks in career.`,
+      `you deal with delays in financial gains.`,
+    ],
+    futureMoneyReversed: [
+      `you will face temporary setbacks in career.`,
+      `you will deal with delays in financial gains.`,
+    ],
+    pastRelationships: [
+      `you have built joyful and enlightening bonds.`,
+      `you have experienced happy harmony in love.`,
+    ],
+    presentRelationships: [
+      `you build joyful and enlightening bonds.`,
+      `you experience happy harmony in love.`,
+    ],
+    futureRelationships: [
+      `you will build joyful and enlightening bonds.`,
+      `you will experience happy harmony in love.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have encountered lack of confidence in bonds.`,
+      `you have navigated cloudy optimism in love.`,
+    ],
+    presentRelationshipsReversed: [
+      `you encounter lack of confidence in bonds.`,
+      `you navigate cloudy optimism in love.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will encounter lack of confidence in bonds.`,
+      `you will navigate cloudy optimism in love.`,
+    ],
+    pastHealth: [
+      `you have embraced vitality and clarity in well-being.`,
+      `you have found childlike joy in physical state.`,
+    ],
+    presentHealth: [
+      `you embrace vitality and clarity in well-being.`,
+      `you find childlike joy in physical state.`,
+    ],
+    futureHealth: [
+      `you will embrace vitality and clarity in well-being.`,
+      `you will find childlike joy in physical state.`,
+    ],
+    pastHealthReversed: [
+      `you have overcome short-term sadness for renewal.`,
+      `you have addressed unrealistic expectations in wellness.`,
+    ],
+    presentHealthReversed: [
+      `you overcome short-term sadness for renewal.`,
+      `you address unrealistic expectations in wellness.`,
+    ],
+    futureHealthReversed: [
+      `you will overcome short-term sadness for renewal.`,
+      `you will address unrealistic expectations in wellness.`,
+    ],
+  },
+  {
+    name: `Judgement`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have awakened to new career opportunities.`,
+      `you have reflected on past for financial renewal.`,
+    ],
+    presentMoney: [
+      `you awaken to new career opportunities.`,
+      `you reflect on past for financial renewal.`,
+    ],
+    futureMoney: [
+      `you will awaken to new career opportunities.`,
+      `you will reflect on past for financial renewal.`,
+    ],
+    pastMoneyReversed: [
+      `you have doubted decisions in finances.`,
+      `you have delayed career advancements.`,
+    ],
+    presentMoneyReversed: [
+      `you doubt decisions in finances.`,
+      `you delay career advancements.`,
+    ],
+    futureMoneyReversed: [
+      `you will doubt decisions in finances.`,
+      `you will delay career advancements.`,
+    ],
+    pastRelationships: [
+      `you have faced karma for relational growth.`,
+      `you have made decisive moves in love.`,
+    ],
+    presentRelationships: [
+      `you face karma for relational growth.`,
+      `you make decisive moves in love.`,
+    ],
+    futureRelationships: [
+      `you will face karma for relational growth.`,
+      `you will make decisive moves in love.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have ignored calls for change in bonds.`,
+      `you have avoided renewal in partnerships.`,
+    ],
+    presentRelationshipsReversed: [
+      `you ignore calls for change in bonds.`,
+      `you avoid renewal in partnerships.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will ignore calls for change in bonds.`,
+      `you will avoid renewal in partnerships.`,
+    ],
+    pastHealth: [
+      `you have embraced resurrection in well-being.`,
+      `you have sorted complex issues for vitality.`,
+    ],
+    presentHealth: [
+      `you embrace resurrection in well-being.`,
+      `you sort complex issues for vitality.`,
+    ],
+    futureHealth: [
+      `you will embrace resurrection in well-being.`,
+      `you will sort complex issues for vitality.`,
+    ],
+    pastHealthReversed: [
+      `you have resisted reflection impacting health.`,
+      `you have needed acceptance for progress.`,
+    ],
+    presentHealthReversed: [
+      `you resist reflection impacting health.`,
+      `you need acceptance for progress.`,
+    ],
+    futureHealthReversed: [
+      `you will resist reflection impacting health.`,
+      `you will need acceptance for progress.`,
+    ],
+  },
+  {
+    name: `The World`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have completed a cycle for financial fulfillment.`,
+      `you have achieved wholeness in career accomplishments.`,
+    ],
+    presentMoney: [
+      `you complete a cycle for financial fulfillment.`,
+      `you achieve wholeness in career accomplishments.`,
+    ],
+    futureMoney: [
+      `you will complete a cycle for financial fulfillment.`,
+      `you will achieve wholeness in career accomplishments.`,
+    ],
+    pastMoneyReversed: [
+      `you have left unfinished business in finances.`,
+      `you have faced delays in career closure.`,
+    ],
+    presentMoneyReversed: [
+      `you leave unfinished business in finances.`,
+      `you face delays in career closure.`,
+    ],
+    futureMoneyReversed: [
+      `you will leave unfinished business in finances.`,
+      `you will face delays in career closure.`,
+    ],
+    pastRelationships: [
+      `you have found completion in meaningful bonds.`,
+      `you have integrated harmony in love.`,
+    ],
+    presentRelationships: [
+      `you find completion in meaningful bonds.`,
+      `you integrate harmony in love.`,
+    ],
+    futureRelationships: [
+      `you will find completion in meaningful bonds.`,
+      `you will integrate harmony in love.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have isolated from full connections.`,
+      `you have abandoned relational ventures.`,
+    ],
+    presentRelationshipsReversed: [
+      `you isolate from full connections.`,
+      `you abandon relational ventures.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will isolate from full connections.`,
+      `you will abandon relational ventures.`,
+    ],
+    pastHealth: [
+      `you have attained balance and integration in well-being.`,
+      `you have celebrated successful health journeys.`,
+    ],
+    presentHealth: [
+      `you attain balance and integration in well-being.`,
+      `you celebrate successful health journeys.`,
+    ],
+    futureHealth: [
+      `you will attain balance and integration in well-being.`,
+      `you will celebrate successful health journeys.`,
+    ],
+    pastHealthReversed: [
+      `you have lacked closure in wellness goals.`,
+      `you have needed discipline to complete cycles.`,
+    ],
+    presentHealthReversed: [
+      `you lack closure in wellness goals.`,
+      `you need discipline to complete cycles.`,
+    ],
+    futureHealthReversed: [
+      `you will lack closure in wellness goals.`,
+      `you will need discipline to complete cycles.`,
+    ],
+  },
+][
+  ({
+    name: `Ace of Wands`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have ignited a new creative venture for financial potential.`,
+      `you have seized inspiration leading to career beginnings.`,
+    ],
+    presentMoney: [
+      `you ignite a new creative venture for financial potential.`,
+      `you seize inspiration leading to career beginnings.`,
+    ],
+    futureMoney: [
+      `you will ignite a new creative venture for financial potential.`,
+      `you will seize inspiration leading to career beginnings.`,
+    ],
+    pastMoneyReversed: [
+      `you have delayed starting a promising project.`,
+      `you have lacked motivation in financial pursuits.`,
+    ],
+    presentMoneyReversed: [
+      `you delay starting a promising project.`,
+      `you lack motivation in financial pursuits.`,
+    ],
+    futureMoneyReversed: [
+      `you will delay starting a promising project.`,
+      `you will lack motivation in financial pursuits.`,
+    ],
+    pastRelationships: [
+      `you have sparked passion in a fresh romantic connection.`,
+      `you have embraced enthusiasm for deeper bonds.`,
+    ],
+    presentRelationships: [
+      `you spark passion in a fresh romantic connection.`,
+      `you embrace enthusiasm for deeper bonds.`,
+    ],
+    futureRelationships: [
+      `you will spark passion in a fresh romantic connection.`,
+      `you will embrace enthusiasm for deeper bonds.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have faced blocks in expressing desires.`,
+      `you have hesitated in pursuing romantic interests.`,
+    ],
+    presentRelationshipsReversed: [
+      `you face blocks in expressing desires.`,
+      `you hesitate in pursuing romantic interests.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will face blocks in expressing desires.`,
+      `you will hesitate in pursuing romantic interests.`,
+    ],
+    pastHealth: [
+      `you have started energetic pursuits for vitality.`,
+      `you have tapped into inner drive for well-being.`,
+    ],
+    presentHealth: [
+      `you start energetic pursuits for vitality.`,
+      `you tap into inner drive for well-being.`,
+    ],
+    futureHealth: [
+      `you will start energetic pursuits for vitality.`,
+      `you will tap into inner drive for well-being.`,
+    ],
+    pastHealthReversed: [
+      `you have ignored calls for physical renewal.`,
+      `you have struggled with low energy levels.`,
+    ],
+    presentHealthReversed: [
+      `you ignore calls for physical renewal.`,
+      `you struggle with low energy levels.`,
+    ],
+    futureHealthReversed: [
+      `you will ignore calls for physical renewal.`,
+      `you will struggle with low energy levels.`,
+    ],
+  },
+  {
+    name: `Two of Wands`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have planned long-term financial strategies.`,
+      `you have explored global opportunities for growth.`,
+    ],
+    presentMoney: [
+      `you plan long-term financial strategies.`,
+      `you explore global opportunities for growth.`,
+    ],
+    futureMoney: [
+      `you will plan long-term financial strategies.`,
+      `you will explore global opportunities for growth.`,
+    ],
+    pastMoneyReversed: [
+      `you have feared expansion in career choices.`,
+      `you have limited options due to indecision.`,
+    ],
+    presentMoneyReversed: [
+      `you fear expansion in career choices.`,
+      `you limit options due to indecision.`,
+    ],
+    futureMoneyReversed: [
+      `you will fear expansion in career choices.`,
+      `you will limit options due to indecision.`,
+    ],
+    pastRelationships: [
+      `you have considered future commitments with a partner.`,
+      `you have balanced personal goals in a bond.`,
+    ],
+    presentRelationships: [
+      `you consider future commitments with a partner.`,
+      `you balance personal goals in a bond.`,
+    ],
+    futureRelationships: [
+      `you will consider future commitments with a partner.`,
+      `you will balance personal goals in a bond.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have avoided planning in romantic matters.`,
+      `you have felt restricted in relational progress.`,
+    ],
+    presentRelationshipsReversed: [
+      `you avoid planning in romantic matters.`,
+      `you feel restricted in relational progress.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will avoid planning in romantic matters.`,
+      `you will feel restricted in relational progress.`,
+    ],
+    pastHealth: [
+      `you have envisioned paths to better wellness.`,
+      `you have prepared for sustained health efforts.`,
+    ],
+    presentHealth: [
+      `you envision paths to better wellness.`,
+      `you prepare for sustained health efforts.`,
+    ],
+    futureHealth: [
+      `you will envision paths to better wellness.`,
+      `you will prepare for sustained health efforts.`,
+    ],
+    pastHealthReversed: [
+      `you have resisted changes for improvement.`,
+      `you have needed focus to avoid stagnation.`,
+    ],
+    presentHealthReversed: [
+      `you resist changes for improvement.`,
+      `you need focus to avoid stagnation.`,
+    ],
+    futureHealthReversed: [
+      `you will resist changes for improvement.`,
+      `you will need focus to avoid stagnation.`,
+    ],
+  },
+  {
+    name: `Three of Wands`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have expanded ventures with foresight.`,
+      `you have awaited returns on investments.`,
+    ],
+    presentMoney: [
+      `you expand ventures with foresight.`,
+      `you await returns on investments.`,
+    ],
+    futureMoney: [
+      `you will expand ventures with foresight.`,
+      `you will await returns on investments.`,
+    ],
+    pastMoneyReversed: [
+      `you have encountered delays in financial plans.`,
+      `you have overextended in business pursuits.`,
+    ],
+    presentMoneyReversed: [
+      `you encounter delays in financial plans.`,
+      `you overextend in business pursuits.`,
+    ],
+    futureMoneyReversed: [
+      `you will encounter delays in financial plans.`,
+      `you will overextend in business pursuits.`,
+    ],
+    pastRelationships: [
+      `you have built foundations for lasting bonds.`,
+      `you have collaborated on shared visions.`,
+    ],
+    presentRelationships: [
+      `you build foundations for lasting bonds.`,
+      `you collaborate on shared visions.`,
+    ],
+    futureRelationships: [
+      `you will build foundations for lasting bonds.`,
+      `you will collaborate on shared visions.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have faced setbacks in partnership growth.`,
+      `you have lacked alignment with a loved one.`,
+    ],
+    presentRelationshipsReversed: [
+      `you face setbacks in partnership growth.`,
+      `you lack alignment with a loved one.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will face setbacks in partnership growth.`,
+      `you will lack alignment with a loved one.`,
+    ],
+    pastHealth: [
+      `you have progressed toward wellness goals.`,
+      `you have explored new health horizons.`,
+    ],
+    presentHealth: [
+      `you progress toward wellness goals.`,
+      `you explore new health horizons.`,
+    ],
+    futureHealth: [
+      `you will progress toward wellness goals.`,
+      `you will explore new health horizons.`,
+    ],
+    pastHealthReversed: [
+      `you have dealt with obstacles in recovery.`,
+      `you have needed patience for vitality.`,
+    ],
+    presentHealthReversed: [
+      `you deal with obstacles in recovery.`,
+      `you need patience for vitality.`,
+    ],
+    futureHealthReversed: [
+      `you will deal with obstacles in recovery.`,
+      `you will need patience for vitality.`,
+    ],
+  },
+  {
+    name: `Four of Wands`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have achieved stability in home finances.`,
+      `you have celebrated career milestones.`,
+    ],
+    presentMoney: [
+      `you achieve stability in home finances.`,
+      `you celebrate career milestones.`,
+    ],
+    futureMoney: [
+      `you will achieve stability in home finances.`,
+      `you will celebrate career milestones.`,
+    ],
+    pastMoneyReversed: [
+      `you have experienced instability in work life.`,
+      `you have delayed financial celebrations.`,
+    ],
+    presentMoneyReversed: [
+      `you experience instability in work life.`,
+      `you delay financial celebrations.`,
+    ],
+    futureMoneyReversed: [
+      `you will experience instability in work life.`,
+      `you will delay financial celebrations.`,
+    ],
+    pastRelationships: [
+      `you have built harmonious family connections.`,
+      `you have enjoyed relational security.`,
+    ],
+    presentRelationships: [
+      `you build harmonious family connections.`,
+      `you enjoy relational security.`,
+    ],
+    futureRelationships: [
+      `you will build harmonious family connections.`,
+      `you will enjoy relational security.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have faced conflicts in domestic bonds.`,
+      `you have lacked commitment in partnerships.`,
+    ],
+    presentRelationshipsReversed: [
+      `you face conflicts in domestic bonds.`,
+      `you lack commitment in partnerships.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will face conflicts in domestic bonds.`,
+      `you will lack commitment in partnerships.`,
+    ],
+    pastHealth: [
+      `you have found balance in daily routines.`,
+      `you have rested after accomplishments.`,
+    ],
+    presentHealth: [
+      `you find balance in daily routines.`,
+      `you rest after accomplishments.`,
+    ],
+    futureHealth: [
+      `you will find balance in daily routines.`,
+      `you will rest after accomplishments.`,
+    ],
+    pastHealthReversed: [
+      `you have ignored rest leading to imbalance.`,
+      `you have needed grounding for well-being.`,
+    ],
+    presentHealthReversed: [
+      `you ignore rest leading to imbalance.`,
+      `you need grounding for well-being.`,
+    ],
+    futureHealthReversed: [
+      `you will ignore rest leading to imbalance.`,
+      `you will need grounding for well-being.`,
+    ],
+  },
+  {
+    name: `Five of Wands`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have competed for career opportunities.`,
+      `you have navigated conflicts in business.`,
+    ],
+    presentMoney: [
+      `you compete for career opportunities.`,
+      `you navigate conflicts in business.`,
+    ],
+    futureMoney: [
+      `you will compete for career opportunities.`,
+      `you will navigate conflicts in business.`,
+    ],
+    pastMoneyReversed: [
+      `you have avoided unnecessary work rivalries.`,
+      `you have resolved financial disputes.`,
+    ],
+    presentMoneyReversed: [
+      `you avoid unnecessary work rivalries.`,
+      `you resolve financial disputes.`,
+    ],
+    futureMoneyReversed: [
+      `you will avoid unnecessary work rivalries.`,
+      `you will resolve financial disputes.`,
+    ],
+    pastRelationships: [
+      `you have argued passionately in a bond.`,
+      `you have tested limits with a partner.`,
+    ],
+    presentRelationships: [
+      `you argue passionately in a bond.`,
+      `you test limits with a partner.`,
+    ],
+    futureRelationships: [
+      `you will argue passionately in a bond.`,
+      `you will test limits with a partner.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have ended petty conflicts in love.`,
+      `you have sought peace after tension.`,
+    ],
+    presentRelationshipsReversed: [
+      `you end petty conflicts in love.`,
+      `you seek peace after tension.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will end petty conflicts in love.`,
+      `you will seek peace after tension.`,
+    ],
+    pastHealth: [
+      `you have pushed through physical challenges.`,
+      `you have built resilience via effort.`,
+    ],
+    presentHealth: [
+      `you push through physical challenges.`,
+      `you build resilience via effort.`,
+    ],
+    futureHealth: [
+      `you will push through physical challenges.`,
+      `you will build resilience via effort.`,
+    ],
+    pastHealthReversed: [
+      `you have released stress for recovery.`,
+      `you have found calm amid struggles.`,
+    ],
+    presentHealthReversed: [
+      `you release stress for recovery.`,
+      `you find calm amid struggles.`,
+    ],
+    futureHealthReversed: [
+      `you will release stress for recovery.`,
+      `you will find calm amid struggles.`,
+    ],
+  },
+  {
+    name: `Six of Wands`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have achieved public recognition in career.`,
+      `you have succeeded in financial endeavors.`,
+    ],
+    presentMoney: [
+      `you achieve public recognition in career.`,
+      `you succeed in financial endeavors.`,
+    ],
+    futureMoney: [
+      `you will achieve public recognition in career.`,
+      `you will succeed in financial endeavors.`,
+    ],
+    pastMoneyReversed: [
+      `you have faced delays in career acclaim.`,
+      `you have dealt with ego issues in finances.`,
+    ],
+    presentMoneyReversed: [
+      `you face delays in career acclaim.`,
+      `you deal with ego issues in finances.`,
+    ],
+    futureMoneyReversed: [
+      `you will face delays in career acclaim.`,
+      `you will deal with ego issues in finances.`,
+    ],
+    pastRelationships: [
+      `you have celebrated victories in partnerships.`,
+      `you have gained admiration from a loved one.`,
+    ],
+    presentRelationships: [
+      `you celebrate victories in partnerships.`,
+      `you gain admiration from a loved one.`,
+    ],
+    futureRelationships: [
+      `you will celebrate victories in partnerships.`,
+      `you will gain admiration from a loved one.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have encountered jealousy in bonds.`,
+      `you have lacked support from a partner.`,
+    ],
+    presentRelationshipsReversed: [
+      `you encounter jealousy in bonds.`,
+      `you lack support from a partner.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will encounter jealousy in bonds.`,
+      `you will lack support from a partner.`,
+    ],
+    pastHealth: [
+      `you have overcome health hurdles triumphantly.`,
+      `you have boosted confidence in well-being.`,
+    ],
+    presentHealth: [
+      `you overcome health hurdles triumphantly.`,
+      `you boost confidence in well-being.`,
+    ],
+    futureHealth: [
+      `you will overcome health hurdles triumphantly.`,
+      `you will boost confidence in well-being.`,
+    ],
+    pastHealthReversed: [
+      `you have struggled with self-doubt in recovery.`,
+      `you have needed humility for vitality.`,
+    ],
+    presentHealthReversed: [
+      `you struggle with self-doubt in recovery.`,
+      `you need humility for vitality.`,
+    ],
+    futureHealthReversed: [
+      `you will struggle with self-doubt in recovery.`,
+      `you will need humility for vitality.`,
+    ],
+  },
+  {
+    name: `Seven of Wands`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have defended your position in business.`,
+      `you have stood firm against competition.`,
+    ],
+    presentMoney: [
+      `you defend your position in business.`,
+      `you stand firm against competition.`,
+    ],
+    futureMoney: [
+      `you will defend your position in business.`,
+      `you will stand firm against competition.`,
+    ],
+    pastMoneyReversed: [
+      `you have felt overwhelmed by work demands.`,
+      `you have surrendered unneeded fights.`,
+    ],
+    presentMoneyReversed: [
+      `you feel overwhelmed by work demands.`,
+      `you surrender unneeded fights.`,
+    ],
+    futureMoneyReversed: [
+      `you will feel overwhelmed by work demands.`,
+      `you will surrender unneeded fights.`,
+    ],
+    pastRelationships: [
+      `you have protected boundaries in a bond.`,
+      `you have asserted needs with a partner.`,
+    ],
+    presentRelationships: [
+      `you protect boundaries in a bond.`,
+      `you assert needs with a partner.`,
+    ],
+    futureRelationships: [
+      `you will protect boundaries in a bond.`,
+      `you will assert needs with a partner.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have avoided defensive arguments.`,
+      `you have sought compromise in love.`,
+    ],
+    presentRelationshipsReversed: [
+      `you avoid defensive arguments.`,
+      `you seek compromise in love.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will avoid defensive arguments.`,
+      `you will seek compromise in love.`,
+    ],
+    pastHealth: [
+      `you have persevered through wellness battles.`,
+      `you have maintained strength under pressure.`,
+    ],
+    presentHealth: [
+      `you persevere through wellness battles.`,
+      `you maintain strength under pressure.`,
+    ],
+    futureHealth: [
+      `you will persevere through wellness battles.`,
+      `you will maintain strength under pressure.`,
+    ],
+    pastHealthReversed: [
+      `you have released tension for healing.`,
+      `you have needed rest to regain energy.`,
+    ],
+    presentHealthReversed: [
+      `you release tension for healing.`,
+      `you need rest to regain energy.`,
+    ],
+    futureHealthReversed: [
+      `you will release tension for healing.`,
+      `you will need rest to regain energy.`,
+    ],
+  },
+  {
+    name: `Eight of Wands`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have experienced rapid financial progress.`,
+      `you have communicated swiftly in business.`,
+    ],
+    presentMoney: [
+      `you experience rapid financial progress.`,
+      `you communicate swiftly in business.`,
+    ],
+    futureMoney: [
+      `you will experience rapid financial progress.`,
+      `you will communicate swiftly in business.`,
+    ],
+    pastMoneyReversed: [
+      `you have faced delays in career momentum.`,
+      `you have dealt with rushed decisions.`,
+    ],
+    presentMoneyReversed: [
+      `you face delays in career momentum.`,
+      `you deal with rushed decisions.`,
+    ],
+    futureMoneyReversed: [
+      `you will face delays in career momentum.`,
+      `you will deal with rushed decisions.`,
+    ],
+    pastRelationships: [
+      `you have advanced quickly in romantic pursuits.`,
+      `you have exchanged passionate messages.`,
+    ],
+    presentRelationships: [
+      `you advance quickly in romantic pursuits.`,
+      `you exchange passionate messages.`,
+    ],
+    futureRelationships: [
+      `you will advance quickly in romantic pursuits.`,
+      `you will exchange passionate messages.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have encountered miscommunications in bonds.`,
+      `you have slowed down impulsive actions.`,
+    ],
+    presentRelationshipsReversed: [
+      `you encounter miscommunications in bonds.`,
+      `you slow down impulsive actions.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will encounter miscommunications in bonds.`,
+      `you will slow down impulsive actions.`,
+    ],
+    pastHealth: [
+      `you have seen fast improvements in vitality.`,
+      `you have embraced dynamic energy flows.`,
+    ],
+    presentHealth: [
+      `you see fast improvements in vitality.`,
+      `you embrace dynamic energy flows.`,
+    ],
+    futureHealth: [
+      `you will see fast improvements in vitality.`,
+      `you will embrace dynamic energy flows.`,
+    ],
+    pastHealthReversed: [
+      `you have needed patience amid setbacks.`,
+      `you have addressed haste affecting well-being.`,
+    ],
+    presentHealthReversed: [
+      `you need patience amid setbacks.`,
+      `you address haste affecting well-being.`,
+    ],
+    futureHealthReversed: [
+      `you will need patience amid setbacks.`,
+      `you will address haste affecting well-being.`,
+    ],
+  },
+  {
+    name: `Nine of Wands`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have persisted through career challenges.`,
+      `you have guarded financial achievements.`,
+    ],
+    presentMoney: [
+      `you persist through career challenges.`,
+      `you guard financial achievements.`,
+    ],
+    futureMoney: [
+      `you will persist through career challenges.`,
+      `you will guard financial achievements.`,
+    ],
+    pastMoneyReversed: [
+      `you have felt exhausted by work struggles.`,
+      `you have dropped unnecessary defenses.`,
+    ],
+    presentMoneyReversed: [
+      `you feel exhausted by work struggles.`,
+      `you drop unnecessary defenses.`,
+    ],
+    futureMoneyReversed: [
+      `you will feel exhausted by work struggles.`,
+      `you will drop unnecessary defenses.`,
+    ],
+    pastRelationships: [
+      `you have remained resilient in partnerships.`,
+      `you have protected emotional boundaries.`,
+    ],
+    presentRelationships: [
+      `you remain resilient in partnerships.`,
+      `you protect emotional boundaries.`,
+    ],
+    futureRelationships: [
+      `you will remain resilient in partnerships.`,
+      `you will protect emotional boundaries.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have let go of paranoia in love.`,
+      `you have sought support after isolation.`,
+    ],
+    presentRelationshipsReversed: [
+      `you let go of paranoia in love.`,
+      `you seek support after isolation.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will let go of paranoia in love.`,
+      `you will seek support after isolation.`,
+    ],
+    pastHealth: [
+      `you have recovered from past health issues.`,
+      `you have built endurance for well-being.`,
+    ],
+    presentHealth: [
+      `you recover from past health issues.`,
+      `you build endurance for well-being.`,
+    ],
+    futureHealth: [
+      `you will recover from past health issues.`,
+      `you will build endurance for well-being.`,
+    ],
+    pastHealthReversed: [
+      `you have addressed burnout for renewal.`,
+      `you have needed trust in healing processes.`,
+    ],
+    presentHealthReversed: [
+      `you address burnout for renewal.`,
+      `you need trust in healing processes.`,
+    ],
+    futureHealthReversed: [
+      `you will address burnout for renewal.`,
+      `you will need trust in healing processes.`,
+    ],
+  },
+  {
+    name: `Ten of Wands`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have shouldered heavy financial burdens.`,
+      `you have worked hard toward completion.`,
+    ],
+    presentMoney: [
+      `you shoulder heavy financial burdens.`,
+      `you work hard toward completion.`,
+    ],
+    futureMoney: [
+      `you will shoulder heavy financial burdens.`,
+      `you will work hard toward completion.`,
+    ],
+    pastMoneyReversed: [
+      `you have released overwhelming work loads.`,
+      `you have delegated financial duties.`,
+    ],
+    presentMoneyReversed: [
+      `you release overwhelming work loads.`,
+      `you delegate financial duties.`,
+    ],
+    futureMoneyReversed: [
+      `you will release overwhelming work loads.`,
+      `you will delegate financial duties.`,
+    ],
+    pastRelationships: [
+      `you have carried relational responsibilities.`,
+      `you have committed despite exhaustion.`,
+    ],
+    presentRelationships: [
+      `you carry relational responsibilities.`,
+      `you commit despite exhaustion.`,
+    ],
+    futureRelationships: [
+      `you will carry relational responsibilities.`,
+      `you will commit despite exhaustion.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have lightened emotional baggage.`,
+      `you have avoided burnout in bonds.`,
+    ],
+    presentRelationshipsReversed: [
+      `you lighten emotional baggage.`,
+      `you avoid burnout in bonds.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will lighten emotional baggage.`,
+      `you will avoid burnout in bonds.`,
+    ],
+    pastHealth: [
+      `you have pushed limits for wellness goals.`,
+      `you have managed multiple health tasks.`,
+    ],
+    presentHealth: [
+      `you push limits for wellness goals.`,
+      `you manage multiple health tasks.`,
+    ],
+    futureHealth: [
+      `you will push limits for wellness goals.`,
+      `you will manage multiple health tasks.`,
+    ],
+    pastHealthReversed: [
+      `you have prioritized rest for recovery.`,
+      `you have simplified routines for vitality.`,
+    ],
+    presentHealthReversed: [
+      `you prioritize rest for recovery.`,
+      `you simplify routines for vitality.`,
+    ],
+    futureHealthReversed: [
+      `you will prioritize rest for recovery.`,
+      `you will simplify routines for vitality.`,
+    ],
+  },
+  {
+    name: `Page of Wands`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have explored creative career ideas.`,
+      `you have received inspiring financial news.`,
+    ],
+    presentMoney: [
+      `you explore creative career ideas.`,
+      `you receive inspiring financial news.`,
+    ],
+    futureMoney: [
+      `you will explore creative career ideas.`,
+      `you will receive inspiring financial news.`,
+    ],
+    pastMoneyReversed: [
+      `you have delayed pursuing work passions.`,
+      `you have lacked focus in financial plans.`,
+    ],
+    presentMoneyReversed: [
+      `you delay pursuing work passions.`,
+      `you lack focus in financial plans.`,
+    ],
+    futureMoneyReversed: [
+      `you will delay pursuing work passions.`,
+      `you will lack focus in financial plans.`,
+    ],
+    pastRelationships: [
+      `you have flirted with new romantic interests.`,
+      `you have brought enthusiasm to a bond.`,
+    ],
+    presentRelationships: [
+      `you flirt with new romantic interests.`,
+      `you bring enthusiasm to a bond.`,
+    ],
+    futureRelationships: [
+      `you will flirt with new romantic interests.`,
+      `you will bring enthusiasm to a bond.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have shown inconsistency in love.`,
+      `you have avoided romantic commitments.`,
+    ],
+    presentRelationshipsReversed: [
+      `you show inconsistency in love.`,
+      `you avoid romantic commitments.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will show inconsistency in love.`,
+      `you will avoid romantic commitments.`,
+    ],
+    pastHealth: [
+      `you have tried adventurous wellness activities.`,
+      `you have sparked motivation for fitness.`,
+    ],
+    presentHealth: [
+      `you try adventurous wellness activities.`,
+      `you spark motivation for fitness.`,
+    ],
+    futureHealth: [
+      `you will try adventurous wellness activities.`,
+      `you will spark motivation for fitness.`,
+    ],
+    pastHealthReversed: [
+      `you have ignored inner calls for change.`,
+      `you have faced scattered energy levels.`,
+    ],
+    presentHealthReversed: [
+      `you ignore inner calls for change.`,
+      `you face scattered energy levels.`,
+    ],
+    futureHealthReversed: [
+      `you will ignore inner calls for change.`,
+      `you will face scattered energy levels.`,
+    ],
+  },
+  {
+    name: `Knight of Wands`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have pursued bold career adventures.`,
+      `you have acted impulsively on financial opportunities.`,
+    ],
+    presentMoney: [
+      `you pursue bold career adventures.`,
+      `you act impulsively on financial opportunities.`,
+    ],
+    futureMoney: [
+      `you will pursue bold career adventures.`,
+      `you will act impulsively on financial opportunities.`,
+    ],
+    pastMoneyReversed: [
+      `you have rushed into unstable ventures.`,
+      `you have abandoned projects prematurely.`,
+    ],
+    presentMoneyReversed: [
+      `you rush into unstable ventures.`,
+      `you abandon projects prematurely.`,
+    ],
+    futureMoneyReversed: [
+      `you will rush into unstable ventures.`,
+      `you will abandon projects prematurely.`,
+    ],
+    pastRelationships: [
+      `you have chased passionate connections.`,
+      `you have brought excitement to partnerships.`,
+    ],
+    presentRelationships: [
+      `you chase passionate connections.`,
+      `you bring excitement to partnerships.`,
+    ],
+    futureRelationships: [
+      `you will chase passionate connections.`,
+      `you will bring excitement to partnerships.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have acted recklessly in love.`,
+      `you have lacked follow-through in bonds.`,
+    ],
+    presentRelationshipsReversed: [
+      `you act recklessly in love.`,
+      `you lack follow-through in bonds.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will act recklessly in love.`,
+      `you will lack follow-through in bonds.`,
+    ],
+    pastHealth: [
+      `you have engaged in dynamic physical pursuits.`,
+      `you have embraced change for vitality.`,
+    ],
+    presentHealth: [
+      `you engage in dynamic physical pursuits.`,
+      `you embrace change for vitality.`,
+    ],
+    futureHealth: [
+      `you will engage in dynamic physical pursuits.`,
+      `you will embrace change for vitality.`,
+    ],
+    pastHealthReversed: [
+      `you have overexerted leading to fatigue.`,
+      `you have needed grounding for well-being.`,
+    ],
+    presentHealthReversed: [
+      `you overexert leading to fatigue.`,
+      `you need grounding for well-being.`,
+    ],
+    futureHealthReversed: [
+      `you will overexert leading to fatigue.`,
+      `you will need grounding for well-being.`,
+    ],
+  },
+  {
+    name: `Queen of Wands`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have led with confidence in business.`,
+      `you have nurtured creative financial growth.`,
+    ],
+    presentMoney: [
+      `you lead with confidence in business.`,
+      `you nurture creative financial growth.`,
+    ],
+    futureMoney: [
+      `you will lead with confidence in business.`,
+      `you will nurture creative financial growth.`,
+    ],
+    pastMoneyReversed: [
+      `you have faced jealousy in career matters.`,
+      `you have overextended in work efforts.`,
+    ],
+    presentMoneyReversed: [
+      `you face jealousy in career matters.`,
+      `you overextend in work efforts.`,
+    ],
+    futureMoneyReversed: [
+      `you will face jealousy in career matters.`,
+      `you will overextend in work efforts.`,
+    ],
+    pastRelationships: [
+      `you have attracted with charisma and warmth.`,
+      `you have empowered independent bonds.`,
+    ],
+    presentRelationships: [
+      `you attract with charisma and warmth.`,
+      `you empower independent bonds.`,
+    ],
+    futureRelationships: [
+      `you will attract with charisma and warmth.`,
+      `you will empower independent bonds.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have shown possessiveness in love.`,
+      `you have lacked self-assurance in partnerships.`,
+    ],
+    presentRelationshipsReversed: [
+      `you show possessiveness in love.`,
+      `you lack self-assurance in partnerships.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will show possessiveness in love.`,
+      `you will lack self-assurance in partnerships.`,
+    ],
+    pastHealth: [
+      `you have maintained vibrant energy.`,
+      `you have balanced self-care with activity.`,
+    ],
+    presentHealth: [
+      `you maintain vibrant energy.`,
+      `you balance self-care with activity.`,
+    ],
+    futureHealth: [
+      `you will maintain vibrant energy.`,
+      `you will balance self-care with activity.`,
+    ],
+    pastHealthReversed: [
+      `you have dealt with burnout from demands.`,
+      `you have needed boundaries for vitality.`,
+    ],
+    presentHealthReversed: [
+      `you deal with burnout from demands.`,
+      `you need boundaries for vitality.`,
+    ],
+    futureHealthReversed: [
+      `you will deal with burnout from demands.`,
+      `you will need boundaries for vitality.`,
+    ],
+  },
+  {
+    name: `King of Wands`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have envisioned grand financial plans.`,
+      `you have led entrepreneurial ventures successfully.`,
+    ],
+    presentMoney: [
+      `you envision grand financial plans.`,
+      `you lead entrepreneurial ventures successfully.`,
+    ],
+    futureMoney: [
+      `you will envision grand financial plans.`,
+      `you will lead entrepreneurial ventures successfully.`,
+    ],
+    pastMoneyReversed: [
+      `you have acted impulsively in business.`,
+      `you have lacked vision in career goals.`,
+    ],
+    presentMoneyReversed: [
+      `you act impulsively in business.`,
+      `you lack vision in career goals.`,
+    ],
+    futureMoneyReversed: [
+      `you will act impulsively in business.`,
+      `you will lack vision in career goals.`,
+    ],
+    pastRelationships: [
+      `you have inspired passion in partnerships.`,
+      `you have provided stable leadership in love.`,
+    ],
+    presentRelationships: [
+      `you inspire passion in partnerships.`,
+      `you provide stable leadership in love.`,
+    ],
+    futureRelationships: [
+      `you will inspire passion in partnerships.`,
+      `you will provide stable leadership in love.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have dominated romantic dynamics.`,
+      `you have avoided emotional depth.`,
+    ],
+    presentRelationshipsReversed: [
+      `you dominate romantic dynamics.`,
+      `you avoid emotional depth.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will dominate romantic dynamics.`,
+      `you will avoid emotional depth.`,
+    ],
+    pastHealth: [
+      `you have directed energy toward wellness.`,
+      `you have achieved holistic vitality.`,
+    ],
+    presentHealth: [
+      `you direct energy toward wellness.`,
+      `you achieve holistic vitality.`,
+    ],
+    futureHealth: [
+      `you will direct energy toward wellness.`,
+      `you will achieve holistic vitality.`,
+    ],
+    pastHealthReversed: [
+      `you have ignored sustainable habits.`,
+      `you have faced scattered well-being efforts.`,
+    ],
+    presentHealthReversed: [
+      `you ignore sustainable habits.`,
+      `you face scattered well-being efforts.`,
+    ],
+    futureHealthReversed: [
+      `you will ignore sustainable habits.`,
+      `you will face scattered well-being efforts.`,
+    ],
+  })
+][
+  ({
+    name: `Ace of Cups`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have opened to new emotional investments.`,
+      `you have received compassionate support in finances.`,
+    ],
+    presentMoney: [
+      `you open to new emotional investments.`,
+      `you receive compassionate support in finances.`,
+    ],
+    futureMoney: [
+      `you will open to new emotional investments.`,
+      `you will receive compassionate support in finances.`,
+    ],
+    pastMoneyReversed: [
+      `you have blocked financial intuition.`,
+      `you have drained resources emotionally.`,
+    ],
+    presentMoneyReversed: [
+      `you block financial intuition.`,
+      `you drain resources emotionally.`,
+    ],
+    futureMoneyReversed: [
+      `you will block financial intuition.`,
+      `you will drain resources emotionally.`,
+    ],
+    pastRelationships: [
+      `you have begun a loving emotional bond.`,
+      `you have overflowed with affection.`,
+    ],
+    presentRelationships: [
+      `you begin a loving emotional bond.`,
+      `you overflow with affection.`,
+    ],
+    futureRelationships: [
+      `you will begin a loving emotional bond.`,
+      `you will overflow with affection.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have repressed feelings in love.`,
+      `you have faced emotional unavailability.`,
+    ],
+    presentRelationshipsReversed: [
+      `you repress feelings in love.`,
+      `you face emotional unavailability.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will repress feelings in love.`,
+      `you will face emotional unavailability.`,
+    ],
+    pastHealth: [
+      `you have embraced emotional healing.`,
+      `you have nurtured inner peace.`,
+    ],
+    presentHealth: [
+      `you embrace emotional healing.`,
+      `you nurture inner peace.`,
+    ],
+    futureHealth: [
+      `you will embrace emotional healing.`,
+      `you will nurture inner peace.`,
+    ],
+    pastHealthReversed: [
+      `you have ignored self-care needs.`,
+      `you have suffered emotional exhaustion.`,
+    ],
+    presentHealthReversed: [
+      `you ignore self-care needs.`,
+      `you suffer emotional exhaustion.`,
+    ],
+    futureHealthReversed: [
+      `you will ignore self-care needs.`,
+      `you will suffer emotional exhaustion.`,
+    ],
+  },
+  {
+    name: `Two of Cups`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have formed harmonious business partnerships.`,
+      `you have balanced financial exchanges.`,
+    ],
+    presentMoney: [
+      `you form harmonious business partnerships.`,
+      `you balance financial exchanges.`,
+    ],
+    futureMoney: [
+      `you will form harmonious business partnerships.`,
+      `you will balance financial exchanges.`,
+    ],
+    pastMoneyReversed: [
+      `you have faced imbalances in work alliances.`,
+      `you have dealt with financial mistrust.`,
+    ],
+    presentMoneyReversed: [
+      `you face imbalances in work alliances.`,
+      `you deal with financial mistrust.`,
+    ],
+    futureMoneyReversed: [
+      `you will face imbalances in work alliances.`,
+      `you will deal with financial mistrust.`,
+    ],
+    pastRelationships: [
+      `you have united in mutual attraction.`,
+      `you have shared deep emotional connections.`,
+    ],
+    presentRelationships: [
+      `you unite in mutual attraction.`,
+      `you share deep emotional connections.`,
+    ],
+    futureRelationships: [
+      `you will unite in mutual attraction.`,
+      `you will share deep emotional connections.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have experienced tension in partnerships.`,
+      `you have broken emotional bonds.`,
+    ],
+    presentRelationshipsReversed: [
+      `you experience tension in partnerships.`,
+      `you break emotional bonds.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will experience tension in partnerships.`,
+      `you will break emotional bonds.`,
+    ],
+    pastHealth: [
+      `you have harmonized mind and body.`,
+      `you have fostered emotional well-being.`,
+    ],
+    presentHealth: [
+      `you harmonize mind and body.`,
+      `you foster emotional well-being.`,
+    ],
+    futureHealth: [
+      `you will harmonize mind and body.`,
+      `you will foster emotional well-being.`,
+    ],
+    pastHealthReversed: [
+      `you have struggled with inner conflict.`,
+      `you have needed balance in vitality.`,
+    ],
+    presentHealthReversed: [
+      `you struggle with inner conflict.`,
+      `you need balance in vitality.`,
+    ],
+    futureHealthReversed: [
+      `you will struggle with inner conflict.`,
+      `you will need balance in vitality.`,
+    ],
+  },
+  {
+    name: `Three of Cups`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have collaborated successfully in teams.`,
+      `you have celebrated financial achievements.`,
+    ],
+    presentMoney: [
+      `you collaborate successfully in teams.`,
+      `you celebrate financial achievements.`,
+    ],
+    futureMoney: [
+      `you will collaborate successfully in teams.`,
+      `you will celebrate financial achievements.`,
+    ],
+    pastMoneyReversed: [
+      `you have overindulged in work socializing.`,
+      `you have isolated from financial networks.`,
+    ],
+    presentMoneyReversed: [
+      `you overindulge in work socializing.`,
+      `you isolate from financial networks.`,
+    ],
+    futureMoneyReversed: [
+      `you will overindulge in work socializing.`,
+      `you will isolate from financial networks.`,
+    ],
+    pastRelationships: [
+      `you have enjoyed friendships and community.`,
+      `you have shared joyful bonds.`,
+    ],
+    presentRelationships: [
+      `you enjoy friendships and community.`,
+      `you share joyful bonds.`,
+    ],
+    futureRelationships: [
+      `you will enjoy friendships and community.`,
+      `you will share joyful bonds.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have faced gossip in social circles.`,
+      `you have felt excluded from groups.`,
+    ],
+    presentRelationshipsReversed: [
+      `you face gossip in social circles.`,
+      `you feel excluded from groups.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will face gossip in social circles.`,
+      `you will feel excluded from groups.`,
+    ],
+    pastHealth: [
+      `you have supported group wellness activities.`,
+      `you have found joy in healing.`,
+    ],
+    presentHealth: [
+      `you support group wellness activities.`,
+      `you find joy in healing.`,
+    ],
+    futureHealth: [
+      `you will support group wellness activities.`,
+      `you will find joy in healing.`,
+    ],
+    pastHealthReversed: [
+      `you have neglected self-care in excess.`,
+      `you have needed solitude for recovery.`,
+    ],
+    presentHealthReversed: [
+      `you neglect self-care in excess.`,
+      `you need solitude for recovery.`,
+    ],
+    futureHealthReversed: [
+      `you will neglect self-care in excess.`,
+      `you will need solitude for recovery.`,
+    ],
+  },
+  {
+    name: `Four of Cups`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have contemplated financial offers.`,
+      `you have felt apathy toward career paths.`,
+    ],
+    presentMoney: [
+      `you contemplate financial offers.`,
+      `you feel apathy toward career paths.`,
+    ],
+    futureMoney: [
+      `you will contemplate financial offers.`,
+      `you will feel apathy toward career paths.`,
+    ],
+    pastMoneyReversed: [
+      `you have accepted new work opportunities.`,
+      `you have emerged from financial stagnation.`,
+    ],
+    presentMoneyReversed: [
+      `you accept new work opportunities.`,
+      `you emerge from financial stagnation.`,
+    ],
+    futureMoneyReversed: [
+      `you will accept new work opportunities.`,
+      `you will emerge from financial stagnation.`,
+    ],
+    pastRelationships: [
+      `you have withdrawn emotionally from bonds.`,
+      `you have ignored potential connections.`,
+    ],
+    presentRelationships: [
+      `you withdraw emotionally from bonds.`,
+      `you ignore potential connections.`,
+    ],
+    futureRelationships: [
+      `you will withdraw emotionally from bonds.`,
+      `you will ignore potential connections.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have reengaged in love interests.`,
+      `you have appreciated existing partnerships.`,
+    ],
+    presentRelationshipsReversed: [
+      `you reengage in love interests.`,
+      `you appreciate existing partnerships.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will reengage in love interests.`,
+      `you will appreciate existing partnerships.`,
+    ],
+    pastHealth: [
+      `you have meditated on well-being choices.`,
+      `you have felt discontent with health routines.`,
+    ],
+    presentHealth: [
+      `you meditate on well-being choices.`,
+      `you feel discontent with health routines.`,
+    ],
+    futureHealth: [
+      `you will meditate on well-being choices.`,
+      `you will feel discontent with health routines.`,
+    ],
+    pastHealthReversed: [
+      `you have motivated for health improvements.`,
+      `you have broken from lethargy.`,
+    ],
+    presentHealthReversed: [
+      `you motivate for health improvements.`,
+      `you break from lethargy.`,
+    ],
+    futureHealthReversed: [
+      `you will motivate for health improvements.`,
+      `you will break from lethargy.`,
+    ],
+  },
+  {
+    name: `Five of Cups`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have mourned financial losses.`,
+      `you have focused on career regrets.`,
+    ],
+    presentMoney: [
+      `you mourn financial losses.`,
+      `you focus on career regrets.`,
+    ],
+    futureMoney: [
+      `you will mourn financial losses.`,
+      `you will focus on career regrets.`,
+    ],
+    pastMoneyReversed: [
+      `you have forgiven past financial mistakes.`,
+      `you have recovered from work setbacks.`,
+    ],
+    presentMoneyReversed: [
+      `you forgive past financial mistakes.`,
+      `you recover from work setbacks.`,
+    ],
+    futureMoneyReversed: [
+      `you will forgive past financial mistakes.`,
+      `you will recover from work setbacks.`,
+    ],
+    pastRelationships: [
+      `you have grieved over broken bonds.`,
+      `you have dwelled on emotional disappointments.`,
+    ],
+    presentRelationships: [
+      `you grieve over broken bonds.`,
+      `you dwell on emotional disappointments.`,
+    ],
+    futureRelationships: [
+      `you will grieve over broken bonds.`,
+      `you will dwell on emotional disappointments.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have moved on from love losses.`,
+      `you have found hope in new connections.`,
+    ],
+    presentRelationshipsReversed: [
+      `you move on from love losses.`,
+      `you find hope in new connections.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will move on from love losses.`,
+      `you will find hope in new connections.`,
+    ],
+    pastHealth: [
+      `you have felt sorrow over health issues.`,
+      `you have ignored remaining vitality.`,
+    ],
+    presentHealth: [
+      `you feel sorrow over health issues.`,
+      `you ignore remaining vitality.`,
+    ],
+    futureHealth: [
+      `you will feel sorrow over health issues.`,
+      `you will ignore remaining vitality.`,
+    ],
+    pastHealthReversed: [
+      `you have accepted health challenges.`,
+      `you have focused on recovery positives.`,
+    ],
+    presentHealthReversed: [
+      `you accept health challenges.`,
+      `you focus on recovery positives.`,
+    ],
+    futureHealthReversed: [
+      `you will accept health challenges.`,
+      `you will focus on recovery positives.`,
+    ],
+  },
+  {
+    name: `Six of Cups`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have revisited past financial successes.`,
+      `you have drawn on childhood skills for career.`,
+    ],
+    presentMoney: [
+      `you revisit past financial successes.`,
+      `you draw on childhood skills for career.`,
+    ],
+    futureMoney: [
+      `you will revisit past financial successes.`,
+      `you will draw on childhood skills for career.`,
+    ],
+    pastMoneyReversed: [
+      `you have let go of outdated financial habits.`,
+      `you have moved beyond nostalgic investments.`,
+    ],
+    presentMoneyReversed: [
+      `you let go of outdated financial habits.`,
+      `you move beyond nostalgic investments.`,
+    ],
+    futureMoneyReversed: [
+      `you will let go of outdated financial habits.`,
+      `you will move beyond nostalgic investments.`,
+    ],
+    pastRelationships: [
+      `you have reconnected with old friends.`,
+      `you have cherished innocent love memories.`,
+    ],
+    presentRelationships: [
+      `you reconnect with old friends.`,
+      `you cherish innocent love memories.`,
+    ],
+    futureRelationships: [
+      `you will reconnect with old friends.`,
+      `you will cherish innocent love memories.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have released past emotional baggage.`,
+      `you have focused on future bonds.`,
+    ],
+    presentRelationshipsReversed: [
+      `you release past emotional baggage.`,
+      `you focus on future bonds.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will release past emotional baggage.`,
+      `you will focus on future bonds.`,
+    ],
+    pastHealth: [
+      `you have healed through nostalgic practices.`,
+      `you have nurtured inner child for well-being.`,
+    ],
+    presentHealth: [
+      `you heal through nostalgic practices.`,
+      `you nurture inner child for well-being.`,
+    ],
+    futureHealth: [
+      `you will heal through nostalgic practices.`,
+      `you will nurture inner child for well-being.`,
+    ],
+    pastHealthReversed: [
+      `you have outgrown old health routines.`,
+      `you have embraced new vitality methods.`,
+    ],
+    presentHealthReversed: [
+      `you outgrow old health routines.`,
+      `you embrace new vitality methods.`,
+    ],
+    futureHealthReversed: [
+      `you will outgrow old health routines.`,
+      `you will embrace new vitality methods.`,
+    ],
+  },
+  {
+    name: `Seven of Cups`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have dreamed of multiple financial paths.`,
+      `you have faced illusions in career choices.`,
+    ],
+    presentMoney: [
+      `you dream of multiple financial paths.`,
+      `you face illusions in career choices.`,
+    ],
+    futureMoney: [
+      `you will dream of multiple financial paths.`,
+      `you will face illusions in career choices.`,
+    ],
+    pastMoneyReversed: [
+      `you have clarified financial priorities.`,
+      `you have chosen realistic work goals.`,
+    ],
+    presentMoneyReversed: [
+      `you clarify financial priorities.`,
+      `you choose realistic work goals.`,
+    ],
+    futureMoneyReversed: [
+      `you will clarify financial priorities.`,
+      `you will choose realistic work goals.`,
+    ],
+    pastRelationships: [
+      `you have fantasized about ideal loves.`,
+      `you have explored emotional options.`,
+    ],
+    presentRelationships: [
+      `you fantasize about ideal loves.`,
+      `you explore emotional options.`,
+    ],
+    futureRelationships: [
+      `you will fantasize about ideal loves.`,
+      `you will explore emotional options.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have grounded in real connections.`,
+      `you have avoided deceptive bonds.`,
+    ],
+    presentRelationshipsReversed: [
+      `you ground in real connections.`,
+      `you avoid deceptive bonds.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will ground in real connections.`,
+      `you will avoid deceptive bonds.`,
+    ],
+    pastHealth: [
+      `you have imagined wellness possibilities.`,
+      `you have dealt with health delusions.`,
+    ],
+    presentHealth: [
+      `you imagine wellness possibilities.`,
+      `you deal with health delusions.`,
+    ],
+    futureHealth: [
+      `you will imagine wellness possibilities.`,
+      `you will deal with health delusions.`,
+    ],
+    pastHealthReversed: [
+      `you have focused on practical healing.`,
+      `you have dismissed false remedies.`,
+    ],
+    presentHealthReversed: [
+      `you focus on practical healing.`,
+      `you dismiss false remedies.`,
+    ],
+    futureHealthReversed: [
+      `you will focus on practical healing.`,
+      `you will dismiss false remedies.`,
+    ],
+  },
+  {
+    name: `Eight of Cups`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have abandoned unfulfilling careers.`,
+      `you have sought deeper financial meaning.`,
+    ],
+    presentMoney: [
+      `you abandon unfulfilling careers.`,
+      `you seek deeper financial meaning.`,
+    ],
+    futureMoney: [
+      `you will abandon unfulfilling careers.`,
+      `you will seek deeper financial meaning.`,
+    ],
+    pastMoneyReversed: [
+      `you have avoided necessary work changes.`,
+      `you have settled for financial mediocrity.`,
+    ],
+    presentMoneyReversed: [
+      `you avoid necessary work changes.`,
+      `you settle for financial mediocrity.`,
+    ],
+    futureMoneyReversed: [
+      `you will avoid necessary work changes.`,
+      `you will settle for financial mediocrity.`,
+    ],
+    pastRelationships: [
+      `you have walked away from toxic bonds.`,
+      `you have pursued emotional fulfillment.`,
+    ],
+    presentRelationships: [
+      `you walk away from toxic bonds.`,
+      `you pursue emotional fulfillment.`,
+    ],
+    futureRelationships: [
+      `you will walk away from toxic bonds.`,
+      `you will pursue emotional fulfillment.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have clung to failing partnerships.`,
+      `you have feared relational solitude.`,
+    ],
+    presentRelationshipsReversed: [
+      `you cling to failing partnerships.`,
+      `you fear relational solitude.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will cling to failing partnerships.`,
+      `you will fear relational solitude.`,
+    ],
+    pastHealth: [
+      `you have left behind unhealthy habits.`,
+      `you have journeyed toward better vitality.`,
+    ],
+    presentHealth: [
+      `you leave behind unhealthy habits.`,
+      `you journey toward better vitality.`,
+    ],
+    futureHealth: [
+      `you will leave behind unhealthy habits.`,
+      `you will journey toward better vitality.`,
+    ],
+    pastHealthReversed: [
+      `you have resisted health transformations.`,
+      `you have returned to old patterns.`,
+    ],
+    presentHealthReversed: [
+      `you resist health transformations.`,
+      `you return to old patterns.`,
+    ],
+    futureHealthReversed: [
+      `you will resist health transformations.`,
+      `you will return to old patterns.`,
+    ],
+  },
+  {
+    name: `Nine of Cups`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have achieved financial satisfaction.`,
+      `you have enjoyed material comforts.`,
+    ],
+    presentMoney: [
+      `you achieve financial satisfaction.`,
+      `you enjoy material comforts.`,
+    ],
+    futureMoney: [
+      `you will achieve financial satisfaction.`,
+      `you will enjoy material comforts.`,
+    ],
+    pastMoneyReversed: [
+      `you have felt empty despite wealth.`,
+      `you have pursued superficial gains.`,
+    ],
+    presentMoneyReversed: [
+      `you feel empty despite wealth.`,
+      `you pursue superficial gains.`,
+    ],
+    futureMoneyReversed: [
+      `you will feel empty despite wealth.`,
+      `you will pursue superficial gains.`,
+    ],
+    pastRelationships: [
+      `you have fulfilled emotional wishes.`,
+      `you have basked in loving harmony.`,
+    ],
+    presentRelationships: [
+      `you fulfill emotional wishes.`,
+      `you bask in loving harmony.`,
+    ],
+    futureRelationships: [
+      `you will fulfill emotional wishes.`,
+      `you will bask in loving harmony.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have experienced smugness in bonds.`,
+      `you have lacked true connection.`,
+    ],
+    presentRelationshipsReversed: [
+      `you experience smugness in bonds.`,
+      `you lack true connection.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will experience smugness in bonds.`,
+      `you will lack true connection.`,
+    ],
+    pastHealth: [
+      `you have attained emotional well-being.`,
+      `you have savored health abundance.`,
+    ],
+    presentHealth: [
+      `you attain emotional well-being.`,
+      `you savor health abundance.`,
+    ],
+    futureHealth: [
+      `you will attain emotional well-being.`,
+      `you will savor health abundance.`,
+    ],
+    pastHealthReversed: [
+      `you have overindulged affecting vitality.`,
+      `you have sought inner satisfaction.`,
+    ],
+    presentHealthReversed: [
+      `you overindulge affecting vitality.`,
+      `you seek inner satisfaction.`,
+    ],
+    futureHealthReversed: [
+      `you will overindulge affecting vitality.`,
+      `you will seek inner satisfaction.`,
+    ],
+  },
+  {
+    name: `Ten of Cups`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have found family-supported finances.`,
+      `you have achieved emotional wealth.`,
+    ],
+    presentMoney: [
+      `you find family-supported finances.`,
+      `you achieve emotional wealth.`,
+    ],
+    futureMoney: [
+      `you will find family-supported finances.`,
+      `you will achieve emotional wealth.`,
+    ],
+    pastMoneyReversed: [
+      `you have disrupted financial harmony.`,
+      `you have isolated in career pursuits.`,
+    ],
+    presentMoneyReversed: [
+      `you disrupt financial harmony.`,
+      `you isolate in career pursuits.`,
+    ],
+    futureMoneyReversed: [
+      `you will disrupt financial harmony.`,
+      `you will isolate in career pursuits.`,
+    ],
+    pastRelationships: [
+      `you have enjoyed family bliss.`,
+      `you have fulfilled relational dreams.`,
+    ],
+    presentRelationships: [
+      `you enjoy family bliss.`,
+      `you fulfill relational dreams.`,
+    ],
+    futureRelationships: [
+      `you will enjoy family bliss.`,
+      `you will fulfill relational dreams.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have faced family conflicts.`,
+      `you have broken emotional ties.`,
+    ],
+    presentRelationshipsReversed: [
+      `you face family conflicts.`,
+      `you break emotional ties.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will face family conflicts.`,
+      `you will break emotional ties.`,
+    ],
+    pastHealth: [
+      `you have harmonized holistic well-being.`,
+      `you have nurtured supportive health environments.`,
+    ],
+    presentHealth: [
+      `you harmonize holistic well-being.`,
+      `you nurture supportive health environments.`,
+    ],
+    futureHealth: [
+      `you will harmonize holistic well-being.`,
+      `you will nurture supportive health environments.`,
+    ],
+    pastHealthReversed: [
+      `you have neglected emotional health.`,
+      `you have needed family support for recovery.`,
+    ],
+    presentHealthReversed: [
+      `you neglect emotional health.`,
+      `you need family support for recovery.`,
+    ],
+    futureHealthReversed: [
+      `you will neglect emotional health.`,
+      `you will need family support for recovery.`,
+    ],
+  },
+  {
+    name: `Page of Cups`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have approached finances creatively.`,
+      `you have received intuitive work messages.`,
+    ],
+    presentMoney: [
+      `you approach finances creatively.`,
+      `you receive intuitive work messages.`,
+    ],
+    futureMoney: [
+      `you will approach finances creatively.`,
+      `you will receive intuitive work messages.`,
+    ],
+    pastMoneyReversed: [
+      `you have blocked financial intuition.`,
+      `you have lacked work inspiration.`,
+    ],
+    presentMoneyReversed: [
+      `you block financial intuition.`,
+      `you lack work inspiration.`,
+    ],
+    futureMoneyReversed: [
+      `you will block financial intuition.`,
+      `you will lack work inspiration.`,
+    ],
+    pastRelationships: [
+      `you have explored sensitive emotions.`,
+      `you have begun dreamy connections.`,
+    ],
+    presentRelationships: [
+      `you explore sensitive emotions.`,
+      `you begin dreamy connections.`,
+    ],
+    futureRelationships: [
+      `you will explore sensitive emotions.`,
+      `you will begin dreamy connections.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have shown emotional immaturity.`,
+      `you have avoided vulnerability.`,
+    ],
+    presentRelationshipsReversed: [
+      `you show emotional immaturity.`,
+      `you avoid vulnerability.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will show emotional immaturity.`,
+      `you will avoid vulnerability.`,
+    ],
+    pastHealth: [
+      `you have listened to body intuition.`,
+      `you have nurtured gentle healing.`,
+    ],
+    presentHealth: [
+      `you listen to body intuition.`,
+      `you nurture gentle healing.`,
+    ],
+    futureHealth: [
+      `you will listen to body intuition.`,
+      `you will nurture gentle healing.`,
+    ],
+    pastHealthReversed: [
+      `you have ignored health signals.`,
+      `you have faced emotional blocks in wellness.`,
+    ],
+    presentHealthReversed: [
+      `you ignore health signals.`,
+      `you face emotional blocks in wellness.`,
+    ],
+    futureHealthReversed: [
+      `you will ignore health signals.`,
+      `you will face emotional blocks in wellness.`,
+    ],
+  },
+  {
+    name: `Knight of Cups`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have followed intuitive financial leads.`,
+      `you have charmed in business dealings.`,
+    ],
+    presentMoney: [
+      `you follow intuitive financial leads.`,
+      `you charm in business dealings.`,
+    ],
+    futureMoney: [
+      `you will follow intuitive financial leads.`,
+      `you will charm in business dealings.`,
+    ],
+    pastMoneyReversed: [
+      `you have been moody in work matters.`,
+      `you have pursued unrealistic finances.`,
+    ],
+    presentMoneyReversed: [
+      `you are moody in work matters.`,
+      `you pursue unrealistic finances.`,
+    ],
+    futureMoneyReversed: [
+      `you will be moody in work matters.`,
+      `you will pursue unrealistic finances.`,
+    ],
+    pastRelationships: [
+      `you have romanced with idealism.`,
+      `you have offered emotional proposals.`,
+    ],
+    presentRelationships: [
+      `you romance with idealism.`,
+      `you offer emotional proposals.`,
+    ],
+    futureRelationships: [
+      `you will romance with idealism.`,
+      `you will offer emotional proposals.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have manipulated emotions in love.`,
+      `you have disappointed in partnerships.`,
+    ],
+    presentRelationshipsReversed: [
+      `you manipulate emotions in love.`,
+      `you disappoint in partnerships.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will manipulate emotions in love.`,
+      `you will disappoint in partnerships.`,
+    ],
+    pastHealth: [
+      `you have pursued holistic therapies.`,
+      `you have balanced emotions for vitality.`,
+    ],
+    presentHealth: [
+      `you pursue holistic therapies.`,
+      `you balance emotions for vitality.`,
+    ],
+    futureHealth: [
+      `you will pursue holistic therapies.`,
+      `you will balance emotions for vitality.`,
+    ],
+    pastHealthReversed: [
+      `you have swung moods affecting health.`,
+      `you have needed grounding in wellness.`,
+    ],
+    presentHealthReversed: [
+      `you swing moods affecting health.`,
+      `you need grounding in wellness.`,
+    ],
+    futureHealthReversed: [
+      `you will swing moods affecting health.`,
+      `you will need grounding in wellness.`,
+    ],
+  },
+  {
+    name: `Queen of Cups`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have used compassion in finances.`,
+      `you have trusted intuition in career.`,
+    ],
+    presentMoney: [
+      `you use compassion in finances.`,
+      `you trust intuition in career.`,
+    ],
+    futureMoney: [
+      `you will use compassion in finances.`,
+      `you will trust intuition in career.`,
+    ],
+    pastMoneyReversed: [
+      `you have been emotionally dependent in work.`,
+      `you have ignored financial boundaries.`,
+    ],
+    presentMoneyReversed: [
+      `you are emotionally dependent in work.`,
+      `you ignore financial boundaries.`,
+    ],
+    futureMoneyReversed: [
+      `you will be emotionally dependent in work.`,
+      `you will ignore financial boundaries.`,
+    ],
+    pastRelationships: [
+      `you have nurtured empathetic bonds.`,
+      `you have provided emotional support.`,
+    ],
+    presentRelationships: [
+      `you nurture empathetic bonds.`,
+      `you provide emotional support.`,
+    ],
+    futureRelationships: [
+      `you will nurture empathetic bonds.`,
+      `you will provide emotional support.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have smothered in love dynamics.`,
+      `you have lacked self-care in partnerships.`,
+    ],
+    presentRelationshipsReversed: [
+      `you smother in love dynamics.`,
+      `you lack self-care in partnerships.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will smother in love dynamics.`,
+      `you will lack self-care in partnerships.`,
+    ],
+    pastHealth: [
+      `you have healed through kindness.`,
+      `you have balanced inner emotions.`,
+    ],
+    presentHealth: [
+      `you heal through kindness.`,
+      `you balance inner emotions.`,
+    ],
+    futureHealth: [
+      `you will heal through kindness.`,
+      `you will balance inner emotions.`,
+    ],
+    pastHealthReversed: [
+      `you have repressed feelings impacting vitality.`,
+      `you have needed emotional release.`,
+    ],
+    presentHealthReversed: [
+      `you repress feelings impacting vitality.`,
+      `you need emotional release.`,
+    ],
+    futureHealthReversed: [
+      `you will repress feelings impacting vitality.`,
+      `you will need emotional release.`,
+    ],
+  },
+  {
+    name: `King of Cups`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have led with emotional intelligence in business.`,
+      `you have balanced finances compassionately.`,
+    ],
+    presentMoney: [
+      `you lead with emotional intelligence in business.`,
+      `you balance finances compassionately.`,
+    ],
+    futureMoney: [
+      `you will lead with emotional intelligence in business.`,
+      `you will balance finances compassionately.`,
+    ],
+    pastMoneyReversed: [
+      `you have manipulated in financial dealings.`,
+      `you have lacked work stability.`,
+    ],
+    presentMoneyReversed: [
+      `you manipulate in financial dealings.`,
+      `you lack work stability.`,
+    ],
+    futureMoneyReversed: [
+      `you will manipulate in financial dealings.`,
+      `you will lack work stability.`,
+    ],
+    pastRelationships: [
+      `you have provided wise emotional guidance.`,
+      `you have maintained calm in love.`,
+    ],
+    presentRelationships: [
+      `you provide wise emotional guidance.`,
+      `you maintain calm in love.`,
+    ],
+    futureRelationships: [
+      `you will provide wise emotional guidance.`,
+      `you will maintain calm in love.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have been emotionally distant.`,
+      `you have suppressed feelings in bonds.`,
+    ],
+    presentRelationshipsReversed: [
+      `you are emotionally distant.`,
+      `you suppress feelings in bonds.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will be emotionally distant.`,
+      `you will suppress feelings in bonds.`,
+    ],
+    pastHealth: [
+      `you have mastered emotional well-being.`,
+      `you have healed with diplomacy.`,
+    ],
+    presentHealth: [
+      `you master emotional well-being.`,
+      `you heal with diplomacy.`,
+    ],
+    futureHealth: [
+      `you will master emotional well-being.`,
+      `you will heal with diplomacy.`,
+    ],
+    pastHealthReversed: [
+      `you have faced mood instability.`,
+      `you have needed control over emotions.`,
+    ],
+    presentHealthReversed: [
+      `you face mood instability.`,
+      `you need control over emotions.`,
+    ],
+    futureHealthReversed: [
+      `you will face mood instability.`,
+      `you will need control over emotions.`,
+    ],
+  })
+][
+  ({
+    name: `Ace of Swords`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have claimed victory in financial disputes.`,
+      `you have used clarity to cut through career confusion.`,
+    ],
+    presentMoney: [
+      `you claim victory in financial disputes.`,
+      `you use clarity to cut through career confusion.`,
+    ],
+    futureMoney: [
+      `you will claim victory in financial disputes.`,
+      `you will use clarity to cut through career confusion.`,
+    ],
+    pastMoneyReversed: [
+      `you have faced mental blocks in finances.`,
+      `you have delayed decisive work actions.`,
+    ],
+    presentMoneyReversed: [
+      `you face mental blocks in finances.`,
+      `you delay decisive work actions.`,
+    ],
+    futureMoneyReversed: [
+      `you will face mental blocks in finances.`,
+      `you will delay decisive work actions.`,
+    ],
+    pastRelationships: [
+      `you have achieved breakthroughs in communication.`,
+      `you have confronted truths in bonds.`,
+    ],
+    presentRelationships: [
+      `you achieve breakthroughs in communication.`,
+      `you confront truths in bonds.`,
+    ],
+    futureRelationships: [
+      `you will achieve breakthroughs in communication.`,
+      `you will confront truths in bonds.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have avoided honest discussions.`,
+      `you have dealt with relational confusion.`,
+    ],
+    presentRelationshipsReversed: [
+      `you avoid honest discussions.`,
+      `you deal with relational confusion.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will avoid honest discussions.`,
+      `you will deal with relational confusion.`,
+    ],
+    pastHealth: [
+      `you have focused on mental sharpness for well-being.`,
+      `you have overcome health obstacles with logic.`,
+    ],
+    presentHealth: [
+      `you focus on mental sharpness for well-being.`,
+      `you overcome health obstacles with logic.`,
+    ],
+    futureHealth: [
+      `you will focus on mental sharpness for well-being.`,
+      `you will overcome health obstacles with logic.`,
+    ],
+    pastHealthReversed: [
+      `you have ignored clear health signals.`,
+      `you have struggled with indecision in wellness.`,
+    ],
+    presentHealthReversed: [
+      `you ignore clear health signals.`,
+      `you struggle with indecision in wellness.`,
+    ],
+    futureHealthReversed: [
+      `you will ignore clear health signals.`,
+      `you will struggle with indecision in wellness.`,
+    ],
+  },
+  {
+    name: `Two of Swords`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have faced tough financial choices.`,
+      `you have avoided career decisions.`,
+    ],
+    presentMoney: [
+      `you face tough financial choices.`,
+      `you avoid career decisions.`,
+    ],
+    futureMoney: [
+      `you will face tough financial choices.`,
+      `you will avoid career decisions.`,
+    ],
+    pastMoneyReversed: [
+      `you have removed blocks in finances.`,
+      `you have made clear work choices.`,
+    ],
+    presentMoneyReversed: [
+      `you remove blocks in finances.`,
+      `you make clear work choices.`,
+    ],
+    futureMoneyReversed: [
+      `you will remove blocks in finances.`,
+      `you will make clear work choices.`,
+    ],
+    pastRelationships: [
+      `you have stalled in emotional commitments.`,
+      `you have ignored relational truths.`,
+    ],
+    presentRelationships: [
+      `you stall in emotional commitments.`,
+      `you ignore relational truths.`,
+    ],
+    futureRelationships: [
+      `you will stall in emotional commitments.`,
+      `you will ignore relational truths.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have confronted partnership issues.`,
+      `you have achieved relational clarity.`,
+    ],
+    presentRelationshipsReversed: [
+      `you confront partnership issues.`,
+      `you achieve relational clarity.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will confront partnership issues.`,
+      `you will achieve relational clarity.`,
+    ],
+    pastHealth: [
+      `you have balanced mind-body conflicts.`,
+      `you have delayed health actions.`,
+    ],
+    presentHealth: [
+      `you balance mind-body conflicts.`,
+      `you delay health actions.`,
+    ],
+    futureHealth: [
+      `you will balance mind-body conflicts.`,
+      `you will delay health actions.`,
+    ],
+    pastHealthReversed: [
+      `you have overcome wellness indecision.`,
+      `you have embraced health truths.`,
+    ],
+    presentHealthReversed: [
+      `you overcome wellness indecision.`,
+      `you embrace health truths.`,
+    ],
+    futureHealthReversed: [
+      `you will overcome wellness indecision.`,
+      `you will embrace health truths.`,
+    ],
+  },
+  {
+    name: `Three of Swords`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have suffered financial heartbreak.`,
+      `you have faced career betrayals.`,
+    ],
+    presentMoney: [
+      `you suffer financial heartbreak.`,
+      `you face career betrayals.`,
+    ],
+    futureMoney: [
+      `you will suffer financial heartbreak.`,
+      `you will face career betrayals.`,
+    ],
+    pastMoneyReversed: [
+      `you have forgiven work losses.`,
+      `you have recovered from financial pain.`,
+    ],
+    presentMoneyReversed: [
+      `you forgive work losses.`,
+      `you recover from financial pain.`,
+    ],
+    futureMoneyReversed: [
+      `you will forgive work losses.`,
+      `you will recover from financial pain.`,
+    ],
+    pastRelationships: [
+      `you have endured emotional sorrow.`,
+      `you have dealt with relational wounds.`,
+    ],
+    presentRelationships: [
+      `you endure emotional sorrow.`,
+      `you deal with relational wounds.`,
+    ],
+    futureRelationships: [
+      `you will endure emotional sorrow.`,
+      `you will deal with relational wounds.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have healed from love betrayals.`,
+      `you have released partnership grudges.`,
+    ],
+    presentRelationshipsReversed: [
+      `you heal from love betrayals.`,
+      `you release partnership grudges.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will heal from love betrayals.`,
+      `you will release partnership grudges.`,
+    ],
+    pastHealth: [
+      `you have experienced health setbacks.`,
+      `you have grieved over physical pain.`,
+    ],
+    presentHealth: [
+      `you experience health setbacks.`,
+      `you grieve over physical pain.`,
+    ],
+    futureHealth: [
+      `you will experience health setbacks.`,
+      `you will grieve over physical pain.`,
+    ],
+    pastHealthReversed: [
+      `you have overcome wellness sorrow.`,
+      `you have found health forgiveness.`,
+    ],
+    presentHealthReversed: [
+      `you overcome wellness sorrow.`,
+      `you find health forgiveness.`,
+    ],
+    futureHealthReversed: [
+      `you will overcome wellness sorrow.`,
+      `you will find health forgiveness.`,
+    ],
+  },
+  {
+    name: `Four of Swords`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have rested after financial stress.`,
+      `you have contemplated career recovery.`,
+    ],
+    presentMoney: [
+      `you rest after financial stress.`,
+      `you contemplate career recovery.`,
+    ],
+    futureMoney: [
+      `you will rest after financial stress.`,
+      `you will contemplate career recovery.`,
+    ],
+    pastMoneyReversed: [
+      `you have returned to work prematurely.`,
+      `you have faced renewed financial anxiety.`,
+    ],
+    presentMoneyReversed: [
+      `you return to work prematurely.`,
+      `you face renewed financial anxiety.`,
+    ],
+    futureMoneyReversed: [
+      `you will return to work prematurely.`,
+      `you will face renewed financial anxiety.`,
+    ],
+    pastRelationships: [
+      `you have withdrawn for emotional healing.`,
+      `you have meditated on bond issues.`,
+    ],
+    presentRelationships: [
+      `you withdraw for emotional healing.`,
+      `you meditate on bond issues.`,
+    ],
+    futureRelationships: [
+      `you will withdraw for emotional healing.`,
+      `you will meditate on bond issues.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have reentered partnerships hastily.`,
+      `you have avoided necessary solitude.`,
+    ],
+    presentRelationshipsReversed: [
+      `you reenter partnerships hastily.`,
+      `you avoid necessary solitude.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will reenter partnerships hastily.`,
+      `you will avoid necessary solitude.`,
+    ],
+    pastHealth: [
+      `you have recuperated from illness.`,
+      `you have practiced mindful rest.`,
+    ],
+    presentHealth: [
+      `you recuperate from illness.`,
+      `you practice mindful rest.`,
+    ],
+    futureHealth: [
+      `you will recuperate from illness.`,
+      `you will practice mindful rest.`,
+    ],
+    pastHealthReversed: [
+      `you have pushed beyond health limits.`,
+      `you have ignored recovery needs.`,
+    ],
+    presentHealthReversed: [
+      `you push beyond health limits.`,
+      `you ignore recovery needs.`,
+    ],
+    futureHealthReversed: [
+      `you will push beyond health limits.`,
+      `you will ignore recovery needs.`,
+    ],
+  },
+  {
+    name: `Five of Swords`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have won financial battles unfairly.`,
+      `you have faced career defeats.`,
+    ],
+    presentMoney: [
+      `you win financial battles unfairly.`,
+      `you face career defeats.`,
+    ],
+    futureMoney: [
+      `you will win financial battles unfairly.`,
+      `you will face career defeats.`,
+    ],
+    pastMoneyReversed: [
+      `you have forgiven work conflicts.`,
+      `you have moved past financial losses.`,
+    ],
+    presentMoneyReversed: [
+      `you forgive work conflicts.`,
+      `you move past financial losses.`,
+    ],
+    futureMoneyReversed: [
+      `you will forgive work conflicts.`,
+      `you will move past financial losses.`,
+    ],
+    pastRelationships: [
+      `you have engaged in hurtful arguments.`,
+      `you have experienced relational bullying.`,
+    ],
+    presentRelationships: [
+      `you engage in hurtful arguments.`,
+      `you experience relational bullying.`,
+    ],
+    futureRelationships: [
+      `you will engage in hurtful arguments.`,
+      `you will experience relational bullying.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have released grudges in love.`,
+      `you have sought relational peace.`,
+    ],
+    presentRelationshipsReversed: [
+      `you release grudges in love.`,
+      `you seek relational peace.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will release grudges in love.`,
+      `you will seek relational peace.`,
+    ],
+    pastHealth: [
+      `you have battled mental stress.`,
+      `you have ignored health warnings.`,
+    ],
+    presentHealth: [`you battle mental stress.`, `you ignore health warnings.`],
+    futureHealth: [
+      `you will battle mental stress.`,
+      `you will ignore health warnings.`,
+    ],
+    pastHealthReversed: [
+      `you have accepted health defeats.`,
+      `you have focused on wellness recovery.`,
+    ],
+    presentHealthReversed: [
+      `you accept health defeats.`,
+      `you focus on wellness recovery.`,
+    ],
+    futureHealthReversed: [
+      `you will accept health defeats.`,
+      `you will focus on wellness recovery.`,
+    ],
+  },
+  {
+    name: `Six of Swords`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have transitioned to better finances.`,
+      `you have left troubled career waters.`,
+    ],
+    presentMoney: [
+      `you transition to better finances.`,
+      `you leave troubled career waters.`,
+    ],
+    futureMoney: [
+      `you will transition to better finances.`,
+      `you will leave troubled career waters.`,
+    ],
+    pastMoneyReversed: [
+      `you have resisted financial changes.`,
+      `you have stayed in stagnant work.`,
+    ],
+    presentMoneyReversed: [
+      `you resist financial changes.`,
+      `you stay in stagnant work.`,
+    ],
+    futureMoneyReversed: [
+      `you will resist financial changes.`,
+      `you will stay in stagnant work.`,
+    ],
+    pastRelationships: [
+      `you have moved on from painful bonds.`,
+      `you have sought calmer emotional shores.`,
+    ],
+    presentRelationships: [
+      `you move on from painful bonds.`,
+      `you seek calmer emotional shores.`,
+    ],
+    futureRelationships: [
+      `you will move on from painful bonds.`,
+      `you will seek calmer emotional shores.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have clung to relational baggage.`,
+      `you have delayed love transitions.`,
+    ],
+    presentRelationshipsReversed: [
+      `you cling to relational baggage.`,
+      `you delay love transitions.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will cling to relational baggage.`,
+      `you will delay love transitions.`,
+    ],
+    pastHealth: [
+      `you have recovered from health trials.`,
+      `you have journeyed toward healing.`,
+    ],
+    presentHealth: [
+      `you recover from health trials.`,
+      `you journey toward healing.`,
+    ],
+    futureHealth: [
+      `you will recover from health trials.`,
+      `you will journey toward healing.`,
+    ],
+    pastHealthReversed: [
+      `you have blocked wellness progress.`,
+      `you have returned to old ailments.`,
+    ],
+    presentHealthReversed: [
+      `you block wellness progress.`,
+      `you return to old ailments.`,
+    ],
+    futureHealthReversed: [
+      `you will block wellness progress.`,
+      `you will return to old ailments.`,
+    ],
+  },
+  {
+    name: `Seven of Swords`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have engaged in sneaky financial tactics.`,
+      `you have faced career deception.`,
+    ],
+    presentMoney: [
+      `you engage in sneaky financial tactics.`,
+      `you face career deception.`,
+    ],
+    futureMoney: [
+      `you will engage in sneaky financial tactics.`,
+      `you will face career deception.`,
+    ],
+    pastMoneyReversed: [
+      `you have confessed work misdeeds.`,
+      `you have sought honest financial paths.`,
+    ],
+    presentMoneyReversed: [
+      `you confess work misdeeds.`,
+      `you seek honest financial paths.`,
+    ],
+    futureMoneyReversed: [
+      `you will confess work misdeeds.`,
+      `you will seek honest financial paths.`,
+    ],
+    pastRelationships: [
+      `you have betrayed trust in bonds.`,
+      `you have hidden truths from partners.`,
+    ],
+    presentRelationships: [
+      `you betray trust in bonds.`,
+      `you hide truths from partners.`,
+    ],
+    futureRelationships: [
+      `you will betray trust in bonds.`,
+      `you will hide truths from partners.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have revealed relational secrets.`,
+      `you have rebuilt love honesty.`,
+    ],
+    presentRelationshipsReversed: [
+      `you reveal relational secrets.`,
+      `you rebuild love honesty.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will reveal relational secrets.`,
+      `you will rebuild love honesty.`,
+    ],
+    pastHealth: [
+      `you have avoided health responsibilities.`,
+      `you have deceived self about well-being.`,
+    ],
+    presentHealth: [
+      `you avoid health responsibilities.`,
+      `you deceive self about well-being.`,
+    ],
+    futureHealth: [
+      `you will avoid health responsibilities.`,
+      `you will deceive self about well-being.`,
+    ],
+    pastHealthReversed: [
+      `you have confronted wellness deceptions.`,
+      `you have committed to honest healing.`,
+    ],
+    presentHealthReversed: [
+      `you confront wellness deceptions.`,
+      `you commit to honest healing.`,
+    ],
+    futureHealthReversed: [
+      `you will confront wellness deceptions.`,
+      `you will commit to honest healing.`,
+    ],
+  },
+  {
+    name: `Eight of Swords`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have felt trapped in financial binds.`,
+      `you have limited career options mentally.`,
+    ],
+    presentMoney: [
+      `you feel trapped in financial binds.`,
+      `you limit career options mentally.`,
+    ],
+    futureMoney: [
+      `you will feel trapped in financial binds.`,
+      `you will limit career options mentally.`,
+    ],
+    pastMoneyReversed: [
+      `you have freed from work restrictions.`,
+      `you have empowered financial choices.`,
+    ],
+    presentMoneyReversed: [
+      `you free from work restrictions.`,
+      `you empower financial choices.`,
+    ],
+    futureMoneyReversed: [
+      `you will free from work restrictions.`,
+      `you will empower financial choices.`,
+    ],
+    pastRelationships: [
+      `you have been stuck in toxic dynamics.`,
+      `you have blinded self to bond exits.`,
+    ],
+    presentRelationships: [
+      `you are stuck in toxic dynamics.`,
+      `you blind self to bond exits.`,
+    ],
+    futureRelationships: [
+      `you will be stuck in toxic dynamics.`,
+      `you will blind self to bond exits.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have escaped relational traps.`,
+      `you have gained love clarity.`,
+    ],
+    presentRelationshipsReversed: [
+      `you escape relational traps.`,
+      `you gain love clarity.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will escape relational traps.`,
+      `you will gain love clarity.`,
+    ],
+    pastHealth: [
+      `you have restricted wellness progress.`,
+      `you have felt powerless over health.`,
+    ],
+    presentHealth: [
+      `you restrict wellness progress.`,
+      `you feel powerless over health.`,
+    ],
+    futureHealth: [
+      `you will restrict wellness progress.`,
+      `you will feel powerless over health.`,
+    ],
+    pastHealthReversed: [
+      `you have broken health limitations.`,
+      `you have taken control of vitality.`,
+    ],
+    presentHealthReversed: [
+      `you break health limitations.`,
+      `you take control of vitality.`,
+    ],
+    futureHealthReversed: [
+      `you will break health limitations.`,
+      `you will take control of vitality.`,
+    ],
+  },
+  {
+    name: `Nine of Swords`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have worried over financial ruin.`,
+      `you have lost sleep over career fears.`,
+    ],
+    presentMoney: [
+      `you worry over financial ruin.`,
+      `you lose sleep over career fears.`,
+    ],
+    futureMoney: [
+      `you will worry over financial ruin.`,
+      `you will lose sleep over career fears.`,
+    ],
+    pastMoneyReversed: [
+      `you have released financial anxieties.`,
+      `you have found work hope.`,
+    ],
+    presentMoneyReversed: [
+      `you release financial anxieties.`,
+      `you find work hope.`,
+    ],
+    futureMoneyReversed: [
+      `you will release financial anxieties.`,
+      `you will find work hope.`,
+    ],
+    pastRelationships: [
+      `you have anguished over love pains.`,
+      `you have feared relational disasters.`,
+    ],
+    presentRelationships: [
+      `you anguish over love pains.`,
+      `you fear relational disasters.`,
+    ],
+    futureRelationships: [
+      `you will anguish over love pains.`,
+      `you will fear relational disasters.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have overcome bond nightmares.`,
+      `you have sought help for love worries.`,
+    ],
+    presentRelationshipsReversed: [
+      `you overcome bond nightmares.`,
+      `you seek help for love worries.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will overcome bond nightmares.`,
+      `you will seek help for love worries.`,
+    ],
+    pastHealth: [
+      `you have suffered mental health stress.`,
+      `you have obsessed over wellness fears.`,
+    ],
+    presentHealth: [
+      `you suffer mental health stress.`,
+      `you obsess over wellness fears.`,
+    ],
+    futureHealth: [
+      `you will suffer mental health stress.`,
+      `you will obsess over wellness fears.`,
+    ],
+    pastHealthReversed: [
+      `you have eased health anxieties.`,
+      `you have regained vitality perspective.`,
+    ],
+    presentHealthReversed: [
+      `you ease health anxieties.`,
+      `you regain vitality perspective.`,
+    ],
+    futureHealthReversed: [
+      `you will ease health anxieties.`,
+      `you will regain vitality perspective.`,
+    ],
+  },
+  {
+    name: `Ten of Swords`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have hit rock bottom financially.`,
+      `you have ended painful career cycles.`,
+    ],
+    presentMoney: [
+      `you hit rock bottom financially.`,
+      `you end painful career cycles.`,
+    ],
+    futureMoney: [
+      `you will hit rock bottom financially.`,
+      `you will end painful career cycles.`,
+    ],
+    pastMoneyReversed: [
+      `you have risen from financial ruins.`,
+      `you have avoided total work collapse.`,
+    ],
+    presentMoneyReversed: [
+      `you rise from financial ruins.`,
+      `you avoid total work collapse.`,
+    ],
+    futureMoneyReversed: [
+      `you will rise from financial ruins.`,
+      `you will avoid total work collapse.`,
+    ],
+    pastRelationships: [
+      `you have suffered deep love betrayals.`,
+      `you have closed traumatic bond chapters.`,
+    ],
+    presentRelationships: [
+      `you suffer deep love betrayals.`,
+      `you close traumatic bond chapters.`,
+    ],
+    futureRelationships: [
+      `you will suffer deep love betrayals.`,
+      `you will close traumatic bond chapters.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have recovered from relational ends.`,
+      `you have found new love beginnings.`,
+    ],
+    presentRelationshipsReversed: [
+      `you recover from relational ends.`,
+      `you find new love beginnings.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will recover from relational ends.`,
+      `you will find new love beginnings.`,
+    ],
+    pastHealth: [
+      `you have reached health nadirs.`,
+      `you have overcome severe ailments.`,
+    ],
+    presentHealth: [
+      `you reach health nadirs.`,
+      `you overcome severe ailments.`,
+    ],
+    futureHealth: [
+      `you will reach health nadirs.`,
+      `you will overcome severe ailments.`,
+    ],
+    pastHealthReversed: [
+      `you have regenerated from health crises.`,
+      `you have prevented wellness disasters.`,
+    ],
+    presentHealthReversed: [
+      `you regenerate from health crises.`,
+      `you prevent wellness disasters.`,
+    ],
+    futureHealthReversed: [
+      `you will regenerate from health crises.`,
+      `you will prevent wellness disasters.`,
+    ],
+  },
+  {
+    name: `Page of Swords`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have explored intellectual career ideas.`,
+      `you have questioned financial norms.`,
+    ],
+    presentMoney: [
+      `you explore intellectual career ideas.`,
+      `you question financial norms.`,
+    ],
+    futureMoney: [
+      `you will explore intellectual career ideas.`,
+      `you will question financial norms.`,
+    ],
+    pastMoneyReversed: [
+      `you have spread work gossip.`,
+      `you have lacked financial focus.`,
+    ],
+    presentMoneyReversed: [
+      `you spread work gossip.`,
+      `you lack financial focus.`,
+    ],
+    futureMoneyReversed: [
+      `you will spread work gossip.`,
+      `you will lack financial focus.`,
+    ],
+    pastRelationships: [
+      `you have communicated curiously in bonds.`,
+      `you have sought truth in love.`,
+    ],
+    presentRelationships: [
+      `you communicate curiously in bonds.`,
+      `you seek truth in love.`,
+    ],
+    futureRelationships: [
+      `you will communicate curiously in bonds.`,
+      `you will seek truth in love.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have been paranoid in partnerships.`,
+      `you have avoided honest talks.`,
+    ],
+    presentRelationshipsReversed: [
+      `you are paranoid in partnerships.`,
+      `you avoid honest talks.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will be paranoid in partnerships.`,
+      `you will avoid honest talks.`,
+    ],
+    pastHealth: [
+      `you have monitored wellness vigilantly.`,
+      `you have researched health options.`,
+    ],
+    presentHealth: [
+      `you monitor wellness vigilantly.`,
+      `you research health options.`,
+    ],
+    futureHealth: [
+      `you will monitor wellness vigilantly.`,
+      `you will research health options.`,
+    ],
+    pastHealthReversed: [
+      `you have delayed health vigilance.`,
+      `you have faced mental scatter.`,
+    ],
+    presentHealthReversed: [
+      `you delay health vigilance.`,
+      `you face mental scatter.`,
+    ],
+    futureHealthReversed: [
+      `you will delay health vigilance.`,
+      `you will face mental scatter.`,
+    ],
+  },
+  {
+    name: `Knight of Swords`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have charged into financial battles.`,
+      `you have asserted career ambitions.`,
+    ],
+    presentMoney: [
+      `you charge into financial battles.`,
+      `you assert career ambitions.`,
+    ],
+    futureMoney: [
+      `you will charge into financial battles.`,
+      `you will assert career ambitions.`,
+    ],
+    pastMoneyReversed: [
+      `you have acted recklessly in finances.`,
+      `you have lacked work direction.`,
+    ],
+    presentMoneyReversed: [
+      `you act recklessly in finances.`,
+      `you lack work direction.`,
+    ],
+    futureMoneyReversed: [
+      `you will act recklessly in finances.`,
+      `you will lack work direction.`,
+    ],
+    pastRelationships: [
+      `you have communicated directly in love.`,
+      `you have pursued bonds assertively.`,
+    ],
+    presentRelationships: [
+      `you communicate directly in love.`,
+      `you pursue bonds assertively.`,
+    ],
+    futureRelationships: [
+      `you will communicate directly in love.`,
+      `you will pursue bonds assertively.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have been abrasive in partnerships.`,
+      `you have avoided relational commitments.`,
+    ],
+    presentRelationshipsReversed: [
+      `you are abrasive in partnerships.`,
+      `you avoid relational commitments.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will be abrasive in partnerships.`,
+      `you will avoid relational commitments.`,
+    ],
+    pastHealth: [
+      `you have tackled health issues head-on.`,
+      `you have sought quick wellness solutions.`,
+    ],
+    presentHealth: [
+      `you tackle health issues head-on.`,
+      `you seek quick wellness solutions.`,
+    ],
+    futureHealth: [
+      `you will tackle health issues head-on.`,
+      `you will seek quick wellness solutions.`,
+    ],
+    pastHealthReversed: [
+      `you have rushed health decisions.`,
+      `you have faced vitality chaos.`,
+    ],
+    presentHealthReversed: [
+      `you rush health decisions.`,
+      `you face vitality chaos.`,
+    ],
+    futureHealthReversed: [
+      `you will rush health decisions.`,
+      `you will face vitality chaos.`,
+    ],
+  },
+  {
+    name: `Queen of Swords`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have set clear financial boundaries.`,
+      `you have led with honest career insight.`,
+    ],
+    presentMoney: [
+      `you set clear financial boundaries.`,
+      `you lead with honest career insight.`,
+    ],
+    futureMoney: [
+      `you will set clear financial boundaries.`,
+      `you will lead with honest career insight.`,
+    ],
+    pastMoneyReversed: [
+      `you have been bitter in work dealings.`,
+      `you have lacked financial empathy.`,
+    ],
+    presentMoneyReversed: [
+      `you are bitter in work dealings.`,
+      `you lack financial empathy.`,
+    ],
+    futureMoneyReversed: [
+      `you will be bitter in work dealings.`,
+      `you will lack financial empathy.`,
+    ],
+    pastRelationships: [
+      `you have communicated independently in love.`,
+      `you have upheld truth in bonds.`,
+    ],
+    presentRelationships: [
+      `you communicate independently in love.`,
+      `you uphold truth in bonds.`,
+    ],
+    futureRelationships: [
+      `you will communicate independently in love.`,
+      `you will uphold truth in bonds.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have isolated emotionally.`,
+      `you have been overly critical in partnerships.`,
+    ],
+    presentRelationshipsReversed: [
+      `you isolate emotionally.`,
+      `you are overly critical in partnerships.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will isolate emotionally.`,
+      `you will be overly critical in partnerships.`,
+    ],
+    pastHealth: [
+      `you have approached wellness logically.`,
+      `you have set health boundaries.`,
+    ],
+    presentHealth: [
+      `you approach wellness logically.`,
+      `you set health boundaries.`,
+    ],
+    futureHealth: [
+      `you will approach wellness logically.`,
+      `you will set health boundaries.`,
+    ],
+    pastHealthReversed: [
+      `you have neglected emotional health.`,
+      `you have faced wellness cynicism.`,
+    ],
+    presentHealthReversed: [
+      `you neglect emotional health.`,
+      `you face wellness cynicism.`,
+    ],
+    futureHealthReversed: [
+      `you will neglect emotional health.`,
+      `you will face wellness cynicism.`,
+    ],
+  },
+  {
+    name: `King of Swords`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have enforced ethical financial standards.`,
+      `you have led career with intellect.`,
+    ],
+    presentMoney: [
+      `you enforce ethical financial standards.`,
+      `you lead career with intellect.`,
+    ],
+    futureMoney: [
+      `you will enforce ethical financial standards.`,
+      `you will lead career with intellect.`,
+    ],
+    pastMoneyReversed: [
+      `you have abused power in finances.`,
+      `you have lacked work discipline.`,
+    ],
+    presentMoneyReversed: [
+      `you abuse power in finances.`,
+      `you lack work discipline.`,
+    ],
+    futureMoneyReversed: [
+      `you will abuse power in finances.`,
+      `you will lack work discipline.`,
+    ],
+    pastRelationships: [
+      `you have maintained honest communication.`,
+      `you have provided logical love guidance.`,
+    ],
+    presentRelationships: [
+      `you maintain honest communication.`,
+      `you provide logical love guidance.`,
+    ],
+    futureRelationships: [
+      `you will maintain honest communication.`,
+      `you will provide logical love guidance.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have been cold in partnerships.`,
+      `you have manipulated relational truths.`,
+    ],
+    presentRelationshipsReversed: [
+      `you are cold in partnerships.`,
+      `you manipulate relational truths.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will be cold in partnerships.`,
+      `you will manipulate relational truths.`,
+    ],
+    pastHealth: [
+      `you have applied reason to wellness.`,
+      `you have achieved mental clarity for health.`,
+    ],
+    presentHealth: [
+      `you apply reason to wellness.`,
+      `you achieve mental clarity for health.`,
+    ],
+    futureHealth: [
+      `you will apply reason to wellness.`,
+      `you will achieve mental clarity for health.`,
+    ],
+    pastHealthReversed: [
+      `you have ignored ethical health practices.`,
+      `you have faced intellectual burnout.`,
+    ],
+    presentHealthReversed: [
+      `you ignore ethical health practices.`,
+      `you face intellectual burnout.`,
+    ],
+    futureHealthReversed: [
+      `you will ignore ethical health practices.`,
+      `you will face intellectual burnout.`,
+    ],
+  })
+][
+  ({
+    name: `Ace of Pentacles`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have received a new financial opportunity.`,
+      `you have invested in prosperous ventures.`,
+    ],
+    presentMoney: [
+      `you receive a new financial opportunity.`,
+      `you invest in prosperous ventures.`,
+    ],
+    futureMoney: [
+      `you will receive a new financial opportunity.`,
+      `you will invest in prosperous ventures.`,
+    ],
+    pastMoneyReversed: [
+      `you have missed material prospects.`,
+      `you have delayed financial growth.`,
+    ],
+    presentMoneyReversed: [
+      `you miss material prospects.`,
+      `you delay financial growth.`,
+    ],
+    futureMoneyReversed: [
+      `you will miss material prospects.`,
+      `you will delay financial growth.`,
+    ],
+    pastRelationships: [
+      `you have built secure emotional foundations.`,
+      `you have nurtured lasting bonds.`,
+    ],
+    presentRelationships: [
+      `you build secure emotional foundations.`,
+      `you nurture lasting bonds.`,
+    ],
+    futureRelationships: [
+      `you will build secure emotional foundations.`,
+      `you will nurture lasting bonds.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have faced instability in connections.`,
+      `you have lacked commitment in love.`,
+    ],
+    presentRelationshipsReversed: [
+      `you face instability in connections.`,
+      `you lack commitment in love.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will face instability in connections.`,
+      `you will lack commitment in love.`,
+    ],
+    pastHealth: [
+      `you have started healthful habits.`,
+      `you have embraced physical abundance.`,
+    ],
+    presentHealth: [
+      `you start healthful habits.`,
+      `you embrace physical abundance.`,
+    ],
+    futureHealth: [
+      `you will start healthful habits.`,
+      `you will embrace physical abundance.`,
+    ],
+    pastHealthReversed: [
+      `you have neglected body needs.`,
+      `you have blocked wellness potential.`,
+    ],
+    presentHealthReversed: [
+      `you neglect body needs.`,
+      `you block wellness potential.`,
+    ],
+    futureHealthReversed: [
+      `you will neglect body needs.`,
+      `you will block wellness potential.`,
+    ],
+  },
+  {
+    name: `Two of Pentacles`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have balanced multiple financial tasks.`,
+      `you have juggled career priorities.`,
+    ],
+    presentMoney: [
+      `you balance multiple financial tasks.`,
+      `you juggle career priorities.`,
+    ],
+    futureMoney: [
+      `you will balance multiple financial tasks.`,
+      `you will juggle career priorities.`,
+    ],
+    pastMoneyReversed: [
+      `you have overwhelmed with work demands.`,
+      `you have dropped financial balls.`,
+    ],
+    presentMoneyReversed: [
+      `you overwhelm with work demands.`,
+      `you drop financial balls.`,
+    ],
+    futureMoneyReversed: [
+      `you will overwhelm with work demands.`,
+      `you will drop financial balls.`,
+    ],
+    pastRelationships: [
+      `you have adapted in partnership dynamics.`,
+      `you have maintained relational equilibrium.`,
+    ],
+    presentRelationships: [
+      `you adapt in partnership dynamics.`,
+      `you maintain relational equilibrium.`,
+    ],
+    futureRelationships: [
+      `you will adapt in partnership dynamics.`,
+      `you will maintain relational equilibrium.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have struggled with bond commitments.`,
+      `you have faced emotional imbalance.`,
+    ],
+    presentRelationshipsReversed: [
+      `you struggle with bond commitments.`,
+      `you face emotional imbalance.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will struggle with bond commitments.`,
+      `you will face emotional imbalance.`,
+    ],
+    pastHealth: [
+      `you have managed wellness routines flexibly.`,
+      `you have balanced body and mind.`,
+    ],
+    presentHealth: [
+      `you manage wellness routines flexibly.`,
+      `you balance body and mind.`,
+    ],
+    futureHealth: [
+      `you will manage wellness routines flexibly.`,
+      `you will balance body and mind.`,
+    ],
+    pastHealthReversed: [
+      `you have neglected health priorities.`,
+      `you have needed better vitality management.`,
+    ],
+    presentHealthReversed: [
+      `you neglect health priorities.`,
+      `you need better vitality management.`,
+    ],
+    futureHealthReversed: [
+      `you will neglect health priorities.`,
+      `you will need better vitality management.`,
+    ],
+  },
+  {
+    name: `Three of Pentacles`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have collaborated on financial projects.`,
+      `you have built career skills expertly.`,
+    ],
+    presentMoney: [
+      `you collaborate on financial projects.`,
+      `you build career skills expertly.`,
+    ],
+    futureMoney: [
+      `you will collaborate on financial projects.`,
+      `you will build career skills expertly.`,
+    ],
+    pastMoneyReversed: [
+      `you have lacked teamwork in work.`,
+      `you have ignored financial advice.`,
+    ],
+    presentMoneyReversed: [
+      `you lack teamwork in work.`,
+      `you ignore financial advice.`,
+    ],
+    futureMoneyReversed: [
+      `you will lack teamwork in work.`,
+      `you will ignore financial advice.`,
+    ],
+    pastRelationships: [
+      `you have worked together in bonds.`,
+      `you have crafted harmonious connections.`,
+    ],
+    presentRelationships: [
+      `you work together in bonds.`,
+      `you craft harmonious connections.`,
+    ],
+    futureRelationships: [
+      `you will work together in bonds.`,
+      `you will craft harmonious connections.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have faced disharmony in partnerships.`,
+      `you have neglected relational efforts.`,
+    ],
+    presentRelationshipsReversed: [
+      `you face disharmony in partnerships.`,
+      `you neglect relational efforts.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will face disharmony in partnerships.`,
+      `you will neglect relational efforts.`,
+    ],
+    pastHealth: [
+      `you have teamed for wellness goals.`,
+      `you have mastered health craftsmanship.`,
+    ],
+    presentHealth: [
+      `you team for wellness goals.`,
+      `you master health craftsmanship.`,
+    ],
+    futureHealth: [
+      `you will team for wellness goals.`,
+      `you will master health craftsmanship.`,
+    ],
+    pastHealthReversed: [
+      `you have disregarded health expertise.`,
+      `you have worked alone on vitality issues.`,
+    ],
+    presentHealthReversed: [
+      `you disregard health expertise.`,
+      `you work alone on vitality issues.`,
+    ],
+    futureHealthReversed: [
+      `you will disregard health expertise.`,
+      `you will work alone on vitality issues.`,
+    ],
+  },
+  {
+    name: `Four of Pentacles`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have held tightly to finances.`,
+      `you have built material security.`,
+    ],
+    presentMoney: [
+      `you hold tightly to finances.`,
+      `you build material security.`,
+    ],
+    futureMoney: [
+      `you will hold tightly to finances.`,
+      `you will build material security.`,
+    ],
+    pastMoneyReversed: [
+      `you have released financial grips.`,
+      `you have shared wealth generously.`,
+    ],
+    presentMoneyReversed: [
+      `you release financial grips.`,
+      `you share wealth generously.`,
+    ],
+    futureMoneyReversed: [
+      `you will release financial grips.`,
+      `you will share wealth generously.`,
+    ],
+    pastRelationships: [
+      `you have possessed in love dynamics.`,
+      `you have sought relational stability.`,
+    ],
+    presentRelationships: [
+      `you possess in love dynamics.`,
+      `you seek relational stability.`,
+    ],
+    futureRelationships: [
+      `you will possess in love dynamics.`,
+      `you will seek relational stability.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have opened to giving in bonds.`,
+      `you have avoided love hoarding.`,
+    ],
+    presentRelationshipsReversed: [
+      `you open to giving in bonds.`,
+      `you avoid love hoarding.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will open to giving in bonds.`,
+      `you will avoid love hoarding.`,
+    ],
+    pastHealth: [
+      `you have conserved physical energy.`,
+      `you have protected body boundaries.`,
+    ],
+    presentHealth: [
+      `you conserve physical energy.`,
+      `you protect body boundaries.`,
+    ],
+    futureHealth: [
+      `you will conserve physical energy.`,
+      `you will protect body boundaries.`,
+    ],
+    pastHealthReversed: [
+      `you have spent vitality freely.`,
+      `you have risked health for gains.`,
+    ],
+    presentHealthReversed: [
+      `you spend vitality freely.`,
+      `you risk health for gains.`,
+    ],
+    futureHealthReversed: [
+      `you will spend vitality freely.`,
+      `you will risk health for gains.`,
+    ],
+  },
+  {
+    name: `Five of Pentacles`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have endured financial hardship.`,
+      `you have faced career isolation.`,
+    ],
+    presentMoney: [
+      `you endure financial hardship.`,
+      `you face career isolation.`,
+    ],
+    futureMoney: [
+      `you will endure financial hardship.`,
+      `you will face career isolation.`,
+    ],
+    pastMoneyReversed: [
+      `you have recovered from material loss.`,
+      `you have found financial support.`,
+    ],
+    presentMoneyReversed: [
+      `you recover from material loss.`,
+      `you find financial support.`,
+    ],
+    futureMoneyReversed: [
+      `you will recover from material loss.`,
+      `you will find financial support.`,
+    ],
+    pastRelationships: [
+      `you have felt love poverty.`,
+      `you have isolated emotionally.`,
+    ],
+    presentRelationships: [
+      `you feel love poverty.`,
+      `you isolate emotionally.`,
+    ],
+    futureRelationships: [
+      `you will feel love poverty.`,
+      `you will isolate emotionally.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have healed relational wounds.`,
+      `you have accepted help in bonds.`,
+    ],
+    presentRelationshipsReversed: [
+      `you heal relational wounds.`,
+      `you accept help in bonds.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will heal relational wounds.`,
+      `you will accept help in bonds.`,
+    ],
+    pastHealth: [
+      `you have suffered physical ailments.`,
+      `you have ignored wellness aid.`,
+    ],
+    presentHealth: [
+      `you suffer physical ailments.`,
+      `you ignore wellness aid.`,
+    ],
+    futureHealth: [
+      `you will suffer physical ailments.`,
+      `you will ignore wellness aid.`,
+    ],
+    pastHealthReversed: [
+      `you have improved vitality conditions.`,
+      `you have sought health recovery.`,
+    ],
+    presentHealthReversed: [
+      `you improve vitality conditions.`,
+      `you seek health recovery.`,
+    ],
+    futureHealthReversed: [
+      `you will improve vitality conditions.`,
+      `you will seek health recovery.`,
+    ],
+  },
+  {
+    name: `Six of Pentacles`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have shared financial resources.`,
+      `you have received career generosity.`,
+    ],
+    presentMoney: [
+      `you share financial resources.`,
+      `you receive career generosity.`,
+    ],
+    futureMoney: [
+      `you will share financial resources.`,
+      `you will receive career generosity.`,
+    ],
+    pastMoneyReversed: [
+      `you have faced unequal work exchanges.`,
+      `you have withheld financial aid.`,
+    ],
+    presentMoneyReversed: [
+      `you face unequal work exchanges.`,
+      `you withhold financial aid.`,
+    ],
+    futureMoneyReversed: [
+      `you will face unequal work exchanges.`,
+      `you will withhold financial aid.`,
+    ],
+    pastRelationships: [
+      `you have given and received in love.`,
+      `you have balanced bond power.`,
+    ],
+    presentRelationships: [
+      `you give and receive in love.`,
+      `you balance bond power.`,
+    ],
+    futureRelationships: [
+      `you will give and receive in love.`,
+      `you will balance bond power.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have experienced love imbalances.`,
+      `you have been selfish in partnerships.`,
+    ],
+    presentRelationshipsReversed: [
+      `you experience love imbalances.`,
+      `you are selfish in partnerships.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will experience love imbalances.`,
+      `you will be selfish in partnerships.`,
+    ],
+    pastHealth: [
+      `you have donated to wellness causes.`,
+      `you have received health support.`,
+    ],
+    presentHealth: [
+      `you donate to wellness causes.`,
+      `you receive health support.`,
+    ],
+    futureHealth: [
+      `you will donate to wellness causes.`,
+      `you will receive health support.`,
+    ],
+    pastHealthReversed: [
+      `you have neglected body generosity.`,
+      `you have faced unequal vitality.`,
+    ],
+    presentHealthReversed: [
+      `you neglect body generosity.`,
+      `you face unequal vitality.`,
+    ],
+    futureHealthReversed: [
+      `you will neglect body generosity.`,
+      `you will face unequal vitality.`,
+    ],
+  },
+  {
+    name: `Seven of Pentacles`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have assessed financial investments.`,
+      `you have waited for career fruits.`,
+    ],
+    presentMoney: [
+      `you assess financial investments.`,
+      `you wait for career fruits.`,
+    ],
+    futureMoney: [
+      `you will assess financial investments.`,
+      `you will wait for career fruits.`,
+    ],
+    pastMoneyReversed: [
+      `you have abandoned work efforts.`,
+      `you have felt financial impatience.`,
+    ],
+    presentMoneyReversed: [
+      `you abandon work efforts.`,
+      `you feel financial impatience.`,
+    ],
+    futureMoneyReversed: [
+      `you will abandon work efforts.`,
+      `you will feel financial impatience.`,
+    ],
+    pastRelationships: [
+      `you have evaluated bond progress.`,
+      `you have nurtured love growth.`,
+    ],
+    presentRelationships: [
+      `you evaluate bond progress.`,
+      `you nurture love growth.`,
+    ],
+    futureRelationships: [
+      `you will evaluate bond progress.`,
+      `you will nurture love growth.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have lost patience in partnerships.`,
+      `you have neglected relational care.`,
+    ],
+    presentRelationshipsReversed: [
+      `you lose patience in partnerships.`,
+      `you neglect relational care.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will lose patience in partnerships.`,
+      `you will neglect relational care.`,
+    ],
+    pastHealth: [
+      `you have reviewed wellness strategies.`,
+      `you have invested in long-term vitality.`,
+    ],
+    presentHealth: [
+      `you review wellness strategies.`,
+      `you invest in long-term vitality.`,
+    ],
+    futureHealth: [
+      `you will review wellness strategies.`,
+      `you will invest in long-term vitality.`,
+    ],
+    pastHealthReversed: [
+      `you have given up on health goals.`,
+      `you have rushed recovery processes.`,
+    ],
+    presentHealthReversed: [
+      `you give up on health goals.`,
+      `you rush recovery processes.`,
+    ],
+    futureHealthReversed: [
+      `you will give up on health goals.`,
+      `you will rush recovery processes.`,
+    ],
+  },
+  {
+    name: `Eight of Pentacles`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have honed financial craftsmanship.`,
+      `you have dedicated to career mastery.`,
+    ],
+    presentMoney: [
+      `you hone financial craftsmanship.`,
+      `you dedicate to career mastery.`,
+    ],
+    futureMoney: [
+      `you will hone financial craftsmanship.`,
+      `you will dedicate to career mastery.`,
+    ],
+    pastMoneyReversed: [
+      `you have burned out in work.`,
+      `you have lacked financial focus.`,
+    ],
+    presentMoneyReversed: [
+      `you burn out in work.`,
+      `you lack financial focus.`,
+    ],
+    futureMoneyReversed: [
+      `you will burn out in work.`,
+      `you will lack financial focus.`,
+    ],
+    pastRelationships: [
+      `you have worked diligently on bonds.`,
+      `you have refined love skills.`,
+    ],
+    presentRelationships: [
+      `you work diligently on bonds.`,
+      `you refine love skills.`,
+    ],
+    futureRelationships: [
+      `you will work diligently on bonds.`,
+      `you will refine love skills.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have neglected partnership efforts.`,
+      `you have been perfectionistic in love.`,
+    ],
+    presentRelationshipsReversed: [
+      `you neglect partnership efforts.`,
+      `you are perfectionistic in love.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will neglect partnership efforts.`,
+      `you will be perfectionistic in love.`,
+    ],
+    pastHealth: [
+      `you have practiced consistent wellness.`,
+      `you have apprenticed in health mastery.`,
+    ],
+    presentHealth: [
+      `you practice consistent wellness.`,
+      `you apprentice in health mastery.`,
+    ],
+    futureHealth: [
+      `you will practice consistent wellness.`,
+      `you will apprentice in health mastery.`,
+    ],
+    pastHealthReversed: [
+      `you have overworked body limits.`,
+      `you have ignored vitality quality.`,
+    ],
+    presentHealthReversed: [
+      `you overwork body limits.`,
+      `you ignore vitality quality.`,
+    ],
+    futureHealthReversed: [
+      `you will overwork body limits.`,
+      `you will ignore vitality quality.`,
+    ],
+  },
+  {
+    name: `Nine of Pentacles`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have achieved financial independence.`,
+      `you have enjoyed material luxuries.`,
+    ],
+    presentMoney: [
+      `you achieve financial independence.`,
+      `you enjoy material luxuries.`,
+    ],
+    futureMoney: [
+      `you will achieve financial independence.`,
+      `you will enjoy material luxuries.`,
+    ],
+    pastMoneyReversed: [
+      `you have overspent on finances.`,
+      `you have felt work isolation.`,
+    ],
+    presentMoneyReversed: [
+      `you overspend on finances.`,
+      `you feel work isolation.`,
+    ],
+    futureMoneyReversed: [
+      `you will overspend on finances.`,
+      `you will feel work isolation.`,
+    ],
+    pastRelationships: [
+      `you have embraced self-sufficiency in love.`,
+      `you have savored relational refinement.`,
+    ],
+    presentRelationships: [
+      `you embrace self-sufficiency in love.`,
+      `you savor relational refinement.`,
+    ],
+    futureRelationships: [
+      `you will embrace self-sufficiency in love.`,
+      `you will savor relational refinement.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have been dependent in bonds.`,
+      `you have faked love abundance.`,
+    ],
+    presentRelationshipsReversed: [
+      `you are dependent in bonds.`,
+      `you fake love abundance.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will be dependent in bonds.`,
+      `you will fake love abundance.`,
+    ],
+    pastHealth: [
+      `you have attained physical elegance.`,
+      `you have nurtured body independence.`,
+    ],
+    presentHealth: [
+      `you attain physical elegance.`,
+      `you nurture body independence.`,
+    ],
+    futureHealth: [
+      `you will attain physical elegance.`,
+      `you will nurture body independence.`,
+    ],
+    pastHealthReversed: [
+      `you have neglected self-care.`,
+      `you have overindulged in vitality.`,
+    ],
+    presentHealthReversed: [
+      `you neglect self-care.`,
+      `you overindulge in vitality.`,
+    ],
+    futureHealthReversed: [
+      `you will neglect self-care.`,
+      `you will overindulge in vitality.`,
+    ],
+  },
+  {
+    name: `Ten of Pentacles`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have built lasting financial legacies.`,
+      `you have achieved family wealth.`,
+    ],
+    presentMoney: [
+      `you build lasting financial legacies.`,
+      `you achieve family wealth.`,
+    ],
+    futureMoney: [
+      `you will build lasting financial legacies.`,
+      `you will achieve family wealth.`,
+    ],
+    pastMoneyReversed: [
+      `you have lost material inheritances.`,
+      `you have faced financial disputes.`,
+    ],
+    presentMoneyReversed: [
+      `you lose material inheritances.`,
+      `you face financial disputes.`,
+    ],
+    futureMoneyReversed: [
+      `you will lose material inheritances.`,
+      `you will face financial disputes.`,
+    ],
+    pastRelationships: [
+      `you have enjoyed family harmony.`,
+      `you have passed down love traditions.`,
+    ],
+    presentRelationships: [
+      `you enjoy family harmony.`,
+      `you pass down love traditions.`,
+    ],
+    futureRelationships: [
+      `you will enjoy family harmony.`,
+      `you will pass down love traditions.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have disrupted bond legacies.`,
+      `you have isolated from family ties.`,
+    ],
+    presentRelationshipsReversed: [
+      `you disrupt bond legacies.`,
+      `you isolate from family ties.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will disrupt bond legacies.`,
+      `you will isolate from family ties.`,
+    ],
+    pastHealth: [
+      `you have secured long-term vitality.`,
+      `you have inherited strong wellness.`,
+    ],
+    presentHealth: [
+      `you secure long-term vitality.`,
+      `you inherit strong wellness.`,
+    ],
+    futureHealth: [
+      `you will secure long-term vitality.`,
+      `you will inherit strong wellness.`,
+    ],
+    pastHealthReversed: [
+      `you have suffered genetic ailments.`,
+      `you have needed health restructuring.`,
+    ],
+    presentHealthReversed: [
+      `you suffer genetic ailments.`,
+      `you need health restructuring.`,
+    ],
+    futureHealthReversed: [
+      `you will suffer genetic ailments.`,
+      `you will need health restructuring.`,
+    ],
+  },
+  {
+    name: `Page of Pentacles`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have studied financial opportunities.`,
+      `you have begun practical career paths.`,
+    ],
+    presentMoney: [
+      `you study financial opportunities.`,
+      `you begin practical career paths.`,
+    ],
+    futureMoney: [
+      `you will study financial opportunities.`,
+      `you will begin practical career paths.`,
+    ],
+    pastMoneyReversed: [
+      `you have procrastinated in work goals.`,
+      `you have lacked financial discipline.`,
+    ],
+    presentMoneyReversed: [
+      `you procrastinate in work goals.`,
+      `you lack financial discipline.`,
+    ],
+    futureMoneyReversed: [
+      `you will procrastinate in work goals.`,
+      `you will lack financial discipline.`,
+    ],
+    pastRelationships: [
+      `you have approached love practically.`,
+      `you have learned relational skills.`,
+    ],
+    presentRelationships: [
+      `you approach love practically.`,
+      `you learn relational skills.`,
+    ],
+    futureRelationships: [
+      `you will approach love practically.`,
+      `you will learn relational skills.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have been unreliable in bonds.`,
+      `you have avoided love commitments.`,
+    ],
+    presentRelationshipsReversed: [
+      `you are unreliable in bonds.`,
+      `you avoid love commitments.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will be unreliable in bonds.`,
+      `you will avoid love commitments.`,
+    ],
+    pastHealth: [
+      `you have focused on body studies.`,
+      `you have started wellness apprenticeships.`,
+    ],
+    presentHealth: [
+      `you focus on body studies.`,
+      `you start wellness apprenticeships.`,
+    ],
+    futureHealth: [
+      `you will focus on body studies.`,
+      `you will start wellness apprenticeships.`,
+    ],
+    pastHealthReversed: [
+      `you have neglected physical learning.`,
+      `you have faced health distractions.`,
+    ],
+    presentHealthReversed: [
+      `you neglect physical learning.`,
+      `you face health distractions.`,
+    ],
+    futureHealthReversed: [
+      `you will neglect physical learning.`,
+      `you will face health distractions.`,
+    ],
+  },
+  {
+    name: `Knight of Pentacles`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have worked diligently on finances.`,
+      `you have pursued reliable career routines.`,
+    ],
+    presentMoney: [
+      `you work diligently on finances.`,
+      `you pursue reliable career routines.`,
+    ],
+    futureMoney: [
+      `you will work diligently on finances.`,
+      `you will pursue reliable career routines.`,
+    ],
+    pastMoneyReversed: [
+      `you have stagnated in work progress.`,
+      `you have obsessed over financial details.`,
+    ],
+    presentMoneyReversed: [
+      `you stagnate in work progress.`,
+      `you obsess over financial details.`,
+    ],
+    futureMoneyReversed: [
+      `you will stagnate in work progress.`,
+      `you will obsess over financial details.`,
+    ],
+    pastRelationships: [
+      `you have committed steadily in love.`,
+      `you have built trustworthy bonds.`,
+    ],
+    presentRelationships: [
+      `you commit steadily in love.`,
+      `you build trustworthy bonds.`,
+    ],
+    futureRelationships: [
+      `you will commit steadily in love.`,
+      `you will build trustworthy bonds.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have been boring in partnerships.`,
+      `you have resisted love changes.`,
+    ],
+    presentRelationshipsReversed: [
+      `you are boring in partnerships.`,
+      `you resist love changes.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will be boring in partnerships.`,
+      `you will resist love changes.`,
+    ],
+    pastHealth: [
+      `you have maintained consistent routines.`,
+      `you have protected physical stability.`,
+    ],
+    presentHealth: [
+      `you maintain consistent routines.`,
+      `you protect physical stability.`,
+    ],
+    futureHealth: [
+      `you will maintain consistent routines.`,
+      `you will protect physical stability.`,
+    ],
+    pastHealthReversed: [
+      `you have neglected body maintenance.`,
+      `you have stuck in unhealthy habits.`,
+    ],
+    presentHealthReversed: [
+      `you neglect body maintenance.`,
+      `you stick in unhealthy habits.`,
+    ],
+    futureHealthReversed: [
+      `you will neglect body maintenance.`,
+      `you will stick in unhealthy habits.`,
+    ],
+  },
+  {
+    name: `Queen of Pentacles`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have nurtured financial growth.`,
+      `you have managed resources practically.`,
+    ],
+    presentMoney: [
+      `you nurture financial growth.`,
+      `you manage resources practically.`,
+    ],
+    futureMoney: [
+      `you will nurture financial growth.`,
+      `you will manage resources practically.`,
+    ],
+    pastMoneyReversed: [
+      `you have been self-neglectful in work.`,
+      `you have envied others’ finances.`,
+    ],
+    presentMoneyReversed: [
+      `you are self-neglectful in work.`,
+      `you envy others’ finances.`,
+    ],
+    futureMoneyReversed: [
+      `you will be self-neglectful in work.`,
+      `you will envy others’ finances.`,
+    ],
+    pastRelationships: [
+      `you have provided sensual comfort in love.`,
+      `you have fostered secure bonds.`,
+    ],
+    presentRelationships: [
+      `you provide sensual comfort in love.`,
+      `you foster secure bonds.`,
+    ],
+    futureRelationships: [
+      `you will provide sensual comfort in love.`,
+      `you will foster secure bonds.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have smothered partners.`,
+      `you have lacked emotional balance.`,
+    ],
+    presentRelationshipsReversed: [
+      `you smother partners.`,
+      `you lack emotional balance.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will smother partners.`,
+      `you will lack emotional balance.`,
+    ],
+    pastHealth: [
+      `you have cared for body generously.`,
+      `you have balanced physical nurturance.`,
+    ],
+    presentHealth: [
+      `you care for body generously.`,
+      `you balance physical nurturance.`,
+    ],
+    futureHealth: [
+      `you will care for body generously.`,
+      `you will balance physical nurturance.`,
+    ],
+    pastHealthReversed: [
+      `you have ignored self-care.`,
+      `you have overgiven vitality.`,
+    ],
+    presentHealthReversed: [`you ignore self-care.`, `you overgive vitality.`],
+    futureHealthReversed: [
+      `you will ignore self-care.`,
+      `you will overgive vitality.`,
+    ],
+  },
+  {
+    name: `King of Pentacles`,
+    reversed: false,
+    image: ``,
+    pastMoney: [
+      `you have built stable financial empires.`,
+      `you have led with material wisdom.`,
+    ],
+    presentMoney: [
+      `you build stable financial empires.`,
+      `you lead with material wisdom.`,
+    ],
+    futureMoney: [
+      `you will build stable financial empires.`,
+      `you will lead with material wisdom.`,
+    ],
+    pastMoneyReversed: [
+      `you have been greedy in finances.`,
+      `you have lacked work ethics.`,
+    ],
+    presentMoneyReversed: [
+      `you are greedy in finances.`,
+      `you lack work ethics.`,
+    ],
+    futureMoneyReversed: [
+      `you will be greedy in finances.`,
+      `you will lack work ethics.`,
+    ],
+    pastRelationships: [
+      `you have provided secure love.`,
+      `you have nurtured family stability.`,
+    ],
+    presentRelationships: [
+      `you provide secure love.`,
+      `you nurture family stability.`,
+    ],
+    futureRelationships: [
+      `you will provide secure love.`,
+      `you will nurture family stability.`,
+    ],
+    pastRelationshipsReversed: [
+      `you have controlled partnerships.`,
+      `you have been materialistic in bonds.`,
+    ],
+    presentRelationshipsReversed: [
+      `you control partnerships.`,
+      `you are materialistic in bonds.`,
+    ],
+    futureRelationshipsReversed: [
+      `you will control partnerships.`,
+      `you will be materialistic in bonds.`,
+    ],
+    pastHealth: [
+      `you have mastered physical abundance.`,
+      `you have directed wellness reliably.`,
+    ],
+    presentHealth: [
+      `you master physical abundance.`,
+      `you direct wellness reliably.`,
+    ],
+    futureHealth: [
+      `you will master physical abundance.`,
+      `you will direct wellness reliably.`,
+    ],
+    pastHealthReversed: [
+      `you have neglected body discipline.`,
+      `you have indulged unhealthily.`,
+    ],
+    presentHealthReversed: [
+      `you neglect body discipline.`,
+      `you indulge unhealthily.`,
+    ],
+    futureHealthReversed: [
+      `you will neglect body discipline.`,
+      `you will indulge unhealthily.`,
+    ],
+  })
+];
