@@ -131,7 +131,7 @@ function startNextCustomer() {
     const randomLabel = buttonLabels[Math.floor(Math.random() * buttonLabels.length)];
     document.getElementById('start-reading-btn').textContent = randomLabel;
     
-    startBtn.onclick = () => {
+    document.getElementById('start-reading-btn').onclick = () => {
         try {
             if (!allCards || allCards.length === 0) {
                 throw new Error('allCards not loaded or empty. Check cardDatabase.js.');
