@@ -22,9 +22,22 @@ categories.forEach(cat => {
     items[cat.replace('-', '')] = Array.from({length: 10}, (_, i) => ({
         id: `item-${i + 1}`,
         name: `Item ${i + 1}`,
-        cost: i < 7 ? 0 : 5
+        cost: i < 8 ? 0 : 5
     }));
 });
+
+// Customer questions array (populate with more later)
+const questions = [
+    { text: "Tell me about my career.", category: "money" },
+    { text: "What's in store for my love life?", category: "relationships" },
+    { text: "How's my health looking?", category: "health" },
+    { text: "Advice on a big decision?", category: "general" }, // Placeholder
+    { text: "Will I come into money soon?", category: "money" }, // Placeholder
+    // Add more here...
+];
+
+// Button labels for starting reading
+const buttonLabels = ["Shuffle", "Split the Deck", "Begin", "Begin Reading", "Smile Knowingly", "Nod", "Close Your Eyes"];
 
 // Show loading for 2.5s, then main screen
 window.addEventListener('load', () => {
@@ -35,13 +48,35 @@ window.addEventListener('load', () => {
 });
 
 // Button events
-document.getElementById('start-btn').addEventListener('click', () => {
-    alert('Game starting...'); // Placeholder
-});
-
+document.getElementById('start-btn').addEventListener('click', startGame);
 document.getElementById('shop-btn').addEventListener('click', openShop);
 document.getElementById('settings-btn').addEventListener('click', openSettings);
 document.getElementById('stats-btn').addEventListener('click', openStats);
+
+// Start game
+function startGame() {
+    document.getElementById('main-screen').classList.add('hidden');
+    document.getElementById('game-area').classList.remove('hidden');
+    
+    // Show customer (placeholder)
+    document.getElementById('customer-placeholder').textContent = "Customer Appears Here";
+    
+    // Show speech bubble with random question
+    const randomQuestion = questions[Math.floor(Math.random() * questions.length)];
+    document.getElementById('customer-question').textContent = randomQuestion.text;
+    
+    // Random button label
+    const randomLabel = buttonLabels[Math.floor(Math.random() * buttonLabels.length)];
+    const startBtn = document.getElementById('start-reading-btn');
+    startBtn.textContent = randomLabel;
+    startBtn.addEventListener('click', () => {
+        // Placeholder for starting the reading (e.g., draw cards later)
+        alert(`Starting reading for category: ${randomQuestion.category}`);
+        document.getElementById('speech-bubble').classList.add('hidden');
+    });
+    
+    document.getElementById('speech-bubble').classList.remove('hidden');
+}
 
 // Shop functions
 function openShop() {
@@ -87,7 +122,7 @@ function showTab(tabId) {
         const isOwned = owned[catKey].includes(item.id);
         const isAffordable = coins >= item.cost || isOwned;
 
-        if (!isOwned && !isOwned) { // Only show cost if not owned
+        if (!isOwned) { // Only show cost if not owned
             const costSpan = document.createElement('span');
             costSpan.classList.add('item-cost');
             costSpan.textContent = `${item.cost} coins`;
