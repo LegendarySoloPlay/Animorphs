@@ -95,35 +95,35 @@ const questions = [
     category: "money",
   },
   {
-    text: "My recent money decisions have me second-guessing. how are they impacting things?",
+    text: "My recent money decisions have left me second-guessing. Will they impact things long term?",
     category: "money",
   },
   {
-    text: "I'm thinking about taking out a big loan for school— what should I know before I do?",
+    text: "I want to study but I'm afraid to go into debt...",
     category: "money",
-  }, // Requires inference about education financing
+  }, 
   {
-    text: "I need to get smarter with my spending habits—any guidance on that?",
+    text: "I need to get smarter with my spending habits. Can you give me some guidance?",
     category: "money",
   },
   {
-    text: "Building wealth for the long term is my goal—what does the plan look like for me?",
+    text: "Building wealth for the long term is my goal. What does the plan look like for me?",
     category: "money",
   },
   {
-    text: "I'm saving for a dream vacation, but it's slow going—how's that goal progressing?",
+    text: "I'm saving for a dream vacation, but it's slow going. Is this goal actually attainable?",
     category: "money",
   },
   {
-    text: "The job search has been really tough on me—what can I expect next?",
+    text: "The job search has been really tough on me. What can I expect?",
     category: "money",
-  }, // Requires inference about employment hunt
+  }
   {
     text: "Are there any financial lessons coming my way that I should prepare for?",
     category: "money",
   },
   {
-    text: "I want to diversify my income streams—can you tell me about that?",
+    text: "I'd love to have more money but I just don't know what to do.",
     category: "money",
   },
   {
@@ -135,11 +135,11 @@ const questions = [
     category: "money",
   },
   {
-    text: "My kid wants to start a lemonade stand, and I'm excited—any tips for us?",
+    text: "My sister and I have a podcast that is getting attention. Any signs this could turn into something?",
     category: "money",
-  }, // Requires inference about small family business
+  }, 
   {
-    text: "My freelance gigs seem to be drying up lately—what's the story there?",
+    text: "My casual shifts keep getting cut. Is it time to look for something new?",
     category: "money",
   },
 
@@ -150,7 +150,7 @@ const questions = [
     category: "relationships",
   },
   {
-    text: "I've been arguing a lot with my partner lately—what's going on?",
+    text: "I've been arguing a lot with my boyfriend lately. What's going on?",
     category: "relationships",
   },
   {
@@ -158,140 +158,140 @@ const questions = [
     category: "relationships",
   },
   {
-    text: "You see, there's this person at work I've been crushing on...",
+    text: "You see, there's this girl at work I've been crushing on...",
     category: "relationships",
   },
   { text: "What's the path ahead in my marriage?", category: "relationships" },
   {
-    text: "How can I attract better relationships?",
+    text: "How can I attract better friends?",
     category: "relationships",
   },
   {
-    text: "What should I know about my ex coming back into my life?",
+    text: "My ex has suddenly reappeared on the scene. What should I know?",
     category: "relationships",
   },
   {
-    text: "My friend set me up on a blind date—what can I expect?",
+    text: "My friend set me up on a blind date. What can I expect?",
     category: "relationships",
   },
   {
-    text: "I've been feeling lonely—what changes can I expect?",
+    text: "I've been feeling lonely lately. Is something more positive coming?",
     category: "relationships",
   },
   {
-    text: "Tell me about reconnecting with an old flame.",
+    text: "An old flame DM'd me. Should I be wary of reconnecting?",
     category: "relationships",
   },
   {
-    text: "My spouse and I need to spice things up—do you have any ideas for us?",
+    text: "Things have been a little... bland lately. Do my husband and I need to spice things up?",
     category: "relationships",
   },
   {
-    text: "Family gatherings have been so tense lately—what's really going on?",
+    text: "Things feel really strained between my family at the moment. I'm not sure what to do about it.",
     category: "relationships",
   },
   {
-    text: "My social life feels totally stagnant—can you tell me more about it?",
+    text: "My social life feels totally stagnant. Is it me?",
     category: "relationships",
   },
   {
-    text: "My friendships seem to be fading away—what does the future hold for them?",
+    text: "My friendships seem to be fading away. Can I do anything to hold on to them?",
     category: "relationships",
   },
   {
-    text: "Trust has been a big issue with my bestie lately—what's the deal?",
+    text: "Trust has been a bit of an issue with my bestie lately. What's the deal?",
     category: "relationships",
-  }, // Requires inference about friendship trust
+  }, 
   {
-    text: "How compatible am I with this new guy I just met? I'm hopeful.",
-    category: "relationships",
-  },
-  {
-    text: "Soulmates—am I getting close to finding one? I really want to know.",
+    text: "How compatible am I with this new guy I just met? I'm feeling hopeful.",
     category: "relationships",
   },
   {
-    text: "The dating scene's been pretty wild for me—how's it evolving?",
+    text: "Is my soulmate out there? I really want to know.",
     category: "relationships",
   },
   {
-    text: "Communication's been breaking down at home—what can I do now?",
+    text: "The dating scene's been pretty wild for me. Will things settle down?",
     category: "relationships",
   },
   {
-    text: "I'm really unsure about my partner these days—any insights for me?",
+    text: "Communication's been breaking down at home. What should I know?",
     category: "relationships",
   },
   {
-    text: "I'm feeling lost about my love choices—can you shed some light?",
+    text: "I'm really unsure about things at the moment... it just feels like I have no one to turn to.",
     category: "relationships",
   },
   {
-    text: "Building deeper intimacy in my relationship—how's that looking for us?",
+    text: "I'm feeling lost about my love life. Can you shed some light?",
     category: "relationships",
   },
   {
-    text: "Home life's been chaotic, and I need more peace—how can I bring that in?",
+    text: "I'm feeling a little disconnected from my girlfriend. What should I know about building deeper intimacy?",
     category: "relationships",
   },
   {
-    text: "My relational journey has been tough—tell me about the growth ahead.",
+    text: "Home life's been chaotic, and I need more peace. How can I bring that in?",
     category: "relationships",
   },
   {
-    text: "New people entering my life— what's coming, and should I be excited?",
+    text: "I feel like every time I think I've found the one, they slip away...",
     category: "relationships",
   },
   {
-    text: "I've been feeling distant from my old friends—what's happening there?",
-    category: "relationships",
-  }, // Requires inference about drifting apart
-  {
-    text: "Family dynamics are shifting a lot— what's the vibe going forward?",
+    text: "New people keep entering my life. Is this a good thing?",
     category: "relationships",
   },
   {
-    text: "My love life's changing, and I'm curious—how so?",
+    text: "I've been feeling distant from my old friends. What's happening there?",
+    category: "relationships",
+  }, 
+  {
+    text: "Family dynamics are shifting a lot. What's the vibe going forward?",
     category: "relationships",
   },
   {
-    text: "Healing from that tough breakup—where am I at with that?",
+    text: "My love life's changing, and I'm curious what's coming next?",
     category: "relationships",
   },
   {
-    text: "Emotional connections in my life—how's the outlook for them?",
+    text: "I'm still healing from a tough breakup. Will I ever be ready for someone else?",
     category: "relationships",
   },
   {
-    text: "I'm thinking about popping the question soon—what should I know?",
-    category: "relationships",
-  }, // Requires inference about engagement
-  {
-    text: "I want to support my loved ones better—any advice for me?",
+    text: "What's the outlook for my emotional connections?",
     category: "relationships",
   },
   {
-    text: "Partnership equilibrium has been off—tell me more about it.",
+    text: "I'm thinking about popping the question soon. What should I know?",
+    category: "relationships",
+  }, 
+  {
+    text: "I want to support my loved ones better. Do you have any advice?",
     category: "relationships",
   },
   {
-    text: "My siblings and I aren't as close as we used to be—what's ahead?",
+    text: "Lately, it doesn't really feel like my partner and I are equals. What's up with that?",
     category: "relationships",
   },
   {
-    text: "I've been on a few dates with this person—what's next for us?",
-    category: "relationships",
-  }, // Requires inference about budding romance
-  {
-    text: "Are there relational lessons on the horizon that I need to prepare for?",
+    text: "My siblings and I aren't as close as we used to be. What's ahead?",
     category: "relationships",
   },
   {
-    text: "Abundance in love—how's that manifesting in my life?",
+    text: "I've been on a few dates with this person. Do you see a future for us?",
+    category: "relationships",
+  }, 
+  {
+    text: "Are there any love lessons on the horizon that I need to prepare for?",
     category: "relationships",
   },
   {
-    text: "Emotional security in my bonds—can you tell me about it?",
+    text: "All my friends seem to be getting engaged. Is it in the cards for me?",
+    category: "relationships",
+  },
+  {
+    text: "I feel like I'm disconnecting from others and just like my alone time. is that a bad thing?",
     category: "relationships",
   },
   {
