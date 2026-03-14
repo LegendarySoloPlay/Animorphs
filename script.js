@@ -3,7 +3,8 @@ const storage = {
     coins: 'game_coins',
     owned: 'game_owned', // {table: [], deck: [], cardBack: [], accessories: []}
     selected: 'game_selected', // {table: '', deck: '', cardBack: '', accessories: []}
-    settings: 'game_settings' // {musicVolume: 50, musicMute: false, sfxVolume: 50, sfxMute: false, hints: 'basic'}
+    settings: 'game_settings', // {musicVolume: 50, musicMute: false, sfxVolume: 50, sfxMute: false, hints: 'basic'}
+    cardStats: 'game_cardStats' // { 'The Fool': {correct: 0, total: 0}, ... }
 };
 
 // Initial data
@@ -11,6 +12,29 @@ let coins = parseInt(localStorage.getItem(storage.coins)) || 0;
 let owned = JSON.parse(localStorage.getItem(storage.owned)) || { table: [], deck: [], cardBack: [], accessories: [] };
 let selected = JSON.parse(localStorage.getItem(storage.selected)) || { table: '', deck: '', cardBack: '', accessories: [] };
 let settings = JSON.parse(localStorage.getItem(storage.settings)) || { musicVolume: 50, musicMute: false, sfxVolume: 50, sfxMute: false, hints: 'basic' };
+let cardStats = JSON.parse(localStorage.getItem(storage.cardStats)) || {};
+if (Object.keys(cardStats).length === 0) {
+    allCards.forEach(card => {
+        cardStats[card.name] = { correct: 0, total: 0 };
+    });
+    localStorage.setItem(storage.cardStats, JSON.stringify(cardStats));
+}
+
+// Game round state
+let roundCustomers = 0;
+const maxCustomers = 3;
+let dailyEarnings = 0;
+let dailyCorrect = 0;
+
+// Arrays for thank you responses (populate more)
+const poorResponses = ["Thanks, but I'm not sure...", "Hmm, that was okay."]; // 0-1 correct
+const mediumResponses = ["Thanks, that helped a bit."]; // 2 correct
+const goodResponses = ["Wow, that was spot on! Thanks!"]; // 3 correct
+
+// Arrays for conclude button texts
+const apologyResponse = ["Sorry about that", "Better luck next time"]; // 0-1
+const neutralResponse = ["You're welcome", "Glad to help"]; // 2
+const enthusiasticResponse = ["My pleasure!", "Come back soon!"]; // 3
 
 // Categories
 const categories = ['table', 'deck', 'card-back', 'accessories'];
@@ -75,22 +99,37 @@ function shuffle(arr) {
     return a;
 }
 
-// Start game
+// Start game (updated to start round)
 function startGame() {
+    roundCustomers = 0;
+    dailyEarnings = 0;
+    dailyCorrect = 0;
+    startNextCustomer();
+}
+
+// Start next customer
+function startNextCustomer() {
+    if (roundCustomers >= maxCustomers) {
+        showEndDaySummary();
+        return;
+    }
+
     document.getElementById('main-screen').classList.add('hidden');
     document.getElementById('game-area').classList.remove('hidden');
     
-    // Show customer (placeholder)
-    document.getElementById('customer-placeholder').textContent = "Customer Appears Here";
+    // Reset for new customer
+    document.getElementById('table-area').classList.add('hidden');
+    document.getElementById('speech-bubble').classList.remove('hidden');
+    document.getElementById('start-reading-btn').classList.remove('hidden');
+    document.getElementById('conclude-reading-btn').classList.add('hidden');
+    document.getElementById('customer-placeholder').textContent = "Customer " + (roundCustomers + 1) + " Appears Here";
     
-    // Show speech bubble with random question
     const randomQuestion = questions[Math.floor(Math.random() * questions.length)];
     document.getElementById('customer-question').textContent = randomQuestion.text;
     currentCategory = randomQuestion.category; 
     
     const randomLabel = buttonLabels[Math.floor(Math.random() * buttonLabels.length)];
-    const startBtn = document.getElementById('start-reading-btn');
-    startBtn.textContent = randomLabel;
+    document.getElementById('start-reading-btn').textContent = randomLabel;
     
     startBtn.onclick = () => {
         try {
@@ -130,92 +169,115 @@ function startGame() {
             alert('Error starting reading: ' + error.message);
         }
     };
+}
+
+// Conclude button onclick (added)
+document.getElementById('conclude-reading-btn').onclick = () => {
+    // Hide customer and bubble
+    document.getElementById('speech-bubble').classList.add('hidden');
+    document.getElementById('customer-placeholder').textContent = "";
     
-    document.getElementById('speech-bubble').classList.remove('hidden');
-}
+    // Alert earnings
+    alert(`You earned ${dailyEarnings} coins this reading!`);
+    
+    // Delay 2.5s, next customer
+    setTimeout(() => {
+        roundCustomers++;
+        startNextCustomer();
+    }, 2500);
+};
 
-function renderThreeCards() {
-    console.log('Rendering cards...'); // Debug: Confirms this runs
-    currentSpread.forEach((card, i) => {
-        const slot = document.getElementById(`slot-${i+1}`);
-        slot.innerHTML = `
-            <strong>${card.name}</strong><br>
-            ${card.reversed ? '(Reversed)' : '(Upright)'}
-        `;
-        slot.onclick = () => {
-            console.log('Card clicked: index ' + i); // Debug: Confirms click fires
-            showInterpretationPopup(i);
-        };
-    });
-}
-
-function showInterpretationPopup(index) {
-    console.log('Showing popup for index ' + index); // Debug
-    const card = currentSpread[index];
-    const prefix = positionPrefixes[card.position][Math.floor(Math.random() * positionPrefixes[card.position].length)];
-
-    document.getElementById('position-prefix').textContent = prefix;
-    document.getElementById('magnified-name').textContent = card.name;
-    document.getElementById('magnified-orientation').textContent = card.reversed ? 'Reversed' : 'Upright';
-    document.getElementById('magnified-area').classList.remove('hidden');
-    document.getElementById('interpretation-popup').classList.remove('hidden');
-
-    // Build key e.g. "pastRelationshipsReversed"
-    const baseKey = card.position + currentCategory.charAt(0).toUpperCase() + currentCategory.slice(1);
-    const key = card.reversed ? baseKey + "Reversed" : baseKey;
-
-    console.log('Generated key: ' + key); // Debug key
-
-    // Correct interpretation from THIS card
-    let correctPool = card[key] || ["Generic correct meaning."]; // FIXED: Use card[key] instead of card.interpretations[key]
-    console.log('Correct pool: ', correctPool); // Debug
-    const correctText = correctPool[Math.floor(Math.random() * correctPool.length)];
-
-    // Two distractors from the SAME key on RANDOM cards in REMAINING DECK
-    let distractors = [];
-    const remainingDeck = deck.slice(3); // After the spread
-    if (remainingDeck.length >= 2) {
-        // Pick two random indices
-        const rand1 = Math.floor(Math.random() * remainingDeck.length);
-        let rand2 = Math.floor(Math.random() * remainingDeck.length);
-        while (rand2 === rand1) rand2 = Math.floor(Math.random() * remainingDeck.length);
-        
-        const otherCard1 = remainingDeck[rand1];
-        const otherCard2 = remainingDeck[rand2];
-        
-        const pool1 = otherCard1[key] || ["Generic distractor 1."];
-        const pool2 = otherCard2[key] || ["Generic distractor 2."];
-        
-        distractors.push(pool1[Math.floor(Math.random() * pool1.length)]);
-        distractors.push(pool2[Math.floor(Math.random() * pool2.length)]);
-    } else {
-        distractors = ["Plausible but incorrect 1.", "Plausible but incorrect 2."];
+// In showInterpretationPopup (your existing), add to btn.onclick:
+btn.onclick = () => {
+    const isCorrect = text === correctText;
+    alert(isCorrect ? "✅ Correct!" : "❌ Not quite right.");
+    const slot = document.getElementById(`slot-${index+1}`);
+    slot.classList.add(isCorrect ? 'highlight-correct' : 'highlight-incorrect');
+    closeInterpretation();
+    
+    // NEW: Track if all interpreted
+    completedCards++;
+    if (completedCards === 3) {
+        finishReading();
     }
-    console.log('Distractors: ', distractors); // Debug
+};
 
-    let options = [correctText, ...distractors];
-    options = options.sort(() => Math.random() - 0.5); // random order
-    console.log('Options: ', options); // Debug
+// Add to startThreeCardReading() after currentSpread:
+let completedCards = 0;
 
-    const optionsDiv = document.getElementById('interpretation-options');
-    optionsDiv.innerHTML = '';
-    options.forEach(text => {
-        const btn = document.createElement('button');
-        btn.textContent = text;
-        btn.onclick = () => {
-            const isCorrect = text === correctText;
-            alert(isCorrect ? "✅ Correct!" : "❌ Not quite right.");
-            const slot = document.getElementById(`slot-${index+1}`);
-            slot.classList.add(isCorrect ? 'highlight-correct' : 'highlight-incorrect');
-            closeInterpretation();
-        };
-        optionsDiv.appendChild(btn);
+// New finishReading()
+function finishReading() {
+    // Update card stats
+    currentSpread.forEach(card => {
+        const stat = cardStats[card.name];
+        stat.total++;
+        if (document.getElementById(`slot-${currentSpread.indexOf(card)+1}`).classList.contains('highlight-correct')) {
+            stat.correct++;
+        }
     });
+    localStorage.setItem(storage.cardStats, JSON.stringify(cardStats));
+    
+    // Calculate correct count
+    const correctCount = document.querySelectorAll('.highlight-correct').length;
+    
+    // Earnings
+    let coinsPerCorrect;
+    switch (settings.hints) {
+        case 'none': coinsPerCorrect = 9; break;
+        case 'basic': coinsPerCorrect = 6; break;
+        case 'advanced': coinsPerCorrect = 3; break;
+        default: coinsPerCorrect = 9;
+    }
+    const readingEarnings = correctCount * coinsPerCorrect;
+    coins += readingEarnings;
+    dailyEarnings += readingEarnings;
+    dailyCorrect += correctCount;
+    localStorage.setItem(storage.coins, coins);
+    
+    // Hide table, show thank you bubble
+    document.getElementById('table-area').classList.add('hidden');
+    document.getElementById('speech-bubble').classList.remove('hidden');
+    document.getElementById('start-reading-btn').classList.add('hidden');
+    document.getElementById('conclude-reading-btn').classList.remove('hidden');
+    
+    // Thank you text
+    let responseArray;
+    if (correctCount <= 1) responseArray = poorResponses;
+    else if (correctCount === 2) responseArray = mediumResponses;
+    else responseArray = goodResponses;
+    document.getElementById('customer-question').textContent = responseArray[Math.floor(Math.random() * responseArray.length)];
+    
+    // Conclude button text
+    let buttonArray;
+    if (correctCount <= 1) buttonArray = apologyResponse;
+    else if (correctCount === 2) buttonArray = neutralResponse;
+    else buttonArray = enthusiasticResponse;
+    document.getElementById('conclude-reading-btn').textContent = buttonArray[Math.floor(Math.random() * buttonArray.length)];
 }
 
-function closeInterpretation() {
-    document.getElementById('magnified-area').classList.add('hidden');
-    document.getElementById('interpretation-popup').classList.add('hidden');
+// New showEndDaySummary()
+function showEndDaySummary() {
+    const averageCorrect = (dailyCorrect / (maxCustomers * 3)).toFixed(1);
+    const summary = `You earned ${dailyEarnings} coins today! Average correct interpretations: ${averageCorrect} per reading.`;
+    document.getElementById('day-summary').textContent = summary;
+    document.getElementById('modal-overlay').classList.remove('hidden');
+    document.getElementById('end-day-modal').classList.remove('hidden');
+}
+
+// New startNewRound()
+function startNewRound() {
+    closeEndDay();
+    startGame();
+}
+
+// New closeEndDay(backToMain = false)
+function closeEndDay(backToMain = false) {
+    document.getElementById('end-day-modal').classList.add('hidden');
+    document.getElementById('modal-overlay').classList.add('hidden');
+    if (backToMain) {
+        document.getElementById('game-area').classList.add('hidden');
+        document.getElementById('main-screen').classList.remove('hidden');
+    }
 }
 
 // Shop functions
