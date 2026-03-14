@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #6a1b9a; /* Dark Purple background */
+    background: #6a1b9a; /* Purple background */
     color: #fff;
     height: 100vh;
     display: flex;
@@ -38,6 +38,41 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+#game-area {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#customer-placeholder {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    background: #ccc;
+    padding: 20px;
+    color: #333;
+    border-radius: 10px;
+}
+
+#speech-bubble {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    text-align: center;
+    width: 300px;
+}
+
+#speech-bubble p {
+    margin-bottom: 20px;
+    font-size: 1.2em;
 }
 
 button {
