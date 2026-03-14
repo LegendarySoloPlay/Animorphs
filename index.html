@@ -32,6 +32,7 @@
         <div id="speech-bubble" class="hidden">
             <p id="customer-question"></p>
             <button id="start-reading-btn">Shuffle</button>
+            <button id="conclude-reading-btn" class="hidden">Thank You</button>
         </div>
         
         <!-- Table Screen (overlays game-area when shown) -->
@@ -119,6 +120,21 @@
         <span class="close-x" onclick="closeStats()">X</span>
         <h2>Stats</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+
+    <!-- End of Day Modal -->
+    <div id="end-day-modal" class="modal hidden">
+        <div class="modal-header">
+            <h2>End of Day Summary</h2>
+            <span class="close-x" onclick="closeEndDay()">X</span>
+        </div>
+        <div class="modal-content-body">
+            <p id="day-summary"></p>
+        </div>
+        <div class="modal-footer">
+            <button onclick="startNewRound()">Continue</button>
+            <button onclick="closeEndDay(true)">Close</button>
+        </div>
     </div>
 
     <script src="cardDatabase.js"></script> <!-- Load allCards here -->
