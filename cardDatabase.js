@@ -1693,8 +1693,7 @@
       `you will need discipline to complete cycles.`,
     ],
   },
-][
-  ({
+{
     name: `Ace of Wands`,
     reversed: false,
     image: ``,
@@ -2771,9 +2770,8 @@
       `you will ignore sustainable habits.`,
       `you will face scattered well-being efforts.`,
     ],
-  })
-][
-  ({
+  },
+  {
     name: `Ace of Cups`,
     reversed: false,
     image: ``,
@@ -3850,9 +3848,8 @@
       `you will face mood instability.`,
       `you will need control over emotions.`,
     ],
-  })
-][
-  ({
+  },
+  {
     name: `Ace of Swords`,
     reversed: false,
     image: ``,
@@ -4926,9 +4923,8 @@
       `you will ignore ethical health practices.`,
       `you will face intellectual burnout.`,
     ],
-  })
-][
-  ({
+  },
+  {
     name: `Ace of Pentacles`,
     reversed: false,
     image: ``,
@@ -6002,5 +5998,5 @@
       `you will neglect body discipline.`,
       `you will indulge unhealthily.`,
     ],
-  })
+  }
 ];
