@@ -289,3 +289,10 @@ button:hover {
     background: #ddd;
     color: #333;
 }
+
+/* ... Your full existing CSS from previous ... */
+
+/* End of Day Modal (same style as others) */
+#end-day-modal .modal-content-body { text-align: center; }
+#end-day-modal #day-summary { font-size: 1.2em; }
+#end-day-modal .modal-footer button { margin: 0 10px; }
