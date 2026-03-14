@@ -135,17 +135,22 @@ function startGame() {
 }
 
 function renderThreeCards() {
+    console.log('Rendering cards...'); // Debug: Confirms this runs
     currentSpread.forEach((card, i) => {
         const slot = document.getElementById(`slot-${i+1}`);
         slot.innerHTML = `
             <strong>${card.name}</strong><br>
             ${card.reversed ? '(Reversed)' : '(Upright)'}
         `;
-        slot.onclick = () => showInterpretationPopup(i);
+        slot.onclick = () => {
+            console.log('Card clicked: index ' + i); // Debug: Confirms click fires
+            showInterpretationPopup(i);
+        };
     });
 }
 
 function showInterpretationPopup(index) {
+    console.log('Showing popup for index ' + index); // Debug
     const card = currentSpread[index];
     const prefix = positionPrefixes[card.position][Math.floor(Math.random() * positionPrefixes[card.position].length)];
 
