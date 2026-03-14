@@ -37,10 +37,24 @@
         <!-- Table Screen (overlays game-area when shown) -->
         <div id="table-area" class="hidden">
             <div class="table-focus">
-                <div id="slot-1" class="card-slot"></div>
-                <div id="slot-2" class="card-slot"></div>
-                <div id="slot-3" class="card-slot"></div>
+                <div id="slot-1" class="card-slot" data-index="0"></div>
+                <div id="slot-2" class="card-slot" data-index="1"></div>
+                <div id="slot-3" class="card-slot" data-index="2"></div>
             </div>
+        </div>
+
+        <!-- Magnified Card Area (left 25%) -->
+        <div id="magnified-area" class="hidden">
+            <div id="magnified-card">
+                <h3 id="magnified-name"></h3>
+                <p id="magnified-orientation"></p>
+            </div>
+        </div>
+
+        <!-- Interpretation Popup (middle 50%) -->
+        <div id="interpretation-popup" class="hidden">
+            <p id="position-prefix"></p>
+            <div id="interpretation-options"></div>
         </div>
     </div>
 
