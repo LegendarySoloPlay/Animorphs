@@ -53,8 +53,110 @@ document.getElementById('shop-btn').addEventListener('click', openShop);
 document.getElementById('settings-btn').addEventListener('click', openSettings);
 document.getElementById('stats-btn').addEventListener('click', openStats);
 
-// NEW: Store the current question category for later interpretation filtering
-let currentQuestionCategory = "";
+// === Game state ===
+let currentSpread = [];
+let currentCategory = "";   // set from the question
+
+// Position prefixes
+const positionPrefixes = {
+    past: ["In the past, ", "Previously, ", "Before now, "],
+    present: ["Right now, ", "Currently, ", "At this moment, "],
+    future: ["In the future, ", "Soon, ", "Ahead of you, "]
+};
+
+// Shuffle helper
+function shuffle(arr) {
+    const a = [...arr];
+    for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+}
+
+// === When the speech-bubble button is clicked ===
+document.getElementById('start-reading-btn').onclick = () => {
+    document.getElementById('speech-bubble').classList.add('hidden');
+    document.getElementById('table-area').classList.remove('hidden');
+    startThreeCardReading();
+};
+
+function startThreeCardReading() {
+    // Shuffle full deck
+    let deck = shuffle(allCards);
+
+    // Reverse 35% of the whole deck
+    deck.forEach(card => {
+        card.reversed = Math.random() < 0.35;
+    });
+
+    // Take top 3
+    currentSpread = deck.slice(0, 3).map((card, i) => ({
+        ...card,
+        position: ['past', 'present', 'future'][i]
+    }));
+
+    renderThreeCards();
+}
+
+function renderThreeCards() {
+    currentSpread.forEach((card, i) => {
+        const slot = document.querySelector(`.card-slot[data-index="${i}"]`);
+        slot.textContent = `${card.name} ${card.reversed ? '(Reversed)' : ''}`;
+        slot.onclick = () => showInterpretationPopup(i);
+    });
+}
+
+function showInterpretationPopup(index) {
+    const card = currentSpread[index];
+    const prefix = positionPrefixes[card.position][Math.floor(Math.random() * 3)];
+
+    document.getElementById('position-prefix').textContent = prefix;
+    document.getElementById('magnified-name').textContent = card.name;
+    document.getElementById('magnified-orientation').textContent = card.reversed ? 'Reversed' : 'Upright';
+    document.getElementById('magnified-area').classList.remove('hidden');
+    document.getElementById('interpretation-popup').classList.remove('hidden');
+
+    // Build key e.g. "pastRelationshipsReversed"
+    const baseKey = card.position + currentCategory.charAt(0).toUpperCase() + currentCategory.slice(1);
+    const key = card.reversed ? baseKey + "Reversed" : baseKey;
+
+    // Correct interpretation from THIS card
+    let correctPool = card.interpretations[key] || ["Generic correct meaning."];
+    const correctText = correctPool[Math.floor(Math.random() * correctPool.length)];
+
+    // Two distractors from the SAME key on OTHER cards
+    let distractors = [];
+    currentSpread.filter((_, i) => i !== index).forEach(otherCard => {
+        if (otherCard.interpretations[key]) {
+            distractors.push(otherCard.interpretations[key][0]);
+        }
+    });
+    while (distractors.length < 2) distractors.push("Plausible but incorrect.");
+
+    let options = [correctText, ...distractors];
+    options = options.sort(() => Math.random() - 0.5); // random order
+
+    const optionsDiv = document.getElementById('interpretation-options');
+    optionsDiv.innerHTML = '';
+    options.forEach(text => {
+        const btn = document.createElement('button');
+        btn.textContent = text;
+        btn.onclick = () => {
+            const isCorrect = text === correctText;
+            alert(isCorrect ? "✅ Correct!" : "❌ Not quite right.");
+            const slot = document.querySelector(`.card-slot[data-index="${index}"]`);
+            slot.classList.add(isCorrect ? 'highlight-correct' : 'highlight-incorrect');
+            closeInterpretation();
+        };
+        optionsDiv.appendChild(btn);
+    });
+}
+
+function closeInterpretation() {
+    document.getElementById('magnified-area').classList.add('hidden');
+    document.getElementById('interpretation-popup').classList.add('hidden');
+}
 
 // Updated button listener (replaces the old one inside startGame)
 function startGame() {
@@ -65,7 +167,7 @@ function startGame() {
     
     const randomQuestion = questions[Math.floor(Math.random() * questions.length)];
     document.getElementById('customer-question').textContent = randomQuestion.text;
-    currentQuestionCategory = randomQuestion.category;   // ← saved for later
+    currentCategory = randomQuestion.category; 
     
     const randomLabel = buttonLabels[Math.floor(Math.random() * buttonLabels.length)];
     const startBtn = document.getElementById('start-reading-btn');
