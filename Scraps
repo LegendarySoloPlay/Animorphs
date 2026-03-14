@@ -437,3 +437,26 @@ const questions = [
     category: "health",
   },
 ];
+
+const poorResponses = [
+  "Thanks, I guess.",
+  "That really doesn't sound like me.",
+  "That doesn't seem right.",
+  "Are you sure that's what the cards say?",
+  "That feels completely off.",
+  "I don't think you read that correctly.",
+  "The cards must be shuffled wrong.",
+  "That doesn't resonate at all.",
+  "Are we looking at the same cards?",
+  "That's not even close.",
+  "What you're saying really doesn't match my situation.",
+  "These cards can't be right.",
+  "Maybe the cards are in a bad mood today.",
+  "That's about as accurate as a weather forecast.",
+  "Are you sure you're not just making this up?",
+  "I'm not convinced that's accurate.",
+  "That interpretation seems like a stretch.",
+  "I'm getting mixed signals from that reading.",
+  "Something doesn't add up here.",
+  "That's a no."
+]
