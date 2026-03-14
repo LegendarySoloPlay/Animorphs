@@ -75,35 +75,72 @@ function shuffle(arr) {
     return a;
 }
 
-// === When the speech-bubble button is clicked ===
-document.getElementById('start-reading-btn').onclick = () => {
-    document.getElementById('speech-bubble').classList.add('hidden');
-    document.getElementById('table-area').classList.remove('hidden');
-    startThreeCardReading();
-};
-
-function startThreeCardReading() {
-    // Shuffle full deck
-    deck = shuffle(allCards);
-
-    // Reverse 35% of the whole deck
-    deck.forEach(card => {
-        card.reversed = Math.random() < 0.35;
-    });
-
-    // Take top 3
-    currentSpread = deck.slice(0, 3).map((card, i) => ({
-        ...card,
-        position: ['past', 'present', 'future'][i]
-    }));
-
-    renderThreeCards();
+// Start game
+function startGame() {
+    document.getElementById('main-screen').classList.add('hidden');
+    document.getElementById('game-area').classList.remove('hidden');
+    
+    // Show customer (placeholder)
+    document.getElementById('customer-placeholder').textContent = "Customer Appears Here";
+    
+    // Show speech bubble with random question
+    const randomQuestion = questions[Math.floor(Math.random() * questions.length)];
+    document.getElementById('customer-question').textContent = randomQuestion.text;
+    currentCategory = randomQuestion.category; 
+    
+    const randomLabel = buttonLabels[Math.floor(Math.random() * buttonLabels.length)];
+    const startBtn = document.getElementById('start-reading-btn');
+    startBtn.textContent = randomLabel;
+    
+    startBtn.onclick = () => {
+        try {
+            if (!allCards || allCards.length === 0) {
+                throw new Error('allCards not loaded or empty. Check cardDatabase.js.');
+            }
+            
+            // Hide speech bubble
+            document.getElementById('speech-bubble').classList.add('hidden');
+            
+            // Show table screen (fixed ID)
+            document.getElementById('table-area').classList.remove('hidden');
+            
+            // === SHUFFLE + REVERSE + DRAW 3 CARDS ===
+            deck = [...allCards];
+            
+            // Fisher-Yates shuffle
+            for (let i = deck.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [deck[i], deck[j]] = [deck[j], deck[i]];
+            }
+            
+            // Randomly reverse ~35% of the deck
+            deck.forEach(card => {
+                card.reversed = Math.random() < 0.35;
+            });
+            
+            // Draw top 3 and display
+            currentSpread = deck.slice(0, 3).map((card, i) => ({
+                ...card,
+                position: ['past', 'present', 'future'][i]
+            }));
+            
+            renderThreeCards();
+        } catch (error) {
+            console.error(error);
+            alert('Error starting reading: ' + error.message);
+        }
+    };
+    
+    document.getElementById('speech-bubble').classList.remove('hidden');
 }
 
 function renderThreeCards() {
     currentSpread.forEach((card, i) => {
-        const slot = document.querySelector(`.card-slot[data-index="${i}"]`);
-        slot.textContent = `${card.name} ${card.reversed ? '(Reversed)' : ''}`;
+        const slot = document.getElementById(`slot-${i+1}`);
+        slot.innerHTML = `
+            <strong>${card.name}</strong><br>
+            ${card.reversed ? '(Reversed)' : '(Upright)'}
+        `;
         slot.onclick = () => showInterpretationPopup(i);
     });
 }
@@ -158,7 +195,7 @@ function showInterpretationPopup(index) {
         btn.onclick = () => {
             const isCorrect = text === correctText;
             alert(isCorrect ? "✅ Correct!" : "❌ Not quite right.");
-            const slot = document.querySelector(`.card-slot[data-index="${index}"]`);
+            const slot = document.getElementById(`slot-${index+1}`);
             slot.classList.add(isCorrect ? 'highlight-correct' : 'highlight-incorrect');
             closeInterpretation();
         };
@@ -170,59 +207,6 @@ function closeInterpretation() {
     document.getElementById('magnified-area').classList.add('hidden');
     document.getElementById('interpretation-popup').classList.add('hidden');
 }
-
-// Updated button listener (replaces the old one inside startGame)
-function startGame() {
-    document.getElementById('main-screen').classList.add('hidden');
-    document.getElementById('game-area').classList.remove('hidden');
-    
-    document.getElementById('customer-placeholder').textContent = "Customer Appears Here";
-    
-    const randomQuestion = questions[Math.floor(Math.random() * questions.length)];
-    document.getElementById('customer-question').textContent = randomQuestion.text;
-    currentCategory = randomQuestion.category; 
-    
-    const randomLabel = buttonLabels[Math.floor(Math.random() * buttonLabels.length)];
-    const startBtn = document.getElementById('start-reading-btn');
-    startBtn.textContent = randomLabel;
-    
-    // NEW click handler – this is the only part that changed
-    startBtn.onclick = () => {
-        // Hide speech bubble
-        document.getElementById('speech-bubble').classList.add('hidden');
-        
-        // Show table screen (sits on top)
-        document.getElementById('table-area').classList.remove('hidden');
-        
-        // === SHUFFLE + REVERSE + DRAW 3 CARDS ===
-        let deck = [...allCards];
-        
-        // Fisher-Yates shuffle
-        for (let i = deck.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [deck[i], deck[j]] = [deck[j], deck[i]];
-        }
-        
-        // Randomly reverse ~35% of the deck
-        deck.forEach(card => {
-            card.reversed = Math.random() < 0.35;
-        });
-        
-        // Draw top 3 and display
-        for (let i = 0; i < 3; i++) {
-            const card = deck[i];
-            const slot = document.getElementById(`slot-${i+1}`);
-            slot.innerHTML = `
-                <strong>${card.name}</strong><br>
-                ${card.reversed ? '(Reversed)' : '(Upright)'}
-            `;
-        }
-    };
-    
-    document.getElementById('speech-bubble').classList.remove('hidden');
-}
-
-// ... rest of your script.js (shop, settings, etc.) stays exactly the same ...
 
 // Shop functions
 function openShop() {
