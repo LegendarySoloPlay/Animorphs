@@ -1,4 +1,4 @@
-[
+const allCards = [
   {
     name: `The Fool`,
     reversed: false,
