@@ -124,10 +124,10 @@ body {
 .card-slot.highlight-correct { border-color: #4ade80; box-shadow: 0 0 20px #4ade80; }
 .card-slot.highlight-incorrect { border-color: #f87171; box-shadow: 0 0 20px #f87171; }
 
-#magnified-area { position: absolute; left: 5%; top: 20%; width: 25%; }
+#magnified-area { position: absolute; left: 5%; top: 20%; width: 25%; z-index: 20; /* Higher z-index */ }
 #magnified-card { background: white; color: #333; padding: 30px; border-radius: 12px; text-align: center; min-height: 340px; }
 
-#interpretation-popup { position: absolute; left: 35%; top: 20%; width: 50%; background: white; color: #333; padding: 30px; border-radius: 12px; box-shadow: 0 0 25px rgba(0,0,0,0.6); }
+#interpretation-popup { position: absolute; left: 35%; top: 20%; width: 50%; background: white; color: #333; padding: 30px; border-radius: 12px; box-shadow: 0 0 25px rgba(0,0,0,0.6); z-index: 20; /* Higher z-index */ }
 #interpretation-options button { display: block; width: 100%; margin: 12px 0; padding: 14px; background: #6a1b9a; color: white; font-size: 1.05em; }
 
 button {
