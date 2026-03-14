@@ -53,30 +53,78 @@ document.getElementById('shop-btn').addEventListener('click', openShop);
 document.getElementById('settings-btn').addEventListener('click', openSettings);
 document.getElementById('stats-btn').addEventListener('click', openStats);
 
-// Start game
+// ... keep ALL your existing variables, storage, items, questions, buttonLabels, shop/settings functions ...
+
+// Sample cards for testing (move this entire array to cardDatabase.js later)
+let allCards = [
+    { name: "The Fool" },
+    { name: "The Magician" },
+    { name: "The High Priestess" },
+    { name: "The Empress" },
+    { name: "The Emperor" },
+    { name: "The Hierophant" },
+    { name: "The Lovers" },
+    { name: "The Chariot" },
+    { name: "Strength" },
+    { name: "The Hermit" },
+    // Add your full 78 here when you create cardDatabase.js
+];
+
+// NEW: Store the current question category for later interpretation filtering
+let currentQuestionCategory = "";
+
+// Updated button listener (replaces the old one inside startGame)
 function startGame() {
     document.getElementById('main-screen').classList.add('hidden');
     document.getElementById('game-area').classList.remove('hidden');
     
-    // Show customer (placeholder)
     document.getElementById('customer-placeholder').textContent = "Customer Appears Here";
     
-    // Show speech bubble with random question
     const randomQuestion = questions[Math.floor(Math.random() * questions.length)];
     document.getElementById('customer-question').textContent = randomQuestion.text;
+    currentQuestionCategory = randomQuestion.category;   // ← saved for later
     
-    // Random button label
     const randomLabel = buttonLabels[Math.floor(Math.random() * buttonLabels.length)];
     const startBtn = document.getElementById('start-reading-btn');
     startBtn.textContent = randomLabel;
-    startBtn.addEventListener('click', () => {
-        // Placeholder for starting the reading (e.g., draw cards later)
-        alert(`Starting reading for category: ${randomQuestion.category}`);
+    
+    // NEW click handler – this is the only part that changed
+    startBtn.onclick = () => {
+        // Hide speech bubble
         document.getElementById('speech-bubble').classList.add('hidden');
-    });
+        
+        // Show table screen (sits on top)
+        document.getElementById('table-screen').classList.remove('hidden');
+        
+        // === SHUFFLE + REVERSE + DRAW 3 CARDS ===
+        let deck = [...allCards];
+        
+        // Fisher-Yates shuffle
+        for (let i = deck.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [deck[i], deck[j]] = [deck[j], deck[i]];
+        }
+        
+        // Randomly reverse ~35% of the deck
+        deck.forEach(card => {
+            card.reversed = Math.random() < 0.35;
+        });
+        
+        // Draw top 3 and display
+        for (let i = 0; i < 3; i++) {
+            const card = deck[i];
+            const slot = document.getElementById(`slot-${i+1}`);
+            slot.innerHTML = `
+                <strong>${card.name}</strong><br>
+                ${card.reversed ? '(Reversed)' : '(Upright)'}
+            `;
+        }
+    };
     
     document.getElementById('speech-bubble').classList.remove('hidden');
 }
+
+// ... rest of your script.js (shop, settings, etc.) stays exactly the same ...
 
 // Shop functions
 function openShop() {
