@@ -300,142 +300,46 @@ const questions = [
   },
 
   // Health (40 questions)
-  { text: "How's my health looking?", category: "health" },
-  {
-    text: "What should I know about my physical well-being?",
-    category: "health",
-  },
-  { text: "How can I improve my energy levels?", category: "health" },
-  { text: "Tell me about my family's health.", category: "health" },
-  {
-    text: "I've noticed some weird symptoms lately—what's the deal?",
-    category: "health",
-  },
-  { text: "What's the impact of my diet on my mood?", category: "health" },
-  { text: "Tell me about my mental health stability.", category: "health" },
-  { text: "How's my overall fitness journey going?", category: "health" },
-  {
-    text: "What do the cards say about my sleep patterns?",
-    category: "health",
-  },
-  { text: "I've had some back pain—what's the deal?", category: "health" },
-  {
-    text: "My daily wellness routine feels off—how can I enhance it?",
-    category: "health",
-  },
-  {
-    text: "My emotional health's been rocky lately—can you tell me more?",
-    category: "health",
-  },
-  {
-    text: "Physical vitality ahead—what's in store for me?",
-    category: "health",
-  },
-  {
-    text: "Stress has really got me down lately—do you have any insights?",
-    category: "health",
-  }, // Requires inference about stress effects
-  {
-    text: "My body balance seems shifting—what does the future hold?",
-    category: "health",
-  },
-  {
-    text: "My immune system's been acting up—how's it looking for me?",
-    category: "health",
-  },
-  {
-    text: "Any potential health changes I should be aware of?",
-    category: "health",
-  },
-  {
-    text: "My exercise routine's gotten stale—what's the outlook?",
-    category: "health",
-  },
-  {
-    text: "I need help managing my weight better—how can I do that?",
-    category: "health",
-  },
-  {
-    text: "I'm really unsure about my health choices lately—what now?",
-    category: "health",
-  },
-  {
-    text: "I'm feeling lost about my wellness path—can you shed some light?",
-    category: "health",
-  },
-  {
-    text: "Preventive care is on my mind—what should I focus on?",
-    category: "health",
-  },
-  {
-    text: "Fostering more inner peace in my life—how's that going for me?",
-    category: "health",
-  },
-  {
-    text: "My health growth journey has been challenging—tell me about it.",
-    category: "health",
-  },
-  {
-    text: "Are there vitality boosts coming my way that I can look forward to?",
-    category: "health",
-  },
-  {
-    text: "I've been feeling tired all the time—what's up with that?",
-    category: "health",
-  }, // Requires inference about chronic fatigue
-  {
-    text: "My nutrition habits need work—what do the cards say?",
-    category: "health",
-  },
-  {
-    text: "Mental clarity's been foggy—how is it evolving?",
-    category: "health",
-  },
-  {
-    text: "Healing those old sports injuries—where am I at with that?",
-    category: "health",
-  },
-  {
-    text: "How are my emotions affecting my health these days?",
-    category: "health",
-  },
-  {
-    text: "I'm considering a doctor's visit soon—what should I know?",
-    category: "health",
-  }, // Requires inference about medical concerns
-  {
-    text: "I want to support my body's needs better—any advice?",
-    category: "health",
-  },
-  {
-    text: "Health harmony in my life—how's it feeling right now?",
-    category: "health",
-  },
-  {
-    text: "Aging gracefully is important to me—what's ahead?",
-    category: "health",
-  },
-  {
-    text: "I've been ramping up my workouts—what can I expect from that?",
-    category: "health",
-  }, // Requires inference about increased exercise
-  {
-    text: "Are there health lessons on the way that I need to learn?",
-    category: "health",
-  },
-  {
-    text: "Vitality abundance—how's that manifesting for me?",
-    category: "health",
-  },
-  {
-    text: "My physical security—can you tell me about it?",
-    category: "health",
-  },
-  { text: "Any health surprises I should watch out for?", category: "health" },
-  {
-    text: "Holistic well-being— what's the story with mine?",
-    category: "health",
-  },
+{ text: "I've been feeling run down lately. What's my body trying to tell me?", category: "health" },
+{ text: "My grandmother had heart problems. Is there anything I should be mindful of?", category: "health" },
+{ text: "I'm training for a marathon but hit a wall. What's blocking my progress?", category: "health" },
+{ text: "These headaches keep coming back. What should I understand about them?", category: "health" },
+{ text: "I've been sleeping poorly for weeks. What's disturbing my rest?", category: "health" },
+{ text: "My digestion's been off since that trip. Is there something deeper going on?", category: "health" },
+{ text: "My partner and I are trying to conceive. I'm excited but also feeling anxious. How nervous should I be?", category: "health" },
+{ text: "My skin's been breaking out like crazy. What's really going on beneath the surface?", category: "health" },
+{ text: "I quit drinking last month. It's... been difficult. Will I overcome it?", category: "health" },
+{ text: "My joints seem to ache when it rains. Is this just aging or something more?", category: "health" },
+{ text: "I can't seem to shake this cough. What's behind it?", category: "health" },
+{ text: "My anxiety's been spiking at work. What's at the root of this?", category: "health" },
+{ text: "I'm caring for my mother and honestly feeling exhausted. What do I need to hear right now?", category: "health" },
+{ text: "My doctor wants me to come in to discuss my last lot of blood work. What should I prepare for?", category: "health" },
+{ text: "I've gained weight without changing anything. What's out of balance?", category: "health" },
+{ text: "My libido's disappeared and it's affecting my relationship. What's blocking me?", category: "health" },
+{ text: "I keep getting the same cold over and over. What's weakening me?", category: "health" },
+{ text: "My dad was just diagnosed with something that might be genetic. I'm nervous to get tested.", category: "health" },
+{ text: "I've been meditating but still feel restless. What am I not addressing?", category: "health" },
+{ text: "My back went out again doing something simple. What's really weighing on me?", category: "health" },
+{ text: "I'm approaching 40 and feel everything changing. What should I embrace?", category: "health" },
+{ text: "My partner says I snore terribly now. Is there a message in this?", category: "health" },
+{ text: "I had a health scare last month that shook me. What's my path forward?", category: "health" },
+{ text: "My cravings have been out of control lately. What am I actually hungry for?", category: "health" },
+{ text: "I'm always tired but can't nap. What's keeping me wired?", category: "health" },
+{ text: "My family has a history of cancer. What should I be paying attention to?", category: "health" },
+{ text: "I started therapy but feel worse. What's surfacing that needs my attention?", category: "health" },
+{ text: "Sometimes, my hands tremble. What's the deeper story here?", category: "health" },
+{ text: "I'm recovering from surgery and feeling impatient. Hoe long does this go on?", category: "health" },
+{ text: "My memory's not what it used to be. What's clouding my mind?", category: "health" },
+{ text: "I keep injuring the same ankle. What pattern am I not breaking?", category: "health" },
+{ text: "My periods have become more painful lately. Is my body trying to tell me something?", category: "health" },
+{ text: "I'm surrounded by sick coworkers. How do I protect myself?", category: "health" },
+{ text: "My posture's gotten terrible working from home. What's really dragging me down?", category: "health" },
+{ text: "I had a panic attack out of nowhere. What triggered this?", category: "health" },
+{ text: "My doctor wants me on medication but I'm hesitant. What should I consider?", category: "health" },
+{ text: "I feel disconnected from my body lately. How do I reconnect?", category: "health" },
+{ text: "My allergies are worsening. What's my body reacting to?", category: "health" },
+{ text: "I'm supporting a friend through illness. How do I stay strong?", category: "health" },
+{ text: "My intuition about my health keeps telling me something's wrong. Should I trust it?", category: "health" }
 ];
 
 const poorResponses = [
