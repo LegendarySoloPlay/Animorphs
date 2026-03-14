@@ -164,8 +164,11 @@ function showInterpretationPopup(index) {
     const baseKey = card.position + currentCategory.charAt(0).toUpperCase() + currentCategory.slice(1);
     const key = card.reversed ? baseKey + "Reversed" : baseKey;
 
+    console.log('Generated key: ' + key); // Debug key
+
     // Correct interpretation from THIS card
-    let correctPool = card.interpretations[key] || ["Generic correct meaning."];
+    let correctPool = card[key] || ["Generic correct meaning."]; // FIXED: Use card[key] instead of card.interpretations[key]
+    console.log('Correct pool: ', correctPool); // Debug
     const correctText = correctPool[Math.floor(Math.random() * correctPool.length)];
 
     // Two distractors from the SAME key on RANDOM cards in REMAINING DECK
@@ -180,17 +183,19 @@ function showInterpretationPopup(index) {
         const otherCard1 = remainingDeck[rand1];
         const otherCard2 = remainingDeck[rand2];
         
-        const pool1 = otherCard1.interpretations[key] || ["Generic distractor 1."];
-        const pool2 = otherCard2.interpretations[key] || ["Generic distractor 2."];
+        const pool1 = otherCard1[key] || ["Generic distractor 1."];
+        const pool2 = otherCard2[key] || ["Generic distractor 2."];
         
         distractors.push(pool1[Math.floor(Math.random() * pool1.length)]);
         distractors.push(pool2[Math.floor(Math.random() * pool2.length)]);
     } else {
         distractors = ["Plausible but incorrect 1.", "Plausible but incorrect 2."];
     }
+    console.log('Distractors: ', distractors); // Debug
 
     let options = [correctText, ...distractors];
     options = options.sort(() => Math.random() - 0.5); // random order
+    console.log('Options: ', options); // Debug
 
     const optionsDiv = document.getElementById('interpretation-options');
     optionsDiv.innerHTML = '';
