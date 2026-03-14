@@ -75,6 +75,43 @@ body {
     font-size: 1.2em;
 }
 
+/* ... keep ALL your existing CSS ... */
+
+#table-screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85); /* dark overlay so it sits on top */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 30;
+}
+
+.table-slots {
+    display: flex;
+    gap: 40px;
+}
+
+.card-slot {
+    width: 160px;
+    height: 240px;
+    background: linear-gradient(45deg, #34495e, #2c3e50);
+    border: 4px solid #f1c40f; /* gold border for mystic feel */
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    font-size: 1.1em;
+    padding: 10px;
+    box-shadow: 0 0 15px rgba(241, 196, 15, 0.6);
+}
+
 button {
     padding: 10px 20px;
     background: #fff;
