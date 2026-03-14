@@ -1,0 +1,439 @@
+const questions = [
+  // Money (40 questions)
+  { text: "Tell me about my career.", category: "money" },
+  { text: "What does the future hold for my finances?", category: "money" },
+  { text: "What's coming up in my job situation?", category: "money" },
+  {
+    text: "My wife wants to invest but is now a good time?",
+    category: "money",
+  },
+  { text: "Money's been tight lately. Will that improve?", category: "money" },
+  { text: "What's my financial outlook?", category: "money" },
+  {
+    text: "I own the bakery across the road and was wondering if you can tell me how my business is looking?",
+    category: "money",
+  },
+  {
+    text: "My boyfriend and I have been saving up for a house. Are we working hard enough?",
+    category: "money",
+  },
+  { text: "What financial changes are coming my way?", category: "money" },
+  {
+    text: "I'm thinking about switching careers. Do you have any advice?",
+    category: "money",
+  },
+  {
+    text: "My boss has been hinting about a promotion. Is that in the cards?",
+    category: "money",
+  },
+  {
+    text: "My best friend has this great idea for a side hustle. Should I get involved?",
+    category: "money",
+  },
+  {
+    text: "I've been eyeing some stocks lately, and I'm really unsure. What's the situation looking like?",
+    category: "money",
+  },
+  {
+    text: "My investments haven't been doing great, and it's stressing me out.",
+    category: "money",
+  },
+  {
+    text: "I run a small online shop and sales have almost ground to a halt. Do I just give up?",
+    category: "money",
+  },
+  {
+    text: "Debt's been piling up and I need some hope — is there light at the end of the tunnel?",
+    category: "money",
+  },
+  {
+    text: "There's so much talk about change at work. I'm a little worried about job cuts. What's it looking like ahead?",
+    category: "money",
+  },
+  {
+    text: "Should my husband and I start retirement planning?",
+    category: "money",
+  },
+  {
+    text: "I'm really unsure about my job these days. What kind of insights do you have for me?",
+    category: "money",
+  },
+  {
+    text: "I'm feeling lost about my career path. Can you shed any light on what's coming?",
+    category: "money",
+  },
+  {
+    text: "I'm considering buying a new car soon, but finances are tight. Is now a good time?",
+    category: "money",
+  },
+  {
+    text: "I've had to move back in with my parents and am struggling a little. Will work pick up soon?",
+    category: "money",
+  },
+  {
+    text: "Work's been totally overwhelming me lately. Is there any balance coming soon?",
+    category: "money",
+  },
+  {
+    text: "My wife and I are talking about investments. What's ahead for us?",
+    category: "money",
+  },
+  {
+    text: "Some unexpected bills have really thrown me off. Will I recover?",
+    category: "money",
+  }, 
+  {
+    text: "I'm concerned about my investment portfolio these days. Am I going to be okay long term?",
+    category: "money",
+  },
+  {
+    text: "Freelancing has been so hit or miss for me. Is there something more secure on the horizon?",
+    category: "money",
+  },
+  {
+    text: "I'm starting a new venture with my brother, but I'm nervous. What should I expect?",
+    category: "money",
+  },
+  {
+    text: "My recent money decisions have me second-guessing. how are they impacting things?",
+    category: "money",
+  },
+  {
+    text: "I'm thinking about taking out a big loan for school— what should I know before I do?",
+    category: "money",
+  }, // Requires inference about education financing
+  {
+    text: "I need to get smarter with my spending habits—any guidance on that?",
+    category: "money",
+  },
+  {
+    text: "Building wealth for the long term is my goal—what does the plan look like for me?",
+    category: "money",
+  },
+  {
+    text: "I'm saving for a dream vacation, but it's slow going—how's that goal progressing?",
+    category: "money",
+  },
+  {
+    text: "The job search has been really tough on me—what can I expect next?",
+    category: "money",
+  }, // Requires inference about employment hunt
+  {
+    text: "Are there any financial lessons coming my way that I should prepare for?",
+    category: "money",
+  },
+  {
+    text: "I want to diversify my income streams—can you tell me about that?",
+    category: "money",
+  },
+  {
+    text: "How secure are my finances feeling right now? I need reassurance.",
+    category: "money",
+  },
+  {
+    text: "With all these economic shifts, how are they going to affect my pocket?",
+    category: "money",
+  },
+  {
+    text: "My kid wants to start a lemonade stand, and I'm excited—any tips for us?",
+    category: "money",
+  }, // Requires inference about small family business
+  {
+    text: "My freelance gigs seem to be drying up lately—what's the story there?",
+    category: "money",
+  },
+
+  // Relationships (40 questions)
+  { text: "What's in store for my love life?", category: "relationships" },
+  {
+    text: "What does the future hold for my relationship?",
+    category: "relationships",
+  },
+  {
+    text: "I've been arguing a lot with my partner lately—what's going on?",
+    category: "relationships",
+  },
+  {
+    text: "What's in store for my romantic prospects?",
+    category: "relationships",
+  },
+  {
+    text: "You see, there's this person at work I've been crushing on...",
+    category: "relationships",
+  },
+  { text: "What's the path ahead in my marriage?", category: "relationships" },
+  {
+    text: "How can I attract better relationships?",
+    category: "relationships",
+  },
+  {
+    text: "What should I know about my ex coming back into my life?",
+    category: "relationships",
+  },
+  {
+    text: "My friend set me up on a blind date—what can I expect?",
+    category: "relationships",
+  },
+  {
+    text: "I've been feeling lonely—what changes can I expect?",
+    category: "relationships",
+  },
+  {
+    text: "Tell me about reconnecting with an old flame.",
+    category: "relationships",
+  },
+  {
+    text: "My spouse and I need to spice things up—do you have any ideas for us?",
+    category: "relationships",
+  },
+  {
+    text: "Family gatherings have been so tense lately—what's really going on?",
+    category: "relationships",
+  },
+  {
+    text: "My social life feels totally stagnant—can you tell me more about it?",
+    category: "relationships",
+  },
+  {
+    text: "My friendships seem to be fading away—what does the future hold for them?",
+    category: "relationships",
+  },
+  {
+    text: "Trust has been a big issue with my bestie lately—what's the deal?",
+    category: "relationships",
+  }, // Requires inference about friendship trust
+  {
+    text: "How compatible am I with this new guy I just met? I'm hopeful.",
+    category: "relationships",
+  },
+  {
+    text: "Soulmates—am I getting close to finding one? I really want to know.",
+    category: "relationships",
+  },
+  {
+    text: "The dating scene's been pretty wild for me—how's it evolving?",
+    category: "relationships",
+  },
+  {
+    text: "Communication's been breaking down at home—what can I do now?",
+    category: "relationships",
+  },
+  {
+    text: "I'm really unsure about my partner these days—any insights for me?",
+    category: "relationships",
+  },
+  {
+    text: "I'm feeling lost about my love choices—can you shed some light?",
+    category: "relationships",
+  },
+  {
+    text: "Building deeper intimacy in my relationship—how's that looking for us?",
+    category: "relationships",
+  },
+  {
+    text: "Home life's been chaotic, and I need more peace—how can I bring that in?",
+    category: "relationships",
+  },
+  {
+    text: "My relational journey has been tough—tell me about the growth ahead.",
+    category: "relationships",
+  },
+  {
+    text: "New people entering my life— what's coming, and should I be excited?",
+    category: "relationships",
+  },
+  {
+    text: "I've been feeling distant from my old friends—what's happening there?",
+    category: "relationships",
+  }, // Requires inference about drifting apart
+  {
+    text: "Family dynamics are shifting a lot— what's the vibe going forward?",
+    category: "relationships",
+  },
+  {
+    text: "My love life's changing, and I'm curious—how so?",
+    category: "relationships",
+  },
+  {
+    text: "Healing from that tough breakup—where am I at with that?",
+    category: "relationships",
+  },
+  {
+    text: "Emotional connections in my life—how's the outlook for them?",
+    category: "relationships",
+  },
+  {
+    text: "I'm thinking about popping the question soon—what should I know?",
+    category: "relationships",
+  }, // Requires inference about engagement
+  {
+    text: "I want to support my loved ones better—any advice for me?",
+    category: "relationships",
+  },
+  {
+    text: "Partnership equilibrium has been off—tell me more about it.",
+    category: "relationships",
+  },
+  {
+    text: "My siblings and I aren't as close as we used to be—what's ahead?",
+    category: "relationships",
+  },
+  {
+    text: "I've been on a few dates with this person—what's next for us?",
+    category: "relationships",
+  }, // Requires inference about budding romance
+  {
+    text: "Are there relational lessons on the horizon that I need to prepare for?",
+    category: "relationships",
+  },
+  {
+    text: "Abundance in love—how's that manifesting in my life?",
+    category: "relationships",
+  },
+  {
+    text: "Emotional security in my bonds—can you tell me about it?",
+    category: "relationships",
+  },
+  {
+    text: "Any romantic surprises around the corner that I should watch for?",
+    category: "relationships",
+  },
+
+  // Health (40 questions)
+  { text: "How's my health looking?", category: "health" },
+  {
+    text: "What should I know about my physical well-being?",
+    category: "health",
+  },
+  { text: "How can I improve my energy levels?", category: "health" },
+  { text: "Tell me about my family's health.", category: "health" },
+  {
+    text: "I've noticed some weird symptoms lately—what's the deal?",
+    category: "health",
+  },
+  { text: "What's the impact of my diet on my mood?", category: "health" },
+  { text: "Tell me about my mental health stability.", category: "health" },
+  { text: "How's my overall fitness journey going?", category: "health" },
+  {
+    text: "What do the cards say about my sleep patterns?",
+    category: "health",
+  },
+  { text: "I've had some back pain—what's the deal?", category: "health" },
+  {
+    text: "My daily wellness routine feels off—how can I enhance it?",
+    category: "health",
+  },
+  {
+    text: "My emotional health's been rocky lately—can you tell me more?",
+    category: "health",
+  },
+  {
+    text: "Physical vitality ahead—what's in store for me?",
+    category: "health",
+  },
+  {
+    text: "Stress has really got me down lately—do you have any insights?",
+    category: "health",
+  }, // Requires inference about stress effects
+  {
+    text: "My body balance seems shifting—what does the future hold?",
+    category: "health",
+  },
+  {
+    text: "My immune system's been acting up—how's it looking for me?",
+    category: "health",
+  },
+  {
+    text: "Any potential health changes I should be aware of?",
+    category: "health",
+  },
+  {
+    text: "My exercise routine's gotten stale—what's the outlook?",
+    category: "health",
+  },
+  {
+    text: "I need help managing my weight better—how can I do that?",
+    category: "health",
+  },
+  {
+    text: "I'm really unsure about my health choices lately—what now?",
+    category: "health",
+  },
+  {
+    text: "I'm feeling lost about my wellness path—can you shed some light?",
+    category: "health",
+  },
+  {
+    text: "Preventive care is on my mind—what should I focus on?",
+    category: "health",
+  },
+  {
+    text: "Fostering more inner peace in my life—how's that going for me?",
+    category: "health",
+  },
+  {
+    text: "My health growth journey has been challenging—tell me about it.",
+    category: "health",
+  },
+  {
+    text: "Are there vitality boosts coming my way that I can look forward to?",
+    category: "health",
+  },
+  {
+    text: "I've been feeling tired all the time—what's up with that?",
+    category: "health",
+  }, // Requires inference about chronic fatigue
+  {
+    text: "My nutrition habits need work—what do the cards say?",
+    category: "health",
+  },
+  {
+    text: "Mental clarity's been foggy—how is it evolving?",
+    category: "health",
+  },
+  {
+    text: "Healing those old sports injuries—where am I at with that?",
+    category: "health",
+  },
+  {
+    text: "How are my emotions affecting my health these days?",
+    category: "health",
+  },
+  {
+    text: "I'm considering a doctor's visit soon—what should I know?",
+    category: "health",
+  }, // Requires inference about medical concerns
+  {
+    text: "I want to support my body's needs better—any advice?",
+    category: "health",
+  },
+  {
+    text: "Health harmony in my life—how's it feeling right now?",
+    category: "health",
+  },
+  {
+    text: "Aging gracefully is important to me—what's ahead?",
+    category: "health",
+  },
+  {
+    text: "I've been ramping up my workouts—what can I expect from that?",
+    category: "health",
+  }, // Requires inference about increased exercise
+  {
+    text: "Are there health lessons on the way that I need to learn?",
+    category: "health",
+  },
+  {
+    text: "Vitality abundance—how's that manifesting for me?",
+    category: "health",
+  },
+  {
+    text: "My physical security—can you tell me about it?",
+    category: "health",
+  },
+  { text: "Any health surprises I should watch out for?", category: "health" },
+  {
+    text: "Holistic well-being— what's the story with mine?",
+    category: "health",
+  },
+];
