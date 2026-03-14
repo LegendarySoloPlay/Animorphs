@@ -77,13 +77,15 @@ document.getElementById('stats-btn').addEventListener('click', openStats);
 let currentSpread = [];
 let currentCategory = "";   // set from the question
 let deck = []; // Global to access remaining deck
-let completedCards = 0; // Track interpreted cards
+let interpretedCards = []; // Track which cards have been interpreted (by index)
 
 // Game round state
 let roundCustomers = 0;
 const maxCustomers = 3;
 let dailyEarnings = 0;
 let dailyCorrect = 0;
+let currentReadingEarnings = 0; // Track earnings for current reading only
+let currentReadingCorrect = 0; // Track correct count for current reading only
 
 // Position prefixes
 const positionPrefixes = {
@@ -110,6 +112,18 @@ function startGame() {
     startNextCustomer();
 }
 
+// Reset card slots for new reading
+function resetCardSlots() {
+    for (let i = 1; i <= 3; i++) {
+        const slot = document.getElementById(`slot-${i}`);
+        if (slot) {
+            slot.innerHTML = '';
+            slot.classList.remove('highlight-correct', 'highlight-incorrect');
+            slot.onclick = null; // Remove click handlers
+        }
+    }
+}
+
 // Start next customer
 function startNextCustomer() {
     if (roundCustomers >= maxCustomers) {
@@ -127,10 +141,16 @@ function startNextCustomer() {
     document.getElementById('conclude-reading-btn').classList.add('hidden');
     document.getElementById('customer-placeholder').textContent = "Customer " + (roundCustomers + 1) + " Appears Here";
     
-    // Show customer (placeholder)
-    document.getElementById('customer-placeholder').textContent = "Customer " + (roundCustomers + 1) + " Appears Here";
+    // Reset card slots
+    resetCardSlots();
     
-    // Show speech bubble with random question
+    // Reset interpreted cards tracking
+    interpretedCards = [];
+    
+    // Reset current reading earnings tracking
+    currentReadingEarnings = 0;
+    currentReadingCorrect = 0;
+    
     const randomQuestion = questions[Math.floor(Math.random() * questions.length)];
     document.getElementById('customer-question').textContent = randomQuestion.text;
     currentCategory = randomQuestion.category; 
@@ -139,53 +159,61 @@ function startNextCustomer() {
     const startBtn = document.getElementById('start-reading-btn');
     startBtn.textContent = randomLabel;
     
-    startBtn.onclick = () => {
-        try {
-            if (typeof allCards === 'undefined' || allCards.length === 0) {
-                throw new Error('allCards not loaded or empty. Check cardDatabase.js.');
-            }
-            
-            // Hide speech bubble
-            document.getElementById('speech-bubble').classList.add('hidden');
-            
-            // Show table screen (fixed ID)
-            document.getElementById('table-area').classList.remove('hidden');
-            
-            // Reset completed cards counter
-            completedCards = 0;
-            
-            // === SHUFFLE + REVERSE + DRAW 3 CARDS ===
-            deck = [...allCards];
-            
-            // Fisher-Yates shuffle
-            for (let i = deck.length - 1; i > 0; i--) {
-                const j = Math.floor(Math.random() * (i + 1));
-                [deck[i], deck[j]] = [deck[j], deck[i]];
-            }
-            
-            // Randomly reverse ~35% of the deck
-            deck.forEach(card => {
-                card.reversed = Math.random() < 0.35;
-            });
-            
-            // Draw top 3 and display
-            currentSpread = deck.slice(0, 3).map((card, i) => ({
-                ...card,
-                position: ['past', 'present', 'future'][i]
-            }));
-            
-            renderThreeCards();
-        } catch (error) {
-            console.error(error);
-            alert('Error starting reading: ' + error.message);
-        }
-    };
+    // Remove any existing onclick handlers and set new one
+    startBtn.onclick = startReading;
     
     document.getElementById('speech-bubble').classList.remove('hidden');
 }
 
+// Start reading function (extracted from onclick for clarity)
+function startReading() {
+    try {
+        if (typeof allCards === 'undefined' || allCards.length === 0) {
+            throw new Error('allCards not loaded or empty. Check cardDatabase.js.');
+        }
+        
+        // Hide speech bubble
+        document.getElementById('speech-bubble').classList.add('hidden');
+        
+        // Show table screen
+        document.getElementById('table-area').classList.remove('hidden');
+        
+        // Reset interpreted cards tracking
+        interpretedCards = [];
+        
+        // Reset current reading earnings
+        currentReadingEarnings = 0;
+        currentReadingCorrect = 0;
+        
+        // === SHUFFLE + REVERSE + DRAW 3 CARDS ===
+        deck = [...allCards];
+        
+        // Fisher-Yates shuffle
+        for (let i = deck.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [deck[i], deck[j]] = [deck[j], deck[i]];
+        }
+        
+        // Randomly reverse ~35% of the deck
+        deck.forEach(card => {
+            card.reversed = Math.random() < 0.35;
+        });
+        
+        // Draw top 3 and display
+        currentSpread = deck.slice(0, 3).map((card, i) => ({
+            ...card,
+            position: ['past', 'present', 'future'][i]
+        }));
+        
+        renderThreeCards();
+    } catch (error) {
+        console.error(error);
+        alert('Error starting reading: ' + error.message);
+    }
+}
+
 function renderThreeCards() {
-    console.log('Rendering cards...'); // Debug: Confirms this runs
+    console.log('Rendering cards...');
     currentSpread.forEach((card, i) => {
         const slot = document.getElementById(`slot-${i+1}`);
         slot.innerHTML = `
@@ -193,14 +221,19 @@ function renderThreeCards() {
             ${card.reversed ? '(Reversed)' : '(Upright)'}
         `;
         slot.onclick = () => {
-            console.log('Card clicked: index ' + i); // Debug: Confirms click fires
-            showInterpretationPopup(i);
+            // Only allow clicking if card hasn't been interpreted yet
+            if (!interpretedCards.includes(i)) {
+                console.log('Card clicked: index ' + i);
+                showInterpretationPopup(i);
+            } else {
+                console.log('Card already interpreted, ignoring click');
+            }
         };
     });
 }
 
 function showInterpretationPopup(index) {
-    console.log('Showing popup for index ' + index); // Debug
+    console.log('Showing popup for index ' + index);
     const card = currentSpread[index];
     const prefix = positionPrefixes[card.position][Math.floor(Math.random() * positionPrefixes[card.position].length)];
 
@@ -214,18 +247,17 @@ function showInterpretationPopup(index) {
     const baseKey = card.position + currentCategory.charAt(0).toUpperCase() + currentCategory.slice(1);
     const key = card.reversed ? baseKey + "Reversed" : baseKey;
 
-    console.log('Generated key: ' + key); // Debug key
+    console.log('Generated key: ' + key);
 
     // Correct interpretation from THIS card
-    let correctPool = card[key] || ["Generic correct meaning."]; // FIXED: Use card[key] instead of card.interpretations[key]
-    console.log('Correct pool: ', correctPool); // Debug
+    let correctPool = card[key] || ["Generic correct meaning."];
+    console.log('Correct pool: ', correctPool);
     const correctText = correctPool[Math.floor(Math.random() * correctPool.length)];
 
     // Two distractors from the SAME key on RANDOM cards in REMAINING DECK
     let distractors = [];
-    const remainingDeck = deck.slice(3); // After the spread
+    const remainingDeck = deck.slice(3);
     if (remainingDeck.length >= 2) {
-        // Pick two random indices
         const rand1 = Math.floor(Math.random() * remainingDeck.length);
         let rand2 = Math.floor(Math.random() * remainingDeck.length);
         while (rand2 === rand1) rand2 = Math.floor(Math.random() * remainingDeck.length);
@@ -241,11 +273,11 @@ function showInterpretationPopup(index) {
     } else {
         distractors = ["Plausible but incorrect 1.", "Plausible but incorrect 2."];
     }
-    console.log('Distractors: ', distractors); // Debug
+    console.log('Distractors: ', distractors);
 
     let options = [correctText, ...distractors];
-    options = options.sort(() => Math.random() - 0.5); // random order
-    console.log('Options: ', options); // Debug
+    options = options.sort(() => Math.random() - 0.5);
+    console.log('Options: ', options);
 
     const optionsDiv = document.getElementById('interpretation-options');
     optionsDiv.innerHTML = '';
@@ -254,14 +286,36 @@ function showInterpretationPopup(index) {
         btn.textContent = text;
         btn.onclick = () => {
             const isCorrect = text === correctText;
+            
+            // Show feedback
             alert(isCorrect ? "✅ Correct!" : "❌ Not quite right.");
+            
+            // Apply highlight to the card slot
             const slot = document.getElementById(`slot-${index+1}`);
             slot.classList.add(isCorrect ? 'highlight-correct' : 'highlight-incorrect');
+            
+            // Track that this card has been interpreted
+            interpretedCards.push(index);
+            
+            // Update current reading stats
+            if (isCorrect) {
+                currentReadingCorrect++;
+                
+                // Calculate earnings based on hints setting
+                let coinsPerCorrect;
+                switch (settings.hints) {
+                    case 'none': coinsPerCorrect = 9; break;
+                    case 'basic': coinsPerCorrect = 6; break;
+                    case 'advanced': coinsPerCorrect = 3; break;
+                    default: coinsPerCorrect = 6;
+                }
+                currentReadingEarnings += coinsPerCorrect;
+            }
+            
             closeInterpretation();
             
-            // Track if all interpreted
-            completedCards++;
-            if (completedCards === 3) {
+            // Check if all cards have been interpreted
+            if (interpretedCards.length === 3) {
                 finishReading();
             }
         };
@@ -277,32 +331,21 @@ function closeInterpretation() {
 // New finishReading()
 function finishReading() {
     // Update card stats
-    currentSpread.forEach(card => {
+    currentSpread.forEach((card, index) => {
         const stat = cardStats[card.name];
         if (stat) {
             stat.total++;
-            if (document.getElementById(`slot-${currentSpread.indexOf(card)+1}`).classList.contains('highlight-correct')) {
+            if (document.getElementById(`slot-${index+1}`).classList.contains('highlight-correct')) {
                 stat.correct++;
             }
         }
     });
     localStorage.setItem(storage.cardStats, JSON.stringify(cardStats));
     
-    // Calculate correct count
-    const correctCount = document.querySelectorAll('.highlight-correct').length;
-    
-    // Earnings based on hints setting
-    let coinsPerCorrect;
-    switch (settings.hints) {
-        case 'none': coinsPerCorrect = 9; break;
-        case 'basic': coinsPerCorrect = 6; break;
-        case 'advanced': coinsPerCorrect = 3; break;
-        default: coinsPerCorrect = 6;
-    }
-    const readingEarnings = correctCount * coinsPerCorrect;
-    coins += readingEarnings;
-    dailyEarnings += readingEarnings;
-    dailyCorrect += correctCount;
+    // Add current reading earnings to totals
+    coins += currentReadingEarnings;
+    dailyEarnings += currentReadingEarnings;
+    dailyCorrect += currentReadingCorrect;
     localStorage.setItem(storage.coins, coins);
     
     // Hide table, show thank you bubble
@@ -311,17 +354,17 @@ function finishReading() {
     document.getElementById('start-reading-btn').classList.add('hidden');
     document.getElementById('conclude-reading-btn').classList.remove('hidden');
     
-    // Thank you text
+    // Thank you text based on correct count
     let responseArray;
-    if (correctCount <= 1) responseArray = poorResponses;
-    else if (correctCount === 2) responseArray = mediumResponses;
+    if (currentReadingCorrect <= 1) responseArray = poorResponses;
+    else if (currentReadingCorrect === 2) responseArray = mediumResponses;
     else responseArray = goodResponses;
     document.getElementById('customer-question').textContent = responseArray[Math.floor(Math.random() * responseArray.length)];
     
-    // Conclude button text
+    // Conclude button text based on correct count
     let buttonArray;
-    if (correctCount <= 1) buttonArray = apologyResponse;
-    else if (correctCount === 2) buttonArray = neutralResponse;
+    if (currentReadingCorrect <= 1) buttonArray = apologyResponse;
+    else if (currentReadingCorrect === 2) buttonArray = neutralResponse;
     else buttonArray = enthusiasticResponse;
     document.getElementById('conclude-reading-btn').textContent = buttonArray[Math.floor(Math.random() * buttonArray.length)];
 }
@@ -332,8 +375,8 @@ document.getElementById('conclude-reading-btn').onclick = () => {
     document.getElementById('speech-bubble').classList.add('hidden');
     document.getElementById('customer-placeholder').textContent = "";
     
-    // Alert earnings
-    alert(`You earned ${dailyEarnings} coins this reading!`);
+    // Alert earnings for this reading only
+    alert(`You earned ${currentReadingEarnings} coins from this customer!`);
     
     // Delay 2.5s, next customer
     setTimeout(() => {
@@ -367,13 +410,13 @@ function closeEndDay(backToMain = false) {
     }
 }
 
-// Shop functions
+// Shop functions (unchanged)
 function openShop() {
     document.getElementById('modal-overlay').classList.remove('hidden');
     document.getElementById('shop-modal').classList.remove('hidden');
     document.getElementById('coins-amount').textContent = coins;
     initShopTabs();
-    showTab('table'); // Default tab
+    showTab('table');
 
     document.getElementById('purchase-coins-btn').addEventListener('click', () => alert('Coming soon - In-app purchases'));
     document.getElementById('save-shop-btn').addEventListener('click', saveShopAndClose);
@@ -396,7 +439,7 @@ function initShopTabs() {
 
 function showTab(tabId) {
     const content = document.getElementById('shop-content');
-    content.innerHTML = ''; // Clear
+    content.innerHTML = '';
     const tabContent = document.createElement('div');
     tabContent.classList.add('tab-content', 'active');
     const grid = document.createElement('div');
@@ -411,7 +454,7 @@ function showTab(tabId) {
         const isOwned = owned[catKey].includes(item.id);
         const isAffordable = coins >= item.cost || isOwned;
 
-        if (!isOwned) { // Only show cost if not owned
+        if (!isOwned) {
             const costSpan = document.createElement('span');
             costSpan.classList.add('item-cost');
             costSpan.textContent = `${item.cost} coins`;
@@ -421,13 +464,11 @@ function showTab(tabId) {
         if (!isAffordable) {
             box.classList.add('greyed');
         } else if (!isOwned) {
-            // Click to buy
             box.addEventListener('click', () => buyItem(catKey, item));
         } else {
-            // Show selection input
             const input = document.createElement('input');
             input.type = singleSelect.includes(catKey) ? 'radio' : 'checkbox';
-            input.name = tabId; // For radio group
+            input.name = tabId;
             input.classList.add('item-checkbox');
             input.checked = singleSelect.includes(catKey) ? selected[catKey] === item.id : selected[catKey].includes(item.id);
             input.addEventListener('change', () => updateSelection(catKey, item.id, input.checked));
@@ -445,14 +486,13 @@ function buyItem(category, item) {
     if (coins >= item.cost) {
         coins -= item.cost;
         owned[category].push(item.id);
-        // Automatically select the new item
         if (singleSelect.includes(category)) {
             selected[category] = item.id;
         } else {
             selected[category].push(item.id);
         }
         document.getElementById('coins-amount').textContent = coins;
-        showTab(category.replace('card', 'card-')); // Refresh tab
+        showTab(category.replace('card', 'card-'));
     } else {
         alert('Not enough coins!');
     }
