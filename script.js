@@ -53,23 +53,6 @@ document.getElementById('shop-btn').addEventListener('click', openShop);
 document.getElementById('settings-btn').addEventListener('click', openSettings);
 document.getElementById('stats-btn').addEventListener('click', openStats);
 
-// ... keep ALL your existing variables, storage, items, questions, buttonLabels, shop/settings functions ...
-
-// Sample cards for testing (move this entire array to cardDatabase.js later)
-let allCards = [
-    { name: "The Fool" },
-    { name: "The Magician" },
-    { name: "The High Priestess" },
-    { name: "The Empress" },
-    { name: "The Emperor" },
-    { name: "The Hierophant" },
-    { name: "The Lovers" },
-    { name: "The Chariot" },
-    { name: "Strength" },
-    { name: "The Hermit" },
-    // Add your full 78 here when you create cardDatabase.js
-];
-
 // NEW: Store the current question category for later interpretation filtering
 let currentQuestionCategory = "";
 
