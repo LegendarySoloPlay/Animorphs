@@ -3,7 +3,8 @@ const storage = {
     coins: 'game_coins',
     owned: 'game_owned', // {table: [], deck: [], cardBack: [], accessories: []}
     selected: 'game_selected', // {table: '', deck: '', cardBack: '', accessories: []}
-    settings: 'game_settings' // {musicVolume: 50, musicMute: false, sfxVolume: 50, sfxMute: false, hints: 'basic'}
+    settings: 'game_settings', // {musicVolume: 50, musicMute: false, sfxVolume: 50, sfxMute: false, hints: 'basic'}
+    cardStats: 'game_cardStats' // { 'The Fool': {correct: 0, total: 0}, ... }
 };
 
 // Initial data
@@ -11,6 +12,15 @@ let coins = parseInt(localStorage.getItem(storage.coins)) || 0;
 let owned = JSON.parse(localStorage.getItem(storage.owned)) || { table: [], deck: [], cardBack: [], accessories: [] };
 let selected = JSON.parse(localStorage.getItem(storage.selected)) || { table: '', deck: '', cardBack: '', accessories: [] };
 let settings = JSON.parse(localStorage.getItem(storage.settings)) || { musicVolume: 50, musicMute: false, sfxVolume: 50, sfxMute: false, hints: 'basic' };
+let cardStats = JSON.parse(localStorage.getItem(storage.cardStats)) || {};
+
+// Initialize cardStats if empty (assuming allCards is available from cardDatabase.js)
+if (Object.keys(cardStats).length === 0 && typeof allCards !== 'undefined') {
+    allCards.forEach(card => {
+        cardStats[card.name] = { correct: 0, total: 0 };
+    });
+    localStorage.setItem(storage.cardStats, JSON.stringify(cardStats));
+}
 
 // Categories
 const categories = ['table', 'deck', 'card-back', 'accessories'];
@@ -39,6 +49,16 @@ const questions = [
 // Button labels for starting reading
 const buttonLabels = ["Shuffle", "Split the Deck", "Begin", "Begin Reading", "Smile Knowingly", "Nod", "Close Your Eyes"];
 
+// Arrays for thank you responses
+const poorResponses = ["Thanks, but I'm not sure...", "Hmm, that was okay."]; // 0-1 correct
+const mediumResponses = ["Thanks, that helped a bit."]; // 2 correct
+const goodResponses = ["Wow, that was spot on! Thanks!"]; // 3 correct
+
+// Arrays for conclude button texts
+const apologyResponse = ["Sorry about that", "Better luck next time"]; // 0-1
+const neutralResponse = ["You're welcome", "Glad to help"]; // 2
+const enthusiasticResponse = ["My pleasure!", "Come back soon!"]; // 3
+
 // Show loading for 2.5s, then main screen
 window.addEventListener('load', () => {
     setTimeout(() => {
@@ -57,6 +77,13 @@ document.getElementById('stats-btn').addEventListener('click', openStats);
 let currentSpread = [];
 let currentCategory = "";   // set from the question
 let deck = []; // Global to access remaining deck
+let completedCards = 0; // Track interpreted cards
+
+// Game round state
+let roundCustomers = 0;
+const maxCustomers = 3;
+let dailyEarnings = 0;
+let dailyCorrect = 0;
 
 // Position prefixes
 const positionPrefixes = {
@@ -75,13 +102,33 @@ function shuffle(arr) {
     return a;
 }
 
-// Start game
+// Start game (updated to start round)
 function startGame() {
+    roundCustomers = 0;
+    dailyEarnings = 0;
+    dailyCorrect = 0;
+    startNextCustomer();
+}
+
+// Start next customer
+function startNextCustomer() {
+    if (roundCustomers >= maxCustomers) {
+        showEndDaySummary();
+        return;
+    }
+
     document.getElementById('main-screen').classList.add('hidden');
     document.getElementById('game-area').classList.remove('hidden');
     
+    // Reset for new customer
+    document.getElementById('table-area').classList.add('hidden');
+    document.getElementById('speech-bubble').classList.remove('hidden');
+    document.getElementById('start-reading-btn').classList.remove('hidden');
+    document.getElementById('conclude-reading-btn').classList.add('hidden');
+    document.getElementById('customer-placeholder').textContent = "Customer " + (roundCustomers + 1) + " Appears Here";
+    
     // Show customer (placeholder)
-    document.getElementById('customer-placeholder').textContent = "Customer Appears Here";
+    document.getElementById('customer-placeholder').textContent = "Customer " + (roundCustomers + 1) + " Appears Here";
     
     // Show speech bubble with random question
     const randomQuestion = questions[Math.floor(Math.random() * questions.length)];
@@ -94,7 +141,7 @@ function startGame() {
     
     startBtn.onclick = () => {
         try {
-            if (!allCards || allCards.length === 0) {
+            if (typeof allCards === 'undefined' || allCards.length === 0) {
                 throw new Error('allCards not loaded or empty. Check cardDatabase.js.');
             }
             
@@ -103,6 +150,9 @@ function startGame() {
             
             // Show table screen (fixed ID)
             document.getElementById('table-area').classList.remove('hidden');
+            
+            // Reset completed cards counter
+            completedCards = 0;
             
             // === SHUFFLE + REVERSE + DRAW 3 CARDS ===
             deck = [...allCards];
@@ -208,6 +258,12 @@ function showInterpretationPopup(index) {
             const slot = document.getElementById(`slot-${index+1}`);
             slot.classList.add(isCorrect ? 'highlight-correct' : 'highlight-incorrect');
             closeInterpretation();
+            
+            // Track if all interpreted
+            completedCards++;
+            if (completedCards === 3) {
+                finishReading();
+            }
         };
         optionsDiv.appendChild(btn);
     });
@@ -216,6 +272,99 @@ function showInterpretationPopup(index) {
 function closeInterpretation() {
     document.getElementById('magnified-area').classList.add('hidden');
     document.getElementById('interpretation-popup').classList.add('hidden');
+}
+
+// New finishReading()
+function finishReading() {
+    // Update card stats
+    currentSpread.forEach(card => {
+        const stat = cardStats[card.name];
+        if (stat) {
+            stat.total++;
+            if (document.getElementById(`slot-${currentSpread.indexOf(card)+1}`).classList.contains('highlight-correct')) {
+                stat.correct++;
+            }
+        }
+    });
+    localStorage.setItem(storage.cardStats, JSON.stringify(cardStats));
+    
+    // Calculate correct count
+    const correctCount = document.querySelectorAll('.highlight-correct').length;
+    
+    // Earnings based on hints setting
+    let coinsPerCorrect;
+    switch (settings.hints) {
+        case 'none': coinsPerCorrect = 9; break;
+        case 'basic': coinsPerCorrect = 6; break;
+        case 'advanced': coinsPerCorrect = 3; break;
+        default: coinsPerCorrect = 6;
+    }
+    const readingEarnings = correctCount * coinsPerCorrect;
+    coins += readingEarnings;
+    dailyEarnings += readingEarnings;
+    dailyCorrect += correctCount;
+    localStorage.setItem(storage.coins, coins);
+    
+    // Hide table, show thank you bubble
+    document.getElementById('table-area').classList.add('hidden');
+    document.getElementById('speech-bubble').classList.remove('hidden');
+    document.getElementById('start-reading-btn').classList.add('hidden');
+    document.getElementById('conclude-reading-btn').classList.remove('hidden');
+    
+    // Thank you text
+    let responseArray;
+    if (correctCount <= 1) responseArray = poorResponses;
+    else if (correctCount === 2) responseArray = mediumResponses;
+    else responseArray = goodResponses;
+    document.getElementById('customer-question').textContent = responseArray[Math.floor(Math.random() * responseArray.length)];
+    
+    // Conclude button text
+    let buttonArray;
+    if (correctCount <= 1) buttonArray = apologyResponse;
+    else if (correctCount === 2) buttonArray = neutralResponse;
+    else buttonArray = enthusiasticResponse;
+    document.getElementById('conclude-reading-btn').textContent = buttonArray[Math.floor(Math.random() * buttonArray.length)];
+}
+
+// Conclude button onclick
+document.getElementById('conclude-reading-btn').onclick = () => {
+    // Hide customer and bubble
+    document.getElementById('speech-bubble').classList.add('hidden');
+    document.getElementById('customer-placeholder').textContent = "";
+    
+    // Alert earnings
+    alert(`You earned ${dailyEarnings} coins this reading!`);
+    
+    // Delay 2.5s, next customer
+    setTimeout(() => {
+        roundCustomers++;
+        startNextCustomer();
+    }, 2500);
+};
+
+// New showEndDaySummary()
+function showEndDaySummary() {
+    const averageCorrect = (dailyCorrect / (maxCustomers * 3) * 100).toFixed(1);
+    const summary = `You earned ${dailyEarnings} coins today! Average correct interpretations: ${averageCorrect}% per reading.`;
+    document.getElementById('day-summary').textContent = summary;
+    document.getElementById('modal-overlay').classList.remove('hidden');
+    document.getElementById('end-day-modal').classList.remove('hidden');
+}
+
+// New startNewRound()
+function startNewRound() {
+    closeEndDay();
+    startGame();
+}
+
+// New closeEndDay(backToMain = false)
+function closeEndDay(backToMain = false) {
+    document.getElementById('end-day-modal').classList.add('hidden');
+    document.getElementById('modal-overlay').classList.add('hidden');
+    if (backToMain) {
+        document.getElementById('game-area').classList.add('hidden');
+        document.getElementById('main-screen').classList.remove('hidden');
+    }
 }
 
 // Shop functions
