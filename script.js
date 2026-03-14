@@ -56,6 +56,7 @@ document.getElementById('stats-btn').addEventListener('click', openStats);
 // === Game state ===
 let currentSpread = [];
 let currentCategory = "";   // set from the question
+let deck = []; // Global to access remaining deck
 
 // Position prefixes
 const positionPrefixes = {
@@ -83,7 +84,7 @@ document.getElementById('start-reading-btn').onclick = () => {
 
 function startThreeCardReading() {
     // Shuffle full deck
-    let deck = shuffle(allCards);
+    deck = shuffle(allCards);
 
     // Reverse 35% of the whole deck
     deck.forEach(card => {
@@ -109,7 +110,7 @@ function renderThreeCards() {
 
 function showInterpretationPopup(index) {
     const card = currentSpread[index];
-    const prefix = positionPrefixes[card.position][Math.floor(Math.random() * 3)];
+    const prefix = positionPrefixes[card.position][Math.floor(Math.random() * positionPrefixes[card.position].length)];
 
     document.getElementById('position-prefix').textContent = prefix;
     document.getElementById('magnified-name').textContent = card.name;
@@ -125,14 +126,26 @@ function showInterpretationPopup(index) {
     let correctPool = card.interpretations[key] || ["Generic correct meaning."];
     const correctText = correctPool[Math.floor(Math.random() * correctPool.length)];
 
-    // Two distractors from the SAME key on OTHER cards
+    // Two distractors from the SAME key on RANDOM cards in REMAINING DECK
     let distractors = [];
-    currentSpread.filter((_, i) => i !== index).forEach(otherCard => {
-        if (otherCard.interpretations[key]) {
-            distractors.push(otherCard.interpretations[key][0]);
-        }
-    });
-    while (distractors.length < 2) distractors.push("Plausible but incorrect.");
+    const remainingDeck = deck.slice(3); // After the spread
+    if (remainingDeck.length >= 2) {
+        // Pick two random indices
+        const rand1 = Math.floor(Math.random() * remainingDeck.length);
+        let rand2 = Math.floor(Math.random() * remainingDeck.length);
+        while (rand2 === rand1) rand2 = Math.floor(Math.random() * remainingDeck.length);
+        
+        const otherCard1 = remainingDeck[rand1];
+        const otherCard2 = remainingDeck[rand2];
+        
+        const pool1 = otherCard1.interpretations[key] || ["Generic distractor 1."];
+        const pool2 = otherCard2.interpretations[key] || ["Generic distractor 2."];
+        
+        distractors.push(pool1[Math.floor(Math.random() * pool1.length)]);
+        distractors.push(pool2[Math.floor(Math.random() * pool2.length)]);
+    } else {
+        distractors = ["Plausible but incorrect 1.", "Plausible but incorrect 2."];
+    }
 
     let options = [correctText, ...distractors];
     options = options.sort(() => Math.random() - 0.5); // random order
@@ -179,7 +192,7 @@ function startGame() {
         document.getElementById('speech-bubble').classList.add('hidden');
         
         // Show table screen (sits on top)
-        document.getElementById('table-screen').classList.remove('hidden');
+        document.getElementById('table-area').classList.remove('hidden');
         
         // === SHUFFLE + REVERSE + DRAW 3 CARDS ===
         let deck = [...allCards];
