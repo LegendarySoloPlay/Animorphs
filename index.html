@@ -26,7 +26,43 @@
     <!-- Game Area (hidden until Start) -->
     <div id="game-area" class="hidden">
         <!-- Customer reference (placeholder for image/animation later) -->
-        <div id="customer-placeholder">Customer Appears Here</div>
+        <div id="customer-container" style="position: relative; width: 600px; height: 600px;">
+    <img id="customer-hair-back" src="" alt="Hair back" class="overlay" style="position: absolute; top: 0; left: 0; width: 100%;">
+
+    <!-- Base layer (skin tone) - this would be the body/neck base -->
+    <img id="customer-base" src="" alt="Customer base" style="position: absolute; top: 0; left: 0; width: 100%;">
+
+    <img id="customer-freckles" src="" alt="Freckles" class="overlay" style="position: absolute; top: 0; left: 0; width: 100%;">
+    
+    <!-- Shirt layer (under jacket) -->
+    <img id="customer-shirt" src="" alt="Shirt" class="overlay" style="position: absolute; top: 0; left: 0; width: 100%;">
+
+    <!-- Necklace (over clothes) -->
+    <img id="customer-necklace" src="" alt="Necklace" class="overlay" style="position: absolute; top: 0; left: 0; width: 100%;">
+    
+    <!-- Jacket layer (over shirt) -->
+    <img id="customer-jacket" src="" alt="Jacket" class="overlay" style="position: absolute; top: 0; left: 0; width: 100%;">
+      
+    <!-- Ears (go under hair but over base) -->
+    <img id="customer-ears" src="" alt="Ears" class="overlay" style="position: absolute; top: 0; left: 0; width: 100%;">
+    
+    <!-- Facial features -->
+    <img id="customer-eyes" src="" alt="Eyes" class="overlay" style="position: absolute; top: 0; left: 0; width: 100%;">
+    <img id="customer-eyebrows" src="" alt="Eyebrows" class="overlay" style="position: absolute; top: 0; left: 0; width: 100%;">
+    <img id="customer-nose" src="" alt="Nose" class="overlay" style="position: absolute; top: 0; left: 0; width: 100%;">
+    <img id="customer-mouth" src="" alt="Mouth" class="overlay" style="position: absolute; top: 0; left: 0; width: 100%;">
+
+    <img id="customer-earrings" src="" alt="Earrings" class="overlay" style="position: absolute; top: 0; left: 0; width: 100%;">
+    
+    <!-- Hair layers (order: back, sides, top for proper layering) -->   
+    <img id="customer-hair-sides" src="" alt="Hair sides" class="overlay" style="position: absolute; top: 0; left: 0; width: 100%;">
+    <img id="customer-hair-top" src="" alt="Hair top" class="overlay" style="position: absolute; top: 0; left: 0; width: 100%;">
+        
+    <!-- Accessories (top layers) -->
+    <img id="customer-glasses" src="" alt="Glasses" class="overlay" style="position: absolute; top: 0; left: 0; width: 100%;">
+    <img id="customer-headscarf" src="" alt="Headscarf" class="overlay" style="position: absolute; top: 0; left: 0; width: 100%;">
+</div>
+<button onclick="generateCustomer()">Randomize Customer</button>
         
         <!-- Speech Bubble Popup -->
         <div id="speech-bubble" class="hidden">
